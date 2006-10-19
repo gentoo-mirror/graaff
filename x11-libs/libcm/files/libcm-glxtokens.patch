@@ -1,0 +1,10 @@
+--- libcm/src/wsint.h.orig	2006-10-15 09:46:36.000000000 +0200
++++ libcm/src/wsint.h	2006-10-15 09:46:47.000000000 +0200
+@@ -27,6 +27,7 @@
+ #define GLX_GLXEXT_PROTOTYPES
+ #include <GL/glx.h>
+ #include <GL/glxext.h>
++#include <GL/glxtokens.h>
+ 
+ #include "ws.h"
+ 
