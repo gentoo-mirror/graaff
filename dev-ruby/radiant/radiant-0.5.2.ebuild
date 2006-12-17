@@ -16,7 +16,7 @@ IUSE=""
 RESTRICT="test"
 
 DEPEND=">=dev-lang/ruby-1.8.4
-	=dev-ruby/rails-1.1.6-r1
+	=dev-ruby/rails-1.1.6
 	dev-ruby/bluecloth
 	dev-ruby/redcloth
 	dev-ruby/radius
