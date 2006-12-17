@@ -11,7 +11,7 @@ LICENSE="GPL-2"
 
 IUSE="gnome test debug"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=">=dev-cpp/gtkmm-2.8.0
     >=dev-cpp/libglademm-2.4
