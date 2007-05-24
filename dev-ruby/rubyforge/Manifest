@@ -1,0 +1,8 @@
+DIST rubyforge-0.4.2.gem 28672 RMD160 6307d63de22e08a82d62adc420a7c70f4ec7361f SHA1 f5bfc0e4bb99f7d7ecd1b596dfa8f27f6e357564 SHA256 5bf2761c82d78bcf99799f5c27c3c0e62d4e5b28c40d8937b85f4c7e9b8330b2
+EBUILD rubyforge-0.4.2.ebuild 560 RMD160 4c836cd5d75f59bd8685ae7e32b910aa8baf8f24 SHA1 6ada42609e3d1d9912b6e99186e8fa4f5448dde1 SHA256 58a9241dea5f93a12ab1cfab8d1452e07602b9d3ba22952c99aed6f58bd957ca
+MD5 e33ffb0cbbd631e16dc0a09f26948ef3 rubyforge-0.4.2.ebuild 560
+RMD160 4c836cd5d75f59bd8685ae7e32b910aa8baf8f24 rubyforge-0.4.2.ebuild 560
+SHA256 58a9241dea5f93a12ab1cfab8d1452e07602b9d3ba22952c99aed6f58bd957ca rubyforge-0.4.2.ebuild 560
+MD5 f8c749fdb65fd82b1bcabbad982f0d8a files/digest-rubyforge-0.4.2 235
+RMD160 13deb616701be523bda8c7833312dfde1e241ca4 files/digest-rubyforge-0.4.2 235
+SHA256 e76ef6b0dcd99f939d2421a1a6898be81d4a73b7b95adbc17e8858864b4ab945 files/digest-rubyforge-0.4.2 235
