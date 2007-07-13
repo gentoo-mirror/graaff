@@ -1,0 +1,16 @@
+AUX last-exit-4.0-decimal_parse.patch 766 RMD160 8d388c1936270c3d9f8ac4faa2bebb8f484461de SHA1 7ff2e8b7cb44a0189f70c714fbd755d2bafd57fb SHA256 d74d517f6f30898174c8d544f6887750db843aa1f32dce118c5aeec7832bca25
+MD5 7bec9e29eb4725772adb3f4d764bcf2a files/last-exit-4.0-decimal_parse.patch 766
+RMD160 8d388c1936270c3d9f8ac4faa2bebb8f484461de files/last-exit-4.0-decimal_parse.patch 766
+SHA256 d74d517f6f30898174c8d544f6887750db843aa1f32dce118c5aeec7832bca25 files/last-exit-4.0-decimal_parse.patch 766
+AUX last-exit-dbus-sharp-parallel-build-fix.patch 586 RMD160 3945ac7ee88253e054a871584ddbedd510ad8d8a SHA1 679f8f66cf1293bb446a1c281194ebf6b3647081 SHA256 ff341f480e8ed4c422aa91a14248a302151e362e4da21732e91b2eed6fb09033
+MD5 79e3f291627681ce6928aa184c217182 files/last-exit-dbus-sharp-parallel-build-fix.patch 586
+RMD160 3945ac7ee88253e054a871584ddbedd510ad8d8a files/last-exit-dbus-sharp-parallel-build-fix.patch 586
+SHA256 ff341f480e8ed4c422aa91a14248a302151e362e4da21732e91b2eed6fb09033 files/last-exit-dbus-sharp-parallel-build-fix.patch 586
+DIST last-exit-5.tar.bz2 392816 RMD160 b06ce699437feb20483065c6fe7681ecfa84c4d4 SHA1 92f09c932a174b270d0b75c3e7c233ff4bcb0270 SHA256 4335dad2f5df9b77cbf6d3b37820a8ca65f141301d0903db5e5d9ce6c6e50685
+EBUILD last-exit-5.0.ebuild 1357 RMD160 072867ab5d3b4f1b20161a3c8513283779d88d38 SHA1 1bbec544affc40a8b760f24380ebb87068438112 SHA256 ac61ef9fed334f6278da8b7ef27ba829074ebd40e0e123d5e6d62dba70d918e8
+MD5 fefa824c3c1e3c9ac1ee62c5262bf593 last-exit-5.0.ebuild 1357
+RMD160 072867ab5d3b4f1b20161a3c8513283779d88d38 last-exit-5.0.ebuild 1357
+SHA256 ac61ef9fed334f6278da8b7ef27ba829074ebd40e0e123d5e6d62dba70d918e8 last-exit-5.0.ebuild 1357
+MD5 d91498a880dc38575e358a22c130a64e files/digest-last-exit-5.0 238
+RMD160 1f35de3ce9f94ffd00db7ca196d1a831d64b5261 files/digest-last-exit-5.0 238
+SHA256 b17a4a697716f0e21945d90a36717400c7579b2d7624e8372a7536e405fa6eb0 files/digest-last-exit-5.0 238
