@@ -37,8 +37,6 @@ pkg_setup() {
 src_unpack() {
 	unpack ${A}
 	cd "${S}"
-	#epatch "${FILESDIR}"/${PN}-dbus-sharp-parallel-build-fix.patch
-	#epatch "${FILESDIR}"/${PN}-4.0-decimal_parse.patch
 	eautoreconf
 }
 
