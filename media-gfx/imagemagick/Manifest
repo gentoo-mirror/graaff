@@ -1,0 +1,12 @@
+AUX imagemagick-6.3.3-docs.patch 605 RMD160 5efee8976d9bab8308fdb7d167ab85f5e9247026 SHA1 5b989f21e4b2295541b64abb86869761b4a41b67 SHA256 e08792995e61887cdbac5b1ab9f31500840d5be6e73164be02e1ad5412bce602
+MD5 5ef05f8f60cc10b701cfeadb6dade096 files/imagemagick-6.3.3-docs.patch 605
+RMD160 5efee8976d9bab8308fdb7d167ab85f5e9247026 files/imagemagick-6.3.3-docs.patch 605
+SHA256 e08792995e61887cdbac5b1ab9f31500840d5be6e73164be02e1ad5412bce602 files/imagemagick-6.3.3-docs.patch 605
+DIST ImageMagick-6.3.5-2.tar.bz2 6088930 RMD160 da280bd08aa6fe919df4ed8f253ca7155355aa84 SHA1 693d2f0a320da7a19aa6b63c2e572c555b88bb10 SHA256 7158d38f2c314d7ad1ba514a56cc9cf0b117f2acf4001a86766847838a7bf371
+EBUILD imagemagick-6.3.5.ebuild 2983 RMD160 cfa1d9c478a205c2a3b62aa19ec577839ce5b9d5 SHA1 d36e1ddb99062d9df1dc6bd37b83cbf0fcaf996d SHA256 d5c5469f3b02dd63b4d0fe70c75dc1e24737cdae642e93cce47bdd68b9d20d96
+MD5 23373ef7adab21a5f5ada73bf5e8e5d5 imagemagick-6.3.5.ebuild 2983
+RMD160 cfa1d9c478a205c2a3b62aa19ec577839ce5b9d5 imagemagick-6.3.5.ebuild 2983
+SHA256 d5c5469f3b02dd63b4d0fe70c75dc1e24737cdae642e93cce47bdd68b9d20d96 imagemagick-6.3.5.ebuild 2983
+MD5 1ba8edbd2623597e4ca2f2415997cb41 files/digest-imagemagick-6.3.5 265
+RMD160 b7265be828659dbbf7012f3648c4a7b205c4c40e files/digest-imagemagick-6.3.5 265
+SHA256 5f09de007d344703496f177c36fcf507183e1b9e26e9e2f8b33a49b020b62f3f files/digest-imagemagick-6.3.5 265
