@@ -1,0 +1,8 @@
+DIST notify-sharp-0.4.0.tar.gz 92223 RMD160 f2af33ba030c406a16948fc7fc976f9dd72e749d SHA1 133d3dcaa0dc26b89b706c0248e278587102ea68 SHA256 7375f8dbf7b066912dd2f0d44261fa7ba041e061d5bfdb1c0a2ee05df1dbb16d
+EBUILD notify-sharp-0.4.0.ebuild 910 RMD160 a0414d6eec538abbba48627170fa9c978cdbe83c SHA1 e71d1284d82d3d4741ba3a3692b1f25b82005b82 SHA256 9305aae123a5e20a28cd5d4a224cbdd731e5a89b24d25a8cd03fa4e3034c67f8
+MD5 10826abcfda0533c1d7cf85118c8612f notify-sharp-0.4.0.ebuild 910
+RMD160 a0414d6eec538abbba48627170fa9c978cdbe83c notify-sharp-0.4.0.ebuild 910
+SHA256 9305aae123a5e20a28cd5d4a224cbdd731e5a89b24d25a8cd03fa4e3034c67f8 notify-sharp-0.4.0.ebuild 910
+MD5 32e0ed6254e64f62f1e98759141177b5 files/digest-notify-sharp-0.4.0 253
+RMD160 746464ed19f4aa37b48b8354bd56a81f361d85c7 files/digest-notify-sharp-0.4.0 253
+SHA256 3d93f8e580cfe5c03ec2dc428e6cace70077ca9ab63f4465de209b08ac70519b files/digest-notify-sharp-0.4.0 253

@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+
+Name: DBus#
+Description: DBus# - D-BUS .NET Glib Bindings
+Version: 0.3
+Libs: -r:${libdir}/mono/dbus-sharp/NDesk.DBus.GLib.dll
