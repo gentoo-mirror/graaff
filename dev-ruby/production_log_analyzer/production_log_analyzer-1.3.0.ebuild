@@ -16,4 +16,4 @@ IUSE=""
 RESTRICT="test"
 
 DEPEND=">=dev-ruby/rails_analyzer_tools-1.1.0
-    >=dev-lang/ruby-1.8.4"
+	>=dev-lang/ruby-1.8.4"

@@ -14,12 +14,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/perl-5.5
-    >=dev-perl/libwww-perl-5.803
-    >=dev-perl/URI-1.10
-    >=dev-perl/HTML-Parser-3.33
-    >=virtual/perl-MIME-Base64-2.00
-    >=virtual/perl-libnet-1.19
-    virtual/perl-Digest-MD5
-    dev-perl/MailTools
-    dev-perl/Time-Duration
-    dev-perl/Crypt-SSLeay"
+	>=dev-perl/libwww-perl-5.803
+	>=dev-perl/URI-1.10
+	>=dev-perl/HTML-Parser-3.33
+	>=virtual/perl-MIME-Base64-2.00
+	>=virtual/perl-libnet-1.19
+	virtual/perl-Digest-MD5
+	dev-perl/MailTools
+	dev-perl/Time-Duration
+	dev-perl/Crypt-SSLeay"

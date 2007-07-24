@@ -12,10 +12,10 @@ IUSE=""
 SRC_URI="http://info.openanswers.org/downloads/${P}.tar.gz"
 
 RDEPEND="dev-lang/ruby
- dev-ruby/rcairo
- dev-ruby/ruby-gtk2
- dev-ruby/ruby-libglade2
- dev-ruby/ruby-gconf2"
+	dev-ruby/rcairo
+	dev-ruby/ruby-gtk2
+	dev-ruby/ruby-libglade2
+	dev-ruby/ruby-gconf2"
 
 src_unpack() {
 	unpack "${A}"
@@ -34,7 +34,7 @@ src_install() {
 	doins "${FILESDIR}"/gruler.desktop
 
 	insinto /usr/share/gruler
-	doins "${S}"/*.rb 
+	doins "${S}"/*.rb
 	doins "${S}"/*glade*
 	doins "${S}"/*.png
 	insinto /usr/share/gruler/utils

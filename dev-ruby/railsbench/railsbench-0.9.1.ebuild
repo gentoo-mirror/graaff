@@ -16,4 +16,4 @@ IUSE=""
 RESTRICT="test"
 
 DEPEND=">=dev-lang/ruby-1.8.4
-    >=dev-ruby/hoe-1.1.6"
+	>=dev-ruby/hoe-1.1.6"

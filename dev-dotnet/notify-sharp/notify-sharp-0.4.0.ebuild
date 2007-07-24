@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-dotnet/evolution-sharp/evolution-sharp-0.12.0.ebuild,v 1.5 2007/07/15 02:54:24 mr_bones_ Exp $
 
-inherit eutils mono 
+inherit eutils mono
 
 DESCRIPTION="Mono bindings for libnotify"
 HOMEPAGE="http://www.ndesk.org/NotifySharp"

@@ -77,7 +77,7 @@ pkg_postinst() {
 	ewarn "Please add the line:"
 	ewarn "brother2"
 	ewarn "to your /etc/sane.d/dll.conf file"
-	echo 
+	echo
 	ebeep 3
 	epause 5
 }

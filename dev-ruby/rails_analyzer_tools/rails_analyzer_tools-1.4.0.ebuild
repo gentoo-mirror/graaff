@@ -16,5 +16,5 @@ IUSE=""
 RESTRICT="test"
 
 DEPEND=">=dev-lang/ruby-1.8.4
-    >=dev-ruby/sysloglogger-1.4.0
-    >=dev-ruby/hoe-1.2.0"
+	>=dev-ruby/sysloglogger-1.4.0
+	>=dev-ruby/hoe-1.2.0"
