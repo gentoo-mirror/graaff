@@ -1,0 +1,24 @@
+AUX 1.1.6-deprecate-old-lighttpd.patch 651 RMD160 5c73b2c4da0e5d2a065addf51ef3fa1af4a0d2ac SHA1 ac17829a229454121130f988261337afb893f6fd SHA256 1432f64f27e4be092e861f4daf7bb1913a2dde6d1cedcb8d983b85a941fe365c
+MD5 d565e977360f5d391613a5b8846c234c files/1.1.6-deprecate-old-lighttpd.patch 651
+RMD160 5c73b2c4da0e5d2a065addf51ef3fa1af4a0d2ac files/1.1.6-deprecate-old-lighttpd.patch 651
+SHA256 1432f64f27e4be092e861f4daf7bb1913a2dde6d1cedcb8d983b85a941fe365c files/1.1.6-deprecate-old-lighttpd.patch 651
+AUX rails-1.0.0-rdoc-rake-0.7.patch 592 RMD160 c6ebbe8af78567a0b7442314039ceb2ea6cc9c01 SHA1 bec34b7c1328ff3c1f982a1657f833dc826885c3 SHA256 ceb27cd17751068f13f0304ce920ae5c4e9fcc3b18f1eed60cfbff50bfdbbc80
+MD5 7ec822e965fdef65abb73efbff2a7153 files/rails-1.0.0-rdoc-rake-0.7.patch 592
+RMD160 c6ebbe8af78567a0b7442314039ceb2ea6cc9c01 files/rails-1.0.0-rdoc-rake-0.7.patch 592
+SHA256 ceb27cd17751068f13f0304ce920ae5c4e9fcc3b18f1eed60cfbff50bfdbbc80 files/rails-1.0.0-rdoc-rake-0.7.patch 592
+DIST rails-1.1.6.gem 144896 RMD160 f7460a881eeb8f8c2cbc6a31e99127d1cb867871 SHA1 12fa0eae4d81cabb496f1b85706a380bc38b051c SHA256 f78cc3dfe77ceaa3cdd808735dcb81c8d3bdbd8e4d6b72ecc3a1b7fc19f1bd49
+DIST rails-1.2.3.gem 168448 RMD160 4a2e95cdbee45b331205a7f5c1f1c278cc6ffdd0 SHA1 afc9e91ca9959b925b62ec2d3269a828c397a03c SHA256 dcf51cc3bbf8ba79e998239d2bce66059d2be101210580e194b7af36b7d5319a
+EBUILD rails-1.1.6-r1.ebuild 1468 RMD160 a816edcefcf4e113bfd72620db30cb81aa4f7d3a SHA1 c0586b9cbe7fbd9407a17745fa74ab2cc2406625 SHA256 050210c5b0befdb0fbf171c41e62fd1e483a190826f418d133322e32e86a9b80
+MD5 0d00b593ce9eeb15047ae32673f5f835 rails-1.1.6-r1.ebuild 1468
+RMD160 a816edcefcf4e113bfd72620db30cb81aa4f7d3a rails-1.1.6-r1.ebuild 1468
+SHA256 050210c5b0befdb0fbf171c41e62fd1e483a190826f418d133322e32e86a9b80 rails-1.1.6-r1.ebuild 1468
+EBUILD rails-1.2.3-r1.ebuild 1324 RMD160 f96044dac75548acc98beff9a26bdc36d10e60fd SHA1 0bb830c7567fdbce8b35ba05b78ccd8de242d5da SHA256 32611b593d11f51e49c2049e11f9e5e90be23e165625fb20a7abd150d7895fb1
+MD5 a67f27dd885d2a5df9e6d6c8a4507bb2 rails-1.2.3-r1.ebuild 1324
+RMD160 f96044dac75548acc98beff9a26bdc36d10e60fd rails-1.2.3-r1.ebuild 1324
+SHA256 32611b593d11f51e49c2049e11f9e5e90be23e165625fb20a7abd150d7895fb1 rails-1.2.3-r1.ebuild 1324
+MD5 49fa53cda86344edbd051303c28b0a52 files/digest-rails-1.1.6-r1 226
+RMD160 8930aa23a36c0036bcd05448e36e1936f7eceee9 files/digest-rails-1.1.6-r1 226
+SHA256 c4a01959a31c7c715b9a4931b440976b94453d455928678ecca4c78d85f4d926 files/digest-rails-1.1.6-r1 226
+MD5 048c514318894c0dbbdace76a2e5781a files/digest-rails-1.2.3-r1 226
+RMD160 4de40bf4bbce50386db0f63645aaebc025d2fa86 files/digest-rails-1.2.3-r1 226
+SHA256 6a939044ba41031d266fde17e47a084a3a3d90ee45363d08ad443daa2b99ada0 files/digest-rails-1.2.3-r1 226
