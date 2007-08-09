@@ -33,42 +33,33 @@ pkg_setup() {
 	fi
 }
 
-# Using a custom src_compile because we need to specify extra options.
+# Use a custom src_compile because the setup.rb included with RMagick
+# doesn't like extra parameters during the setup phase.
 src_compile() {
-	myconf="${RUBY_ECONF} ${EXTRA_ECONF}"
-
 	# When documentation is built many examples are also run. Not all
 	# of them may work (e.g. due to missing additional dependencies)
 	# so we allow the examples to fail.
 	if ! use doc ; then
-		myconf="${myconf} --disable-htmldoc --allow-example-errors"
+		RUBY_ECONF="--disable-htmldoc --allow-example-errors"
 	fi
 
-# 	./configure \
-# 		--prefix=/usr \
-# 		--host=${CHOST} \
-# 		--mandir=/usr/share/man \
-# 		--infodir=/usr/share/info \
-# 		--datadir=/usr/share \
-# 		--sysconfdir=/etc \
-# 		--localstatedir=/var/lib \
-# 		--with-ruby=${RUBY} \
-# 		${myconf} \
-# 		"$@" || die "econf failed"
-
-	ruby setup.rb #${myconf} || die "setup.rb compilation failed"
+	${RUBY} setup.rb config --prefix=/usr "$@" \
+		${RUBY_ECONF} ${EXTRA_ECONF} || die "setup.rb config failed"
+	${RUBY} setup.rb setup || die "setup.rb setup failed"
 }
 
 # Use a custom src_install instead of the default one in ruby.eclass
 # because the one in ruby.eclass does not include setting the prefix
-# for the installation step.
+# for the installation step and assumes that arguments can be given
+# also during the install phase.
 src_install() {
-	RUBY_ECONF="${RUBY_ECONF} ${EXTRA_ECONF}"
+	if ! use doc ; then
+		RUBY_ECONF="--disable-htmldoc --allow-example-errors"
+	fi
 
 	${RUBY} setup.rb config --prefix=${D}/usr "$@" \
-		${RUBY_ECONF} || die "setup.rb config failed"
-	${RUBY} setup.rb install --prefix=${D} "$@" \
-		${RUBY_ECONF} || die "setup.rb install failed"
+		${RUBY_ECONF} ${EXTRA_ECONF} || die "setup.rb config failed"
+	${RUBY} setup.rb install --prefix=${D} || die "setup.rb install failed"
 
 	cd "${S}"
 	dodoc ChangeLog README.html README-Mac-OSX.txt README.txt
