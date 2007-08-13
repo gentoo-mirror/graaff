@@ -18,4 +18,5 @@ IUSE=""
 
 USE_RUBY="ruby18"
 DEPEND=">=dev-ruby/ruby-gd-0.7.4
+	>=dev-ruby/hoe-1.1.1
 	virtual/ruby"
