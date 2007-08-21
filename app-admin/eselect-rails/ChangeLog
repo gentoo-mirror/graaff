@@ -2,3 +2,6 @@
 # Copyright 1999-2007 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/app-admin/eselect-emacs/ChangeLog,v 1.26 2007/08/01 04:04:06 metalgod Exp $
 
+  16 Aug 2007; Hans de Graaff <graaff@gentoo.org> ChangeLog:
+  Keyword for x86.
+
