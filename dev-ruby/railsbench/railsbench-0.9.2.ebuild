@@ -6,7 +6,7 @@ inherit ruby gems
 
 USE_RUBY="ruby18"
 DESCRIPTION="Rails benchmarking tools."
-HOMEPAGE="http://radius.rubyforge.org/"
+HOMEPAGE="http://railsbench.rubyforge.org/"
 SRC_URI="http://gems.rubyforge.org/gems/${P}.gem"
 
 LICENSE="MIT"
