@@ -13,13 +13,13 @@ inherit ruby
 MY_PV=${PV//_/-}
 DESCRIPTION="An interface between Ruby and the ImageMagick(TM) image processing library"
 HOMEPAGE="http://rmagick.rubyforge.org/"
-SRC_URI="http://rubyforge.org/frs/download.php/23798/RMagick-${MY_PV}.tar.bz2"
+SRC_URI="http://rubyforge.org/frs/download.php/25311/RMagick-${MY_PV}.tar.bz2"
 LICENSE="Artistic"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE="examples doc"
 DEPEND="virtual/ruby
-	>=media-gfx/imagemagick-6.3"
+	>=media-gfx/imagemagick-6.3.5.6"
 
 S=${WORKDIR}/RMagick-2.0.0
 
