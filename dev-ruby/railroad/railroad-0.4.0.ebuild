@@ -16,4 +16,4 @@ IUSE=""
 RESTRICT="test"
 
 DEPEND=">=dev-lang/ruby-1.8.4"
-
+RDEPEND="media-gfx/graphviz"
