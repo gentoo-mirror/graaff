@@ -14,7 +14,7 @@ LICENSE="PaulDuncan"
 
 SRC_URI="http://www.pablotron.org/files/fam-ruby-${PV}.tar.gz"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
