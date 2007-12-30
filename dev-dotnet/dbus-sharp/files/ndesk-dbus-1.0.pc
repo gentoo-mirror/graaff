@@ -1,8 +1,0 @@
-prefix=/usr
-exec_prefix=${prefix}
-libdir=/usr/lib
-
-Name: DBus#
-Description: DBus# - D-BUS .NET Bindings
-Version: 0.5.2
-Libs: -r:${libdir}/mono/dbus-sharp/NDesk.DBus.dll
