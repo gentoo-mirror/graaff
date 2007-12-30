@@ -17,15 +17,10 @@ IUSE="doc"
 
 DEPEND=">=x11-libs/libnotify-0.4.4
 	>=dev-lang/mono-1.1.13
-	>=dev-dotnet/dbus-sharp-0.5.2
+	>=dev-dotnet/dbus-sharp-0.6.0
+	>=dev-dotnet/dbus-glib-sharp-0.4.1
 	>=dev-dotnet/gtk-sharp-2.0.0
 	doc? ( dev-util/monodoc )"
-
-pkg_setup() {
-	if ! built_with_use dev-dotnet/dbus-sharp glib ; then
-		die "dbus-sharp must be compiled with glib USE flag"
-	fi
-}
 
 src_compile() {
 	econf $(use_enable doc docs)
@@ -34,5 +29,5 @@ src_compile() {
 
 src_install() {
 	make DESTDIR=${D} install || die
-	dodoc AUTHORS ChangeLog MAINTAINERS NEWS README
+	dodoc AUTHORS ChangeLog NEWS README
 }
