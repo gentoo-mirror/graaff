@@ -6,19 +6,12 @@ inherit gnome2
 
 DESCRIPTION="GNOME Do"
 HOMEPAGE="http://do.davebsd.com/"
-SRC_URI="http://do.davebsd.com/src/${PN}_${PV}.tar.gz"
+SRC_URI="https://launchpad.net/gc/trunk/0.3.2.1/+download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-# Wonderful inconsistency...
-S="${WORKDIR}/do-0.3"
-
-# Restrict tests due to failing intltool tests, these should really be
-# fixed upstream.
-RESTRICT="test"
 
 DEPEND="
 	>=dev-util/intltool-0.35
