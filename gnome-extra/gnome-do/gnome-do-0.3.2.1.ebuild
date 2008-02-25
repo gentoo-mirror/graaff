@@ -6,7 +6,7 @@ inherit gnome2
 
 DESCRIPTION="GNOME Do"
 HOMEPAGE="http://do.davebsd.com/"
-SRC_URI="https://launchpad.net/gc/trunk/0.3.2.1/+download/${P}.tar.gz"
+SRC_URI="https://launchpad.net/gc/trunk/${PV}/+download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
