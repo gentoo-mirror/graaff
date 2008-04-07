@@ -1,15 +1,17 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="A screen ruler for GNOME"
+inherit eutils fdo-mime
+
+DESCRIPTION="Measure objects on your screen"
 HOMEPAGE="http://gnomecoder.wordpress.com/screenruler/"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-SRC_URI="http://info.openanswers.org/downloads/${P}.tar.gz"
+SRC_URI="http://files.catmur.co.uk/rescued/${P}.tar.gz"
 
 RDEPEND="dev-lang/ruby
 	dev-ruby/rcairo
@@ -30,8 +32,7 @@ src_install() {
 	insinto /usr/share/pixmaps
 	doins "${S}"/gruler-icon.png
 
-	insinto /usr/share/applications
-	doins "${FILESDIR}"/gruler.desktop
+	make_desktop_entry gruler "Screen Ruler" gruler-icon "Utility;Gnome;GTK;"
 
 	insinto /usr/share/gruler
 	doins "${S}"/*.rb
@@ -44,4 +45,12 @@ src_install() {
 	doexe "${S}"/gruler.rb
 
 	dosym /usr/share/gruler/gruler.rb /usr/bin/gruler
+}
+
+pkg_postinst() {
+	fdo-mime_desktop_database_update
+}
+
+pkg_postrm() {
+	fdo-mime_desktop_database_update
 }
