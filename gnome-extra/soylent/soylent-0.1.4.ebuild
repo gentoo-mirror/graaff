@@ -13,13 +13,16 @@ KEYWORDS="~amd64"
 IUSE=""
 SRC_URI="http://www.netdrain.com/soylent/${P}.tar.gz"
 
-DEPEND="
+RDEPEND="
 	>=x11-libs/gtk+-2.0
 	>=gnome-base/libglade-2.0
 	>=gnome-base/libgnome-2.0
 	>=gnome-base/libgnomeui-2.0
-	>=net-im/empathy-0.13
+	>=net-im/empathy-0.22.0
 	net-im/telepathy-mission-control
 	gnome-extra/evolution-data-server
+"
+DEPEND="${RDEPEND}
+	>=dev-util/intltool-0.35.0
 "
 
