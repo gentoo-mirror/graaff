@@ -11,7 +11,7 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-SRC_URI="http://files.catmur.co.uk/rescued/${P}.tar.gz"
+SRC_URI="http://moving-innovations.com/~graaff/${P}.tar.gz"
 
 RDEPEND="dev-lang/ruby
 	dev-ruby/rcairo
