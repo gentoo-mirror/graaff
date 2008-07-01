@@ -8,6 +8,6 @@ DESCRIPTION="Generation of UUIDs."
 HOMEPAGE="http://sporkmonger.com/projects/uuidtools/"
 LICENSE="MIT"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""

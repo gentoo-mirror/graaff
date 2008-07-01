@@ -8,7 +8,7 @@ DESCRIPTION="Pure ruby LDAP client implementation."
 HOMEPAGE="http://net-ldap.rubyforge.org/"
 LICENSE="MIT"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""
 

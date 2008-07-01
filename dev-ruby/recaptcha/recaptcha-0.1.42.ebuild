@@ -12,7 +12,7 @@ LICENSE="MIT"
 # change the filename on the end, it still downloads the same file.
 SRC_URI="http://www.loonsoft.com/recaptcha/pkg/gems/${P}.gem"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""
 

@@ -8,7 +8,7 @@ DESCRIPTION="Inspect and process video or audio files."
 HOMEPAGE="http://code.google.com/p/rvideo/"
 LICENSE="MIT"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE="flv"
 
