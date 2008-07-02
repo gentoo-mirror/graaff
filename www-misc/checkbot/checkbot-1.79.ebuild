@@ -10,7 +10,7 @@ SRC_URI="http://degraaff.org/checkbot/${P}.tar.gz"
 
 LICENSE="Artistic"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=">=dev-lang/perl-5.5
