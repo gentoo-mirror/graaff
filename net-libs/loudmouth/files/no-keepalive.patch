@@ -1,0 +1,25 @@
+--- configure.ac.~1~	2008-06-07 00:25:54.000000000 +0200
++++ configure.ac	2008-07-23 09:04:49.820885960 +0200
+@@ -212,22 +212,6 @@
+ 	echo "Not using asynchronous dns lookups"
+ fi
+ 
+-dnl +-------------------------------------------------------------------+
+-dnl | Checking for Linux TCP/IP stack                                   |
+-dnl +-------------------------------------------------------------------+
+-AC_CHECK_DECL(TCP_KEEPCNT, [ac_use_keepalives=yes], [ac_use_keepalives=no], [
+-#include <sys/socket.h>
+-#include <netinet/in.h>
+-#include <netinet/ip.h>
+-#include <netinet/tcp.h>
+-])
+-
+-use_keepalives=no
+-if test x$ac_use_keepalives != xno; then
+-	use_keepalives=yes
+-	AC_DEFINE(USE_TCP_KEEPALIVES, 1, [Whether to use Linux TCP keepalives])
+-fi
+-
+ dnl +-------------+
+ dnl | Build Flags |--------------------------------------------
+ dnl +-------------+
