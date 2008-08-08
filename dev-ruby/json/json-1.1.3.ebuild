@@ -8,7 +8,7 @@ DESCRIPTION="A JSON implementation as a Ruby extension."
 HOMEPAGE="http://json.rubyforge.org/"
 LICENSE="GPL-2"
 
-KEYWORDS="x86 amd64"
+KEYWORDS="~x86 ~amd64"
 SLOT="0"
 IUSE=""
 
