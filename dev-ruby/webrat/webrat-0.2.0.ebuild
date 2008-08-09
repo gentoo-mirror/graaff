@@ -12,4 +12,6 @@ KEYWORDS="~x86 ~amd64"
 SLOT="0"
 IUSE=""
 
-DEPEND=">=dev-ruby/hpricot-0.6"
+DEPEND="
+	>=dev-ruby/hoe-1.5.1
+	>=dev-ruby/hpricot-0.6"
