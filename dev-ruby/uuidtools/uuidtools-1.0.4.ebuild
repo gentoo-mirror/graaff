@@ -13,3 +13,6 @@ SLOT="0"
 IUSE=""
 
 USE_RUBY="ruby18 ruby19"
+
+DEPEND=">=dev-ruby/rspec-1.0.8
+	>=dev-ruby/rake-0.7.3"
