@@ -13,6 +13,6 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="dev-libs/libxml2
-	dev-libs/xslt"
+	dev-libs/libxslt"
 DEPEND="${RDEPEND}
 	>=dev-ruby/hoe-1.7.0"
