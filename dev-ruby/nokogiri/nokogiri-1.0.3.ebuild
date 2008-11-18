@@ -12,4 +12,7 @@ KEYWORDS="~x86 ~amd64"
 SLOT="0"
 IUSE=""
 
-DEPEND=">=dev-ruby/hoe-1.7.0"
+RDEPEND="dev-libs/libxml2
+	dev-libs/xslt"
+DEPEND="${RDEPEND}
+	>=dev-ruby/hoe-1.7.0"
