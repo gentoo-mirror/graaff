@@ -22,7 +22,7 @@ RDEPEND=">=x11-libs/gtk+-2.6
 	>=dev-libs/glib-2.6
 	x11-libs/pango
 	dev-libs/cyrus-sasl
-	keyring? (>=gnome-base/gnome-keyring-0.4.4 )
+	keyring? ( >=gnome-base/gnome-keyring-0.4.4 )
 	>=gnome-base/libglade-2"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"

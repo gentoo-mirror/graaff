@@ -12,5 +12,5 @@ KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE="flv"
 
-RDEPEND="flv? (media-video/flvtool2)"
+RDEPEND="flv? ( media-video/flvtool2 )"
 
