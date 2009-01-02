@@ -6,10 +6,10 @@ inherit ruby gems
 
 MY_PN="fiveruns_tuneup"
 MY_P="${MY_PN}-${PV}"
-DESCRIPTION="Treetop is a language for describing languages."
-HOMEPAGE="http://treetop.rubyforge.org/"
+DESCRIPTION="Fiveruns TuneUp is a Rails plugin for profiling the performance your applications during development."
+HOMEPAGE="https://tuneup.fiveruns.com/"
 SRC_URI="http://gems.rubyforge.org/gems/${MY_P}.gem"
-LICENSE="Ruby"
+LICENSE="FiveRuns"
 
 KEYWORDS="amd64 x86"
 SLOT="0"
