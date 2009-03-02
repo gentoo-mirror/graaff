@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
   02 Mar 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
+  cucumber-0.1.16.ebuild:
+  Mark stable for amd64 and x86.
+
+  02 Mar 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
   Remove old versions of cucumber and versions older than next stable target.
 
   20 Jan 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:

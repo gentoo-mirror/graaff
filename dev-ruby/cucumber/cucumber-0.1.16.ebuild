@@ -8,7 +8,7 @@ DESCRIPTION="Executable feature scenarios"
 HOMEPAGE="http://github.com/aslakhellesoy/cucumber/wikis"
 LICENSE="Ruby"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""
 
