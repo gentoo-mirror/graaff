@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/webrat
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
+  24 Mar 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
+  Version bump with Rails 2.3.x compatibility.
+
   28 Feb 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog, +webrat-0.4.2.ebuild:
   Version bump.
 
