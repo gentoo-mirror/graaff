@@ -8,12 +8,15 @@ DESCRIPTION="Executable feature scenarios"
 HOMEPAGE="http://github.com/aslakhellesoy/cucumber/wikis"
 LICENSE="Ruby"
 
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
+USE_RUBY="ruby18"
+
 RDEPEND=">=dev-ruby/term-ansicolor-1.0.3
 	>=dev-ruby/treetop-1.2.4
-	>=dev-ruby/rspec-1.1.11
 	>=dev-ruby/diff-lcs-1.1.2
+	>=dev-ruby/polyglot-0.2.4
+	>=dev-ruby/builder-2.1.2
 	>=dev-ruby/hoe-1.8.2"
