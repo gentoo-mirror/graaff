@@ -15,8 +15,8 @@ IUSE=""
 USE_RUBY="ruby18"
 
 RDEPEND=">=dev-ruby/term-ansicolor-1.0.3
-	>=dev-ruby/treetop-1.2.4
+	>=dev-ruby/treetop-1.2.5
 	>=dev-ruby/diff-lcs-1.1.2
-	>=dev-ruby/polyglot-0.2.4
+	>=dev-ruby/polyglot-0.2.5
 	>=dev-ruby/builder-2.1.2
-	>=dev-ruby/hoe-1.8.3"
+	>=dev-ruby/hoe-1.11.0"
