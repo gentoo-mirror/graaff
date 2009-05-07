@@ -16,7 +16,7 @@ LICENSE="Ruby"
 
 USE_RUBY="ruby18"
 
-RDEPEND="dev-ruby/locale
+RDEPEND=">=dev-ruby/locale-2.0.2
 	sys-devel/gettext"
 DEPEND="${RDEPEND}
 	app-admin/eselect-gem"

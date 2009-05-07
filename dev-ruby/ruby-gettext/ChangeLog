@@ -3,6 +3,10 @@
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-gettext/ChangeLog,v 1.52 2009/04/05 18:56:30 graaff Exp $
 
   07 May 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
+  Update dependency to locale 2.0.2 since this version of gettext requires it
+  for new functionality.
+
+  07 May 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
   Version bump.
 
   05 Apr 2009; Hans de Graaff <graaff@gentoo.org>
