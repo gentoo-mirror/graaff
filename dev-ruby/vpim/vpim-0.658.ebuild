@@ -8,6 +8,6 @@ DESCRIPTION="A library to manipulate vCards and iCalendars"
 HOMEPAGE="http://vpim.rubyforge.org/"
 LICENSE="MIT"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""
