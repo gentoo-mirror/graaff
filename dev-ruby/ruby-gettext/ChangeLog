@@ -1,6 +1,17 @@
 # ChangeLog for dev-ruby/ruby-gettext
-# Copyright 2000-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/ruby-gettext/ChangeLog,v 1.52 2009/04/05 18:56:30 graaff Exp $
+
+  25 May 2009; Hans de Graaff <graaff@gentoo.org>
+  ruby-gettext-1.93.0-r1.ebuild, ruby-gettext-2.0.3.ebuild,
+  +ruby-gettext-2.0.4.ebuild:
+  Mark all ebuilds as unstable.
+
+*ruby-gettext-2.0.4 (25 May 2009)
+
+  25 May 2009; Hans de Graaff <graaff@gentoo.org>
+  +ruby-gettext-2.0.4.ebuild:
+  Version bump with minor bug fixes.
 
   13 May 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
   Version bump to get dependencies correct.
