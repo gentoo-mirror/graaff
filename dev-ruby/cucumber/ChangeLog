@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/cucumber
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
+*cucumber-0.3.90 (22 Jul 2009)
+
+  22 Jul 2009; Hans de Graaff <graaff@gentoo.org> +cucumber-0.3.90.ebuild:
+  Version bump with many enhancements and bug fixes.
+
 *cucumber-0.3.11 (06 Jun 2009)
 
   06 Jun 2009; Hans de Graaff <graaff@gentoo.org> -cucumber-0.3.5.ebuild,
