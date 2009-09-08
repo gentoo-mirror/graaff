@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/newrelic_rpm
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*newrelic_rpm-2.9.4 (08 Sep 2009)
+
+  08 Sep 2009; Hans de Graaff <graaff@gentoo.org>
+  +newrelic_rpm-2.9.4.ebuild, +metadata.xml:
+  Initial import.
+
