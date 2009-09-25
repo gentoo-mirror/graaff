@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/authlogic
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
+*authlogic-2.1.2 (25 Sep 2009)
+
+  25 Sep 2009; Hans de Graaff <graaff@gentoo.org> +authlogic-2.1.2.ebuild:
+  Version bump.
+
 *authlogic-2.1.1 (31 Aug 2009)
 
   31 Aug 2009; Hans de Graaff <graaff@gentoo.org> +authlogic-2.1.1.ebuild:
