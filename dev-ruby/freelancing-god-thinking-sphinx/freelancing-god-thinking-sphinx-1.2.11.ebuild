@@ -16,5 +16,4 @@ IUSE=""
 USE_RUBY="ruby18"
 
 DEPEND=">=dev-ruby/activerecord-1.15.6"
-RDEPEND="${DEPEND}
-	app-misc/sphinx"
+RDEPEND="${DEPEND}"
