@@ -1,0 +1,11 @@
+# ChangeLog for net-nds/gq
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  06 Dec 2009; Hans de Graaff <graaff@gentoo.org> -gq-1.2.3.ebuild,
+  gq-1.3.4.ebuild, +files/gq-1.3.4-autoconf.patch,
+  +files/gq-1.3.4-crypto.patch:
+  Fix compilation with newer version of openssl which no longer includes
+  -lcrypto by default. Fix autoconf incompatibility. Update USE flag
+  name for gnome keyring support.
+

@@ -1,9 +1,13 @@
-# Copyright 1999-2007 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
+inherit autotools
+
 DESCRIPTION="A GTK+-based LDAP client"
-HOMEPAGE="http://www.gq-project.org/"
+HOMEPAGE="http://sourceforge.net/projects/gqclient/"
 SRC_URI="mirror://sourceforge/gqclient/${P}.tar.gz"
 
 LICENSE="GPL-2"
@@ -12,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 
 # More use flags are needed because now there are a number of
 # automagic dependencies.
-IUSE="kerberos keyring"
+IUSE="kerberos gnome-keyring"
 
 RDEPEND=">=x11-libs/gtk+-2.6
 	>=net-nds/openldap-2
@@ -22,18 +26,24 @@ RDEPEND=">=x11-libs/gtk+-2.6
 	>=dev-libs/glib-2.6
 	x11-libs/pango
 	dev-libs/cyrus-sasl
-	keyring? ( >=gnome-base/gnome-keyring-0.4.4 )
+	gnome-keyring? ( >=gnome-base/gnome-keyring-0.4.4 )
 	>=gnome-base/libglade-2"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 
-src_compile() {
+src_prepare() {
+	epatch "${FILESDIR}/${P}-crypto.patch"
+	epatch "${FILESDIR}/${P}-autoconf.patch"
+
+	eautoreconf
+}
+
+src_configure() {
 	local myconf="--enable-browser-dnd --enable-cache --disable-update-mimedb"
 	use kerberos && myconf="${myconf} --with-kerberos-prefix=/usr"
-	use keyring && myconf="${myconf} --with-keyring-api=gnome"
+	use gnome-keyring && myconf="${myconf} --with-keyring-api=gnome"
 
 	econf ${myconf} || die "econf failed"
-	emake || die "emake failed"
 }
 
 src_install() {
