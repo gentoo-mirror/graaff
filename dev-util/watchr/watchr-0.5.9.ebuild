@@ -14,3 +14,4 @@ IUSE=""
 
 USE_RUBY="ruby18"
 
+RDEPEND="dev-ruby/rev"
