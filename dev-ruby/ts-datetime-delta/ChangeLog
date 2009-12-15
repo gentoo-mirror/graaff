@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/ts-datetime-delta
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*ts-datetime-delta-1.0.2 (15 Dec 2009)
+
+  15 Dec 2009; Hans de Graaff <graaff@gentoo.org>
+  +ts-datetime-delta-1.0.2.ebuild, +metadata.xml:
+  Initial import. This got spun off from thinking-sphinx 1.2.x.
+
