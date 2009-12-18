@@ -5,12 +5,12 @@
 EAPI=2
 USE_RUBY="ruby18"
 
-inherit bash-completion ruby-fakegem
+inherit ruby-fakegem
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
 
-DESCRIPTION="Make-like scripting in Ruby"
+DESCRIPTION="Capabilities for sorting and reordering a number of objects in a list."
 HOMEPAGE="http://rake.rubyforge.org/"
 SRC_URI="mirror://rubygems/${P}.gem"
 
