@@ -1,0 +1,8 @@
+# ChangeLog for media-video/flvtool2
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  27 Dec 2009; Hans de Graaff <graaff@gentoo.org> flvtool2-1.0.6.ebuild,
+  +metadata.xml:
+  Fix QA issues.
+
