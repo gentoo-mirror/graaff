@@ -17,6 +17,7 @@ SRC_URI="mirror://rubygems/Saikuro-${PV}.gem"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
 
 S="${WORKDIR}/saikuro"
 
