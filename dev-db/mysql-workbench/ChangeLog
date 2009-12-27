@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Dec 2009; Hans de Graaff <graaff@gentoo.org>
+  mysql-workbench-5.2.11.ebuild:
+  Add x86 keyword based on feedback in bug 238507.
+
 *mysql-workbench-5.2.11 (26 Dec 2009)
 
   26 Dec 2009; Hans de Graaff <graaff@gentoo.org>
