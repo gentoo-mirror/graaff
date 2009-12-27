@@ -1,6 +1,8 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
+EAPI="2"
 
 inherit eutils fdo-mime
 
@@ -21,10 +23,7 @@ RDEPEND="dev-lang/ruby
 	dev-ruby/ruby-libglade2
 	dev-ruby/ruby-gconf2"
 
-src_unpack() {
-	unpack "${A}"
-
-	cd "${S}"
+src_prepare() {
 	sed -i -e "s/File.dirname(__FILE__)/'\/usr\/share\/screenruler'/" screenruler.rb
 }
 
