@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Dec 2009; Hans de Graaff <graaff@gentoo.org>
+  database_cleaner-0.4.0.ebuild:
+  Fix description and homepage.
+
 *database_cleaner-0.4.0 (24 Dec 2009)
 
   24 Dec 2009; Hans de Graaff <graaff@gentoo.org>

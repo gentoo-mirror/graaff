@@ -10,9 +10,8 @@ inherit ruby-fakegem
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
 
-DESCRIPTION="Capabilities for sorting and reordering a number of objects in a list."
-HOMEPAGE="http://rake.rubyforge.org/"
-SRC_URI="mirror://rubygems/${P}.gem"
+DESCRIPTION="A set of strategies for cleaning your database in Ruby."
+HOMEPAGE="http://github.com/bmabey/database_cleaner"
 
 LICENSE="MIT"
 SLOT="0"
