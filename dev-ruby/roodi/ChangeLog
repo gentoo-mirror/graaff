@@ -3,6 +3,9 @@
 # $Header: $
 
   30 Dec 2009; Hans de Graaff <graaff@gentoo.org> roodi-2.1.0.ebuild:
+  Also install roodi.yml.
+
+  30 Dec 2009; Hans de Graaff <graaff@gentoo.org> roodi-2.1.0.ebuild:
   Also depend on rdoc.
 
 *roodi-2.1.0 (30 Dec 2009)
