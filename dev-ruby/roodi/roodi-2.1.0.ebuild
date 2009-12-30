@@ -23,5 +23,5 @@ IUSE=""
 
 ruby_add_rdepend dev-ruby/ruby_parser
 
-ruby_add_bdepend doc dev-ruby/hoe
+ruby_add_bdepend doc "dev-ruby/hoe dev-ruby/rdoc"
 ruby_add_bdepend test "dev-ruby/hoe dev-ruby/rspec"
