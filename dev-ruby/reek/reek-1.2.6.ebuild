@@ -14,8 +14,8 @@ RUBY_FAKEGEM_TASK_TEST="spec features"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A set of rake tasks that make it easy to generate metrics reports."
-HOMEPAGE="http://metric-fu.rubyforge.org/"
+DESCRIPTION="A tool that examines Ruby classes, modules and methods and reports any code smells it finds."
+HOMEPAGE="http://wiki.github.com/kevinrutherford/reek/"
 
 LICENSE="MIT"
 SLOT="0"
