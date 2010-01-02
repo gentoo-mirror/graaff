@@ -1,5 +1,8 @@
 # ChangeLog for dev-ruby/money
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+
+  02 Jan 2010; Hans de Graaff <graaff@gentoo.org> money-2.1.5.ebuild:
+  Don't build documentation since hanna is broken.
 
 *money-2.1.4 (06 Sep 2009)
 
