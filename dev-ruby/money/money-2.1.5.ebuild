@@ -8,12 +8,13 @@ USE_RUBY="ruby18"
 # Documentation uses hanna, but hanna is broken with newer versions of
 # RDoc.
 RUBY_FAKEGEM_TASK_DOC=""
+RUBY_FAKEGEM_EXTRADOC="README.rdoc"
 
 inherit ruby-fakegem
 
 DESCRIPTION="This library aids one in handling money and different currencies."
 HOMEPAGE="http://money.rubyforge.org/"
-LICENSE="Ruby"
+LICENSE="MIT"
 
 KEYWORDS="~amd64 ~ia64 ~x86"
 SLOT="0"
