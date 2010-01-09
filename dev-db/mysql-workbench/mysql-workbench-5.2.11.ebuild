@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ SRC_URI="mirror://mysql/Downloads/MySQLGUITools/${MY_P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="nls readline"
+IUSE="debug nls readline static"
 
 RDEPEND=">=x11-libs/gtk+-2.6
 	dev-libs/glib:2
@@ -54,6 +54,8 @@ src_configure() {
 	econf \
 		$(use_enable nls i18n) \
 		$(use_enable readline readline) \
+		$(use_enable debug) \
+		$(use_enable static) \
 		--with-system-ctemplate
 }
 

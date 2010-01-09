@@ -1,6 +1,10 @@
 # ChangeLog for dev-db/mysql-workbench
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Jan 2010; Hans de Graaff <graaff@gentoo.org>
+  mysql-workbench-5.2.11.ebuild:
+  Add debug and static USE flags.
 
   27 Dec 2009; Hans de Graaff <graaff@gentoo.org>
   mysql-workbench-5.2.11.ebuild:
