@@ -16,7 +16,7 @@ SRC_URI="mirror://mysql/Downloads/MySQLGUITools/${MY_P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="debug nls readline static"
+IUSE="debug nls readline static-libs"
 
 RDEPEND=">=x11-libs/gtk+-2.6
 	dev-libs/glib:2
@@ -55,7 +55,7 @@ src_configure() {
 		$(use_enable nls i18n) \
 		$(use_enable readline readline) \
 		$(use_enable debug) \
-		$(use_enable static) \
+		$(use_enable static-libs static) \
 		--with-system-ctemplate
 }
 
