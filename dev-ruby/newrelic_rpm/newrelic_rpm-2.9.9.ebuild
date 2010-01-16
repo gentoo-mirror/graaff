@@ -22,3 +22,5 @@ LICENSE="Ruby"
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
+
+RUBY_PATCHES=( "${P}-no-webrick.patch" )
