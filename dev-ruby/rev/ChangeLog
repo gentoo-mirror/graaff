@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/rev
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*rev-0.3.2 (18 Jan 2010)
+
+  18 Jan 2010; Hans de Graaff <graaff@gentoo.org> +rev-0.3.2.ebuild:
+  Version bump. Convert to ruby-fakegem.
 
 *rev-0.3.1 (09 Dec 2009)
 
