@@ -2,6 +2,14 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*mysql-workbench-5.2.14 (23 Jan 2010)
+
+  23 Jan 2010; Hans de Graaff <graaff@gentoo.org>
+  +mysql-workbench-5.2.14.ebuild,
+  +files/mysql-workbench-5.2.14-as-needed.patch,
+  +files/mysql-workbench-5.2.14-configure.in.pythonlib.patch:
+  Version bump.
+
   10 Jan 2010; Hans de Graaff <graaff@gentoo.org>
   mysql-workbench-5.2.11.ebuild:
   Use proper USE flag name for not building static libraries.
