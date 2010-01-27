@@ -23,6 +23,7 @@ src_compile() {
 }
 
 src_install() {
+	exeinto /usr/bin
 	doexe ttf2eot
 	dodoc ChangeLog README
 }
