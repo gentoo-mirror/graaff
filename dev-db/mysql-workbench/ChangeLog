@@ -2,6 +2,14 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*mysql-workbench-5.2.15 (29 Jan 2010)
+
+  29 Jan 2010; Hans de Graaff <graaff@gentoo.org>
+  +mysql-workbench-5.2.15.ebuild,
+  +files/mysql-workbench-5.2.15-as-needed.patch,
+  +files/mysql-workbench-5.2.15-configure.in.pythonlib.patch:
+  Version bump.
+
 *mysql-workbench-5.2.14 (23 Jan 2010)
 
   23 Jan 2010; Hans de Graaff <graaff@gentoo.org>
