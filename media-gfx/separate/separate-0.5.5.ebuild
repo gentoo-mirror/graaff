@@ -19,6 +19,6 @@ DEPEND=">=media-libs/lcms-1.15
 	>=media-gfx/gimp-2.4"
 
 src_install() {
-	emake install PREFIX="${D}"
+	emake install PREFIX="${D}"/usr
 
 }
