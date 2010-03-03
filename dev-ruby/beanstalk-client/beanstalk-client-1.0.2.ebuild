@@ -13,8 +13,8 @@ RUBY_FAKEGEM_TASK_TEST=""
 
 inherit ruby-fakegem
 
-DESCRIPTION="beanstalk-client"
-HOMEPAGE="http://gentoo.org/"
+DESCRIPTION="This is a Ruby client library for the Beanstalk protocol."
+HOMEPAGE="http://beanstalk.rubyforge.org/"
 
 LICENSE="GPL-3"
 SLOT="0"
