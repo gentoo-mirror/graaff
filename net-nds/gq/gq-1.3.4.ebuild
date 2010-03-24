@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -29,6 +29,7 @@ RDEPEND=">=x11-libs/gtk+-2.6
 	gnome-keyring? ( >=gnome-base/gnome-keyring-0.4.4 )
 	>=gnome-base/libglade-2"
 DEPEND="${RDEPEND}
+	app-text/rarian
 	dev-util/pkgconfig"
 
 src_prepare() {

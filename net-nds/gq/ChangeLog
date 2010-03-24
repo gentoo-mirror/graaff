@@ -1,6 +1,9 @@
 # ChangeLog for net-nds/gq
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  24 Mar 2010; Hans de Graaff <graaff@gentoo.org> gq-1.3.4.ebuild:
+  Add missing built-time dependency on rarian.
 
   06 Dec 2009; Hans de Graaff <graaff@gentoo.org> -gq-1.2.3.ebuild,
   gq-1.3.4.ebuild, +files/gq-1.3.4-autoconf.patch,
