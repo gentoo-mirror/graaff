@@ -1,5 +1,8 @@
 # ChangeLog for dev-ruby/flog
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+
+  24 Mar 2010; Hans de Graaff <graaff@gentoo.org> -flog-2.2.0.ebuild:
+  Remove old version.
 
 *flog-2.4.0 (28 Dec 2009)
 
