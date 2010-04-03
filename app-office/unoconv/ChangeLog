@@ -1,0 +1,10 @@
+# ChangeLog for app-office/unoconv
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*unoconv-0.3-r1 (03 Apr 2010)
+
+  03 Apr 2010; Hans de Graaff <graaff@gentoo.org> +unoconv-0.3-r1.ebuild,
+  +files/unoconv-0.3-openoffice-3.2.patch:
+  Add support for Openoffice 3.2.
+
