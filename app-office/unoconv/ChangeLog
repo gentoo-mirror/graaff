@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*unoconv-0.3-r2 (08 Apr 2010)
+
+  08 Apr 2010; Hans de Graaff <graaff@gentoo.org> +unoconv-0.3-r2.ebuild,
+  +files/unoconv-0.3-longer-timeout.patch:
+  Add additional patch to allow longer timeout for OpenOffice to start up.
+
 *unoconv-0.3-r1 (03 Apr 2010)
 
   03 Apr 2010; Hans de Graaff <graaff@gentoo.org> +unoconv-0.3-r1.ebuild,
