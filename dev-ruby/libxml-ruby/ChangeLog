@@ -1,0 +1,11 @@
+# ChangeLog for dev-ruby/libxml-ruby
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*libxml-ruby-1.1.3 (23 Apr 2010)
+
+  23 Apr 2010; Hans de Graaff <graaff@gentoo.org> +libxml-ruby-1.1.3.ebuild,
+  +files/rxml_reader_attribute.patch, +metadata.xml:
+  Initial import, dependency for happymapper. Tests fails with segmentation
+  fault.
+
