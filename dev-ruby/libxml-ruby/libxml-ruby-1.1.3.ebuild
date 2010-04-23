@@ -28,3 +28,17 @@ RUBY_PATCHES=( "rxml_reader_attribute.patch" )
 # similar bug reports upstream, but no fix yet. Let's continue
 # anyway...
 RESTRICT="test"
+
+each_ruby_configure() {
+	${RUBY} setup.rb config
+}
+
+each_ruby_compile() {
+	${RUBY} setup.rb setup
+}
+
+each_ruby_install() {
+	mv ext/libxml/libxml_ruby.so lib/ || die "Unable to install shared library."
+
+	each_fakegem_install
+}
