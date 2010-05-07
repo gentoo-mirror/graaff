@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*database_cleaner-0.5.2 (07 May 2010)
+
+  07 May 2010; Hans de Graaff <graaff@gentoo.org>
+  +database_cleaner-0.5.2.ebuild, metadata.xml:
+  Version bump.
+
 *database_cleaner-0.5.0 (23 Apr 2010)
 
   23 Apr 2010; Hans de Graaff <graaff@gentoo.org>
