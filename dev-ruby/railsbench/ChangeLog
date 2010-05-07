@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/railsbench
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*railsbench-0.9.8 (07 May 2010)
+
+  07 May 2010; Hans de Graaff <graaff@gentoo.org> +railsbench-0.9.8.ebuild:
+  Version bump.
 
   27 Dec 2009; Hans de Graaff <graaff@gentoo.org> railsbench-0.9.2.ebuild,
   +metadata.xml:
