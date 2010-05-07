@@ -13,4 +13,3 @@ SLOT="0"
 IUSE=""
 
 USE_RUBY="ruby18"
-
