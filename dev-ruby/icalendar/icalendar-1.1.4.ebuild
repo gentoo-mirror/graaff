@@ -19,10 +19,6 @@ KEYWORDS="~x86 ~amd64"
 SLOT="0"
 IUSE=""
 
-# Restricting tests for now. The timezone test fails. Reported
-# upstream as http://github.com/sdague/icalendar/issues/issue/1
-RESTRICT="test"
-
 ruby_add_bdepend test virtual/ruby-test-unit
 
 all_ruby_prepare() {
