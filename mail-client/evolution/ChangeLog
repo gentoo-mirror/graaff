@@ -1,0 +1,17 @@
+# ChangeLog for mail-client/evolution
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*evolution-2.28.3.1-r2 (06 Jun 2010)
+
+  06 Jun 2010; Hans de Graaff <graaff@gentoo.org>
+  +files/evolution-2.28.0-automagic-plugins.patch,
+  +files/evolution-2.28.0-delete-key.patch, +evolution-2.28.3.1-r2.ebuild,
+  +files/evolution-2.28.3.1-allow-setting-alarms_1.patch,
+  +files/evolution-2.28.3.1-allow-setting-alarms_2.patch,
+  +files/evolution-2.28.3.1-allow-setting-alarms_3.patch,
+  +files/evolution-2.28.3.1-attachment-bar-RTL.patch,
+  +files/evolution-2.28.3.1-unknown-attachment-size.patch, +files/evo.patch,
+  +metadata.xml:
+  Own version of evolution supporting SHA-2 signatures.
+
