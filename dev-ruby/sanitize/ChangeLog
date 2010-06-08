@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2010; Hans de Graaff <graaff@gentoo.org> sanitize-1.2.1.ebuild:
+  Add x86 keyword.
+
 *sanitize-1.2.1 (24 Apr 2010)
 
   24 Apr 2010; Hans de Graaff <graaff@gentoo.org> +sanitize-1.2.1.ebuild,

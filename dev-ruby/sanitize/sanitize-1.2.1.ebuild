@@ -17,7 +17,7 @@ HOMEPAGE="http://github.com/rgrove/sanitize"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.4.1"
