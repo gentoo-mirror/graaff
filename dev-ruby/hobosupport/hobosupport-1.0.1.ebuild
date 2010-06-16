@@ -10,8 +10,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGES.txt README.txt"
 
 inherit ruby-fakegem
 
-DESCRIPTION="Object to xml mapping library."
-HOMEPAGE="http://github.com/jnunemaker/happymapper/"
+DESCRIPTION="A mixed bag of core Ruby extenstion that have been extracted from the Hobo project."
+HOMEPAGE="http://hobocentral.net/hobosupport"
 
 LICENSE="MIT"
 SLOT="0"
