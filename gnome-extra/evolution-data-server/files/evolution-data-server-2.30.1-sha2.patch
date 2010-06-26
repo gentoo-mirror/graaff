@@ -1,0 +1,381 @@
+diff --git a/camel/camel-cipher-context.h b/camel/camel-cipher-context.h
+index 6841d44..172731d 100644
+--- a/camel/camel-cipher-context.h
++++ b/camel/camel-cipher-context.h
+@@ -64,6 +64,9 @@ typedef enum {
+ 	CAMEL_CIPHER_HASH_MD2,
+ 	CAMEL_CIPHER_HASH_MD5,
+ 	CAMEL_CIPHER_HASH_SHA1,
++	CAMEL_CIPHER_HASH_SHA256,
++	CAMEL_CIPHER_HASH_SHA384,
++	CAMEL_CIPHER_HASH_SHA512,
+ 	CAMEL_CIPHER_HASH_RIPEMD160,
+ 	CAMEL_CIPHER_HASH_TIGER192,
+ 	CAMEL_CIPHER_HASH_HAVAL5160
+diff --git a/camel/camel-gpg-context.c b/camel/camel-gpg-context.c
+index 23a02fc..b7000d5 100644
+--- a/camel/camel-gpg-context.c
++++ b/camel/camel-gpg-context.c
+@@ -99,6 +99,12 @@ gpg_hash_to_id (CamelCipherContext *context, CamelCipherHash hash)
+ 	case CAMEL_CIPHER_HASH_SHA1:
+ 	case CAMEL_CIPHER_HASH_DEFAULT:
+ 		return "pgp-sha1";
++	case CAMEL_CIPHER_HASH_SHA256:
++		return "pgp-sha256";
++	case CAMEL_CIPHER_HASH_SHA384:
++		return "pgp-sha384";
++	case CAMEL_CIPHER_HASH_SHA512:
++		return "pgp-sha512";
+ 	case CAMEL_CIPHER_HASH_RIPEMD160:
+ 		return "pgp-ripemd160";
+ 	case CAMEL_CIPHER_HASH_TIGER192:
+@@ -120,6 +126,12 @@ gpg_id_to_hash (CamelCipherContext *context, const gchar *id)
+ 			return CAMEL_CIPHER_HASH_MD5;
+ 		else if (!strcmp (id, "pgp-sha1"))
+ 			return CAMEL_CIPHER_HASH_SHA1;
++		else if (!strcmp (id, "pgp-sha256"))
++			return CAMEL_CIPHER_HASH_SHA256;
++		else if (!strcmp (id, "pgp-sha384"))
++			return CAMEL_CIPHER_HASH_SHA384;
++		else if (!strcmp (id, "pgp-sha512"))
++			return CAMEL_CIPHER_HASH_SHA512;
+ 		else if (!strcmp (id, "pgp-ripemd160"))
+ 			return CAMEL_CIPHER_HASH_RIPEMD160;
+ 		else if (!strcmp (id, "tiger192"))
+@@ -461,6 +473,12 @@ gpg_hash_str (CamelCipherHash hash)
+ 		return "--digest-algo=MD5";
+ 	case CAMEL_CIPHER_HASH_SHA1:
+ 		return "--digest-algo=SHA1";
++	case CAMEL_CIPHER_HASH_SHA256:
++		return "--digest-algo=SHA256";
++	case CAMEL_CIPHER_HASH_SHA384:
++		return "--digest-algo=SHA384";
++	case CAMEL_CIPHER_HASH_SHA512:
++		return "--digest-algo=SHA512";
+ 	case CAMEL_CIPHER_HASH_RIPEMD160:
+ 		return "--digest-algo=RIPEMD160";
+ 	default:
+@@ -670,7 +688,7 @@ gpg_ctx_op_start (struct _GpgCtx *gpg)
+ 	errno = errnosave;
+ #else
+ 	/* FIXME: Port me */
+-	g_warning ("%s: Not implemented", __FUNCTION__);
++	g_warning ("%s: Not implemented", G_STRFUNC);
+ 
+ 	errno = EINVAL;
+ #endif
+@@ -898,7 +916,38 @@ gpg_ctx_parse_status (struct _GpgCtx *gpg,
+ 		switch (gpg->mode) {
+ 		case GPG_CTX_MODE_SIGN:
+ 			if (!strncmp ((gchar *) status, "SIG_CREATED ", 12)) {
+-				/* FIXME: save this state? */
++				/* SIG_CREATED <type> <pubkey algo> <hash algo> <class> <timestamp> <key fpr> */
++				const gchar *str, *p;
++				gint i;
++
++				str = (const gchar *) status + 12;
++				while (p = strchr (str, ' '), i < 2 && p) {
++					str = p + 1;
++					i++;
++				}
++
++				if (str && *str && i == 2) {
++					struct {
++						gint gpg_hash_algo;
++						CamelCipherHash camel_hash_algo; 
++					} hash_algos[] = {
++						/* the rest are deprecated/not supported by gpg any more */
++						{  2, CAMEL_CIPHER_HASH_SHA1 },
++						{  3, CAMEL_CIPHER_HASH_RIPEMD160 },
++						{  8, CAMEL_CIPHER_HASH_SHA256 },
++						{  9, CAMEL_CIPHER_HASH_SHA384 },
++						{ 10, CAMEL_CIPHER_HASH_SHA512 }
++					};
++
++					gint gpg_hash = strtoul (str, NULL, 10);
++
++					for (i = 0; i < G_N_ELEMENTS (hash_algos); i++) {
++						if (hash_algos[i].gpg_hash_algo == gpg_hash) {
++							gpg->hash = hash_algos[i].camel_hash_algo;
++							break;
++						}
++					}
++				}
+ 			}
+ 			break;
+ 		case GPG_CTX_MODE_DECRYPT:
+@@ -1440,7 +1489,7 @@ gpg_sign (CamelCipherContext *context,
+ 
+ 	mps = camel_multipart_signed_new();
+ 	ct = camel_content_type_new("multipart", "signed");
+-	camel_content_type_set_param(ct, "micalg", camel_cipher_hash_to_id(context, hash));
++	camel_content_type_set_param(ct, "micalg", camel_cipher_hash_to_id (context, hash == CAMEL_CIPHER_HASH_DEFAULT ? gpg->hash : hash));
+ 	camel_content_type_set_param(ct, "protocol", context->sign_protocol);
+ 	camel_data_wrapper_set_mime_type_field((CamelDataWrapper *)mps, ct);
+ 	camel_content_type_unref(ct);
+diff --git a/camel/camel-smime-context.c b/camel/camel-smime-context.c
+index 863d1b7..d5b2ef2 100644
+--- a/camel/camel-smime-context.c
++++ b/camel/camel-smime-context.c
+@@ -200,6 +200,12 @@
+ 	case CAMEL_CIPHER_HASH_SHA1:
+ 	case CAMEL_CIPHER_HASH_DEFAULT:
+ 		return "sha1";
++	case CAMEL_CIPHER_HASH_SHA256:
++		return "sha256";
++	case CAMEL_CIPHER_HASH_SHA384:
++		return "sha384";
++	case CAMEL_CIPHER_HASH_SHA512:
++		return "sha512";
+ 	default:
+ 		return NULL;
+ 	}
+@@ -213,6 +219,33 @@
+ 			return CAMEL_CIPHER_HASH_MD5;
+ 		else if (!strcmp(id, "sha1"))
+ 			return CAMEL_CIPHER_HASH_SHA1;
++		else if (!strcmp (id, "sha256"))
++			return CAMEL_CIPHER_HASH_SHA256;
++		else if (!strcmp (id, "sha384"))
++			return CAMEL_CIPHER_HASH_SHA384;
++		else if (!strcmp (id, "sha512"))
++			return CAMEL_CIPHER_HASH_SHA512;
++	}
++
++	return CAMEL_CIPHER_HASH_DEFAULT;
++}
++
++static CamelCipherHash
++get_hash_from_oid (SECOidTag oidTag)
++{
++	switch (oidTag) {
++	case SEC_OID_SHA1:
++		return CAMEL_CIPHER_HASH_SHA1;
++	case SEC_OID_SHA256:
++		return CAMEL_CIPHER_HASH_SHA256;
++	case SEC_OID_SHA384:
++		return CAMEL_CIPHER_HASH_SHA384;
++	case SEC_OID_SHA512:
++		return CAMEL_CIPHER_HASH_SHA512;
++	case SEC_OID_MD5:
++		return CAMEL_CIPHER_HASH_MD5;
++	default:
++		break;
+ 	}
+ 
+ 	return CAMEL_CIPHER_HASH_DEFAULT;
+@@ -427,7 +427,7 @@
+ }
+ 
+ static NSSCMSMessage *
+-sm_signing_cmsmessage(CamelSMIMEContext *context, const gchar *nick, SECOidTag hash, gint detached, CamelException *ex)
++sm_signing_cmsmessage(CamelSMIMEContext *context, const gchar *nick, SECOidTag *hash, gint detached, CamelException *ex)
+ {
+ 	struct _CamelSMIMEContextPrivate *p = context->priv;
+ 	NSSCMSMessage *cmsg = NULL;
+@@ -436,6 +436,8 @@
+ 	NSSCMSSignerInfo *signerinfo;
+ 	CERTCertificate *cert= NULL, *ekpcert = NULL;
+ 
++	g_return_val_if_fail (hash != NULL, NULL);
++
+ 	if ((cert = CERT_FindUserCertByUsage(p->certdb,
+ 					     (gchar *)nick,
+ 					     certUsageEmailSigner,
+@@ -445,6 +447,28 @@
+ 		return NULL;
+ 	}
+ 
++	if (*hash == SEC_OID_UNKNOWN) {
++		/* use signature algorithm from the certificate */
++		switch (SECOID_GetAlgorithmTag (&cert->signature)) {
++		case SEC_OID_PKCS1_SHA256_WITH_RSA_ENCRYPTION:
++			*hash = SEC_OID_SHA256;
++			break;
++		case SEC_OID_PKCS1_SHA384_WITH_RSA_ENCRYPTION:
++			*hash = SEC_OID_SHA384;
++			break;
++		case SEC_OID_PKCS1_SHA512_WITH_RSA_ENCRYPTION:
++			*hash = SEC_OID_SHA512;
++			break;
++		case SEC_OID_PKCS1_MD5_WITH_RSA_ENCRYPTION:
++			*hash = SEC_OID_MD5;
++			break;
++		case SEC_OID_PKCS1_SHA1_WITH_RSA_ENCRYPTION:
++		default:
++			*hash = SEC_OID_SHA1;
++			break;
++		}
++	}
++
+ 	cmsg = NSS_CMSMessage_Create(NULL); /* create a message on its own pool */
+ 	if (cmsg == NULL) {
+ 		set_nss_error (ex, _("Cannot create CMS message"));
+@@ -469,7 +493,7 @@
+ 		goto fail;
+ 	}
+ 
+-	signerinfo = NSS_CMSSignerInfo_Create(cmsg, cert, hash);
++	signerinfo = NSS_CMSSignerInfo_Create(cmsg, cert, *hash);
+ 	if (signerinfo == NULL) {
+ 		set_nss_error (ex, _("Cannot create CMS Signer information"));
+ 		goto fail;
+@@ -575,17 +608,28 @@
+ 	CamelContentType *ct;
+ 
+ 	switch (hash) {
+-	case CAMEL_CIPHER_HASH_SHA1:
+ 	case CAMEL_CIPHER_HASH_DEFAULT:
+ 	default:
++		sechash = SEC_OID_UNKNOWN;
++		break;
++	case CAMEL_CIPHER_HASH_SHA1:
+ 		sechash = SEC_OID_SHA1;
+ 		break;
++	case CAMEL_CIPHER_HASH_SHA256:
++		sechash = SEC_OID_SHA256;
++		break;
++	case CAMEL_CIPHER_HASH_SHA384:
++		sechash = SEC_OID_SHA384;
++		break;
++	case CAMEL_CIPHER_HASH_SHA512:
++		sechash = SEC_OID_SHA512;
++		break;
+ 	case CAMEL_CIPHER_HASH_MD5:
+ 		sechash = SEC_OID_MD5;
+ 		break;
+ 	}
+ 
+-	cmsg = sm_signing_cmsmessage((CamelSMIMEContext *)context, userid, sechash,
++	cmsg = sm_signing_cmsmessage((CamelSMIMEContext *)context, userid, &sechash,
+ 				     ((CamelSMIMEContext *)context)->priv->sign_mode == CAMEL_SMIME_SIGN_CLEARSIGN, ex);
+ 	if (cmsg == NULL)
+ 		return -1;
+@@ -650,7 +694,7 @@
+ 
+ 		mps = camel_multipart_signed_new();
+ 		ct = camel_content_type_new("multipart", "signed");
+-		camel_content_type_set_param(ct, "micalg", camel_cipher_hash_to_id(context, hash));
++		camel_content_type_set_param(ct, "micalg", camel_cipher_hash_to_id(context, get_hash_from_oid(sechash)));
+ 		camel_content_type_set_param(ct, "protocol", context->sign_protocol);
+ 		camel_data_wrapper_set_mime_type_field((CamelDataWrapper *)mps, ct);
+ 		camel_content_type_unref(ct);
+diff --git a/libedataserver/e-account.c b/libedataserver/e-account.c
+index baa9491..052ce6b 100644
+--- a/libedataserver/e-account.c
++++ b/libedataserver/e-account.c
+@@ -158,8 +158,10 @@ finalize (GObject *object)
+ 	g_free (account->bcc_addrs);
+ 
+ 	g_free (account->pgp_key);
++	g_free (account->pgp_hash_algorithm);
+ 	g_free (account->smime_sign_key);
+ 	g_free (account->smime_encrypt_key);
++	g_free (account->smime_hash_algorithm);
+ 
+ 	g_free (account->parent_uid);
+ 
+@@ -464,6 +466,7 @@ e_account_set_from_xml (EAccount *account, const gchar *xml)
+ 			changed |= xml_set_bool (node, "always-trust", &account->pgp_always_trust);
+ 			changed |= xml_set_bool (node, "always-sign", &account->pgp_always_sign);
+ 			changed |= xml_set_bool (node, "no-imip-sign", &account->pgp_no_imip_sign);
++			changed |= xml_set_prop (node, "hash-algo", &account->pgp_hash_algorithm);
+ 
+ 			if (node->children) {
+ 				for (cur = node->children; cur; cur = cur->next) {
+@@ -477,6 +480,7 @@ e_account_set_from_xml (EAccount *account, const gchar *xml)
+ 			changed |= xml_set_bool (node, "sign-default", &account->smime_sign_default);
+ 			changed |= xml_set_bool (node, "encrypt-to-self", &account->smime_encrypt_to_self);
+ 			changed |= xml_set_bool (node, "encrypt-default", &account->smime_encrypt_default);
++			changed |= xml_set_prop (node, "hash-algo", &account->smime_hash_algorithm);
+ 
+ 			if (node->children) {
+ 				for (cur = node->children; cur; cur = cur->next) {
+@@ -561,6 +565,8 @@ e_account_import (EAccount *dest, EAccount *src)
+ 
+ 	g_free (dest->pgp_key);
+ 	dest->pgp_key = g_strdup (src->pgp_key);
++	g_free (dest->pgp_hash_algorithm);
++	dest->pgp_hash_algorithm = g_strdup (src->pgp_hash_algorithm);
+ 	dest->pgp_encrypt_to_self = src->pgp_encrypt_to_self;
+ 	dest->pgp_always_sign = src->pgp_always_sign;
+ 	dest->pgp_no_imip_sign = src->pgp_no_imip_sign;
+@@ -569,6 +575,8 @@ e_account_import (EAccount *dest, EAccount *src)
+ 	dest->smime_sign_default = src->smime_sign_default;
+ 	g_free (dest->smime_sign_key);
+ 	dest->smime_sign_key = g_strdup (src->smime_sign_key);
++	g_free (dest->smime_hash_algorithm);
++	dest->smime_hash_algorithm = g_strdup (src->smime_hash_algorithm);
+ 
+ 	dest->smime_encrypt_default = src->smime_encrypt_default;
+ 	dest->smime_encrypt_to_self = src->smime_encrypt_to_self;
+@@ -651,6 +659,8 @@ e_account_to_xml (EAccount *account)
+ 	xmlSetProp (node, (xmlChar*)"always-trust", (xmlChar*)(account->pgp_always_trust ? "true" : "false"));
+ 	xmlSetProp (node, (xmlChar*)"always-sign", (xmlChar*)(account->pgp_always_sign ? "true" : "false"));
+ 	xmlSetProp (node, (xmlChar*)"no-imip-sign", (xmlChar*)(account->pgp_no_imip_sign ? "true" : "false"));
++	if (account->pgp_hash_algorithm && *account->pgp_hash_algorithm)
++		xmlSetProp (node, (xmlChar*)"hash-algo", (xmlChar*) account->pgp_hash_algorithm);
+ 	if (account->pgp_key)
+ 		xmlNewTextChild (node, NULL, (xmlChar*)"key-id", (xmlChar*)account->pgp_key);
+ 
+@@ -658,6 +668,8 @@ e_account_to_xml (EAccount *account)
+ 	xmlSetProp (node, (xmlChar*)"sign-default", (xmlChar*)(account->smime_sign_default ? "true" : "false"));
+ 	xmlSetProp (node, (xmlChar*)"encrypt-default", (xmlChar*)(account->smime_encrypt_default ? "true" : "false"));
+ 	xmlSetProp (node, (xmlChar*)"encrypt-to-self", (xmlChar*)(account->smime_encrypt_to_self ? "true" : "false"));
++	if (account->smime_hash_algorithm && *account->smime_hash_algorithm)
++		xmlSetProp (node, (xmlChar*)"hash-algo", (xmlChar*) account->smime_hash_algorithm);
+ 	if (account->smime_sign_key)
+ 		xmlNewTextChild (node, NULL, (xmlChar*)"sign-key-id", (xmlChar*)account->smime_sign_key);
+ 	if (account->smime_encrypt_key)
+@@ -784,6 +796,7 @@ static struct _account_info {
+ 	{ /* E_ACCOUNT_RECEIPT_POLICY */ 0, TYPE_INT, G_STRUCT_OFFSET(EAccount, receipt_policy) },
+ 
+ 	{ /* E_ACCOUNT_PGP_KEY */ 0, TYPE_STRING, G_STRUCT_OFFSET(EAccount, pgp_key) },
++	{ /* E_ACCOUNT_PGP_HASH_ALGORITHM */ 0, TYPE_STRING, G_STRUCT_OFFSET(EAccount, pgp_hash_algorithm) },
+ 	{ /* E_ACCOUNT_PGP_ENCRYPT_TO_SELF */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, pgp_encrypt_to_self) },
+ 	{ /* E_ACCOUNT_PGP_ALWAYS_SIGN */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, pgp_always_sign) },
+ 	{ /* E_ACCOUNT_PGP_NO_IMIP_SIGN */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, pgp_no_imip_sign) },
+@@ -791,6 +804,7 @@ static struct _account_info {
+ 
+ 	{ /* E_ACCOUNT_SMIME_SIGN_KEY */ 0, TYPE_STRING, G_STRUCT_OFFSET(EAccount, smime_sign_key) },
+ 	{ /* E_ACCOUNT_SMIME_ENCRYPT_KEY */ 0, TYPE_STRING, G_STRUCT_OFFSET(EAccount, smime_encrypt_key) },
++	{ /* E_ACCOUNT_SMIME_HASH_ALGORITHM */ 0, TYPE_STRING, G_STRUCT_OFFSET(EAccount, smime_hash_algorithm) },
+ 	{ /* E_ACCOUNT_SMIME_SIGN_DEFAULT */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, smime_sign_default) },
+ 	{ /* E_ACCOUNT_SMIME_ENCRYPT_TO_SELF */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, smime_encrypt_to_self) },
+ 	{ /* E_ACCOUNT_SMIME_ENCRYPT_DEFAULT */ 0, TYPE_BOOL, G_STRUCT_OFFSET(EAccount, smime_encrypt_default) },
+diff --git a/libedataserver/e-account.h b/libedataserver/e-account.h
+index afe8d48..a9d5a6b 100644
+--- a/libedataserver/e-account.h
++++ b/libedataserver/e-account.h
+@@ -60,6 +60,7 @@ typedef enum _e_account_item_t {
+ 	E_ACCOUNT_RECEIPT_POLICY,
+ 
+ 	E_ACCOUNT_PGP_KEY,
++	E_ACCOUNT_PGP_HASH_ALGORITHM,
+ 	E_ACCOUNT_PGP_ENCRYPT_TO_SELF,
+ 	E_ACCOUNT_PGP_ALWAYS_SIGN,
+ 	E_ACCOUNT_PGP_NO_IMIP_SIGN,
+@@ -67,6 +68,7 @@ typedef enum _e_account_item_t {
+ 
+ 	E_ACCOUNT_SMIME_SIGN_KEY,
+ 	E_ACCOUNT_SMIME_ENCRYPT_KEY,
++	E_ACCOUNT_SMIME_HASH_ALGORITHM,
+ 	E_ACCOUNT_SMIME_SIGN_DEFAULT,
+ 	E_ACCOUNT_SMIME_ENCRYPT_TO_SELF,
+ 	E_ACCOUNT_SMIME_ENCRYPT_DEFAULT,
+@@ -126,6 +128,7 @@ typedef struct _EAccount {
+ 	EAccountReceiptPolicy receipt_policy;
+ 
+ 	gchar *pgp_key;
++	gchar *pgp_hash_algorithm; /* "sha1", "sha256", "sha384", "sha512" are supported now; anything else is default */
+ 	gboolean pgp_encrypt_to_self;
+ 	gboolean pgp_always_sign;
+ 	gboolean pgp_no_imip_sign;
+@@ -135,6 +138,7 @@ typedef struct _EAccount {
+ 
+ 	gchar *smime_sign_key;
+ 	gchar *smime_encrypt_key;
++	gchar *smime_hash_algorithm; /* "sha1", "sha256", "sha384", "sha512" are supported now; anything else is default */
+ 	gboolean smime_sign_default;
+ 	gboolean smime_encrypt_to_self;
+ 	gboolean smime_encrypt_default;
