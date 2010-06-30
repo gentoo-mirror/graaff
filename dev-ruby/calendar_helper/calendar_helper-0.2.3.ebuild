@@ -6,6 +6,7 @@ EAPI="2"
 USE_RUBY="ruby18"
 
 RUBY_FAKEGEM_EXTRADOC="History.txt README.txt"
+RUBY_FAKEGEM_EXTRAINSTALL="init.rb generators"
 
 inherit ruby-fakegem
 
