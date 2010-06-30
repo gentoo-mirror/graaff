@@ -5,11 +5,7 @@
 EAPI="2"
 USE_RUBY="ruby18"
 
-#RUBY_FAKEGEM_TASK_DOC="docs"
-#RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_EXTRADOC="History.txt README.txt"
-
-#RUBY_FAKEGEM_TASK_TEST=""
 
 inherit ruby-fakegem
 
@@ -19,13 +15,10 @@ LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
-IUSE=""
+IUSE="test"
 
 ruby_add_bdepend "doc? ( dev-ruby/hoe )"
 ruby_add_bdepend "test? ( dev-ruby/hoe virtual/ruby-test-unit dev-ruby/flexmock )"
-
-# Tests require a live mail service to test against.
-#RESTRICT="test"
 
 each_ruby_test() {
 	${RUBY} -Ilib test/test_calendar_helper.rb || die
