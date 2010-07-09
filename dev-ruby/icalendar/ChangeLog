@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/icalendar
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 
+  09 Jul 2010; Hans de Graaff <graaff@gentoo.org> -icalendar-1.1.0.ebuild,
+  -icalendar-1.1.3.ebuild:
+  Remove old versions.
+
   06 Jun 2010; Hans de Graaff <graaff@gentoo.org> icalendar-1.1.4.ebuild:
   Tests have been fixed so unrestrict this.
 
