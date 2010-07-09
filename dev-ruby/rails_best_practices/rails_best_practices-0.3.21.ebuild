@@ -9,6 +9,8 @@ RUBY_FAKEGEM_EXTRADOC="README.textile"
 
 RUBY_FAKEGEM_TASK_TEST="spec"
 
+RUBY_FAKEGEM_EXTRAINSTALL="rails_best_practices.yml"
+
 inherit ruby-fakegem
 
 DESCRIPTION="a gem to check quality of rails app files"
