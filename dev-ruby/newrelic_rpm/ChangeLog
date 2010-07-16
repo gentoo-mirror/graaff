@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*newrelic_rpm-2.12.3-r1 (16 Jul 2010)
+
+  16 Jul 2010; Hans de Graaff <graaff@gentoo.org>
+  +newrelic_rpm-2.12.3-r1.ebuild,
+  +files/newrelic_rpm-2.12.3-less-stdout.patch:
+  Add patch to output less purely informational into to stdout.
+
 *newrelic_rpm-2.12.3 (07 Jul 2010)
 
   07 Jul 2010; Hans de Graaff <graaff@gentoo.org>
