@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/money
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 
+  05 Aug 2010; Hans de Graaff <graaff@gentoo.org> -money-2.1.4.ebuild:
+  Remove old version.
+
   03 Jan 2010; Hans de Graaff <graaff@gentoo.org> money-2.1.5.ebuild,
   metadata.xml:
   Install README, fix license.
