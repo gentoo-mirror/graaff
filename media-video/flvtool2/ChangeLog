@@ -1,6 +1,11 @@
 # ChangeLog for media-video/flvtool2
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*flvtool2-1.0.6-r1 (06 Aug 2010)
+
+  06 Aug 2010; Hans de Graaff <graaff@gentoo.org> +flvtool2-1.0.6-r1.ebuild:
+  Convert to ruby-fakegem.
 
   27 Dec 2009; Hans de Graaff <graaff@gentoo.org> flvtool2-1.0.6.ebuild,
   +metadata.xml:
