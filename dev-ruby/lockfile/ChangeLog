@@ -1,9 +1,0 @@
-# ChangeLog for dev-ruby/lockfile
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*lockfile-1.4.3 (30 Aug 2009)
-
-  30 Aug 2009; Hans de Graaff <graaff@gentoo.org> +lockfile-1.4.3.ebuild:
-  Initial import, dependency of sup.
-
