@@ -1,6 +1,11 @@
 # ChangeLog for dev-util/watchr
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*watchr-0.7 (27 Aug 2010)
+
+  27 Aug 2010; Hans de Graaff <graaff@gentoo.org> +watchr-0.7.ebuild:
+  Version bump.
 
   16 Dec 2009; Hans de Graaff <graaff@gentoo.org> metadata.xml:
   Fix metadata.
