@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Sep 2010; Hans de Graaff <graaff@gentoo.org> -watchr-0.5.9.ebuild:
+  Remove old version.
+
 *watchr-0.7 (27 Aug 2010)
 
   27 Aug 2010; Hans de Graaff <graaff@gentoo.org> +watchr-0.7.ebuild:
