@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*after_commit-1.0.8 (23 Sep 2010)
+
+  23 Sep 2010; Hans de Graaff <graaff@gentoo.org>
+  +after_commit-1.0.8.ebuild:
+  Version bump.
+
 *after_commit-1.0.7 (09 Jul 2010)
 
   09 Jul 2010; Hans de Graaff <graaff@gentoo.org>
