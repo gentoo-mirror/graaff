@@ -11,7 +11,7 @@ RUBY_FAKEGEM_TASK_TEST=""
 
 inherit ruby-fakegem
 
-DESCRIPTION="Modern continuous testing (flexible alternative to Autotest)"
+DESCRIPTION="Rev is an event library for Ruby, built on the libev event library."
 HOMEPAGE="http://mynyml.com/ruby/flexible-continuous-testing"
 LICENSE="MIT"
 
@@ -33,6 +33,11 @@ each_ruby_configure() {
 
 each_ruby_compile() {
 	pushd ext/rev
+	# We have injected --no-undefined in Ruby as a safety precaution
+	# against broken ebuilds, but these bindings unfortunately rely on
+	# the lazy load of other extensions; see bug #320545.
+	find . -name Makefile -print0 | xargs -0 \
+		sed -i -e 's:-Wl,--no-undefined::' || die "--no-undefined removal failed"
 	emake || die "Unable to compile rev extension."
 	popd
 
