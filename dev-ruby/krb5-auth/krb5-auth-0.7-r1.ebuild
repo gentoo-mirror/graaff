@@ -15,7 +15,7 @@ DESCRIPTION="Ruby bindings for the Kerberos library"
 HOMEPAGE="http://rubyforge.org/projects/krb5-auth/"
 LICENSE="GPL-2"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
