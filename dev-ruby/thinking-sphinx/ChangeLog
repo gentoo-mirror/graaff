@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Dec 2010; Hans de Graaff <graaff@gentoo.org>
+  -thinking-sphinx-1.3.16.ebuild:
+  Remove old version.
+
 *thinking-sphinx-1.3.20 (23 Sep 2010)
 
   23 Sep 2010; Hans de Graaff <graaff@gentoo.org>
