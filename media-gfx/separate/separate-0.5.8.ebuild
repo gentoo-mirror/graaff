@@ -17,8 +17,8 @@ S="${WORKDIR}/${PN}+-${PV}"
 
 DEPEND=">=media-libs/lcms-1.15
 	>=media-gfx/gimp-2.4"
+RDEPEND="${DEPEND}"
 
 src_install() {
 	emake install PREFIX="${D}"/usr
-
 }
