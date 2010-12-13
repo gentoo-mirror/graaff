@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*unoconv-0.4-r1 (13 Dec 2010)
+
+  13 Dec 2010; Hans de Graaff <graaff@gentoo.org> +unoconv-0.4-r1.ebuild,
+  +files/unoconv-0.4-empty-ld-library-path.patch:
+  Fix case where LD_LIBRARY_PATH is empty.
+
 *unoconv-0.4 (10 Dec 2010)
 
   10 Dec 2010; Hans de Graaff <graaff@gentoo.org> +unoconv-0.4.ebuild:
