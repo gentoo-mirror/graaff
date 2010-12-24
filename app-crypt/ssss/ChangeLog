@@ -1,0 +1,10 @@
+# ChangeLog for app-crypt/ssss
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*ssss-0.5 (24 Dec 2010)
+
+  24 Dec 2010; Hans de Graaff <graaff@gentoo.org> +ssss-0.5.ebuild,
+  +files/ssss-0.5-makefile.patch, +metadata.xml:
+  Initial import.
+
