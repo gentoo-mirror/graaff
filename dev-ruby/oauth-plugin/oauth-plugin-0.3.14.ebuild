@@ -19,7 +19,7 @@ HOMEPAGE="http://github.com/pelle/oauth-plugin"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86-macos"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/oauth-0.3.5"
