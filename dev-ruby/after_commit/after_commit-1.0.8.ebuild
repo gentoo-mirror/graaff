@@ -15,7 +15,7 @@ DESCRIPTION="An ActiveRecord library to add before_commit, after_commit, before_
 HOMEPAGE="http://freelancing-gods.com/"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
 IUSE=""
 
