@@ -15,7 +15,7 @@ DESCRIPTION="An interface to the Sphinx search daemon."
 HOMEPAGE="http://freelancing-gods.com/"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
 IUSE=""
 
