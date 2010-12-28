@@ -16,7 +16,7 @@ DESCRIPTION="Modern continuous testing (flexible alternative to Autotest)"
 HOMEPAGE="http://mynyml.com/ruby/flexible-continuous-testing"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
 IUSE=""
 
