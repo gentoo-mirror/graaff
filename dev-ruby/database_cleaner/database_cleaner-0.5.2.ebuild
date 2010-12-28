@@ -15,7 +15,7 @@ HOMEPAGE="http://github.com/bmabey/database_cleaner"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 
 # Tests now require mongo_mapper which is not packaged yet.
