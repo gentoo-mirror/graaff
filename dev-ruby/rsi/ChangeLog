@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/rsi
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rsi-0.4 (05 Jan 2011)
+
+  05 Jan 2011; Hans de Graaff <graaff@gentoo.org> +rsi-0.4.ebuild,
+  +metadata.xml:
+  Initial import.
+
