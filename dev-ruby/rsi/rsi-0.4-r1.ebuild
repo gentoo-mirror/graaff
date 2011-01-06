@@ -20,6 +20,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
+RUBY_PATCHES=( "${P}-fix-logger.patch" )
+
 ruby_add_rdepend "dev-ruby/ruby-bz2"
 
 each_ruby_test() {
