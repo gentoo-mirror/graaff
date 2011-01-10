@@ -3,6 +3,10 @@
 # $Header: $
 
   10 Jan 2011; Hans de Graaff <graaff@gentoo.org>
+  twitter_oauth-0.4.3.ebuild:
+  Remove old version.
+
+  10 Jan 2011; Hans de Graaff <graaff@gentoo.org>
   -twitter_oauth-0.3.6.ebuild:
   Remove old version.
 
