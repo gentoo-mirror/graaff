@@ -1,6 +1,13 @@
 # ChangeLog for dev-ruby/authlogic
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 
+*authlogic-2.1.6-r2 (14 Feb 2011)
+
+  14 Feb 2011; Hans de Graaff <graaff@gentoo.org>
+  +authlogic-2.1.6-r2.ebuild, +files/authlogic-2.1.6-quote-email.patch:
+  Quotes are a valid component of the email name. Fixed and submitted
+  upstream.
+
 *authlogic-2.1.6-r1 (14 Feb 2011)
 
   14 Feb 2011; Hans de Graaff <graaff@gentoo.org>
