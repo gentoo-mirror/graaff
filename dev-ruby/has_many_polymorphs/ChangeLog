@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/has_many_polymorphs
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*has_many_polymorphs-2.13 (19 Feb 2011)
+
+  19 Feb 2011; Hans de Graaff <graaff@gentoo.org>
+  +has_many_polymorphs-2.13.ebuild, +metadata.xml:
+  Initial import. New dependency of Tracks.
+
