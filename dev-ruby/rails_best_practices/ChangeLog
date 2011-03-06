@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rails_best_practices-0.7.1 (06 Mar 2011)
+
+  06 Mar 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.7.1.ebuild:
+  Version bump.
+
   25 Jan 2011; Hans de Graaff <graaff@gentoo.org>
   -rails_best_practices-0.3.21.ebuild, -rails_best_practices-0.3.26.ebuild:
   Remove old versions.
