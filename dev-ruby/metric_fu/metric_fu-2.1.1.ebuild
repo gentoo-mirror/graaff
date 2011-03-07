@@ -38,6 +38,12 @@ ruby_add_rdepend ">=dev-ruby/flay-1.2.1
 	>=dev-ruby/roodi-2.1.0
 	dev-ruby/syntax"
 
+all_ruby_prepare() {
+	# Use our own stub specification because the official metadata
+	# causes the rake task not to be found.
+	rm ../metadata || die
+}
+
 each_ruby_prepare() {
 	# Create a directory needed by specs but not always created in time.
 	mkdir -p tmp/metric_fu/output || die

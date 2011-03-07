@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Mar 2011; Hans de Graaff <graaff@gentoo.org> metric_fu-2.1.1.ebuild:
+  Fix rake task not being found.
+
 *metric_fu-2.1.1 (07 Mar 2011)
 
   07 Mar 2011; Hans de Graaff <graaff@gentoo.org> +metric_fu-2.1.1.ebuild:
