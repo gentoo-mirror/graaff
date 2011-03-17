@@ -16,7 +16,7 @@ DESCRIPTION="An oEmbed consumer library written in Ruby."
 HOMEPAGE="https://github.com/judofyr/ruby-oembed"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
