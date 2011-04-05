@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/sass
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*sass-3.1.0_alpha_p252 (05 Apr 2011)
+
+  05 Apr 2011; Hans de Graaff <graaff@gentoo.org>
+  +sass-3.1.0_alpha_p252.ebuild, +metadata.xml:
+  Initial import.
+
