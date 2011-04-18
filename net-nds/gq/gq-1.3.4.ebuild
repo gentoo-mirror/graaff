@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,12 +18,12 @@ KEYWORDS="~amd64 ~x86"
 # automagic dependencies.
 IUSE="kerberos gnome-keyring"
 
-RDEPEND=">=x11-libs/gtk+-2.6
+RDEPEND=">=x11-libs/gtk+-2.6:2
 	>=net-nds/openldap-2
 	kerberos? ( virtual/krb5 )
 	dev-libs/openssl
 	dev-libs/libxml2
-	>=dev-libs/glib-2.6
+	>=dev-libs/glib-2.6:2
 	x11-libs/pango
 	dev-libs/cyrus-sasl
 	gnome-keyring? ( >=gnome-base/gnome-keyring-0.4.4 )

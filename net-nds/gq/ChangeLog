@@ -1,6 +1,9 @@
 # ChangeLog for net-nds/gq
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  18 Apr 2011; Hans de Graaff <graaff@gentoo.org> gq-1.3.4.ebuild:
+  Slot gtk dependencies.
 
   24 Mar 2010; Hans de Graaff <graaff@gentoo.org> gq-1.3.4.ebuild:
   Add missing built-time dependency on rarian.
