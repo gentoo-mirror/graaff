@@ -3,7 +3,7 @@
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/zentest/zentest-3.3.0.ebuild,v 1.1 2006/08/28 14:34:06 pclouds Exp $
 
 EAPI=2
-USE_RUBY="ruby18"
+USE_RUBY="ruby18 ree18 jruby"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.rdoc README.rdoc"
@@ -22,3 +22,7 @@ SLOT="0"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/rspec )"
+
+all_ruby_prepare() {
+	sed -i -e '/check_dependencies/d' Rakefile || die
+}
