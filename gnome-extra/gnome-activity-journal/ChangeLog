@@ -1,0 +1,10 @@
+# ChangeLog for gnome-extra/gnome-activity-journal
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*gnome-activity-journal-0.6.0 (24 Apr 2011)
+
+  24 Apr 2011; Hans de Graaff <graaff@gentoo.org>
+  +gnome-activity-journal-0.6.0.ebuild, +metadata.xml:
+  Initial import. Based on older version in dez-zero overlay.
+
