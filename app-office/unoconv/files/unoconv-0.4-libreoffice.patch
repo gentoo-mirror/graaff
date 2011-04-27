@@ -1,0 +1,20 @@
+commit 445f4f2b79384d942c0e0cd18231e6f6c81b0528
+Author: Hans de Graaff <hans@winkwaves.com>
+Date:   Wed Apr 27 12:49:31 2011 +0200
+
+    Add support for libreoffice.
+
+diff --git a/unoconv b/unoconv
+index 611b3fe..72a026b 100755
+--- a/unoconv
++++ b/unoconv
+@@ -20,7 +20,8 @@ global convertor, oobin, oobinpath, oolibpath, ooproc
+ 
+ ### The first thing we ought to do is find a suitable OpenOffice installation
+ ### with a compatible pyuno library that we can import.
+-extrapaths = glob.glob('/usr/lib*/openoffice*/program') + \
++extrapaths = glob.glob('/usr/lib*/libreoffice*/basis*/program') + \
++             glob.glob('/usr/lib*/openoffice*/program') + \
+              glob.glob('/usr/lib*/openoffice*/basis*/program') + \
+              glob.glob('/usr/lib*/ooo*/program') + \
+              glob.glob('/usr/lib*/ooo*/basis*/program') + \
