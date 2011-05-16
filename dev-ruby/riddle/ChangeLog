@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*riddle-1.2.2 (16 May 2011)
+
+  16 May 2011; Hans de Graaff <graaff@gentoo.org> +riddle-1.2.2.ebuild,
+  -riddle-1.3.2.ebuild:
+  Add 1.2.2 since 1.3.2 currently doesn't work with our setup at work.
+
 *riddle-1.3.2 (13 May 2011)
 
   13 May 2011; Hans de Graaff <graaff@gentoo.org> +riddle-1.3.2.ebuild:
