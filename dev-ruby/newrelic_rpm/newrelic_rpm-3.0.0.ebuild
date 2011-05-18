@@ -12,7 +12,7 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc"
 # Tests fail to run at all, needs investigation.
 RUBY_FAKEGEM_TASK_TEST=""
 
-RUBY_FAKEGEM_EXTRAINSTALL="cert recipes ui newrelic.yml"
+RUBY_FAKEGEM_EXTRAINSTALL="cert recipes ui newrelic.yml vendor"
 
 inherit ruby-fakegem
 
