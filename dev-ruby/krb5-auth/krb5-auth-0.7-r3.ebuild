@@ -2,12 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/zentest/zentest-3.3.0.ebuild,v 1.1 2006/08/28 14:34:06 pclouds Exp $
 
-EAPI="2"
+EAPI=4
 USE_RUBY="ruby18"
 
+RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_EXTRADOC="README TODO example.rb"
 
 RUBY_FAKEGEM_TASK_TEST=""
+
+RUBY_FAKEGEM_EXTRAINSTALL="ext"
 
 inherit multilib ruby-fakegem
 
@@ -40,6 +43,10 @@ each_ruby_compile() {
 		sed -i -e 's:-Wl,--no-undefined::' || die "--no-undefined removal failed"
 
 	emake -Cext || die
-	mkdir lib || die
-	cp ext/*$(get_modname) lib/ || die
+}
+
+all_ruby_install() {
+	all_fakegem_install
+
+	dodoc example.rb
 }

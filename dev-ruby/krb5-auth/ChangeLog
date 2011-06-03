@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*krb5-auth-0.7-r3 (03 Jun 2011)
+
+  03 Jun 2011; Hans de Graaff <graaff@gentoo.org> -krb5-auth-0.7-r1.ebuild,
+  -krb5-auth-0.7-r2.ebuild, +krb5-auth-0.7-r3.ebuild:
+  Leave the shared object in ext because that is where the gemspec says it will
+  be. Install example.rb.
+
 *krb5-auth-0.7-r2 (21 Apr 2011)
 
   21 Apr 2011; Hans de Graaff <graaff@gentoo.org> +krb5-auth-0.7-r2.ebuild:
