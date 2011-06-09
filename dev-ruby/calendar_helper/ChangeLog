@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*calendar_helper-0.2.4-r1 (09 Jun 2011)
+
+  09 Jun 2011; Hans de Graaff <graaff@gentoo.org>
+  +calendar_helper-0.2.4-r1.ebuild:
+  Add mandatory summary attribute to generated table. Keeps tidy quiet on the
+  generated code.
+
 *calendar_helper-0.2.4 (09 Jun 2011)
 
   09 Jun 2011; Hans de Graaff <graaff@gentoo.org>
