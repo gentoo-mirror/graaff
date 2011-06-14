@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/oauth-plugin
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  14 Jun 2011; Hans de Graaff <graaff@gentoo.org> oauth-plugin-0.3.14.ebuild:
+  Add x86 keyword.
 
   26 Dec 2010; Hans de Graaff <graaff@gentoo.org>
   oauth-plugin-0.3.14.ebuild:
