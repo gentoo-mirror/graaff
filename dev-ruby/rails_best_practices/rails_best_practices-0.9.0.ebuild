@@ -18,7 +18,7 @@ DESCRIPTION="a gem to check quality of rails app files"
 HOMEPAGE="http://wiki.github.com/flyerhzm/rails_best_practices"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
