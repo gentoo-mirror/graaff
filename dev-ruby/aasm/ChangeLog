@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Jun 2011; Hans de Graaff <graaff@gentoo.org> aasm-2.2.0.ebuild,
+  metadata.xml:
+  Add x86 keyword.
+
 *aasm-2.2.0 (10 Jun 2011)
 
   10 Jun 2011; Hans de Graaff <graaff@gentoo.org> +aasm-2.2.0.ebuild,
