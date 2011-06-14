@@ -17,7 +17,7 @@ HOMEPAGE="http://rsi.rubyforge.org/"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RUBY_PATCHES=( "${P}-fix-logger.patch" )
