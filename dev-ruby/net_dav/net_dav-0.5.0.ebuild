@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/devrandom/net_dav/wiki"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # Restrict tests since we miss the webrick-webdav dependency.
