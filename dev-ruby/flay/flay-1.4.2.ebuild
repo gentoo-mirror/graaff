@@ -15,7 +15,7 @@ DESCRIPTION="Flay analyzes code for structural similarities."
 HOMEPAGE="http://ruby.sadi.st/"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
