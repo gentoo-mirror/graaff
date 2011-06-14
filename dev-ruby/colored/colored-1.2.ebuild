@@ -13,7 +13,7 @@ DESCRIPTION="Console coloring"
 HOMEPAGE="http://github.com/defunkt"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
