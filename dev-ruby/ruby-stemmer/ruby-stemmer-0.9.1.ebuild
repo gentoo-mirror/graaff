@@ -7,6 +7,8 @@ USE_RUBY="ruby18 ree18"
 
 RUBY_FAKEGEM_EXTRADOC="README.rdoc"
 
+RUBY_EXTRAINSTALL="VERSION"
+
 inherit multilib ruby-fakegem
 
 DESCRIPTION="Ruby-Stemmer exposes SnowBall API to Ruby."
