@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/ruby-stemmer
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*ruby-stemmer-0.9.1 (15 Jun 2011)
+
+  15 Jun 2011; Hans de Graaff <graaff@gentoo.org> +ruby-stemmer-0.9.1.ebuild,
+  +metadata.xml:
+  Initial import.
+
