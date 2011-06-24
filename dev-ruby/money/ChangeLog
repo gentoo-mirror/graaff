@@ -1,5 +1,8 @@
 # ChangeLog for dev-ruby/money
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+
+  24 Jun 2011; Hans de Graaff <graaff@gentoo.org> -money-2.1.5.ebuild:
+  Remove old version.
 
 *money-2.1.5-r1 (18 Aug 2010)
 
