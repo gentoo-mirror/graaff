@@ -18,11 +18,11 @@ HOMEPAGE="http://freelancing-god.github.com/ts/en/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86 ~x86-macos"
-SLOT="0"
+SLOT="1"
 IUSE=""
 
 ruby_add_rdepend "dev-ruby/activerecord:2.3
-	>=dev-ruby/riddle-1.3.2
+	>=dev-ruby/riddle-1.3.2:1.3
 	>=dev-ruby/after_commit-1.0.7"
 
 # There are specs and features but not all files are present so they

@@ -22,7 +22,7 @@ SLOT="0"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/activerecord-1.15.6
-	>=dev-ruby/riddle-1.0.10
+	>=dev-ruby/riddle-1.0.10:0
 	>=dev-ruby/after_commit-1.0.6"
 
 # There are specs and features but not all files are present so they
