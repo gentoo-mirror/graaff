@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Jun 2011; Hans de Graaff <graaff@gentoo.org> riddle-1.3.2.ebuild:
+  Move for us incompatible version into a slot.
+
   28 Jun 2011; Hans de Graaff <graaff@gentoo.org> +riddle-1.3.2.ebuild:
   Version bump.
 

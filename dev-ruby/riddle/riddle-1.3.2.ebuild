@@ -16,7 +16,7 @@ HOMEPAGE="http://freelancing-gods.com/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86 ~x86-macos"
-SLOT="0"
+SLOT="1.3"
 IUSE=""
 
 # There are specs in the package but they require that MySQL support
