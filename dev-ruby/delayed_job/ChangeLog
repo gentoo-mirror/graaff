@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*delayed_job-2.0.7 (01 Jul 2011)
+
+  01 Jul 2011; Hans de Graaff <graaff@gentoo.org> +delayed_job-2.0.7.ebuild:
+  Version bump.
+
   01 Jul 2011; Hans de Graaff <graaff@gentoo.org> -delayed_job-1.8.4.ebuild:
   Remove old version.
 
