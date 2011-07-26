@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/dirty-memoize
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*dirty-memoize-0.0.4 (26 Jul 2011)
+
+  26 Jul 2011; Hans de Graaff <graaff@gentoo.org> +dirty-memoize-0.0.4.ebuild,
+  +metadata.xml:
+  Import for statsample.
+
