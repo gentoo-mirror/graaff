@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*acts_as_list-0.1.4 (05 Aug 2011)
+
+  05 Aug 2011; Hans de Graaff <graaff@gentoo.org> +acts_as_list-0.1.4.ebuild:
+  Version bump.
+
 *acts_as_list-0.1.3 (18 Jun 2011)
 
   18 Jun 2011; Hans de Graaff <graaff@gentoo.org> +acts_as_list-0.1.3.ebuild:
