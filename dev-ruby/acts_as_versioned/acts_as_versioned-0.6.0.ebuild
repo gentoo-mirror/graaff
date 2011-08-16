@@ -16,11 +16,13 @@ DESCRIPTION="This library adds simple versioning to an ActiveRecord module."
 HOMEPAGE="http://rubyforge.org/projects/ar-versioned"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="3"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_bdepend "test? ( virtual/ruby-test-unit dev-ruby/activerecord dev-ruby/sqlite3-ruby )"
+ruby_add_bdepend "test? ( virtual/ruby-test-unit dev-ruby/sqlite3-ruby )"
+
+ruby_add_rdepend "dev-ruby/activerecord:3.0"
 
 all_ruby_prepare() {
 	rm Gemfile || die
