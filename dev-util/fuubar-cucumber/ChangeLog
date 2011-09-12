@@ -1,0 +1,10 @@
+# ChangeLog for dev-util/fuubar-cucumber
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*fuubar-cucumber-0.0.13 (12 Sep 2011)
+
+  12 Sep 2011; Hans de Graaff <graaff@gentoo.org>
+  +fuubar-cucumber-0.0.13.ebuild, +metadata.xml:
+  Initial import.
+
