@@ -16,7 +16,7 @@ HOMEPAGE="http://freelancing-god.github.com/ts/en/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86 ~x86-macos"
-SLOT="1"
+SLOT="2"
 IUSE=""
 
 ruby_add_rdepend "dev-ruby/activerecord:3.0
