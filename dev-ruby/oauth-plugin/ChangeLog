@@ -4,6 +4,10 @@
 
   29 Sep 2011; Hans de Graaff <graaff@gentoo.org>
   oauth-plugin-0.4.0_pre7.ebuild:
+  Install upstream gemspec.
+
+  29 Sep 2011; Hans de Graaff <graaff@gentoo.org>
+  oauth-plugin-0.4.0_pre7.ebuild:
   Put 0.4 version into a separate slot since it may not be compatible with
   Rails 2.3.
 

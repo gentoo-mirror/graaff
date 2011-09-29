@@ -12,6 +12,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc UPGRADE.rdoc"
 
 RUBY_FAKEGEM_EXTRAINSTALL="generators init.rb rails tasks"
 
+RUBY_FAKEGEM_GEMSPEC="oauth-plugin.gemspec"
+
 inherit ruby-fakegem
 
 DESCRIPTION="A plugin for implementing OAuth Providers and Consumers in Rails applications."
