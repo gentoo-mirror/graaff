@@ -26,7 +26,7 @@ SLOT="0.4"
 KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/oauth-0.4.4"
+ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 dev-ruby/oauth2"
 ruby_add_bdepend "test? ( dev-ruby/rspec:2 )"
 
 each_ruby_test() {
