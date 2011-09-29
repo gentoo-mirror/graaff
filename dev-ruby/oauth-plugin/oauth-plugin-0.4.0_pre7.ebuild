@@ -20,7 +20,7 @@ SRC_URI="https://github.com/pelle/oauth-plugin/tarball/v0.4.0.pre7 -> ${P}.tgz"
 RUBY_S="pelle-oauth-plugin-*"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="0.4"
 KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 

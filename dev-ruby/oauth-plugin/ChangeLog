@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Sep 2011; Hans de Graaff <graaff@gentoo.org>
+  oauth-plugin-0.4.0_pre7.ebuild:
+  Put 0.4 version into a separate slot since it may not be compatible with
+  Rails 2.3.
+
 *oauth-plugin-0.4.0_pre7 (25 Sep 2011)
 
   25 Sep 2011; Hans de Graaff <graaff@gentoo.org>
