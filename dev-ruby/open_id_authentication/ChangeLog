@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*open_id_authentication-1.1.0-r1 (06 Oct 2011)
+
+  06 Oct 2011; Hans de Graaff <graaff@gentoo.org>
+  +open_id_authentication-1.1.0-r1.ebuild:
+  Install git version so that we can install init.rb to initialize the Rails
+  plugin.
+
 *open_id_authentication-1.1.0 (06 Oct 2011)
 
   06 Oct 2011; Hans de Graaff <graaff@gentoo.org>
