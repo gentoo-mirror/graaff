@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*distribution-0.6.0 (12 Oct 2011)
+
+  12 Oct 2011; Hans de Graaff <graaff@gentoo.org> +distribution-0.6.0.ebuild:
+  Version bump.
+
 *distribution-0.5.0 (26 Jul 2011)
 
   26 Jul 2011; Hans de Graaff <graaff@gentoo.org> +distribution-0.5.0.ebuild,
