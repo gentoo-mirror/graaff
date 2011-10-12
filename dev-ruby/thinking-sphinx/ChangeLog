@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*thinking-sphinx-2.0.9 (12 Oct 2011)
+
+  12 Oct 2011; Hans de Graaff <graaff@gentoo.org>
+  +thinking-sphinx-2.0.9.ebuild:
+  Version bump.
+
   16 Sep 2011; Hans de Graaff <graaff@gentoo.org> thinking-sphinx-2.0.7.ebuild:
   Move into separate slot.
 
