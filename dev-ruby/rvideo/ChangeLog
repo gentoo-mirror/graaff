@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Oct 2011; Hans de Graaff <graaff@gentoo.org>
+  -rvideo-0.9.3.20110614.ebuild:
+  Remove again since it isn't backward compatible and overall broken.
+
 *rvideo-0.9.3.20110614 (14 Oct 2011)
 
   14 Oct 2011; Hans de Graaff <graaff@gentoo.org>
