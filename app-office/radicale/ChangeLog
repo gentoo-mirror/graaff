@@ -1,0 +1,18 @@
+# ChangeLog for app-office/radicale
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  20 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d, +metadata.xml:
+  New version for testing purposes.
+
+  20 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d:
+  New version for testing purposes.
+
+*radicale-0.6.2 (11 Oct 2011)
+
+  11 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d:
+  Add new version from bug 322811 for testing purposes.
+
