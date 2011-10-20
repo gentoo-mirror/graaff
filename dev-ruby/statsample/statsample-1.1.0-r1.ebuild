@@ -55,5 +55,5 @@ all_ruby_prepare() {
 
 	# Remove all dependencies from the gemspec that we don't need
 	# right now.
-	sed -i -e '/(minimization|reportbuilder|rserve-client|spreadsheet|bivariate-extension|rubyvis)/d' statsample.gemspec
+	sed -i -e '/minimization/d' -e '/reportbuilder/d' -e '/rserve-client/d' -e '/spreadsheet/d' -e '/bivariate-extension/d' -e '/rubyvis/d' statsample.gemspec
 }

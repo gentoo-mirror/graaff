@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*statsample-1.1.0-r1 (20 Oct 2011)
+
+  20 Oct 2011; Hans de Graaff <graaff@gentoo.org> statsample-1.1.0.ebuild,
+  +statsample-1.1.0-r1.ebuild:
+  Add revision with hacked gemspec to match the dependencies I currently
+  need/provide.
+
 *statsample-1.1.0 (26 Jul 2011)
 
   26 Jul 2011; Hans de Graaff <graaff@gentoo.org> +statsample-1.1.0.ebuild,
