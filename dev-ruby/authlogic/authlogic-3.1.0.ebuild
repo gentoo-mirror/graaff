@@ -21,7 +21,7 @@ KEYWORDS="~amd64"
 SLOT="3"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/activesupport-3.0.7"
+ruby_add_rdepend ">=dev-ruby/activerecord-3.0.7"
 ruby_add_bdepend "test? ( dev-ruby/bcrypt-ruby dev-ruby/ruby-debug dev-ruby/sqlite3-ruby )"
 
 # This approach makes it possible to ignore jeweler.
