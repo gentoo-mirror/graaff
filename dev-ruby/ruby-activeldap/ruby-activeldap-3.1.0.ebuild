@@ -29,7 +29,7 @@ ruby_add_bdepend "test? ( virtual/ruby-test-unit )"
 
 # The activemodel dependency is 3.1.0.rc4 but we don't have that yet.
 ruby_add_rdepend "
-	>=dev-ruby/activemodel-3.10.0
+	>=dev-ruby/activemodel-3.0.10
 	dev-ruby/locale
 	dev-ruby/fast_gettext
 	dev-ruby/gettext_i18n_rails
