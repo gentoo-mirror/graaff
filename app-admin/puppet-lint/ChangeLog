@@ -1,0 +1,10 @@
+# ChangeLog for app-admin/puppet-lint
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*puppet-lint-0.1.7 (04 Nov 2011)
+
+  04 Nov 2011; Hans de Graaff <graaff@gentoo.org> +puppet-lint-0.1.7.ebuild,
+  +metadata.xml:
+  Initial import for testing.
+
