@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
-ruby_add_rdepend "=dev-ruby/sexp-processor-3.0* =dev-ruby/ruby_parser-2.0*"
+ruby_add_rdepend "=dev-ruby/sexp-processor-3* =dev-ruby/ruby_parser-2*"
 
 ruby_add_bdepend "doc? ( dev-ruby/hoe )"
 ruby_add_bdepend "test? ( dev-ruby/hoe >=dev-ruby/minitest-2.0.2 )"

@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Nov 2011; Hans de Graaff <graaff@gentoo.org> flay-1.4.3.ebuild:
+  Fix dependencies to match gemspec and support newer versions of ruby_parser.
+
   08 Nov 2011; Hans de Graaff <graaff@gentoo.org> -flay-1.4.2.ebuild:
   Remove old version.
 
