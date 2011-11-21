@@ -22,4 +22,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 
-ruby_add_rdepend "=dev-ruby/ruby_parser-2* =dev-ruby/ruby2ruby-1.2* =dev-ruby/sexp-processor-3.0*"
+ruby_add_rdepend "=dev-ruby/ruby_parser-2*
+	=dev-ruby/ruby2ruby-1* >=dev-ruby/ruby2ruby-1.2
+	=dev-ruby/sexp-processor-3*"
