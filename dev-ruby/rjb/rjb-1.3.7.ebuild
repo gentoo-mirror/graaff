@@ -8,7 +8,9 @@ USE_RUBY="ruby18 ruby19 ree18"
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
 
-RUBY_FAKEGEM_EXTRADOC="readme.sj readme.txt"
+RUBY_FAKEGEM_EXTRADOC="ChangeLog readme.sj readme.txt"
+
+RUBY_FAKEGEM_EXTRAINSTALL="data"
 
 inherit multilib ruby-fakegem
 
