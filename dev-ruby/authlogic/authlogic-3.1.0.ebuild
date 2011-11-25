@@ -17,7 +17,7 @@ DESCRIPTION="A clean, simple, and unobtrusive ruby authentication solution."
 HOMEPAGE="http://authlogic.rubyforge.org/"
 LICENSE="Ruby"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="3"
 IUSE=""
 
