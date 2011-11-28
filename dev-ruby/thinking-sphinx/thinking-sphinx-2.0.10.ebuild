@@ -19,8 +19,10 @@ KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="2"
 IUSE=""
 
-ruby_add_rdepend "dev-ruby/activerecord:3.0
-	>=dev-ruby/riddle-1.3.3:1.3"
+ruby_add_rdepend "=dev-ruby/activerecord-3*
+	=dev-ruby/actionpack-3*
+	>=dev-ruby/builder-2.1.2
+	>=dev-ruby/riddle-1.5.0"
 
 # There are specs and features but not all files are present so they
 # don't run.
