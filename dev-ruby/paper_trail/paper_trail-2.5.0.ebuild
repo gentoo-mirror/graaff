@@ -15,7 +15,7 @@ HOMEPAGE="https://github.com/airblade/paper_trail"
 
 LICENSE="MIT"
 SLOT="3"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # Requires turn which we do not have packaged yet.
