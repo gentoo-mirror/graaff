@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*radicale-0.6.3 (02 Dec 2011)
+
+  02 Dec 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.3.ebuild:
+  Version bump.
+
   20 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
   +files/radicale.init.d, +metadata.xml:
   New version for testing purposes.
