@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rjb-1.3.8 (04 Dec 2011)
+
+  04 Dec 2011; Hans de Graaff <graaff@gentoo.org> +rjb-1.3.8.ebuild:
+  Version bump with bug fix for the crash I reported.
+
   24 Nov 2011; Hans de Graaff <graaff@gentoo.org> rjb-1.3.7.ebuild:
   Install data files. Add ChangeLog.
 
