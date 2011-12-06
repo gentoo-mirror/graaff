@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*isolate-3.0.0 (06 Dec 2011)
+
+  06 Dec 2011; Hans de Graaff <graaff@gentoo.org> +isolate-3.0.0.ebuild,
+  isolate-3.2.1.ebuild:
+  Add older version of isolate still compatible with older rubygems and add
+  proper rubygems dependency to latest version.
+
 *isolate-3.2.1 (05 Dec 2011)
 
   05 Dec 2011; Hans de Graaff <graaff@gentoo.org> +isolate-3.2.1.ebuild,

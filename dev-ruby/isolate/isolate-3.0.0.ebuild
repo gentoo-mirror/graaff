@@ -20,7 +20,5 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/rubygems-1.8.2"
-
 ruby_add_bdepend "dev-ruby/hoe
 	test? ( dev-ruby/minitest )"
