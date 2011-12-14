@@ -1,0 +1,7 @@
+# ChangeLog for dev-ruby/active_reload
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  14 Dec 2011; Hans de Graaff <graaff@gentoo.org> active_reload-0.6.1.ebuild:
+  Update license as selected by upstream.
+
