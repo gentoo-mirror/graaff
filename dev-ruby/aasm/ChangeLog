@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*aasm-3.0.0 (15 Dec 2011)
+
+  15 Dec 2011; Hans de Graaff <graaff@gentoo.org> +aasm-3.0.0.ebuild:
+  Version bump.
+
   15 Dec 2011; Hans de Graaff <graaff@gentoo.org> -aasm-2.2.0.ebuild,
   -aasm-2.3.0.ebuild:
   Remove old versions.
