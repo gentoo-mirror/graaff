@@ -10,6 +10,8 @@ RUBY_FAKEGEM_EXTRADOC="README"
 RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_TASK_DOC=""
 
+RUBY_FAKEGEM_EXTRAINSTALL="ext"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Ripper compiled for Ruby 1.8.x"
@@ -26,5 +28,4 @@ each_ruby_configure() {
 
 each_ruby_compile() {
 	emake -Cext
-	cp ext/ripper.so lib/ || die
 }
