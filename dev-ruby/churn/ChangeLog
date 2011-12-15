@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*churn-0.0.15 (15 Dec 2011)
+
+  15 Dec 2011; Hans de Graaff <graaff@gentoo.org> +churn-0.0.15.ebuild:
+  Version bump.
+
 *churn-0.0.13-r1 (06 Oct 2011)
 
   06 Oct 2011; Hans de Graaff <graaff@gentoo.org> +churn-0.0.13-r1.ebuild:
