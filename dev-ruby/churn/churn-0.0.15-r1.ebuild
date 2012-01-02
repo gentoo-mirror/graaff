@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,6 +7,8 @@ USE_RUBY="ruby18"
 
 RUBY_FAKEGEM_DOCDIR="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.rdoc"
+
+RUBY_FAKEGEM_GEMSPEC="churn.gemspec"
 
 inherit ruby-fakegem
 
@@ -32,7 +34,9 @@ ruby_add_rdepend "dev-ruby/main
 all_ruby_prepare() {
 	sed -i -e '/check_dependencies/d' Rakefile || die "Unable to remove check_dependencies dependency."
 	# We only package json, not json_pure.
-	sed -i -e 's/json_pure/json/' ../metadata || die
+	sed -i -e 's/json_pure/json/' churn.gemspec || die
+	# jeweler is not a runtime dependency.
+	sed -i -e '/jeweler/d' churn.gemspec || die
 }
 
 all_ruby_install() {
