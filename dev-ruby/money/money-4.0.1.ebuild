@@ -10,6 +10,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_GEMSPEC="money.gemspec"
 
+RUBY_FAKEGEM_EXTRAINSTALL="config"
+
 inherit ruby-fakegem
 
 DESCRIPTION="This library aids one in handling money and different currencies."
