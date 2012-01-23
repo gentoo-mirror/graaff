@@ -42,7 +42,7 @@ all_ruby_prepare() {
 	# Comment out Gettext setup because it does not work with fast_gettext. This
 	# patch probably breaks ruby_gettext usage. See
 	# https://github.com/activeldap/activeldap/issues/33
-	sed -i -e '/GetText\./ s:^:#:/' lib/active_ldap/get_text_support.rb || die
+	sed -i -e '/GetText\./ s:^:#:' lib/active_ldap/get_text_support.rb || die
 }
 
 each_ruby_test() {
