@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/rails_autolink
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rails_autolink-1.0.5 (14 Feb 2012)
+
+  14 Feb 2012; Hans de Graaff <graaff@gentoo.org> +rails_autolink-1.0.5.ebuild,
+  +metadata.xml:
+  Initial import.
+
