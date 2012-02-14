@@ -37,7 +37,7 @@ ruby_add_rdepend "
 
 all_ruby_prepare() {
 	# "Fix" activemodel dependency to also work with Rails 3.0.
-	sed -i -e 's/~> 3.1.0.rc4/>= 3.0.10/' ../metadata || die
+	sed -i -e 's/3.1.0.rc4/3.0.10/' ../metadata || die
 
 	# Comment out Gettext setup because it does not work with fast_gettext. This
 	# patch probably breaks ruby_gettext usage. See
