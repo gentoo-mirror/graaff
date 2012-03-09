@@ -1,6 +1,15 @@
 # ChangeLog for app-office/radicale
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Mar 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.4.ebuild,
+  metadata.xml:
+  Version bump.
+
+*radicale-0.6.4 (09 Mar 2012)
+
+  09 Mar 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.4.ebuild:
+  Version bump.
 
 *radicale-0.6.3 (02 Dec 2011)
 
