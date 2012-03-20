@@ -1,6 +1,13 @@
 # ChangeLog for dev-ruby/rvideo
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*rvideo-0.9.3-r2 (20 Mar 2012)
+
+  20 Mar 2012; Hans de Graaff <graaff@gentoo.org> +rvideo-0.9.3-r2.ebuild,
+  +files/rvideo-ffmpeg.patch:
+  Apply patch to work with newer versions of ffmpeg that have slightly changed
+  output.
 
   14 Oct 2011; Hans de Graaff <graaff@gentoo.org>
   -rvideo-0.9.3.20110614.ebuild:
