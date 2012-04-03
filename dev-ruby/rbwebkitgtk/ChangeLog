@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Apr 2012; Hans de Graaff <graaff@gentoo.org>
+  rbwebkitgtk-0.20100103.ebuild:
+  Fix broken dependency.
+
 *rbwebkitgtk-0.20100103 (03 Apr 2012)
 
   03 Apr 2012; Hans de Graaff <graaff@gentoo.org>

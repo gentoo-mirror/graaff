@@ -23,7 +23,7 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
 
-ruby_add_bdepend "dev-ruby/glib2
+ruby_add_bdepend "dev-ruby/ruby-glib2
 	dev-ruby/ruby-gtk2"
 
 all_ruby_prepare() {
