@@ -23,8 +23,11 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
 
-ruby_add_bdepend "dev-ruby/ruby-glib2
-	dev-ruby/ruby-gtk2"
+RDEPEND+="net-libs/webkit-gtk:2"
+
+ruby_add_bdepend "dev-ruby/ruby-glib2"
+
+ruby_add_rdepend "dev-ruby/ruby-gtk2"
 
 all_ruby_prepare() {
 	sed -i -e '/have_library/ s/webkit/webkitgtk/' extconf.rb || die
