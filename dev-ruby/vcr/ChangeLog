@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vcr-1.11.3 (06 Apr 2012)
+
+  06 Apr 2012; Hans de Graaff <graaff@gentoo.org> +vcr-1.11.3.ebuild:
+  Also add a version in SLOT 1.
+
 *vcr-2.0.0 (06 Apr 2012)
 
   06 Apr 2012; Hans de Graaff <graaff@gentoo.org> +vcr-2.0.0.ebuild,
