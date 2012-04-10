@@ -1,5 +1,9 @@
 # ChangeLog for dev-ruby/authlogic
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+
+  10 Apr 2012; Hans de Graaff <graaff@gentoo.org> authlogic-3.1.0.ebuild:
+  Add ruby19. Drop unneeded ruby-debug and x86 due to rails not being keyworded
+  yet.
 
   25 Nov 2011; Hans de Graaff <graaff@gentoo.org> authlogic-3.1.0.ebuild:
   Add x86 keyword.
