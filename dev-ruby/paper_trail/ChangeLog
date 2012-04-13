@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Apr 2012; Hans de Graaff <graaff@gentoo.org> -paper_trail-2.2.9.ebuild,
+  -paper_trail-2.4.0.ebuild, -paper_trail-2.5.0.ebuild:
+  Remove old versions.
+
 *paper_trail-2.6.0 (09 Mar 2012)
 
   09 Mar 2012; Hans de Graaff <graaff@gentoo.org> +paper_trail-2.6.0.ebuild:
