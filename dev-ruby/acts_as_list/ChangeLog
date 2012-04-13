@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*acts_as_list-0.1.5 (13 Apr 2012)
+
+  13 Apr 2012; Hans de Graaff <graaff@gentoo.org> +acts_as_list-0.1.5.ebuild:
+  Version bump.
+
   04 Apr 2012; Hans de Graaff <graaff@gentoo.org> acts_as_list-0.1.4.ebuild:
   Add ruby19 support. Drop x86 because of it.
 
