@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/hirb
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  13 Apr 2012; Hans de Graaff <graaff@gentoo.org> -hirb-0.3.4.ebuild,
+  -hirb-0.4.5.ebuild:
+  Remove old versions.
 
 *hirb-0.5.0 (12 Aug 2011)
 
