@@ -1,6 +1,13 @@
 # ChangeLog for dev-ruby/responds_to_parent
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*responds_to_parent-1.0.20091013-r3 (20 Apr 2012)
+
+  20 Apr 2012; Hans de Graaff <graaff@gentoo.org>
+  +responds_to_parent-1.0.20091013-r3.ebuild,
+  +files/responds_to_parent-1.0.20091013-rails3.patch:
+  Revision bump to add Rails 3 support.
 
 *responds_to_parent-1.0.20091013-r2 (05 Aug 2011)
 
