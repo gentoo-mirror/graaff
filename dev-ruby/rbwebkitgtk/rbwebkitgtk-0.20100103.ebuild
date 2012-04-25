@@ -25,7 +25,7 @@ IUSE=""
 
 RDEPEND+="net-libs/webkit-gtk:2"
 
-ruby_add_bdepend "dev-ruby/ruby-glib2"
+ruby_add_bdepend ">=dev-ruby/ruby-glib2-1.0.3"
 
 ruby_add_rdepend "dev-ruby/ruby-gtk2"
 

@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Apr 2012; Hans de Graaff <graaff@gentoo.org>
+  rbwebkitgtk-0.20100103.ebuild:
+  Use a new enough ruby-glib2.
+
   03 Apr 2012; Hans de Graaff <graaff@gentoo.org>
   rbwebkitgtk-0.20100103.ebuild:
   Add missing webkit-gtk dependency.
