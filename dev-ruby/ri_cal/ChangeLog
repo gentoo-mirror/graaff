@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/ri_cal
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*ri_cal-0.8.8 (26 Apr 2012)
+
+  26 Apr 2012; Hans de Graaff <graaff@gentoo.org> +ri_cal-0.8.8.ebuild,
+  +metadata.xml:
+  Initial import. May be a better replacement for icalendar.
+
