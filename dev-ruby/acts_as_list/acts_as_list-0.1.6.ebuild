@@ -16,7 +16,7 @@ DESCRIPTION="Capabilities for sorting and reordering a number of objects in a li
 HOMEPAGE="http://rake.rubyforge.org/"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="3"
 KEYWORDS="~amd64 ~x86-macos"
 IUSE=""
 

@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 May 2012; Hans de Graaff <graaff@gentoo.org> acts_as_list-0.1.6.ebuild:
+  Move 0.1.6 into a seperate slot since this version is only compatible with
+  Rails 3, and older versions are needed for Rails 2.
+
 *acts_as_list-0.1.6 (10 May 2012)
 
   10 May 2012; Hans de Graaff <graaff@gentoo.org> +acts_as_list-0.1.6.ebuild:
