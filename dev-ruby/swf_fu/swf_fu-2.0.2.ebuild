@@ -8,6 +8,8 @@ USE_RUBY="ruby18 ruby19"
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.rdoc"
 
+RUBY_FAKEGEM_EXTRAINSTALL="app"
+
 inherit ruby-fakegem
 
 DESCRIPTION="With the swf_fu plugin, rails treats your swf files like any other asset."
