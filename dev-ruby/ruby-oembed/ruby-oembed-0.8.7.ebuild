@@ -3,7 +3,7 @@
 # $Header:  $
 
 EAPI=3
-USE_RUBY="ruby18 ree18"
+USE_RUBY="ruby18 ree18 ruby19"
 
 RUBY_FAKEGEM_TASK_TEST=""
 
@@ -16,7 +16,7 @@ DESCRIPTION="An oEmbed consumer library written in Ruby."
 HOMEPAGE="https://github.com/judofyr/ruby-oembed"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 SLOT="0"
 IUSE="test"
 
@@ -25,6 +25,7 @@ ruby_add_bdepend "test?
 		dev-ruby/jeweler
 		dev-ruby/rspec:2
 		dev-ruby/json
+		dev-ruby/vcr:1
 		dev-ruby/xml-simple
 	)"
 
