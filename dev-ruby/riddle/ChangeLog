@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/riddle
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Hans de Graaff <graaff@gentoo.org> -riddle-1.1.0.ebuild,
+  -riddle-1.3.2.ebuild, -riddle-1.3.3.ebuild, -riddle-1.4.0.ebuild:
+  Remove old versions.
 
 *riddle-1.5.0 (28 Nov 2011)
 
