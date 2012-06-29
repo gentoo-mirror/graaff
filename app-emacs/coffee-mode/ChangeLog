@@ -1,0 +1,11 @@
+# ChangeLog for app-emacs/coffee-mode
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*coffee-mode-0.3.0.20120523 (29 Jun 2012)
+
+  29 Jun 2012; Hans de Graaff <graaff@gentoo.org>
+  +files/50coffee-mode-gentoo.el, +coffee-mode-0.3.0.20120523.ebuild,
+  +metadata.xml:
+  Initial import.
+
