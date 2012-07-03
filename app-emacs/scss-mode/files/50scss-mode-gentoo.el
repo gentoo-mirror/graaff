@@ -3,4 +3,4 @@
 
 (add-to-list 'load-path "@SITELISP@")
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
-(autoload 'coffee-mode "scss-mode" "Mode for editing SCSS stylesheets")
+(autoload 'scss-mode "scss-mode" "Mode for editing SCSS stylesheets")
