@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/draper
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*draper-0.14.0 (05 Jul 2012)
+
+  05 Jul 2012; Hans de Graaff <graaff@gentoo.org> +draper-0.14.0.ebuild,
+  +metadata.xml:
+  Initial import.
+
