@@ -16,7 +16,7 @@ DESCRIPTION="Isolate is a very simple RubyGems sandbox."
 HOMEPAGE="http://github.com/jbarnette/isolate"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="doc"
 
