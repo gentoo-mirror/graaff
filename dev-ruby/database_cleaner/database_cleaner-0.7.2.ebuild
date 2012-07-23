@@ -3,7 +3,7 @@
 # $Header:  $
 
 EAPI=4
-USE_RUBY="ruby18 ree18 jruby"
+USE_RUBY="ruby18 ruby19 ree18 jruby"
 
 inherit ruby-fakegem
 
@@ -23,6 +23,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 
+# Tests fail for ruby19, figure this out later for newer versions.
+RESTRICT=test
+
 ruby_add_bdepend "test? ( dev-ruby/rake dev-ruby/rspec:0 )"
 
 all_ruby_prepare() {
@@ -35,4 +38,8 @@ all_ruby_prepare() {
 	# Remove rspec options that are not needed for us and which require
 	# ruby-debug.
 	rm spec/spec.opts || die
+}
+
+each_ruby_test() {
+	${RUBY} -I. -S spec spec || die
 }

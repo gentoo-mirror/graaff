@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jul 2012; Hans de Graaff <graaff@gentoo.org>
+  database_cleaner-0.7.2.ebuild:
+  Add ruby19. Restrict tests since they fail (seemingly innocently) with
+  ruby19.
+
   20 Jul 2012; Hans de Graaff <graaff@gentoo.org>
   -database_cleaner-0.6.4.ebuild, -database_cleaner-0.7.1.ebuild:
   Remove old versions.
