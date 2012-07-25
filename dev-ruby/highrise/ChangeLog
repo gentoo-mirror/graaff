@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/highrise
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*highrise-3.0.3 (25 Jul 2012)
+
+  25 Jul 2012; Hans de Graaff <graaff@gentoo.org> +highrise-3.0.3.ebuild,
+  +metadata.xml:
+  Initial import.
+
