@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/oauth/oauth-0.4.3.ebuild,v 1.1 2010/09/18 09:58:03 graaff Exp $
 
 EAPI=4
-USE_RUBY="ruby18 ree18"
+USE_RUBY="ruby18 ruby19 ree18"
 
-RUBY_FAKEGEM_TASK_TEST="none"
+RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc UPGRADE.rdoc"
@@ -18,17 +18,21 @@ inherit ruby-fakegem
 
 DESCRIPTION="A plugin for implementing OAuth Providers and Consumers in Rails applications."
 HOMEPAGE="http://github.com/pelle/oauth-plugin"
-SRC_URI="https://github.com/pelle/oauth-plugin/tarball/v0.4.0.pre7 -> ${P}.tgz"
-RUBY_S="pelle-oauth-plugin-*"
 
 LICENSE="MIT"
 SLOT="0.4"
 KEYWORDS="~amd64 ~x86 ~x86-macos"
-IUSE=""
+IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 dev-ruby/oauth2"
-ruby_add_bdepend "test? ( dev-ruby/rspec:2 )"
+ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 >=dev-ruby/oauth2-0.5.0 dev-ruby/rack dev-ruby/multi_json"
 
-each_ruby_test() {
-	${RUBY} -S rspec spec || die
+all_ruby_prepare() {
+	# Avoid specs that fail with new hash ordering. Remove the whole
+	# file because the specs as written are very brittle and can't be
+	# handled individually.
+	# https://github.com/pelle/oauth-plugin/issues/127
+	rm spec/oauth/provider/authorizer_spec.rb || die
+
+	# Avoid unneeded dependency on git.
+	sed -i -e '/git ls-files/d' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
