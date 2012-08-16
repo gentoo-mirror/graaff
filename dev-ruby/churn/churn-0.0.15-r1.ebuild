@@ -27,7 +27,7 @@ ruby_add_bdepend ">=dev-ruby/mocha-0.9.5
 ruby_add_rdepend "dev-ruby/main
 	dev-ruby/json
 	dev-ruby/chronic
-	dev-ruby/sexp-processor
+	dev-ruby/sexp_processor
 	dev-ruby/ruby_parser
 	dev-ruby/hirb"
 
