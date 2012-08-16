@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/mislav-will_paginate/mislav-will_paginate-2.3.11.ebuild,v 1.1 2009/06/08 20:44:54 graaff Exp $
 
@@ -24,4 +24,4 @@ IUSE=""
 
 ruby_add_rdepend "=dev-ruby/ruby_parser-2*
 	=dev-ruby/ruby2ruby-1* >=dev-ruby/ruby2ruby-1.2
-	=dev-ruby/sexp-processor-3*"
+	=dev-ruby/sexp_processor-3*"

@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/reek
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Aug 2012; Hans de Graaff <graaff@gentoo.org> reek-1.2.8.ebuild:
+  Update dependency for slotmove.
 
   21 Nov 2011; Hans de Graaff <graaff@gentoo.org> reek-1.2.8.ebuild:
   Fix dependencies to match gem.
