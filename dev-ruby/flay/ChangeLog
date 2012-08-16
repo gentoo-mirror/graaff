@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/flay
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Aug 2012; Hans de Graaff <graaff@gentoo.org> flay-1.4.3.ebuild:
+  Update dependency for package move.
 
   08 Nov 2011; Hans de Graaff <graaff@gentoo.org> flay-1.4.3.ebuild:
   Fix dependencies to match gemspec and support newer versions of ruby_parser.

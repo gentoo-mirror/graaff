@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
-ruby_add_rdepend "=dev-ruby/sexp-processor-3* =dev-ruby/ruby_parser-2*"
+ruby_add_rdepend "=dev-ruby/sexp_processor-3* =dev-ruby/ruby_parser-2*"
 
 ruby_add_bdepend "doc? ( dev-ruby/hoe )"
 ruby_add_bdepend "test? ( dev-ruby/hoe >=dev-ruby/minitest-2.0.2 )"
