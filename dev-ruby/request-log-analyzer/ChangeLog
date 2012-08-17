@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/request-log-analyzer
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*request-log-analyzer-1.12.4 (17 Aug 2012)
+
+  17 Aug 2012; Hans de Graaff <graaff@gentoo.org>
+  +request-log-analyzer-1.12.4.ebuild, +metadata.xml:
+  Initial import.
+
