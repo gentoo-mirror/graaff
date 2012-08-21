@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*draper-0.17.0 (21 Aug 2012)
+
+  21 Aug 2012; Hans de Graaff <graaff@gentoo.org> +draper-0.17.0.ebuild:
+  Version bump. Only available for ruby19 now.
+
 *draper-0.14.0 (05 Jul 2012)
 
   05 Jul 2012; Hans de Graaff <graaff@gentoo.org> +draper-0.14.0.ebuild,
