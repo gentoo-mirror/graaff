@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Sep 2012; Hans de Graaff <graaff@gentoo.org> -draper-0.17.0.ebuild:
+  Remove ruby19-only version of draper since we still need a ruby18 version.
+
 *draper-0.17.0 (21 Aug 2012)
 
   21 Aug 2012; Hans de Graaff <graaff@gentoo.org> +draper-0.17.0.ebuild:
