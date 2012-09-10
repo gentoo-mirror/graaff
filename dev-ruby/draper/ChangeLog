@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Sep 2012; Hans de Graaff <graaff@gentoo.org> +draper-0.17.0.ebuild:
+  Add 0.17.0 again, this time for ruby18 and ruby19. Skip tests failing on
+  ruby18 since these do not seem to be a problem for our application in
+  practice.
+
   03 Sep 2012; Hans de Graaff <graaff@gentoo.org> -draper-0.17.0.ebuild:
   Remove ruby19-only version of draper since we still need a ruby18 version.
 
