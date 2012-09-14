@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*riddle-1.5.3 (14 Sep 2012)
+
+  14 Sep 2012; Hans de Graaff <graaff@gentoo.org> +riddle-1.5.3.ebuild:
+  Version bump.
+
 *riddle-1.5.2 (08 Jun 2012)
 
   08 Jun 2012; Hans de Graaff <graaff@gentoo.org> +riddle-1.5.2.ebuild:
