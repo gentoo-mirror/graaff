@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/test-construct
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  14 Sep 2012; Hans de Graaff <graaff@gentoo.org> test-construct-1.2.0.ebuild:
+  Add ruby19.
 
   14 Jun 2011; Hans de Graaff <graaff@gentoo.org> test-construct-1.2.0.ebuild:
   Add x86 keyword.
