@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*thinking-sphinx-2.0.13 (14 Sep 2012)
+
+  14 Sep 2012; Hans de Graaff <graaff@gentoo.org>
+  +thinking-sphinx-2.0.13.ebuild:
+  Version bump.
+
   08 Jun 2012; Hans de Graaff <graaff@gentoo.org>
   -thinking-sphinx-1.3.20.ebuild, -thinking-sphinx-1.4.5.ebuild,
   -thinking-sphinx-2.0.7.ebuild, -thinking-sphinx-2.0.10.ebuild:
