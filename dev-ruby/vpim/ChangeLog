@@ -1,5 +1,8 @@
 # ChangeLog for dev-ruby/vpim
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+
+  17 Sep 2012; Hans de Graaff <graaff@gentoo.org> vpim-0.695-r1.ebuild:
+  Add ruby19 keyword, not actually tested...
 
   03 Sep 2010; Hans de Graaff <graaff@gentoo.org> -vpim-0.695.ebuild:
   Remove old version.
