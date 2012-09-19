@@ -17,5 +17,7 @@ KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
 IUSE=""
 
+RUBY_PATCHES=( ${P}-rails3.patch )
+
 # Tests require additional dependencies.
 RESTRICT="test"

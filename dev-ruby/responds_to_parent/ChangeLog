@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*responds_to_parent-1.1.0-r1 (19 Sep 2012)
+
+  19 Sep 2012; Hans de Graaff <graaff@gentoo.org>
+  -responds_to_parent-1.1.0.ebuild, +responds_to_parent-1.1.0-r1.ebuild,
+  +files/responds_to_parent-1.1.0-rails3.patch:
+  Add one part of previous patch to properly avoid double renders.
+
 *responds_to_parent-1.1.0 (14 Sep 2012)
 
   14 Sep 2012; Hans de Graaff <graaff@gentoo.org>
