@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*puppet-lint-0.2.1 (24 Sep 2012)
+
+  24 Sep 2012; Hans de Graaff <graaff@gentoo.org> +puppet-lint-0.2.1.ebuild:
+  Version bump.
+
 *puppet-lint-0.1.13 (09 Jun 2012)
 
   09 Jun 2012; Hans de Graaff <graaff@gentoo.org> +puppet-lint-0.1.13.ebuild:
