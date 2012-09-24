@@ -18,9 +18,10 @@ HOMEPAGE="http://github.com/mojombo/grit"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_bdepend test "dev-ruby/mocha virtual/ruby-test-unit"
 
-ruby_add_rdepend ">=dev-ruby/mime-types-1.15 >=dev-ruby/diff-lcs-1.1.2"
+ruby_add_rdepend ">=dev-ruby/mime-types-1.15 >=dev-ruby/diff-lcs-1.1.2
+	>=dev-ruby/posix-spawn-0.3.6"
