@@ -1,15 +1,15 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
-USE_RUBY="ruby18 ree18 jruby"
+USE_RUBY="ruby18 ruby19 ree18 jruby"
 
 RUBY_FAKEGEM_EXTRADOC="History.txt ORIGINAL_README.txt README.txt"
 
 RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_TASK_DOC="docs"
-RUBY_FAKEGEM_TASK_TEST="spec"
+RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
 inherit ruby-fakegem
 
@@ -22,4 +22,7 @@ SLOT="0"
 IUSE="doc"
 
 ruby_add_bdepend "doc? ( dev-ruby/hoe )"
-ruby_add_bdepend "test? ( dev-ruby/hoe dev-ruby/rspec:0 )"
+
+all_ruby_prepare() {
+	sed -i -e "/require 'spec/ s:^:#:" spec/extendmatrix_spec.rb || die
+}
