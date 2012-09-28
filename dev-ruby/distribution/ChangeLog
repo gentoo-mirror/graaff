@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/distribution
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Sep 2012; Hans de Graaff <graaff@gentoo.org> distribution-0.7.0.ebuild:
+  Enable tests using rspec recipe. Add ruby19.
 
 *distribution-0.7.0 (15 Dec 2011)
 
