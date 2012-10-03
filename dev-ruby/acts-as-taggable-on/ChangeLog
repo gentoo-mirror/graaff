@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/acts-as-taggable-on
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*acts-as-taggable-on-2.3.3 (03 Oct 2012)
+
+  03 Oct 2012; Hans de Graaff <graaff@gentoo.org>
+  +acts-as-taggable-on-2.3.3.ebuild, +metadata.xml:
+  Initial import.
+
