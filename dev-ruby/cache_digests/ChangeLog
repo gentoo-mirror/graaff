@@ -7,10 +7,3 @@
   05 Oct 2012; Hans de Graaff <graaff@gentoo.org> +cache_digests-0.2.0.ebuild,
   +metadata.xml:
   Initial import.
-
-*yamler-0.1.0 (25 Jul 2010)
-
-  25 Jul 2010; Hans de Graaff <graaff@gentoo.org> +yamler-0.1.0.ebuild,
-  +metadata.xml:
-  Initial import: dependency for configuratron.
-
