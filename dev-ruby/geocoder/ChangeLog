@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*geocoder-1.1.4 (05 Oct 2012)
+
+  05 Oct 2012; Hans de Graaff <graaff@gentoo.org> +geocoder-1.1.4.ebuild:
+  Version bump.
+
 *geocoder-1.1.3 (28 Aug 2012)
 
   28 Aug 2012; Hans de Graaff <graaff@gentoo.org> +geocoder-1.1.3.ebuild,
