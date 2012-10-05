@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*libnotify-0.8.0 (05 Oct 2012)
+
+  05 Oct 2012; Hans de Graaff <graaff@gentoo.org> +libnotify-0.8.0.ebuild:
+  Version bump.
+
 *libnotify-0.7.2 (13 Apr 2012)
 
   13 Apr 2012; Hans de Graaff <graaff@gentoo.org> +libnotify-0.7.2.ebuild:
