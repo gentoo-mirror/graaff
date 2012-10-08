@@ -25,6 +25,7 @@ IUSE=""
 ruby_add_bdepend "test? ( dev-ruby/rspec:2 )"
 
 ruby_add_rdepend "
+	dev-ruby/awesome_print
 	dev-ruby/code_analyzer
 	dev-ruby/colored
 	dev-ruby/erubis
