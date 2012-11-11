@@ -1,9 +1,0 @@
-# ChangeLog for media-sound/spotify
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*spotify-0.8.4.103 (19 Sep 2012)
-
-  19 Sep 2012; Hans de Graaff <graaff@gentoo.org> +spotify-0.8.4.103.ebuild:
-  Initial import based on ebuilds from other overlays.
-
