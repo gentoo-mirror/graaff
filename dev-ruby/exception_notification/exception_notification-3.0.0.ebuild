@@ -13,6 +13,8 @@ RUBY_FAKEGEM_TASK_DOC=""
 # Requires rails 3.0.9 so skip this for now.
 RUBY_FAKEGEM_TASK_TEST=""
 
+RUBY_FAKEGEM_GEMSPEC=${PN}.gemspec
+
 inherit ruby-fakegem
 
 DESCRIPTION="Exception Notifier Plugin for Rails"
