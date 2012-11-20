@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/zurb-foundation
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*zurb-foundation-3.2.2 (20 Nov 2012)
+
+  20 Nov 2012; Hans de Graaff <graaff@gentoo.org>
+  +zurb-foundation-3.2.2.ebuild, +metadata.xml:
+  Initial import.
+
