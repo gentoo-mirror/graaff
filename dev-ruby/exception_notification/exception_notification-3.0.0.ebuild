@@ -31,4 +31,5 @@ all_ruby_prepare() {
 	# Remove campfire support. We don't need it and it bloats the
 	# application. https://github.com/smartinez87/exception_notification/issues/101
 	sed -i -e '/tinder/d' ${PN}.gemspec || die
+	sed -i -e '/campfire/ s:^:#:' lib/exception_notifier.rb || die
 }
