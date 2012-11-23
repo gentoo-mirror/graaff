@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/icalendar
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 
+*icalendar-1.2.1 (23 Nov 2012)
+
+  23 Nov 2012; Hans de Graaff <graaff@gentoo.org> +icalendar-1.2.1.ebuild:
+  Version bump. Drop ruby18 since the tests fail.
+
   24 Sep 2012; Hans de Graaff <graaff@gentoo.org> icalendar-1.1.6.ebuild:
   Add ruby19.
 
