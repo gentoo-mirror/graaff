@@ -20,7 +20,7 @@ SLOT="3"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_bdepend "test? ( dev-ruby/shoulda dev-ruby/sqlite3-ruby dev-ruby/capybara dev-ruby/bundler )"
+ruby_add_bdepend "test? ( dev-ruby/shoulda dev-ruby/sqlite3 dev-ruby/capybara dev-ruby/bundler )"
 
 ruby_add_rdepend "=dev-ruby/rails-3*"
 
