@@ -17,7 +17,7 @@ HOMEPAGE="http://rake.rubyforge.org/"
 
 LICENSE="MIT"
 SLOT="3"
-KEYWORDS="~amd64 ~x86-macos"
+KEYWORDS="~amd64 ~x86 ~x86-macos"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/activerecord[sqlite3] )"

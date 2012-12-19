@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; Hans de Graaff <graaff@gentoo.org> acts_as_list-0.1.9.ebuild:
+  Add x86 keyword.
+
 *acts_as_list-0.1.9 (14 Dec 2012)
 
   14 Dec 2012; Hans de Graaff <graaff@gentoo.org> +acts_as_list-0.1.9.ebuild:
