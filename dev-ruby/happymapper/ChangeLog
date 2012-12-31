@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Dec 2012; Hans de Graaff <graaff@gentoo.org> -happymapper-0.3.2.ebuild,
+  -happymapper-0.3.2-r1.ebuild:
+  Cleanup.
+
 *happymapper-0.4.0 (13 Apr 2012)
 
   13 Apr 2012; Hans de Graaff <graaff@gentoo.org> +happymapper-0.4.0.ebuild:
