@@ -21,3 +21,9 @@ SLOT="0"
 IUSE="doc"
 
 ruby_add_rdepend ">=dev-ruby/macaddr-1.0:0"
+
+all_ruby_prepare() {
+	sed -i -e 's:"/tmp":ENV["TMP"]:' test/test-uuid.rb || die
+
+	rm bin/{rake,yard,yri,yardoc} || die
+}
