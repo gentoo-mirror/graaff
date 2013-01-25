@@ -10,6 +10,9 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc"
 RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_TASK_DOC=""
 
+# uuid uses this to determine its version number.
+RUBY_FAKEGEM_EXTRAINSTALL="uuid.gemspec"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Generates universally unique identifiers (UUIDs) for use in distributed applications"
