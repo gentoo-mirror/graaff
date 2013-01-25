@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/ruby-saml
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*ruby-saml-0.6.0 (25 Jan 2013)
+
+  25 Jan 2013; Hans de Graaff <graaff@gentoo.org> +ruby-saml-0.6.0.ebuild,
+  +metadata.xml:
+  Initial import.
+
