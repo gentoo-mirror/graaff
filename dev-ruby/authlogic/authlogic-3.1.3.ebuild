@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
@@ -22,7 +22,7 @@ SLOT="3"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/activerecord-3.0.7"
-ruby_add_bdepend "test? ( dev-ruby/bcrypt-ruby dev-ruby/sqlite3-ruby )"
+ruby_add_bdepend "test? ( dev-ruby/bcrypt-ruby dev-ruby/sqlite3 )"
 
 all_ruby_prepare() {
 	sed -i -e '/ruby-debug/d' test/test_helper.rb || die

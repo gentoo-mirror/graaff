@@ -1,5 +1,9 @@
 # ChangeLog for dev-ruby/authlogic
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+
+  09 Feb 2013; Hans de Graaff <graaff@gentoo.org> authlogic-3.1.0.ebuild,
+  authlogic-3.1.3.ebuild:
+  Update sqlite3 dependency.
 
 *authlogic-3.1.3 (20 Jul 2012)
 
