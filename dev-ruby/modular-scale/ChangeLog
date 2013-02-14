@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/modular-scale
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*modular-scale-1.0.6 (14 Feb 2013)
+
+  14 Feb 2013; Hans de Graaff <graaff@gentoo.org> +modular-scale-1.0.6.ebuild:
+  Version bump.
 
 *modular-scale-1.0.2 (20 Nov 2012)
 
