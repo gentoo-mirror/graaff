@@ -27,8 +27,10 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/compass-0.12.2
-	>=dev-ruby/sass-3.2.0"
+	>=dev-ruby/bourbon-2.0
+	dev-ruby/jquery-rails
+	>=dev-ruby/rails-3.1 =dev-ruby/rails-3*
+	>=dev-ruby/sass-3.1  =dev-ruby/sass-3*"
 
 all_ruby_prepare() {
 	# Remove haml dependency since it is not a runtime dependency and I
