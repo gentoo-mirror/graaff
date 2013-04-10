@@ -3,6 +3,9 @@
 # $Header: $
 
   10 Apr 2013; Hans de Graaff <graaff@gentoo.org> joyride-rails-0.0.14.ebuild:
+  Update bourbon dependency to a version that works with sass 3.2.
+
+  10 Apr 2013; Hans de Graaff <graaff@gentoo.org> joyride-rails-0.0.14.ebuild:
   Add proper dependencies.
 
 *joyride-rails-0.0.14 (10 Apr 2013)
