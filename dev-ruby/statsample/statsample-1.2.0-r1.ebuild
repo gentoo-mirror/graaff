@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -50,7 +50,6 @@ USE_RUBY="ruby18 ree18 jruby" ruby_add_rdepend "dev-ruby/fastercsv"
 # rserve-client (~> 0, development)
 # shoulda (~> 0, development)
 
-
 all_ruby_prepare() {
 	# Nasty hack to avoid adding a bunch of dependencies I don't need now...
 	sed -i -e '/reportbuilder/d' lib/statsample.rb || die
@@ -62,4 +61,12 @@ all_ruby_prepare() {
 	# Remove all dependencies from the gemspec that we don't need
 	# right now.
 	sed -i -e '/minimization/d' -e '/reportbuilder/d' -e '/rserve-client/d' -e '/spreadsheet/d' -e '/bivariate-extension/d' -e '/rubyvis/d' statsample.gemspec
+}
+
+each_ruby_prepare() {
+	case ${RUBY} in
+		*ruby19)
+			sed -i -e '/fastercsv/d' statsample.gemspec || die
+			;;
+	esac
 }
