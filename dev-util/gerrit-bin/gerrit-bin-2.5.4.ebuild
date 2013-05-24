@@ -12,10 +12,10 @@ DEPEND="media-fonts/dejavu"
 RDEPEND="${DEPEND}
 		>=virtual/jdk-1.6"
 
-#pkg_setup() {
-#	enewgroup gerrit
-#	enewuser gerrit -1 /bin/bash /var/lib/gerrit gerrit
-#}
+pkg_setup() {
+	enewgroup gerrit
+	enewuser gerrit -1 /bin/bash /var/lib/gerrit gerrit
+}
 
 src_unpack() {
 	mkdir "${S}" || die
@@ -28,6 +28,4 @@ src_install() {
 
 #	newinitd "${FILESDIR}/init.sh" jenkins
 #	newconfd "${FILESDIR}/conf" jenkins
-
-#	fowners jenkins:jenkins /var/run/jenkins /var/log/jenkins /var/lib/jenkins /var/lib/jenkins/home /var/lib/jenkins/backup
 }
