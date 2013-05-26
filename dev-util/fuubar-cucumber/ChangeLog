@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2012; Hans de Graaff <graaff@gentoo.org>
+  fuubar-cucumber-0.0.18.ebuild:
+  Fix minimal cucumber version number.
+
 *fuubar-cucumber-0.0.18 (16 Oct 2012)
 
   16 Oct 2012; Hans de Graaff <graaff@gentoo.org>

@@ -20,4 +20,4 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend ">=dev-util/cucumber-1.0.2 >=dev-ruby/ruby-progressbar-1.0.0"
+ruby_add_rdepend ">=dev-util/cucumber-1.2.0 >=dev-ruby/ruby-progressbar-1.0.0"
