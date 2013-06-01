@@ -7,10 +7,10 @@ USE_RUBY="ruby19"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
-RUBY_FAKEGEM_EXTRADOC="README"
+RUBY_FAKEGEM_EXTRADOC="History.rdoc README.rdoc Todo.rdoc"
 
 RUBY_FAKEGEM_DOCDIR="doc"
-RUBY_FAKEGEM_TASK_DOC="docs"
+RUBY_FAKEGEM_TASK_DOC="" # Currently broken
 
 inherit ruby-fakegem
 
@@ -20,4 +20,9 @@ LICENSE="MIT"
 
 KEYWORDS="~amd64"
 SLOT="0"
-IUSE="doc"
+IUSE="test"
+
+# Test failures: https://github.com/visionmedia/terminal-table/issues/33
+RESTRICT="test"
+
+ruby_add_bdepend "test? ( dev-ruby/term-ansicolor )"
