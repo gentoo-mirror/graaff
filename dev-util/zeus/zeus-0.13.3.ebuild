@@ -51,5 +51,6 @@ each_ruby_install() {
 	each_fakegem_install
 
 	# Enable execute rights for the binaries. Sigh.
-	find "${D}" -name zeus-*-* -o -name inotify-wrapper -exec chmod a+x {} \; || die
+	find "${D}" -name zeus-*-* -exec chmod a+x {} \; || die
+	find "${D}" -name inotify-wrapper -exec chmod a+x {} \; || die
 }
