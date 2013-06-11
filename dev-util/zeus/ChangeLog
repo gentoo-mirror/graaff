@@ -3,6 +3,9 @@
 # $Header: $
 
   11 Jun 2013; Hans de Graaff <graaff@gentoo.org> zeus-0.13.3.ebuild:
+  ... and the inotify-wrapper executable as well.
+
+  11 Jun 2013; Hans de Graaff <graaff@gentoo.org> zeus-0.13.3.ebuild:
   Make sure the go binaries have execute rights after installing.
 
 *zeus-0.13.3 (11 Jun 2013)
