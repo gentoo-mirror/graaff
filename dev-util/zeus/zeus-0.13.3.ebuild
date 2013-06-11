@@ -46,3 +46,10 @@ each_ruby_compile() {
 each_ruby_test() {
 	PATH="${S}/bin":$PATH ${RUBY} -S rspec spec || die
 }
+
+each_ruby_install() {
+	each_fakegem_install
+
+	# Enable execute rights for the binary
+	find "${D}" -name zeus-*-* -exec chmod a+x {} \; || die
+}
