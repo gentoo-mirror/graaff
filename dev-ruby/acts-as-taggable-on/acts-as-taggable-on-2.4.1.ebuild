@@ -8,7 +8,7 @@ USE_RUBY="ruby19"
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
 RUBY_FAKEGEM_TASK_DOC=""
-RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc"
+RUBY_FAKEGEM_EXTRADOC="README.md"
 
 inherit ruby-fakegem
 
@@ -20,9 +20,12 @@ SLOT="3"
 KEYWORDS="~amd64"
 IUSE=""
 
+# Compatibility issues with rspec-rails and test-unit autorunner.
+RESTRICT="test"
+
 ruby_add_rdepend "=dev-ruby/rails-3*"
 
-ruby_add_bdepend "test? ( dev-ruby/rspec:2 >=dev-ruby/ammeter-0.1.3 dev-ruby/activerecord[sqlite3] )"
+ruby_add_bdepend "test? ( dev-ruby/rspec:2 =dev-ruby/rspec-rails-2.13.0 >=dev-ruby/ammeter-0.1.3 dev-ruby/activerecord[sqlite3] )"
 
 all_ruby_prepare() {
 	sed -i -e '/git ls-files/d' ${PN}.gemspec || die
