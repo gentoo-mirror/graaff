@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Jun 2013; Hans de Graaff <graaff@gentoo.org> -aasm-3.0.15.ebuild,
+  -aasm-3.0.16.ebuild:
+  Cleanup.
+
 *aasm-3.0.17 (09 May 2013)
 
   09 May 2013; Hans de Graaff <graaff@gentoo.org> +aasm-3.0.17.ebuild:
