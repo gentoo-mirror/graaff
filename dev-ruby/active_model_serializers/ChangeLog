@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/active_model_serializers
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*active_model_serializers-0.8.1 (28 Jun 2013)
+
+  28 Jun 2013; Hans de Graaff <graaff@gentoo.org>
+  +active_model_serializers-0.8.1.ebuild, +metadata.xml:
+  Initial import. New dependency for draper.
+
