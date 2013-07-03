@@ -1,3 +1,5 @@
+EAPI=5
+
 inherit java-pkg-2
 
 DESCRIPTION="Gerrit Code Review"
@@ -19,7 +21,7 @@ pkg_setup() {
 
 src_unpack() {
 	mkdir "${S}" || die
-	cp ${DISTDIR}/${A} "${S}"/ || die
+	cp "${DISTDIR}/${A}" "${S}"/ || die
 }
 
 src_install() {
