@@ -27,6 +27,7 @@ ruby_add_bdepend "test? ( dev-ruby/rspec:0 >=dev-ruby/stale_fish-1.3.0 )"
 ruby_add_rdepend ">=dev-ruby/rest-client-1.6.0
 	>=dev-ruby/nokogiri-1.4.3.1
 	>=dev-ruby/happymapper-0.3.2
+	dev-ruby/nokogiri-happymapper
 	dev-ruby/builder"
 
 all_ruby_prepare() {
