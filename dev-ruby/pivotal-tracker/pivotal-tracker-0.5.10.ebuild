@@ -28,6 +28,7 @@ ruby_add_rdepend ">=dev-ruby/rest-client-1.6.0
 	>=dev-ruby/nokogiri-1.4.3.1
 	>=dev-ruby/happymapper-0.3.2
 	dev-ruby/nokogiri-happymapper
+	dev-ruby/crack
 	dev-ruby/builder"
 
 all_ruby_prepare() {

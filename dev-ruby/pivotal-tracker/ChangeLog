@@ -4,6 +4,10 @@
 
   04 Jul 2013; Hans de Graaff <graaff@gentoo.org>
   pivotal-tracker-0.5.10.ebuild:
+  Add missing crack dependency.
+
+  04 Jul 2013; Hans de Graaff <graaff@gentoo.org>
+  pivotal-tracker-0.5.10.ebuild:
   Add missing nokogiri-happymapper dependency.
 
 *pivotal-tracker-0.5.10 (04 Jul 2013)
