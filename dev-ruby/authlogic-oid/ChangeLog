@@ -4,6 +4,10 @@
 
   11 Jul 2013; Hans de Graaff <graaff@gentoo.org>
   authlogic-oid-1.0.4-r3.ebuild:
+  Upstream source no longer exists, host tgz myself.
+
+  11 Jul 2013; Hans de Graaff <graaff@gentoo.org>
+  authlogic-oid-1.0.4-r3.ebuild:
   Drop ruby18 since authlogic itself no longer supports it.
 
   18 Apr 2012; Hans de Graaff <graaff@gentoo.org>

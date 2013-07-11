@@ -23,7 +23,8 @@ IUSE=""
 
 # Use a fork in the network that has many, many bug fixes and seems the
 # most coherent fork
-SRC_URI="https://github.com/whitequark/authlogic_openid/tarball/0a5b3772437ac0ebb3b5ecd7ce53f51688d60345 -> ${P}.tgz"
+#SRC_URI="https://github.com/whitequark/authlogic_openid/tarball/0a5b3772437ac0ebb3b5ecd7ce53f51688d60345 -> ${P}.tgz"
+SRC_URI="http://moving-innovations.com/~graaff/authlogic-oid-1.0.4.tgz"
 RUBY_S="whitequark-authlogic_openid-*"
 
 # Tests use hardcoded path to authlogic
