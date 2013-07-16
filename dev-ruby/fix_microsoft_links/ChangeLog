@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/fix_microsoft_links
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*fix_microsoft_links-0.1.2 (16 Jul 2013)
+
+  16 Jul 2013; Hans de Graaff <graaff@gentoo.org>
+  +fix_microsoft_links-0.1.2.ebuild, +metadata.xml:
+  Initial import.
+
