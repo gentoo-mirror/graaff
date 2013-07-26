@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/feed_parser
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*feed_parser-0.3.4 (26 Jul 2013)
+
+  26 Jul 2013; Hans de Graaff <graaff@gentoo.org> +feed_parser-0.3.4.ebuild,
+  +metadata.xml:
+  Initial import.
+
