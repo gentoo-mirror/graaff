@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_bdepend "test? ( dev-ruby/rspec )"
+ruby_add_bdepend "test? ( dev-ruby/rspec:2 )"
 ruby_add_rdepend ">=dev-ruby/libxml-2.0.0"
 
 all_ruby_prepare() {
