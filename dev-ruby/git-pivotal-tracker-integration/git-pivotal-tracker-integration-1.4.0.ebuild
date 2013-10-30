@@ -21,3 +21,5 @@ LICENSE="Apache-2.0"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE="doc"
+
+ruby_add_rdepend ">=dev-ruby/pivotal-tracker-0.5"
