@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Nov 2013; Hans de Graaff <graaff@gentoo.org> -draper-0.14.0.ebuild,
+  -draper-0.17.0.ebuild:
+  Cleanup.
+
 *draper-1.2.1 (28 Jun 2013)
 
   28 Jun 2013; Hans de Graaff <graaff@gentoo.org> +draper-1.2.1.ebuild:
