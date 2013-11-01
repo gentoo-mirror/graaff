@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/libnotify
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  01 Nov 2013; Hans de Graaff <graaff@gentoo.org> -libnotify-0.5.7.ebuild,
+  -libnotify-0.7.1.ebuild, -libnotify-0.7.2.ebuild:
+  Cleanup.
 
 *libnotify-0.8.0 (05 Oct 2012)
 
