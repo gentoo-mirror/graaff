@@ -26,7 +26,8 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/cliver-0.2.1
 	dev-ruby/multi_json
-	>=dev-ruby/capybara-2.1.0"
+	>=dev-ruby/capybara-2.1.0
+	>=dev-ruby/websocket-driver-0.2.0"
 
 all_ruby_prepare() {
 	# Fix cliver versioning to accept all 0.x versions
