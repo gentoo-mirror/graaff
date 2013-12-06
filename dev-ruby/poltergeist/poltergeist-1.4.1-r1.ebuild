@@ -30,6 +30,7 @@ ruby_add_rdepend ">=dev-ruby/cliver-0.2.1
 	>=dev-ruby/websocket-driver-0.2.0"
 
 all_ruby_prepare() {
-	# Fix cliver versioning to accept all 0.x versions
-	sed -i 's/0.2.1/0.2/' ${RUBY_FAKEGEM_GEMSPEC} || die
+	# Fix cliver versioning to accept all 0.x versions and capybara to
+	# accept all 2.x versions.
+	sed -i -e 's/0.2.1/0.2/' -e 's/2.1.0/2.1/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
