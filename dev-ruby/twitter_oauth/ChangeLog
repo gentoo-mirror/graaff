@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/twitter_oauth
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*twitter_oauth-0.4.94 (10 Jan 2014)
+
+  10 Jan 2014; Hans de Graaff <graaff@gentoo.org> +twitter_oauth-0.4.94.ebuild:
+  Version bump.
 
 *twitter_oauth-0.4.4 (23 Nov 2012)
 
