@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/isolate
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2014; Hans de Graaff <graaff@gentoo.org> -isolate-3.0.0.ebuild,
+  -isolate-3.2.1.ebuild:
+  Cleanup.
 
   20 Jul 2012; Hans de Graaff <graaff@gentoo.org> isolate-3.2.2.ebuild:
   Add x86 keyword.
