@@ -36,7 +36,7 @@ src_install() {
 	local config="${D}/etc/munin"
 	local perllib="${D}"$(perl '-V:installvendorlib'|cut -d"'" -f2)
 
-	mkdir -p "${config}/plugins" || die
+	mkdir -p "${config}/plugins" "${config}/plugin-conf.d" || die
 
 	emake PLUGIN_DIR="${D}/usr/share/munin/plugins" \
 		CONFIG_DIR="${config}" \
