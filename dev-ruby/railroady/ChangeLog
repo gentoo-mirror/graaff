@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/railroady
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*railroady-1.1.1 (18 Feb 2014)
+
+  18 Feb 2014; Hans de Graaff <graaff@gentoo.org> +railroady-1.1.1.ebuild,
+  +metadata.xml:
+  Initial import.
+
