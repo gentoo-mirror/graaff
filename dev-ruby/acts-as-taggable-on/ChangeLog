@@ -3,6 +3,16 @@
 # $Header: $
 
   21 Feb 2014; Hans de Graaff <graaff@gentoo.org>
+  +acts-as-taggable-on-3.0.1.ebuild:
+  Version bump.
+
+*acts-as-taggable-on-3.0.1 (21 Feb 2014)
+
+  21 Feb 2014; Hans de Graaff <graaff@gentoo.org>
+  +acts-as-taggable-on-3.0.1.ebuild:
+  Version bump.
+
+  21 Feb 2014; Hans de Graaff <graaff@gentoo.org>
   -acts-as-taggable-on-2.3.3.ebuild:
   Cleanup.
 
