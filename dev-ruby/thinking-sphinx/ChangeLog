@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Feb 2014; Hans de Graaff <graaff@gentoo.org> thinking-sphinx-3.1.0.ebuild:
+  Use a separate SLOT for thinking sphinx 3.1.
+
 *thinking-sphinx-3.1.0 (07 Feb 2014)
 
   07 Feb 2014; Hans de Graaff <graaff@gentoo.org>
