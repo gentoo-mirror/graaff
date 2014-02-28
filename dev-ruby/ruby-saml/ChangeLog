@@ -2,6 +2,11 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ruby-saml-0.8.1 (28 Feb 2014)
+
+  28 Feb 2014; Hans de Graaff <graaff@gentoo.org> +ruby-saml-0.8.1.ebuild:
+  Version bump. New slot due to naming change.
+
 *ruby-saml-0.7.3 (21 Feb 2014)
 
   21 Feb 2014; Hans de Graaff <graaff@gentoo.org> +ruby-saml-0.7.3.ebuild:
