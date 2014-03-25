@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/linkedin
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*linkedin-0.4.6 (25 Mar 2014)
+
+  25 Mar 2014; Hans de Graaff <graaff@gentoo.org> +linkedin-0.4.6.ebuild,
+  +metadata.xml:
+  Initial import.
+
