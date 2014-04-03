@@ -23,7 +23,7 @@ SLOT="0"
 IUSE="doc"
 
 ruby_add_rdepend "
-	dev-ruby/nokogiri
+	>=dev-ruby/nokogiri-1.5.0
 	>=dev-ruby/uuid-2.3:0"
 
 ruby_add_bdepend "test? ( dev-ruby/timecop )"
@@ -33,4 +33,7 @@ all_ruby_prepare() {
 
 	# Remove canonix since that already got removed from the code.
 	sed -ie -e '/canonix/d' ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	# Fix nokogiri dependency.
+	sed -i -e 's/1.5.0/1.5/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }

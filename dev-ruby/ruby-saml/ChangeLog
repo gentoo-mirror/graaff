@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ruby-saml-0.7.3-r1 (03 Apr 2014)
+
+  03 Apr 2014; Hans de Graaff <graaff@gentoo.org> -ruby-saml-0.7.3.ebuild,
+  +ruby-saml-0.7.3-r1.ebuild:
+  Fix nokogiri dependency in gemspec to be compatible with newer versions.
+
 *ruby-saml-0.8.1 (28 Feb 2014)
 
   28 Feb 2014; Hans de Graaff <graaff@gentoo.org> +ruby-saml-0.8.1.ebuild:
