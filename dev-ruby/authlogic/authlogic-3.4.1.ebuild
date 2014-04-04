@@ -19,6 +19,9 @@ KEYWORDS="~amd64"
 SLOT="3"
 IUSE=""
 
+# Now requires scrypt but this is not packaged yet, see below.
+RESTRICT="test"
+
 ruby_add_rdepend ">=dev-ruby/activerecord-3.2
 	>=dev-ruby/activesupport-3.2
 	>=dev-ruby/request_store-1.0.5"

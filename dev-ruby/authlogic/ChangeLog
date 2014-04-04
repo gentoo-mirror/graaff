@@ -1,6 +1,15 @@
 # ChangeLog for dev-ruby/authlogic
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 
+*authlogic-3.4.1 (04 Apr 2014)
+
+  04 Apr 2014; Hans de Graaff <graaff@gentoo.org> authlogic-3.4.0.ebuild,
+  +authlogic-3.4.1.ebuild:
+  Version bump.
+
+  02 Apr 2014; Hans de Graaff <graaff@gentoo.org> authlogic-3.4.0.ebuild:
+  Also install new History file.
+
 *authlogic-3.4.0 (27 Mar 2014)
 
   27 Mar 2014; Hans de Graaff <graaff@gentoo.org> +authlogic-3.4.0.ebuild:
