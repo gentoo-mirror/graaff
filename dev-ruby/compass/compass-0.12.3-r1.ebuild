@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-USE_RUBY="ruby19"
+USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.markdown"
@@ -34,5 +34,6 @@ ruby_add_rdepend ">=dev-ruby/chunky_png-1.2
 all_ruby_prepare() {
 	sed -i -e '/[Bb]undler/ s:^:#:' Rakefile || die
 
-	sed -i -e '/Date.today/d' -e '/fssm/d' ${RUBY_FAKEGEM_GEMSPEC} || die
+	sed -i -e '/Date.today/d' \
+		-e '/fssm/d' -e '/sass/ s/3.2.14/~> 3.2.14/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
