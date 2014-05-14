@@ -16,7 +16,7 @@ DESCRIPTION="Speed up your Sass compilation by making @import only import each f
 HOMEPAGE="http://compass-style.org/"
 
 LICENSE="MIT"
-SLOT="1"
+SLOT="1.0"
 KEYWORDS="~amd64"
 IUSE=""
 
