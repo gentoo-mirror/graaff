@@ -43,4 +43,7 @@ ruby_add_bdepend "test? ( dev-ruby/colorize )"
 
 all_ruby_prepare() {
 	sed -i -e '/[Bb]undler/ s:^:#:' Rakefile || die
+
+	# Loosen listen dependency since all 1.x versions are compatible.
+	sed -i -e "s/1.1.0/'1.1'/" ../metadata || die
 }
