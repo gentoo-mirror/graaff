@@ -1,5 +1,10 @@
 # ChangeLog for dev-ruby/icalendar
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+
+*icalendar-2.0.1 (23 May 2014)
+
+  23 May 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.0.1.ebuild:
+  Version bump.
 
   29 Nov 2013; Hans de Graaff <graaff@gentoo.org> -icalendar-1.2.1.ebuild,
   -icalendar-1.4.0.ebuild, -icalendar-1.4.1.ebuild, -icalendar-1.4.2.ebuild:
