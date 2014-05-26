@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/active_model_serializers
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  26 May 2014; Hans de Graaff <graaff@gentoo.org>
+  active_model_serializers-0.8.1.ebuild:
+  Add ruby20, ruby21.
 
 *active_model_serializers-0.8.1 (28 Jun 2013)
 
