@@ -22,20 +22,21 @@ SLOT="1"
 IUSE="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/actionpack-3.2
-	dev-ruby/active_model_serializers
-	>=dev-ruby/activesupport-3.2
+	>=dev-ruby/actionpack-3.0
+	>=dev-ruby/activemodel-3.0
+	>=dev-ruby/activesupport-3.0
 	>=dev-ruby/request_store-1.0.3"
 
 ruby_add_bdepend "test? (
 		>=dev-ruby/ammeter-0.2.2
-		>=dev-ruby/railties-3.2
+		dev-ruby/active_model_serializers
 	)"
 
 all_ruby_prepare() {
 	rm Gemfile || die
-	sed -i -e '/[Bb]undler/ s:^:#:' spec/spec_helper.rb || die
-	sed -i -e '3i require "draper"' spec/spec_helper.rb || die
+	sed -e '/[Bb]undler/ s:^:#:' \
+		-e '1igem "rails", "~>4.0"' \
+		-i spec/spec_helper.rb || die
 
 	# Avoid tests also failing on 1.2.1 which we already use. Could be
 	# more precise for the 4 specific specs failing.
