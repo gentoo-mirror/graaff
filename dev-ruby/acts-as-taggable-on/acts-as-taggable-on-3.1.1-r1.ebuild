@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-USE_RUBY="ruby19"
+USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
@@ -27,7 +27,7 @@ RESTRICT="test"
 
 ruby_add_rdepend ">=dev-ruby/rails-3 <dev-ruby/rails-5"
 
-ruby_add_bdepend "test? ( dev-ruby/rspec:2 =dev-ruby/rspec-rails-2.13* >=dev-ruby/ammeter-0.1.3 dev-ruby/activerecord[sqlite3] )"
+#ruby_add_bdepend "test? ( dev-ruby/rspec:2 =dev-ruby/rspec-rails-2.13* >=dev-ruby/ammeter-0.1.3 dev-ruby/activerecord[sqlite3] )"
 
 all_ruby_prepare() {
 	sed -i -e '/git ls-files/d' ${PN}.gemspec || die
