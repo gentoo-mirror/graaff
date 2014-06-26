@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/authlogic
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 
+  26 Jun 2014; Hans de Graaff <graaff@gentoo.org> authlogic-3.4.2.ebuild:
+  Add ruby20, ruby21.
+
 *authlogic-3.4.2 (01 May 2014)
 
   01 May 2014; Hans de Graaff <graaff@gentoo.org> +authlogic-3.4.2.ebuild:
