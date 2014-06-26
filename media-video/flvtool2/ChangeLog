@@ -1,6 +1,9 @@
 # ChangeLog for media-video/flvtool2
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  26 Jun 2014; Hans de Graaff <graaff@gentoo.org> flvtool2-1.0.6-r1.ebuild:
+  Add ruby20, ruby21.
 
   31 May 2012; Hans de Graaff <graaff@gentoo.org> flvtool2-1.0.6-r1.ebuild:
   Add ruby19.
