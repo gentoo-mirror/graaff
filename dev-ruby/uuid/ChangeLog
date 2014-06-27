@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Jun 2014; Hans de Graaff <graaff@gentoo.org> uuid-2.3.7.ebuild:
+  Add ruby20, ruby21. Add test dependency on mocha and make tests work when
+  newer mocha is installed.
+
   27 Jun 2014; Hans de Graaff <graaff@gentoo.org> -uuid-2.3.6.ebuild:
   Cleanup.
 

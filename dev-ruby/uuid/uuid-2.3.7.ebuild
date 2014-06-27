@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
 EAPI=5
-USE_RUBY="ruby19"
+USE_RUBY="ruby19 ruby20 ruby21"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc"
 
@@ -25,6 +25,11 @@ IUSE="doc"
 
 ruby_add_rdepend ">=dev-ruby/macaddr-1.0:0"
 
+ruby_add_bdepend "test? ( dev-ruby/mocha:0.14 )"
+
 all_ruby_prepare() {
 	rm bin/{rake,yard,yri,yardoc} || die
+
+	# Only works with older mocha versions.
+	sed -e '2igem "mocha", "~>0.14.0"' -i test/test-uuid.rb || die 
 }
