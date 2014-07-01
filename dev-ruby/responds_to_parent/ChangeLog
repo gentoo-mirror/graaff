@@ -1,6 +1,12 @@
 # ChangeLog for dev-ruby/responds_to_parent
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org>
+  -responds_to_parent-1.0.20091013-r1.ebuild,
+  -responds_to_parent-1.0.20091013-r2.ebuild,
+  -responds_to_parent-1.0.20091013-r3.ebuild:
+  Cleanup.
 
 *responds_to_parent-1.1.0-r1 (19 Sep 2012)
 
