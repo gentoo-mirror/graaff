@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org> ruby-saml-0.7.3-r1.ebuild,
+  ruby-saml-0.8.1.ebuild:
+  Add ruby20, ruby21.
+
   01 Jul 2014; Hans de Graaff <graaff@gentoo.org> -ruby-saml-0.7.2.ebuild:
   Cleanup.
 
