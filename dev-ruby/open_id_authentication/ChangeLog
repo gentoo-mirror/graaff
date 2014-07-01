@@ -3,6 +3,10 @@
 # $Header: $
 
   01 Jul 2014; Hans de Graaff <graaff@gentoo.org>
+  open_id_authentication-1.2.0.ebuild:
+  Add ruby20.
+
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org>
   -open_id_authentication-1.1.0-r3.ebuild:
   Cleanup.
 
