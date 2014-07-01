@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.3-r2.ebuild:
+  Add ruby20, ruby21. Fix USE=doc for new rake.
+
   27 Jun 2014; Hans de Graaff <graaff@gentoo.org> -rvideo-0.9.3-r1.ebuild:
   Cleanup.
 
