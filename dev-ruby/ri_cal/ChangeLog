@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/ri_cal
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org> ri_cal-0.8.8-r1.ebuild:
+  Remove ruby18, ree18.
 
   30 Aug 2013; Hans de Graaff <graaff@gentoo.org> ri_cal-0.8.8-r1.ebuild:
   rspec dependency is only needed for USE=test.
