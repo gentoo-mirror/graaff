@@ -3,6 +3,10 @@
 # $Header: $
 
   02 Jul 2014; Hans de Graaff <graaff@gentoo.org>
+  authlogic-oid-1.0.4-r3.ebuild:
+  Add ruby20, ruby21. Fix USE=doc.
+
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org>
   -authlogic-oid-1.0.4-r1.ebuild, -authlogic-oid-1.0.4-r2.ebuild:
   Cleanup.
 
