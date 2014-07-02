@@ -3,6 +3,10 @@
 # $Header: $
 
   02 Jul 2014; Hans de Graaff <graaff@gentoo.org>
+  fix_microsoft_links-0.1.4.ebuild:
+  Add ruby20, ruby21.
+
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org>
   -fix_microsoft_links-0.1.2.ebuild, -fix_microsoft_links-0.1.3.ebuild:
   Cleanup.
 
