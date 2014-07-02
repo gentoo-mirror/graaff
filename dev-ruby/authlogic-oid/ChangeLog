@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/authlogic-oid
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org>
+  -authlogic-oid-1.0.4-r1.ebuild, -authlogic-oid-1.0.4-r2.ebuild:
+  Cleanup.
 
   11 Jul 2013; Hans de Graaff <graaff@gentoo.org>
   authlogic-oid-1.0.4-r3.ebuild:
