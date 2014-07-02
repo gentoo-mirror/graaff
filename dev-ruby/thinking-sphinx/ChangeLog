@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org> thinking-sphinx-3.1.1.ebuild:
+  Add ruby20.
+
 *thinking-sphinx-3.1.1 (24 Apr 2014)
 
   24 Apr 2014; Hans de Graaff <graaff@gentoo.org>
