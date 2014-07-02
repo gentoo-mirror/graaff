@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org> susy-1.0.9.ebuild:
+  Add ruby20, ruby21.
+
 *susy-2.1.2 (15 May 2014)
 
   15 May 2014; Hans de Graaff <graaff@gentoo.org> +susy-2.1.2.ebuild:
