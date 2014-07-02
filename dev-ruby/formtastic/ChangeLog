@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/formtastic
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org> formtastic-2.2.1.ebuild:
+  Add ruby20, ruby21.
 
 *formtastic-2.2.1 (12 Feb 2013)
 
