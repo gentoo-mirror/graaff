@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/oauth-plugin
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  03 Jul 2014; Hans de Graaff <graaff@gentoo.org> oauth-plugin-0.5.1.ebuild:
+  Drop ruby18.
 
 *oauth-plugin-0.5.1 (24 Oct 2013)
 
