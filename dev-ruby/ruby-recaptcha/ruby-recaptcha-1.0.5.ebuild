@@ -1,9 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
 EAPI=4
-USE_RUBY="ruby18 ruby19 ree18"
+USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="History.txt README.txt"
@@ -20,7 +20,11 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE="test"
 
-ruby_add_bdepend "test? ( dev-ruby/mocha dev-ruby/rails )"
+ruby_add_bdepend "test? ( dev-ruby/mocha:0.14 dev-ruby/rails )"
+
+all_ruby_prepare() {
+	sed -e '1igem "mocha", "~>0.14.0"' -i test/test_helper.rb || die
+}
 
 each_ruby_test() {
 	${RUBY} -I. test/test_recaptcha.rb || die
