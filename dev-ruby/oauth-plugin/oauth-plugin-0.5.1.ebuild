@@ -3,7 +3,7 @@
 # $Header: /var/cvsroot/gentoo-x86/dev-ruby/oauth/oauth-0.4.3.ebuild,v 1.1 2010/09/18 09:58:03 graaff Exp $
 
 EAPI=5
-USE_RUBY="ruby19"
+USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
@@ -21,7 +21,7 @@ HOMEPAGE="http://github.com/pelle/oauth-plugin"
 
 LICENSE="MIT"
 SLOT="0.4"
-KEYWORDS="~amd64 ~x86 ~x86-macos"
+KEYWORDS="~amd64"
 IUSE="doc"
 
 ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 >=dev-ruby/oauth2-0.5.0 dev-ruby/rack dev-ruby/multi_json"
