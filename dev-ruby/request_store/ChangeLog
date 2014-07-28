@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*request_store-1.0.8 (28 Jul 2014)
+
+  28 Jul 2014; Hans de Graaff <graaff@gentoo.org> -request_store-1.0.7.ebuild,
+  +request_store-1.0.8.ebuild:
+  Version bump. Drop version broken with recent Rails 3.2 versions.
+
 *request_store-1.0.7 (24 Jul 2014)
 
   24 Jul 2014; Hans de Graaff <graaff@gentoo.org> +request_store-1.0.7.ebuild:
