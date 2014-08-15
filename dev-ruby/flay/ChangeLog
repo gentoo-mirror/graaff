@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Aug 2014; Hans de Graaff <graaff@gentoo.org> flay-2.5.0.ebuild:
+  Add ruby21.
+
 *flay-2.5.0 (15 Aug 2014)
 
   15 Aug 2014; Hans de Graaff <graaff@gentoo.org> +flay-2.5.0.ebuild:
