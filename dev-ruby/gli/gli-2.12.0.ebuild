@@ -10,6 +10,8 @@ RUBY_FAKEGEM_TASK_DOC="build_rdoc"
 RUBY_FAKEGEM_DOCDIR="doc"
 RUBY_FAKEGEM_EXTRADOC="README.rdoc"
 
+RUBY_FAKEGEM_EXTRAINSTALL="gli.rdoc"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Git-Like Interface Command Line Parser"
@@ -22,6 +24,8 @@ IUSE=""
 
 all_ruby_prepare() {
 	sed -e '/sdoc/ s:^:#:' -i Rakefile || die
+
+	sed -e 's:tmp/fakehome:#{ENV["TMPDIR"]}/fakehome:' -i features/support/env.rb || die
 }
 
 each_ruby_test() {
