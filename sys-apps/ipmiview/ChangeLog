@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Fix the executables of the JRE.
+
+  25 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
   Make stuff that needs to be executable executable.
 
 *ipmiview-2.9.32 (17 Aug 2014)

@@ -29,8 +29,6 @@ src_install() {
 
 	exeinto /opt/ipmiview
 	doexe IPMIView20
-	exeinto /opt/ipmiview/jre/bin
-	doexe jre/bin/*
 
 	dosym /opt/ipmiview/IPMIView20 /usr/bin/IPMIView20
 
@@ -40,4 +38,6 @@ src_install() {
 	# to like a modern Java version such as icedtea 1.7: the script
 	# won't accept this java version.
 	doins -r jre
+	exeinto /opt/ipmiview/jre/bin
+	doexe jre/bin/*
 }
