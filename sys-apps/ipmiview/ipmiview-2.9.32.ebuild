@@ -27,6 +27,11 @@ src_install() {
 	insinto /opt/ipmiview
 	doins *
 
+	exeinto /opt/ipmiview
+	doexe IPMIView20
+	exeinto /opt/ipmiview/jre/bin
+	doexe jre/bin/*
+
 	dosym /opt/ipmiview/IPMIView20 /usr/bin/IPMIView20
 
 	dodoc ReleaseNote.txt
