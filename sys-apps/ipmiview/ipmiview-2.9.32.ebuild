@@ -10,7 +10,7 @@ inherit eutils
 
 DESCRIPTION="Supermicro IPMIView tool"
 HOMEPAGE="ftp://ftp.supermicro.com/utility/IPMIView/"
-SRC_URI="ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_${PV}_bundleJRE_Linux_${DATE}.tar.gz"
+SRC_URI="ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_${PV}_bundleJRE_Linux_x64_${DATE}.tar.gz"
 LICENSE="MIT"
 
 S="${WORKDIR}/IPMIView_${PV}_bundleJRE_Linux_${DATE}"
@@ -18,6 +18,11 @@ S="${WORKDIR}/IPMIView_${PV}_bundleJRE_Linux_${DATE}"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE="doc"
+
+RDEPEND="
+	x11-libs/libXext
+	virtual/awk
+"
 
 # Accept the JRE TEXTRELs for now as long as we need to use the bundled
 # version.
