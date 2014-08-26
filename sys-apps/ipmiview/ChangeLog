@@ -3,6 +3,9 @@
 # $Header: $
 
   26 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Fix S.
+
+  26 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
   Add missing dependencies. Retrieve the 64bit version for amd64.
 
   25 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:

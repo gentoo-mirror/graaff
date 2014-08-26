@@ -13,7 +13,7 @@ HOMEPAGE="ftp://ftp.supermicro.com/utility/IPMIView/"
 SRC_URI="ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_${PV}_bundleJRE_Linux_x64_${DATE}.tar.gz"
 LICENSE="MIT"
 
-S="${WORKDIR}/IPMIView_${PV}_bundleJRE_Linux_${DATE}"
+S="${WORKDIR}/IPMIView_${PV}_bundleJRE_Linux_x64_${DATE}"
 
 KEYWORDS="~amd64"
 SLOT="0"
