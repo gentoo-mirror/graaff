@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/faraday_middleware
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*faraday_middleware-0.9.1 (04 Sep 2014)
+
+  04 Sep 2014; Hans de Graaff <graaff@gentoo.org>
+  +faraday_middleware-0.9.1.ebuild, +metadata.xml:
+  Initial import.
+
