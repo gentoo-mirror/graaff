@@ -17,7 +17,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="Inspect and process video or audio files."
 HOMEPAGE="https://github.com/zencoder/rvideo"
-SRC_URI="https://github.com/zencoder/rvideo/archive/#{GITHUB_COMMIT}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/zencoder/rvideo/archive/${GITHUB_COMMIT}.tar.gz -> ${P}.tar.gz"
 RUBY_S="${PN}-${GITHUB_COMMIT}"
 
 LICENSE="MIT"
