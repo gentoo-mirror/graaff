@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
 IUSE="doc flv"
 
-RUBY_PATCHES=( rvideo-ffmpeg.patch )
+RUBY_PATCHES=( rvideo-ffmpeg.patch rvideo-output-encoding.patch )
 
 ruby_add_rdepend "flv? ( media-video/flvtool2 )"

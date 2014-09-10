@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.5.ebuild,
+  +files/rvideo-output-encoding.patch:
+  Add patch to handle ffmpeg encoding issues.
+
   10 Sep 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.5.ebuild:
   Bash syntax, not ruby.
 
