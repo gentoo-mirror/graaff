@@ -1,49 +1,31 @@
-diff --git a/lib/rvideo/inspector.rb b/lib/rvideo/inspector.rb
-index f93466f..0d2f43a 100644
---- a/lib/rvideo/inspector.rb
-+++ b/lib/rvideo/inspector.rb
-@@ -45,7 +45,8 @@ module RVideo # :nodoc:
+--- lib/rvideo/tools/abstract_tool.rb.~1~	2014-09-10 11:13:10.951030299 +0200
++++ lib/rvideo/tools/abstract_tool.rb	2014-09-10 11:14:22.804030526 +0200
+@@ -62,7 +62,8 @@
+         def execute
+           final_command = "#{@command} 2>&1"
+           Transcoder.logger.info("\nExecuting Command: #{final_command}\n")
+-          @raw_result = `#{final_command}`
++          @raw_result = IO::popen(final_command,
++                                  :external_encoding => 'ASCII-8BIT').read
+           Transcoder.logger.info("Result: \n#{@raw_result}")
+           parse_result(@raw_result)
+         end
+--- lib/rvideo/inspector.rb.~1~	2014-09-10 11:13:10.951030299 +0200
++++ lib/rvideo/inspector.rb	2014-09-10 11:15:08.907030671 +0200
+@@ -45,7 +45,8 @@
          @path = File.dirname(file)
          @full_filename = file
-         raise TranscoderError::InputFileNotFound, "File not found (#{file})" unless FileTest.exist?(file.gsub("\"",""))
+         raise ArgumentError, "File not found (#{file})" unless FileTest.exist?(file.gsub("\"",""))
 -        @raw_response = `#{@ffmpeg_binary} -i #{@full_filename} 2>&1`
 +        @raw_response = IO::popen("#{@ffmpeg_binary} -i #{@full_filename} 2>&1",
 +                                  :external_encoding => 'ASCII-8BIT').read
        else
          raise ArgumentError, "Must supply either an input file or a pregenerated response" if options[:raw_response].nil? and file.nil?
        end
-@@ -542,4 +543,4 @@ module RVideo # :nodoc:
+@@ -483,4 +484,4 @@
        match
      end
    end
 -end
 \ No newline at end of file
 +end
-diff --git a/lib/rvideo/tools/abstract_tool.rb b/lib/rvideo/tools/abstract_tool.rb
-index d336baa..565137a 100644
---- a/lib/rvideo/tools/abstract_tool.rb
-+++ b/lib/rvideo/tools/abstract_tool.rb
-@@ -329,7 +329,8 @@ module RVideo # :nodoc:
-         # Pulls the interesting bits of the temp log file into memory.  This is fairly tool-specific, so
-         # it's doubtful that this default version is going to work without being overridded.
-         def populate_raw_result(temp_file_name)
--          @raw_result = `tail -n 500 #{temp_file_name}`
-+          @raw_result = IO::popen("tail -n 500 #{temp_file_name}",
-+                                  :external_encoding => 'ASCII-8BIT').read
-         end
-         
-       end
-diff --git a/lib/rvideo/tools/ffmpeg.rb b/lib/rvideo/tools/ffmpeg.rb
-index 5d4221d..e518171 100644
---- a/lib/rvideo/tools/ffmpeg.rb
-+++ b/lib/rvideo/tools/ffmpeg.rb
-@@ -79,7 +79,8 @@ module RVideo
-         end
- 
-         # Append the bottom of the log file, where the interesting bits live.
--        @raw_result << `tail -n 500 #{temp_file_name}`
-+        @raw_result << IO::popen("tail -n 500 #{temp_file_name}",
-+                                 :external_encoding => 'ASCII-8BIT').read
-       end
-       
-       def parse_result(result)
