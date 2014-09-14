@@ -1,0 +1,10 @@
+# ChangeLog for dev-util/reviewboard
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*reviewboard-1.7.28 (14 Sep 2014)
+
+  14 Sep 2014; Hans de Graaff <graaff@gentoo.org> +reviewboard-1.7.28.ebuild,
+  +files/reviewboard-1.7.28-docs.patch, +metadata.xml:
+  Version bump for latest 1.7.x reviewboard. Currently untested.
+
