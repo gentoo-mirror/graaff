@@ -23,3 +23,8 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/actionpack-3.2.13"
+
+all_ruby_prepare() {
+	# Remove silly deprecation message that cannot be avoided.
+	sed -e '/deprecated_version_of_rails/,/end/ s:^:#:' -i lib/formtastic.rb || die
+}

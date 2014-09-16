@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Sep 2014; Hans de Graaff <graaff@gentoo.org> formtastic-3.0.0.ebuild:
+  Avoid silly deprecation message that cannot be avoided by making code
+  changes.
+
 *formtastic-3.0.0 (16 Sep 2014)
 
   16 Sep 2014; Hans de Graaff <graaff@gentoo.org> +formtastic-3.0.0.ebuild:
