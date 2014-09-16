@@ -31,7 +31,7 @@ RDEPEND=">=dev-python/django-1.4.14[${PYTHON_USEDEP},sqlite]
 	>=dev-python/markdown-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/mimeparse-0.1.3[${PYTHON_USEDEP}]
-	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
+	dev-python/python-dateutil:python-2
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2012h[${PYTHON_USEDEP}]
 	dev-python/recaptcha-client[${PYTHON_USEDEP}]"
