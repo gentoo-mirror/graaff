@@ -18,10 +18,15 @@ IUSE=""
 
 RDEPEND=">=dev-python/django-1.4.13[${PYTHON_USEDEP}]
 	<dev-python/django-1.5[${PYTHON_USEDEP}]
-	virtual/python-imaging[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/django-pipeline-1.2.24[${PYTHON_USEDEP}]
 	<dev-python/django-pipeline-1.3[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-5.1.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/django-evolution[${PYTHON_USEDEP}]"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+
+prepare_src() {
+	# use pillow, not PIL
+	sed -e 's/PIL/pillow/' -i setup.py Djblets.egg-info/requires.txt || die
+}
