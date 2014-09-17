@@ -1,0 +1,10 @@
+# ChangeLog for dev-util/scss-lint
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*scss-lint-0.27.0 (17 Sep 2014)
+
+  17 Sep 2014; Hans de Graaff <graaff@gentoo.org> +scss-lint-0.27.0.ebuild,
+  +metadata.xml:
+  Initial import. Last version to support sass 3.3.
+
