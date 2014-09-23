@@ -3,6 +3,10 @@
 # $Header: $
 
   23 Sep 2014; Hans de Graaff <graaff@gentoo.org>
+  pivotal-tracker-0.5.10.ebuild, pivotal-tracker-0.5.12.ebuild:
+  Avoid unneeded test dependencies for now. Add ruby20.
+
+  23 Sep 2014; Hans de Graaff <graaff@gentoo.org>
   -pivotal-tracker-0.3.0.ebuild, -pivotal-tracker-0.4.1.ebuild:
   Cleanup.
 
