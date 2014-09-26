@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 USE_RUBY="ruby19 ruby20"
 
 RUBY_FAKEGEM_TASK_DOC=""
@@ -26,11 +26,12 @@ ruby_add_bdepend "test? ( dev-ruby/rspec:2 dev-ruby/haml )"
 
 ruby_add_rdepend "
 	dev-ruby/awesome_print
-	dev-ruby/code_analyzer
+	>=dev-ruby/code_analyzer-0.4.3
 	dev-ruby/colored
 	dev-ruby/erubis
 	dev-ruby/activesupport
 	dev-ruby/i18n
+	dev-ruby/require_all
 	dev-ruby/ruby-progressbar"
 
 all_ruby_prepare() {
