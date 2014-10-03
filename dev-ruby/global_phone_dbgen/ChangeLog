@@ -4,6 +4,10 @@
 
   03 Oct 2014; Hans de Graaff <graaff@gentoo.org>
   global_phone_dbgen-1.0.0.ebuild:
+  More URL fixes.
+
+  03 Oct 2014; Hans de Graaff <graaff@gentoo.org>
+  global_phone_dbgen-1.0.0.ebuild:
   Fix default REMOTE_URL:
   https://github.com/sstephenson/global_phone/pull/21/files
 

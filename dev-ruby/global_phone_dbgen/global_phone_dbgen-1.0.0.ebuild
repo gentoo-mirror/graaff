@@ -23,5 +23,5 @@ IUSE=""
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.5"
 
 all_ruby_prepare() {
-	sed -e '/REMOTE_URL/ s/http/https/' -i bin/global_phone_dbgen || die
+	sed -e '/REMOTE_URL/ s/http/https/' -e '/REMOTE_URL/ s/MetaData/Metadata/' -i bin/global_phone_dbgen || die
 }
