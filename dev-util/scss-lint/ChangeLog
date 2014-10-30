@@ -2,6 +2,11 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*scss-lint-0.29.0 (30 Oct 2014)
+
+  30 Oct 2014; Hans de Graaff <graaff@gentoo.org> +scss-lint-0.29.0.ebuild:
+  Version bump for sass 3.4.x.
+
 *scss-lint-0.27.0 (17 Sep 2014)
 
   17 Sep 2014; Hans de Graaff <graaff@gentoo.org> +scss-lint-0.27.0.ebuild,
