@@ -2,6 +2,11 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ri_cal-0.8.8-r2 (28 Nov 2014)
+
+  28 Nov 2014; Hans de Graaff <graaff@gentoo.org> +ri_cal-0.8.8-r2.ebuild:
+  EAPI=5. ruby20.
+
   01 Jul 2014; Hans de Graaff <graaff@gentoo.org> ri_cal-0.8.8-r1.ebuild:
   Remove ruby18, ree18.
 
