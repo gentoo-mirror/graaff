@@ -10,6 +10,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.md"
 
 RUBY_FAKEGEM_TASK_TEST="spec features"
 
+RUBY_FAKEGEM_EXTRAINSTALL="assets config"
+
 inherit ruby-fakegem
 
 DESCRIPTION="A tool that examines Ruby classes, modules and methods and reports any code smells it finds."
