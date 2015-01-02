@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/scrypt
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*scrypt-2.0.0 (02 Jan 2015)
+
+  02 Jan 2015; Hans de Graaff <graaff@gentoo.org> +scrypt-2.0.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for authlogic.
+
