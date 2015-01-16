@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/rspec-activemodel-mocks
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rspec-activemodel-mocks-1.0.1 (16 Jan 2015)
+
+  16 Jan 2015; Hans de Graaff <graaff@gentoo.org>
+  +rspec-activemodel-mocks-1.0.1.ebuild, +metadata.xml:
+  Initial import.
+
