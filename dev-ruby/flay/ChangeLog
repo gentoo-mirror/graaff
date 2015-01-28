@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/flay
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*flay-2.6.0 (28 Jan 2015)
+
+  28 Jan 2015; Hans de Graaff <graaff@gentoo.org> +flay-2.6.0.ebuild:
+  Version bump.
 
   15 Aug 2014; Hans de Graaff <graaff@gentoo.org> -flay-1.4.3.ebuild,
   -flay-2.3.0.ebuild:
