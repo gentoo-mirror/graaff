@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*compass-rails-2.0.4 (28 Jan 2015)
+
+  28 Jan 2015; Hans de Graaff <graaff@gentoo.org> +compass-rails-2.0.4.ebuild:
+  Version bump.
+
 *compass-rails-2.0.2 (05 Jan 2015)
 
   05 Jan 2015; Hans de Graaff <graaff@gentoo.org> +compass-rails-2.0.2.ebuild:
