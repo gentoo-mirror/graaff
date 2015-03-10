@@ -32,4 +32,6 @@ ruby_add_rdepend "
 all_ruby_prepare() {
 	# Remove failing spec, to be investigated later.
 	rm spec/rubocop/formatter/json_formatter_spec.rb || die
+
+	sed -i -e 's:/tmp/example:'${TMPDIR}'/example:' spec/rubocop/cop/team_spec.rb || die
 }
