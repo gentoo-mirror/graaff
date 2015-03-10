@@ -16,7 +16,7 @@ DESCRIPTION="An object-oriented AST extension for Parser"
 HOMEPAGE="https://github.com/yujinakayama/astrolabe"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="1"
 KEYWORDS="~amd64"
 IUSE=""
 
