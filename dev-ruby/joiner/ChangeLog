@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/joiner
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*joiner-0.3.4 (11 Mar 2015)
+
+  11 Mar 2015; Hans de Graaff <graaff@gentoo.org> +joiner-0.3.4.ebuild:
+  Version bump.
 
   27 Jun 2014; Hans de Graaff <graaff@gentoo.org> joiner-0.2.0.ebuild:
   Add ruby20, ruby21.
