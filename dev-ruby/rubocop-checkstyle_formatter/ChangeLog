@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/rubocop-checkstyle_formatter
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rubocop-checkstyle_formatter-0.1.1 (11 Mar 2015)
+
+  11 Mar 2015; Hans de Graaff <graaff@gentoo.org>
+  +rubocop-checkstyle_formatter-0.1.1.ebuild, +metadata.xml:
+  Initial import.
+
