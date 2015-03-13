@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*isolate-3.3.1 (13 Mar 2015)
+
+  13 Mar 2015; Hans de Graaff <graaff@gentoo.org> +isolate-3.3.1.ebuild:
+  Version bump.
+
   13 Mar 2015; Hans de Graaff <graaff@gentoo.org> -isolate-3.2.2.ebuild:
   Cleanup.
 
