@@ -25,5 +25,5 @@ IUSE=""
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.6.2 >=dev-ruby/typhoeus-0.6.8"
 
 all_ruby_prepare() {
-	sed -i -e '/typhoeus/ s/1.6.8/1.6/' ${RUBY_FAKEGEM_GEMSPEC} || die
+	sed -i -e '/typhoeus/ s/0.6.8/0.6/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
