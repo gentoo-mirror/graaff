@@ -2,6 +2,10 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Apr 2015; Hans de Graaff <graaff@gentoo.org> -flay-2.4.0.ebuild,
+  -flay-2.5.0.ebuild:
+  Cleanup.
+
 *flay-2.6.1 (17 Apr 2015)
 
   17 Apr 2015; Hans de Graaff <graaff@gentoo.org> +flay-2.6.1.ebuild:
