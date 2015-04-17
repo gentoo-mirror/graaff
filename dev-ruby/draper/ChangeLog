@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/draper
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  17 Apr 2015; Hans de Graaff <graaff@gentoo.org> -draper-1.2.1.ebuild,
+  -draper-1.3.0.ebuild:
+  Cleanup.
 
 *draper-1.4.0 (24 Sep 2014)
 
