@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/linkedin
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*linkedin-1.0.0 (17 Apr 2015)
+
+  17 Apr 2015; Hans de Graaff <graaff@gentoo.org> +linkedin-1.0.0.ebuild:
+  Version bump.
 
   07 Jul 2014; Hans de Graaff <graaff@gentoo.org> linkedin-0.4.7.ebuild:
   Add ruby20.
