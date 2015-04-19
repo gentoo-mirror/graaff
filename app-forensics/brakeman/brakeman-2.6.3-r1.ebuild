@@ -26,7 +26,7 @@ IUSE=""
 ruby_add_rdepend "
 	>=dev-ruby/erubis-2.6
 	>=dev-ruby/haml-3.0  <dev-ruby/haml-5
-	>=dev-ruby/highline-1.6.20 =dev-ruby/highline-1.6*
+	>=dev-ruby/highline-1.6.20 =dev-ruby/highline-1*
 	>=dev-ruby/multi_json-1.2 =dev-ruby/multi_json-1*
 	>=dev-ruby/ruby2ruby-2.1.1 =dev-ruby/ruby2ruby-2.1*
 	>=dev-ruby/ruby_parser-3.5.0 =dev-ruby/ruby_parser-3*
@@ -38,5 +38,6 @@ all_ruby_prepare() {
 	# Remove fastercsv since it's a no-op on ruby19.
 	sed -i -e '/fastercsv/d' \
 		-e '/ruby_parser/ s/3.5.0/3.5/' \
+		-e '/highline/ s/1.6.20/1.6/' \
 		${RUBY_FAKEGEM_GEMSPEC} || die
 }
