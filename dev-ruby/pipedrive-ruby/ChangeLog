@@ -1,6 +1,12 @@
 # ChangeLog for dev-ruby/pipedrive-ruby
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*pipedrive-ruby-0.3.3-r1 (12 May 2015)
+
+  12 May 2015; Hans de Graaff <graaff@gentoo.org>
+  +pipedrive-ruby-0.3.3-r1.ebuild:
+  Add patch to use HTTPS connections.
 
 *pipedrive-ruby-0.3.3 (29 Jul 2014)
 
