@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 May 2015; Hans de Graaff <graaff@gentoo.org> powerpack-0.1.0.ebuild:
+  Add ruby22.
+
 *powerpack-0.1.0 (28 Jan 2015)
 
   28 Jan 2015; Hans de Graaff <graaff@gentoo.org> +powerpack-0.1.0.ebuild:
