@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/gli
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*gli-2.13.1 (22 May 2015)
+
+  22 May 2015; Hans de Graaff <graaff@gentoo.org> +gli-2.13.1.ebuild:
+  Version bump.
 
 *gli-2.12.2 (20 Oct 2014)
 
