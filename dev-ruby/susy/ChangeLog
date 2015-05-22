@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 May 2015; Hans de Graaff <graaff@gentoo.org> -susy-2.1.2.ebuild:
+  Cleanup.
+
 *susy-2.2.5 (22 May 2015)
 
   22 May 2015; Hans de Graaff <graaff@gentoo.org> +susy-2.2.5.ebuild:
