@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-USE_RUBY="ruby19 ruby20"
+USE_RUBY="ruby19 ruby20 ruby21"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
@@ -21,7 +21,7 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/activerecord-3.1.0:*
 	>=dev-ruby/builder-2.1.2:*
-	>=dev-ruby/joiner-0.2.0
+	>=dev-ruby/joiner-0.2.0:*
 	>=dev-ruby/middleware-0.1.0
 	>=dev-ruby/innertube-1.0.2
 	>=dev-ruby/riddle-1.5.11"
