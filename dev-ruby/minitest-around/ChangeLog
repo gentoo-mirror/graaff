@@ -2,6 +2,12 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*minitest-around-0.3.1 (22 May 2015)
+
+  22 May 2015; Hans de Graaff <graaff@gentoo.org>
+  +minitest-around-0.3.1.ebuild:
+  Version bump.
+
   28 Jan 2015; Hans de Graaff <graaff@gentoo.org> minitest-around-0.3.0.ebuild:
   Remove copy-paste remnant.
 
