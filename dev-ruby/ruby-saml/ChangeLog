@@ -1,6 +1,11 @@
 # ChangeLog for dev-ruby/ruby-saml
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*ruby-saml-0.8.2 (26 May 2015)
+
+  26 May 2015; Hans de Graaff <graaff@gentoo.org> +ruby-saml-0.8.2.ebuild:
+  Version bump.
 
   01 Jul 2014; Hans de Graaff <graaff@gentoo.org> ruby-saml-0.7.3-r1.ebuild,
   ruby-saml-0.8.1.ebuild:
