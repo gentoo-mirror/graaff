@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/happymapper
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Jun 2015; Hans de Graaff <graaff@gentoo.org> happymapper-0.4.1.ebuild:
+  Add ruby21, ruby22.
 
   15 Oct 2013; Hans de Graaff <graaff@gentoo.org> happymapper-0.4.1.ebuild:
   Depend on the right slot of rspec.
