@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2015; Hans de Graaff <graaff@gentoo.org> linkedin-1.0.0.ebuild:
+  Add ruby21.
+
 *linkedin-1.0.0 (17 Apr 2015)
 
   17 Apr 2015; Hans de Graaff <graaff@gentoo.org> +linkedin-1.0.0.ebuild:
