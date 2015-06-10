@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/feed_parser
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  10 Jun 2015; Hans de Graaff <graaff@gentoo.org> feed_parser-0.3.5.ebuild:
+  Add ruby22.
 
   02 Jul 2014; Hans de Graaff <graaff@gentoo.org> feed_parser-0.3.5.ebuild:
   Add ruby20, ruby21.
