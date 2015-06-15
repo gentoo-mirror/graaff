@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jun 2015; Hans de Graaff <graaff@gentoo.org> -radicale-0.7.ebuild:
+  Cleanup.
+
 *radicale-0.10 (15 Jun 2015)
 
   15 Jun 2015; Hans de Graaff <graaff@gentoo.org> +radicale-0.10.ebuild,
