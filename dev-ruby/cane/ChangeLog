@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/cane
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*cane-2.6.2 (17 Aug 2014)
+
+  17 Aug 2014; Hans de Graaff <graaff@gentoo.org> +cane-2.6.2.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for metric_fu.
+

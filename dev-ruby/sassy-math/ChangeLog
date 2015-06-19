@@ -1,0 +1,23 @@
+# ChangeLog for dev-ruby/sassy-math
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  15 Aug 2014; Hans de Graaff <graaff@gentoo.org> -sassy-math-1.2.ebuild:
+  Cleanup.
+
+*sassy-math-1.5.1 (15 Aug 2014)
+
+  15 Aug 2014; Hans de Graaff <graaff@gentoo.org> +sassy-math-1.5.1.ebuild:
+  Version bump. Add ruby20, ruby21.
+
+*sassy-math-1.5 (14 Feb 2013)
+
+  14 Feb 2013; Hans de Graaff <graaff@gentoo.org> +sassy-math-1.5.ebuild:
+  Version bump.
+
+*sassy-math-1.2 (20 Nov 2012)
+
+  20 Nov 2012; Hans de Graaff <graaff@gentoo.org> +sassy-math-1.2.ebuild,
+  +metadata.xml:
+  Initial import. Dependency for modular-scale.
+

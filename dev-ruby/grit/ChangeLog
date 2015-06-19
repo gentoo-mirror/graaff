@@ -1,0 +1,35 @@
+# ChangeLog for dev-ruby/grit
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  24 Sep 2012; Hans de Graaff <graaff@gentoo.org> grit-2.5.0.ebuild:
+  Add missing dependency on posix-spawn. Drop x86 because of it.
+
+  24 Sep 2012; Hans de Graaff <graaff@gentoo.org> grit-2.5.0.ebuild:
+  Add missing dependency on posix-spawn.
+
+*grit-2.5.0 (14 Sep 2012)
+
+  14 Sep 2012; Hans de Graaff <graaff@gentoo.org> +grit-2.5.0.ebuild:
+  Version bump.
+
+  24 Jun 2011; Hans de Graaff <graaff@gentoo.org> -grit-2.0.0.ebuild,
+  -grit-2.2.0.ebuild:
+  Remove old versions.
+
+*grit-2.3.0 (04 Nov 2010)
+
+  04 Nov 2010; Hans de Graaff <graaff@gentoo.org> +grit-2.3.0.ebuild:
+  Version bump.
+
+*grit-2.2.0 (23 Sep 2010)
+
+  23 Sep 2010; Hans de Graaff <graaff@gentoo.org> +grit-2.2.0.ebuild:
+  Version bump.
+
+*grit-2.0.0 (18 Feb 2010)
+
+  18 Feb 2010; Hans de Graaff <graaff@gentoo.org> +grit-2.0.0.ebuild,
+  +metadata.xml:
+  Initial import, successor of dev-ruby/git.
+

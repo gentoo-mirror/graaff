@@ -1,0 +1,68 @@
+# ChangeLog for dev-ruby/rvideo
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rvideo-0.9.3-r3 (10 Sep 2014)
+
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> +rvideo-0.9.3-r3.ebuild,
+  files/rvideo-output-encoding.patch:
+  Add a new revision with the output encoding patch.
+
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> -rvideo-0.9.5.ebuild:
+  Remove this version again because the API changes in a breaking and partially
+  undocumented way.
+
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.5.ebuild,
+  +files/rvideo-output-encoding.patch:
+  Add patch to handle ffmpeg encoding issues.
+
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.5.ebuild:
+  Bash syntax, not ruby.
+
+*rvideo-0.9.5 (10 Sep 2014)
+
+  10 Sep 2014; Hans de Graaff <graaff@gentoo.org> +rvideo-0.9.5.ebuild:
+  Add new version only available on github, not as a gem.
+
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.3-r2.ebuild:
+  Add ruby20, ruby21. Fix USE=doc for new rake.
+
+  27 Jun 2014; Hans de Graaff <graaff@gentoo.org> -rvideo-0.9.3-r1.ebuild:
+  Cleanup.
+
+  24 Sep 2012; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.3-r2.ebuild:
+  Add ruby19 keyword.
+
+*rvideo-0.9.3-r2 (20 Mar 2012)
+
+  20 Mar 2012; Hans de Graaff <graaff@gentoo.org> +rvideo-0.9.3-r2.ebuild,
+  +files/rvideo-ffmpeg.patch:
+  Apply patch to work with newer versions of ffmpeg that have slightly changed
+  output.
+
+  14 Oct 2011; Hans de Graaff <graaff@gentoo.org>
+  -rvideo-0.9.3.20110614.ebuild:
+  Remove again since it isn't backward compatible and overall broken.
+
+*rvideo-0.9.3.20110614 (14 Oct 2011)
+
+  14 Oct 2011; Hans de Graaff <graaff@gentoo.org>
+  +rvideo-0.9.3.20110614.ebuild:
+  Version bump from a fork with support for ruby 1.9 and recent versions of
+  ffmpeg.
+
+  07 Jan 2011; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.3-r1.ebuild:
+  Keyword ~x86-macos.
+
+  03 Sep 2010; Hans de Graaff <graaff@gentoo.org> -rvideo-0.9.3.ebuild:
+  Remove old version.
+
+*rvideo-0.9.3-r1 (18 Aug 2010)
+
+  18 Aug 2010; Hans de Graaff <graaff@gentoo.org> +rvideo-0.9.3-r1.ebuild:
+  Convert to ruby-fakegem.
+
+  27 Dec 2009; Hans de Graaff <graaff@gentoo.org> rvideo-0.9.3.ebuild,
+  +metadata.xml:
+  Fix QA issues.
+

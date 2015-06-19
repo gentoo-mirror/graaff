@@ -1,0 +1,125 @@
+# ChangeLog for dev-ruby/icalendar
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+
+*icalendar-2.3.0 (04 May 2015)
+
+  04 May 2015; Hans de Graaff <graaff@gentoo.org> +icalendar-2.3.0.ebuild:
+  Version bump.
+
+*icalendar-2.2.2 (28 Jan 2015)
+
+  28 Jan 2015; Hans de Graaff <graaff@gentoo.org> +icalendar-2.2.2.ebuild:
+  Version bump.
+
+  28 Jan 2015; Hans de Graaff <graaff@gentoo.org> -icalendar-2.1.1.ebuild,
+  -icalendar-2.2.0.ebuild:
+  Cleanup.
+
+*icalendar-2.2.1 (17 Dec 2014)
+
+  17 Dec 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.2.1.ebuild:
+  Version bump.
+
+*icalendar-2.2.0 (24 Sep 2014)
+
+  24 Sep 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.2.0.ebuild:
+  Version bump.
+
+  24 Sep 2014; Hans de Graaff <graaff@gentoo.org> -icalendar-1.4.3.ebuild,
+  -icalendar-2.0.1.ebuild, -icalendar-2.1.0.ebuild:
+  Cleanup.
+
+*icalendar-2.1.1 (24 Jul 2014)
+
+  24 Jul 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.1.1.ebuild:
+  Version bump.
+
+*icalendar-2.1.0 (11 Jul 2014)
+
+  11 Jul 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.1.0.ebuild:
+  Version bump.
+
+*icalendar-1.5.4 (03 Jul 2014)
+
+  03 Jul 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-1.5.4.ebuild:
+  Version bump. Add ruby20, ruby21.
+
+*icalendar-2.0.1 (23 May 2014)
+
+  23 May 2014; Hans de Graaff <graaff@gentoo.org> +icalendar-2.0.1.ebuild:
+  Version bump.
+
+  29 Nov 2013; Hans de Graaff <graaff@gentoo.org> -icalendar-1.2.1.ebuild,
+  -icalendar-1.4.0.ebuild, -icalendar-1.4.1.ebuild, -icalendar-1.4.2.ebuild:
+  Cleanup.
+
+*icalendar-1.4.3 (15 Oct 2013)
+
+  15 Oct 2013; Hans de Graaff <graaff@gentoo.org> +icalendar-1.4.3.ebuild:
+  Version bump.
+
+*icalendar-1.4.2 (13 Sep 2013)
+
+  13 Sep 2013; Hans de Graaff <graaff@gentoo.org> +icalendar-1.4.2.ebuild:
+  Version bump.
+
+*icalendar-1.4.1 (26 Jul 2013)
+
+  26 Jul 2013; Hans de Graaff <graaff@gentoo.org> +icalendar-1.4.1.ebuild:
+  Version bump.
+
+*icalendar-1.4.0 (21 Jun 2013)
+
+  21 Jun 2013; Hans de Graaff <graaff@gentoo.org> +icalendar-1.4.0.ebuild:
+  Version bump.
+
+  09 May 2013; Hans de Graaff <graaff@gentoo.org> -icalendar-1.1.5.ebuild,
+  -icalendar-1.1.6.ebuild:
+  Cleanup.
+
+*icalendar-1.2.1 (23 Nov 2012)
+
+  23 Nov 2012; Hans de Graaff <graaff@gentoo.org> +icalendar-1.2.1.ebuild:
+  Version bump. Drop ruby18 since the tests fail.
+
+  24 Sep 2012; Hans de Graaff <graaff@gentoo.org> icalendar-1.1.6.ebuild:
+  Add ruby19.
+
+*icalendar-1.1.6 (09 Jun 2011)
+
+  09 Jun 2011; Hans de Graaff <graaff@gentoo.org> +icalendar-1.1.6.ebuild:
+  Version bump.
+
+  09 Jun 2011; Hans de Graaff <graaff@gentoo.org> -icalendar-1.1.4.ebuild,
+  metadata.xml:
+  Remove old version.
+
+  07 Jan 2011; Hans de Graaff <graaff@gentoo.org> icalendar-1.1.4.ebuild,
+  icalendar-1.1.5.ebuild:
+  Keyword ~x86-macos.
+
+*icalendar-1.1.5 (09 Jul 2010)
+
+  09 Jul 2010; Hans de Graaff <graaff@gentoo.org> +icalendar-1.1.5.ebuild:
+  Version bump: Fix for windows line endings.
+
+  09 Jul 2010; Hans de Graaff <graaff@gentoo.org> -icalendar-1.1.0.ebuild,
+  -icalendar-1.1.3.ebuild:
+  Remove old versions.
+
+  06 Jun 2010; Hans de Graaff <graaff@gentoo.org> icalendar-1.1.4.ebuild:
+  Tests have been fixed so unrestrict this.
+
+*icalendar-1.1.4 (07 May 2010)
+
+  07 May 2010; Hans de Graaff <graaff@gentoo.org> +icalendar-1.1.4.ebuild:
+  Version bump with bug fixes.
+
+*icalendar-1.1.3 (29 Mar 2010)
+
+  29 Mar 2010; Hans de Graaff <graaff@gentoo.org> +icalendar-1.1.3.ebuild:
+  Version bump.
+
+  25 Mar 2009; Hans de Graaff <graaff@gentoo.org> ChangeLog:
+  Initial import
+

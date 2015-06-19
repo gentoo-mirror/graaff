@@ -1,0 +1,22 @@
+# ChangeLog for sys-apps/ipmiview
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Fix S.
+
+  26 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Add missing dependencies. Retrieve the 64bit version for amd64.
+
+  25 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Fix the executables of the JRE.
+
+  25 Aug 2014; Hans de Graaff <graaff@gentoo.org> ipmiview-2.9.32.ebuild:
+  Make stuff that needs to be executable executable.
+
+*ipmiview-2.9.32 (17 Aug 2014)
+
+  17 Aug 2014; Hans de Graaff <graaff@gentoo.org> +ipmiview-2.9.32.ebuild,
+  +metadata.xml:
+  Initial import. Not fit for the main tree due to JRE installation.
+

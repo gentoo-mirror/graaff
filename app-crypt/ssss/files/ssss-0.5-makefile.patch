@@ -1,0 +1,12 @@
+--- Makefile.~1~	2006-01-15 12:10:01.000000000 +0100
++++ Makefile	2010-12-24 12:55:20.864985245 +0100
+@@ -1,8 +1,7 @@
+ all: ssss-split ssss-combine ssss.1 ssss.1.html
+ 
+ ssss-split: ssss.c
+-	$(CC) -W -Wall -O2 -lgmp -o ssss-split ssss.c
+-	strip ssss-split
++	$(CC) $(LDFLAGS) $(CFLAGS) -o ssss-split ssss.c -lgmp
+ 
+ ssss-combine: ssss-split
+ 	ln -f ssss-split ssss-combine

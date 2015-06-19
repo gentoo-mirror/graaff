@@ -1,0 +1,13 @@
+# ChangeLog for dev-ruby/middleware
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  01 Jul 2014; Hans de Graaff <graaff@gentoo.org> middleware-0.1.0.ebuild:
+  Add ruby20, ruby21.
+
+*middleware-0.1.0 (24 Jul 2013)
+
+  24 Jul 2013; Hans de Graaff <graaff@gentoo.org> +middleware-0.1.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for thinking-sphinx.
+

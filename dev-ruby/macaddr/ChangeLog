@@ -1,0 +1,25 @@
+# ChangeLog for dev-ruby/macaddr
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*macaddr-1.7.1 (23 May 2014)
+
+  23 May 2014; Hans de Graaff <graaff@gentoo.org> +macaddr-1.7.1.ebuild:
+  Version bump.
+
+*macaddr-1.7.0 (04 Apr 2014)
+
+  04 Apr 2014; Hans de Graaff <graaff@gentoo.org> +macaddr-1.7.0.ebuild:
+  Version bump.
+
+*macaddr-1.6.5 (28 Feb 2014)
+
+  28 Feb 2014; Hans de Graaff <graaff@gentoo.org> +macaddr-1.6.5.ebuild:
+  Version bump.
+
+*macaddr-1.6.1 (22 Jan 2013)
+
+  22 Jan 2013; Hans de Graaff <graaff@gentoo.org> +macaddr-1.6.1.ebuild,
+  +metadata.xml:
+  Initial import.
+

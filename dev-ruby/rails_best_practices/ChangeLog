@@ -1,0 +1,102 @@
+# ChangeLog for dev-ruby/rails_best_practices
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rails_best_practices-1.15.4 (26 Sep 2014)
+
+  26 Sep 2014; Hans de Graaff <graaff@gentoo.org>
+  -rails_best_practices-0.10.1.ebuild, rails_best_practices-1.13.7.ebuild,
+  +rails_best_practices-1.15.4.ebuild:
+  Version bump.
+
+*rails_best_practices-1.13.7 (21 Jun 2013)
+
+  21 Jun 2013; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-1.13.7.ebuild:
+  Version bump.
+
+*rails_best_practices-1.11.1-r1 (08 Oct 2012)
+
+  08 Oct 2012; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-1.11.1-r1.ebuild:
+  Install missing assets.
+
+  08 Oct 2012; Hans de Graaff <graaff@gentoo.org>
+  rails_best_practices-1.11.1.ebuild:
+  Add missing dependency on awesome_print.
+
+*rails_best_practices-1.11.1 (05 Oct 2012)
+
+  05 Oct 2012; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-1.11.1.ebuild:
+  Version bump.
+
+  17 May 2012; Hans de Graaff <graaff@gentoo.org>
+  -rails_best_practices-0.9.0.ebuild, -rails_best_practices-0.10.0.ebuild:
+  Remove old versions.
+
+*rails_best_practices-0.10.1 (05 Aug 2011)
+
+  05 Aug 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.10.1.ebuild:
+  Version bump.
+
+*rails_best_practices-0.10.0 (08 Jul 2011)
+
+  08 Jul 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.10.0.ebuild:
+  Version bump.
+
+  14 Jun 2011; Hans de Graaff <graaff@gentoo.org>
+  rails_best_practices-0.9.0.ebuild:
+  Add x86 keyword.
+
+  14 Jun 2011; Hans de Graaff <graaff@gentoo.org>
+  -rails_best_practices-0.4.0.ebuild, -rails_best_practices-0.7.1.ebuild,
+  -rails_best_practices-0.8.2.ebuild:
+  Remove old versions.
+
+*rails_best_practices-0.9.0 (18 May 2011)
+
+  18 May 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.9.0.ebuild:
+  Version bump.
+
+*rails_best_practices-0.8.2 (29 Apr 2011)
+
+  29 Apr 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.8.2.ebuild:
+  Version bump.
+
+*rails_best_practices-0.7.1 (06 Mar 2011)
+
+  06 Mar 2011; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.7.1.ebuild:
+  Version bump.
+
+  25 Jan 2011; Hans de Graaff <graaff@gentoo.org>
+  -rails_best_practices-0.3.21.ebuild, -rails_best_practices-0.3.26.ebuild:
+  Remove old versions.
+
+*rails_best_practices-0.4.0 (23 Sep 2010)
+
+  23 Sep 2010; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.4.0.ebuild:
+  Version bump.
+
+*rails_best_practices-0.3.26 (05 Aug 2010)
+
+  05 Aug 2010; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.3.26.ebuild:
+  Version bump.
+
+  09 Jul 2010; Hans de Graaff <graaff@gentoo.org>
+  rails_best_practices-0.3.21.ebuild:
+  Also install needed yml file.
+
+*rails_best_practices-0.3.21 (09 Jul 2010)
+
+  09 Jul 2010; Hans de Graaff <graaff@gentoo.org>
+  +rails_best_practices-0.3.21.ebuild, +metadata.xml:
+  Initial import. Dependency of metric_fu.
+

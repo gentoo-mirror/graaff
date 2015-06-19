@@ -1,0 +1,50 @@
+# ChangeLog for dev-ruby/susy
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 May 2015; Hans de Graaff <graaff@gentoo.org> -susy-2.1.2.ebuild:
+  Cleanup.
+
+*susy-2.2.5 (22 May 2015)
+
+  22 May 2015; Hans de Graaff <graaff@gentoo.org> +susy-2.2.5.ebuild:
+  Version bump.
+
+*susy-2.2.2 (14 Apr 2015)
+
+  14 Apr 2015; Hans de Graaff <graaff@gentoo.org> +susy-2.2.2.ebuild:
+  Version bump.
+
+*susy-2.1.3 (24 Sep 2014)
+
+  24 Sep 2014; Hans de Graaff <graaff@gentoo.org> +susy-2.1.3.ebuild:
+  Version bump.
+
+  02 Jul 2014; Hans de Graaff <graaff@gentoo.org> susy-1.0.9.ebuild:
+  Add ruby20, ruby21.
+
+*susy-2.1.2 (15 May 2014)
+
+  15 May 2014; Hans de Graaff <graaff@gentoo.org> +susy-2.1.2.ebuild:
+  Version bump.
+
+  17 Apr 2014; Hans de Graaff <graaff@gentoo.org> -susy-1.0.5.ebuild,
+  -susy-1.0.8.ebuild:
+  Cleanup.
+
+*susy-1.0.9 (13 Sep 2013)
+
+  13 Sep 2013; Hans de Graaff <graaff@gentoo.org> +susy-1.0.9.ebuild:
+  Version bump.
+
+*susy-1.0.8 (11 Apr 2013)
+
+  11 Apr 2013; Hans de Graaff <graaff@gentoo.org> +susy-1.0.8.ebuild:
+  Version bump.
+
+*susy-1.0.5 (09 Jan 2013)
+
+  09 Jan 2013; Hans de Graaff <graaff@gentoo.org> +susy-1.0.5.ebuild,
+  +metadata.xml:
+  Initial import.
+

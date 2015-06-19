@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/code_metrics
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*code_metrics-0.1.3 (20 Sep 2014)
+
+  20 Sep 2014; Hans de Graaff <graaff@gentoo.org> +code_metrics-0.1.3.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for metric_fu.
+

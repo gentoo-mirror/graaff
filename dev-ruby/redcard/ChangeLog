@@ -1,0 +1,10 @@
+# ChangeLog for dev-ruby/redcard
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*redcard-1.1.0 (29 Aug 2014)
+
+  29 Aug 2014; Hans de Graaff <graaff@gentoo.org> +redcard-1.1.0.ebuild,
+  +metadata.xml:
+  Initial import. New dependency for metric_fu.
+

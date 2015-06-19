@@ -1,0 +1,19 @@
+# ChangeLog for dev-ruby/global_phone_dbgen
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  03 Oct 2014; Hans de Graaff <graaff@gentoo.org>
+  global_phone_dbgen-1.0.0.ebuild:
+  More URL fixes.
+
+  03 Oct 2014; Hans de Graaff <graaff@gentoo.org>
+  global_phone_dbgen-1.0.0.ebuild:
+  Fix default REMOTE_URL:
+  https://github.com/sstephenson/global_phone/pull/21/files
+
+*global_phone_dbgen-1.0.0 (03 Oct 2014)
+
+  03 Oct 2014; Hans de Graaff <graaff@gentoo.org>
+  +global_phone_dbgen-1.0.0.ebuild, +metadata.xml:
+  Initial import.
+

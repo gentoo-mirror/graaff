@@ -1,0 +1,33 @@
+# ChangeLog for dev-ruby/uuid
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*uuid-2.3.8 (03 Jun 2015)
+
+  03 Jun 2015; Hans de Graaff <graaff@gentoo.org> +uuid-2.3.8.ebuild:
+  Version bump.
+
+  27 Jun 2014; Hans de Graaff <graaff@gentoo.org> uuid-2.3.7.ebuild:
+  Add ruby20, ruby21. Add test dependency on mocha and make tests work when
+  newer mocha is installed.
+
+  27 Jun 2014; Hans de Graaff <graaff@gentoo.org> -uuid-2.3.6.ebuild:
+  Cleanup.
+
+*uuid-2.3.7 (13 Sep 2013)
+
+  13 Sep 2013; Hans de Graaff <graaff@gentoo.org> +uuid-2.3.7.ebuild:
+  Version bump.
+
+  25 Jan 2013; Hans de Graaff <graaff@gentoo.org> uuid-2.3.6.ebuild:
+  Also install gemspec used to determine version number.
+
+  24 Jan 2013; Hans de Graaff <graaff@gentoo.org> uuid-2.3.6.ebuild:
+  Clean up the bin dir that contains a lot of things that should not be there.
+
+*uuid-2.3.6 (22 Jan 2013)
+
+  22 Jan 2013; Hans de Graaff <graaff@gentoo.org> +uuid-2.3.6.ebuild,
+  +metadata.xml:
+  Initial import.
+

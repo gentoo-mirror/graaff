@@ -1,0 +1,10 @@
+# ChangeLog for app-emacs/elixir-mode
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*elixir-mode-1.3.0 (01 Jun 2014)
+
+  01 Jun 2014; Hans de Graaff <graaff@gentoo.org> +elixir-mode-1.3.0.ebuild,
+  +files/50elixir-mode-gentoo.el, +metadata.xml:
+  Initial import.
+

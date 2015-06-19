@@ -1,0 +1,45 @@
+Hack the commit below to include substitute code for erase_results.
+
+commit a2f18cb466a9c64b6c9c7234f8bd28be7970e45f
+Author: Jason Rust <jason@rustedcode.com>
+Date:   Thu Mar 1 10:50:07 2012 -0800
+
+    Make rails 3 compatible
+
+diff --git a/lib/responds_to_parent/action_controller.rb b/lib/responds_to_parent/action_controller.rb
+index b2a4495..25b7ea6 100644
+--- a/lib/responds_to_parent/action_controller.rb
++++ b/lib/responds_to_parent/action_controller.rb
+@@ -9,18 +9,21 @@ module RespondsToParent
+     
+       if performed?
+         # Either pull out a redirect or the request body
+-        script =  if location = erase_redirect_results
++        script =  if response.headers['Location']
++                    #TODO: erase_redirect_results is missing in rails 3.0 
+                     "document.location.href = '#{self.class.helpers.escape_javascript location.to_s}'"
+                   else
+                     response.body || ''
+                   end
+ 
+-        # Clear out the previous render to prevent double render
+-        erase_results
++        @_response_body = nil
++        self.response.body = nil
+-
+         # We're returning HTML instead of JS or XML now
+         response.headers['Content-Type'] = 'text/html; charset=UTF-8'
+ 
++        # Clear out the previous render to prevent double render
++        response.request.env['action_controller.instance'].instance_variable_set(:@_response_body, nil)
++
+         # Eval in parent scope and replace document location of this frame 
+         # so back button doesn't replay action on targeted forms
+         # loc = document.location to be set after parent is updated for IE
+@@ -35,4 +36,4 @@ module RespondsToParent
+     end
+     alias respond_to_parent responds_to_parent
+   end
+-end
+\ No newline at end of file
++end

@@ -1,0 +1,37 @@
+# ChangeLog for dev-ruby/code_analyzer
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Sep 2014; Hans de Graaff <graaff@gentoo.org> code_analyzer-0.4.5.ebuild:
+  Add ruby21.
+
+*code_analyzer-0.4.5 (17 Apr 2014)
+
+  17 Apr 2014; Hans de Graaff <graaff@gentoo.org> +code_analyzer-0.4.5.ebuild:
+  Version bump.
+
+  24 Oct 2013; Hans de Graaff <graaff@gentoo.org> -code_analyzer-0.2.0.ebuild,
+  -code_analyzer-0.3.0.ebuild, -code_analyzer-0.3.1.ebuild:
+  Cleanup.
+
+*code_analyzer-0.3.2 (21 Jun 2013)
+
+  21 Jun 2013; Hans de Graaff <graaff@gentoo.org> +code_analyzer-0.3.2.ebuild:
+  Version bump.
+
+*code_analyzer-0.3.1 (31 Dec 2012)
+
+  31 Dec 2012; Hans de Graaff <graaff@gentoo.org> +code_analyzer-0.3.1.ebuild:
+  Version bump.
+
+*code_analyzer-0.3.0 (15 Nov 2012)
+
+  15 Nov 2012; Hans de Graaff <graaff@gentoo.org> +code_analyzer-0.3.0.ebuild:
+  Version bump.
+
+*code_analyzer-0.2.0 (05 Oct 2012)
+
+  05 Oct 2012; Hans de Graaff <graaff@gentoo.org> +code_analyzer-0.2.0.ebuild,
+  +metadata.xml:
+  Initial import for rails_best_practices.
+

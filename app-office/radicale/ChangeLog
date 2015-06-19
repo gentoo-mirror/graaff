@@ -1,0 +1,61 @@
+# ChangeLog for app-office/radicale
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  15 Jun 2015; Hans de Graaff <graaff@gentoo.org> -radicale-0.7.ebuild:
+  Cleanup.
+
+*radicale-0.10 (15 Jun 2015)
+
+  15 Jun 2015; Hans de Graaff <graaff@gentoo.org> +radicale-0.10.ebuild,
+  +files/radicale-0.10-config.patch:
+  Version bump.
+
+*radicale-0.8 (06 Oct 2013)
+
+  06 Oct 2013; Hans de Graaff <graaff@gentoo.org> +radicale-0.8.ebuild,
+  +files/radicale-0.8-config.patch:
+  Update from bug 322811.
+
+*radicale-0.7.1 (04 Aug 2012)
+
+  04 Aug 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.7.1.ebuild:
+  Version bump.
+
+  04 Aug 2012; Hans de Graaff <graaff@gentoo.org> -radicale-0.6.2.ebuild,
+  -radicale-0.6.3.ebuild, -radicale-0.6.4.ebuild:
+  Cleanup.
+
+*radicale-0.7 (02 Jun 2012)
+
+  02 Jun 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.7.ebuild:
+  Version bump.
+
+  09 Mar 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.4.ebuild,
+  metadata.xml:
+  Version bump.
+
+*radicale-0.6.4 (09 Mar 2012)
+
+  09 Mar 2012; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.4.ebuild:
+  Version bump.
+
+*radicale-0.6.3 (02 Dec 2011)
+
+  02 Dec 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.3.ebuild:
+  Version bump.
+
+  20 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d, +metadata.xml:
+  New version for testing purposes.
+
+  20 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d:
+  New version for testing purposes.
+
+*radicale-0.6.2 (11 Oct 2011)
+
+  11 Oct 2011; Hans de Graaff <graaff@gentoo.org> +radicale-0.6.2.ebuild,
+  +files/radicale.init.d:
+  Add new version from bug 322811 for testing purposes.
+
