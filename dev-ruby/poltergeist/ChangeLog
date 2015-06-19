@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/poltergeist
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  19 Jun 2015; Hans de Graaff <graaff@gentoo.org> -poltergeist-1.4.1-r1.ebuild,
+  -poltergeist-1.5.0.ebuild:
+  Cleanup.
 
 *poltergeist-1.5.1 (06 Jun 2014)
 
