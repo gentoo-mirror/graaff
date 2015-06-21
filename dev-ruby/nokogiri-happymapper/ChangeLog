@@ -3,6 +3,10 @@
 # $Header: $
 
   21 Jun 2015; Hans de Graaff <graaff@gentoo.org>
+  nokogiri-happymapper-0.5.9.ebuild:
+  Add missing runtime dependency. Add ruby21, ruby22.
+
+  21 Jun 2015; Hans de Graaff <graaff@gentoo.org>
   -nokogiri-happymapper-0.5.7.ebuild, -nokogiri-happymapper-0.5.8.ebuild:
   Cleanup.
 
