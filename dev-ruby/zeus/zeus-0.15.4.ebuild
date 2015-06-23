@@ -9,7 +9,7 @@ RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
-RUBY_FAKEGEM_EXTRAINSTALL="build"
+RUBY_FAKEGEM_EXTRAINSTALL="build examples ext"
 
 inherit ruby-fakegem
 
@@ -29,5 +29,11 @@ each_ruby_configure() {
 
 each_ruby_compile() {
 	emake -Cext/inotify-wrapper V=1
-	cp ext/inotify-wrapper/inotify-wrapper build/ || die
+}
+
+each_ruby_install() {
+	each_fakegem_install
+
+	find "${D}" -name build -print | xargs chmod -R a+x
+	find "${D}" -name inotify-wrapper -print | xargs chmod a+x
 }
