@@ -3,6 +3,10 @@
 # $Header: $
 
   25 Jun 2015; Hans de Graaff <graaff@gentoo.org>
+  declarative_authorization-0.5.7.ebuild:
+  Update ruby targets.
+
+  25 Jun 2015; Hans de Graaff <graaff@gentoo.org>
   -declarative_authorization-0.5.6.ebuild:
   Cleanup.
 
