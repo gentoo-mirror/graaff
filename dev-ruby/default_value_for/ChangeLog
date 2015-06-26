@@ -2,6 +2,10 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Jun 2015; Hans de Graaff <graaff@gentoo.org>
+  -default_value_for-2.0.3.ebuild, -default_value_for-3.0.0.ebuild:
+  Cleanup.
+
 *default_value_for-3.0.1 (28 Jan 2015)
 
   28 Jan 2015; Hans de Graaff <graaff@gentoo.org>
