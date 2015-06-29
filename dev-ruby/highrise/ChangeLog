@@ -1,6 +1,10 @@
 # ChangeLog for dev-ruby/highrise
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  29 Jun 2015; Hans de Graaff <graaff@gentoo.org> -highrise-3.1.1.ebuild,
+  -highrise-3.1.5.ebuild, -highrise-3.1.6.ebuild:
+  Cleanup.
 
 *highrise-3.2.1 (23 May 2014)
 
