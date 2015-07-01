@@ -3,7 +3,7 @@
 # $Header:  $
 
 EAPI=5
-USE_RUBY="ruby19 ruby20 ruby21"
+USE_RUBY="ruby19 ruby20 ruby21 ruby22"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -16,6 +16,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="A Ruby static code analyzer"
 HOMEPAGE="https://github.com/bbatsov/rubocop"
+SRC_URI="https://github.com/bbatsov/rubocop/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -24,7 +25,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	>=dev-ruby/astrolabe-1.3:1
-	>=dev-ruby/parser-2.2.0.1:0
+	>=dev-ruby/parser-2.2.2.5:0
 	>=dev-ruby/powerpack-0.1:0
 	>=dev-ruby/ruby-progressbar-1.4:0
 	dev-ruby/rainbow:2"

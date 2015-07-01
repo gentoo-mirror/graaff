@@ -2,6 +2,9 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Jul 2015; Hans de Graaff <graaff@gentoo.org> -uuid-2.3.7.ebuild:
+  Cleanup.
+
 *uuid-2.3.8 (03 Jun 2015)
 
   03 Jun 2015; Hans de Graaff <graaff@gentoo.org> +uuid-2.3.8.ebuild:
