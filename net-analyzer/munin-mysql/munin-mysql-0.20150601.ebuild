@@ -4,7 +4,7 @@
 
 EAPI=5
 
-GITHUB_COMMIT="53ea00609f412ac62d38ac2f0d82579a1729d9b7"
+GITHUB_COMMIT="7f6dfca1ee72461bb0c2962873cadb347c6f0472"
 
 DESCRIPTION="Improved MySQL Graphs for Munin"
 HOMEPAGE="https://github.com/kjellm/munin-mysql"
