@@ -24,7 +24,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/astrolabe-1.3:1
+	>=dev-ruby/astrolabe-1.3:0
 	>=dev-ruby/parser-2.2.2.5:0
 	>=dev-ruby/powerpack-0.1:0
 	>=dev-ruby/ruby-progressbar-1.4:0
