@@ -2,6 +2,12 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*scss_lint_reporter_checkstyle-0.2.0 (28 Jul 2015)
+
+  28 Jul 2015; Hans de Graaff <graaff@gentoo.org>
+  +scss_lint_reporter_checkstyle-0.2.0.ebuild:
+  Version bump.
+
 *scss_lint_reporter_checkstyle-0.1.0 (13 Mar 2015)
 
   13 Mar 2015; Hans de Graaff <graaff@gentoo.org>
