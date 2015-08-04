@@ -15,7 +15,7 @@ RUBY_FAKEGEM_GEMSPEC="open_id_authentication.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="a thin wrapper around the excellent ruby-openid gem from JanRain."
-HOMEPAGE="http://github.com/Velir/open_id_authentication"
+HOMEPAGE="https://github.com/grosser/open_id_authentication"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
