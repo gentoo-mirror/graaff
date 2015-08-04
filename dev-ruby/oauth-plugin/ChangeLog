@@ -3,6 +3,9 @@
 # $Header: $
 
   04 Aug 2015; Hans de Graaff <graaff@gentoo.org> oauth-plugin-0.5.1.ebuild:
+  Fix slot dependency.
+
+  04 Aug 2015; Hans de Graaff <graaff@gentoo.org> oauth-plugin-0.5.1.ebuild:
   Add ruby21.
 
   12 Aug 2014; Hans de Graaff <graaff@gentoo.org> -oauth-plugin-0.3.14.ebuild,

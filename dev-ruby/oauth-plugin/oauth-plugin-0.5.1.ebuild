@@ -24,7 +24,7 @@ SLOT="0.4"
 KEYWORDS="~amd64"
 IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 >=dev-ruby/oauth2-0.5.0 dev-ruby/rack dev-ruby/multi_json"
+ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 >=dev-ruby/oauth2-0.5.0 dev-ruby/rack:* dev-ruby/multi_json"
 
 all_ruby_prepare() {
 	# Avoid specs that fail with new hash ordering. Remove the whole
