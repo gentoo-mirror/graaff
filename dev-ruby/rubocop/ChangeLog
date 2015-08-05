@@ -2,6 +2,11 @@
 # Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rubocop-0.33.0 (05 Aug 2015)
+
+  05 Aug 2015; Hans de Graaff <graaff@gentoo.org> +rubocop-0.33.0.ebuild:
+  Version bump.
+
   18 Jul 2015; Hans de Graaff <graaff@gentoo.org> -rubocop-0.31.0.ebuild,
   -rubocop-0.32.0.ebuild, rubocop-0.32.1.ebuild:
   Cleanup. Fix astrolabe slot now that we use the gentoo tree version.
