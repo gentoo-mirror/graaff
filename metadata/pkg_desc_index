@@ -119,6 +119,7 @@ dev-ruby/will_paginate 3.0.7-r1: Most awesome pagination solution for Ruby
 dev-ruby/xmpp4r-simple 0.8.8: Jabber::Simple - An extremely easy-to-use Jabber client library.
 dev-ruby/yamler 0.1.0: Making YAML easy and fun to use with Ruby
 dev-ruby/zeus 0.15.4: Boot any rails app in under a second
+dev-util/cucumber-sinatra 0.2.3: This little gem will help you to initialize a cucumber environment for a sinatra application.
 dev-util/fuubar-cucumber 0.0.19 0.0.20 0.0.21: Fuubar-cucumber is an instafailing cucumber formatter with progress bar.
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
 dev-util/git-pivotal 0.8.0: The Git Pivotal utility provides three tools to integrate with your Pivotal Tracker project.
