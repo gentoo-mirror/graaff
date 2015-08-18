@@ -1,12 +1,12 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 USE_RUBY="ruby19 ruby20 ruby21"
 
 RUBY_FAKEGEM_TASK_DOC=""
-RUBY_FAKEGEM_EXTRADOC="README.md"
+RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_TASK_TEST="-Ilib test features"
 
@@ -24,8 +24,7 @@ IUSE=""
 # versions.
 RESTRICT="test"
 
-ruby_add_rdepend ">=dev-ruby/compass-0.12.2
-	<=dev-ruby/sprockets-2.11.0"
+ruby_add_rdepend "dev-ruby/compass:1 <dev-ruby/sprockets-2.13:* <=dev-ruby/sass-rails-5.1:*"
 
 all_ruby_prepare() {
 	sed -i -e '/[Bb]undler/ s:^:#:' Rakefile || die
