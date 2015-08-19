@@ -95,7 +95,7 @@ dev-ruby/rvideo 0.9.3-r2 0.9.3-r3: Inspect and process video or audio files.
 dev-ruby/saikuro 1.2.1: A Ruby cyclomatic complexity analyzer.
 dev-ruby/sass-globbing 1.1.0: Sass globbing allows you to import many sass or scss files in a single import statement
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
-dev-ruby/sassy-maps 0.3.2 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
+dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/sassy-math 1.5 1.5.1: Advanced math functions for Compass
 dev-ruby/scrypt 2.0.0 2.0.2: Scrypt password hashing algorithm
 dev-ruby/selectivizr-rails 1.0.1 1.0.2 1.1.2: Include the Selectivizr.js library into your Rails 3.1 or higher app.
@@ -114,7 +114,6 @@ dev-ruby/user_agent 1.1.1: User Agent parser.
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/vpim 0.695-r1: A library to manipulate vCards and iCalendars
 dev-ruby/websocket-driver 0.3.4: A complete implementation of the WebSocket protocols
-dev-ruby/websocket-extensions 0.1.2: Generic extension manager for WebSocket connections
 dev-ruby/will_paginate 3.0.7-r1: Most awesome pagination solution for Ruby
 dev-ruby/xmpp4r-simple 0.8.8: Jabber::Simple - An extremely easy-to-use Jabber client library.
 dev-ruby/yamler 0.1.0: Making YAML easy and fun to use with Ruby
