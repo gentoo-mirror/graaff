@@ -74,6 +74,7 @@ dev-ruby/rails-app-installer 0.2.0: This is an installer for Rails applications.
 dev-ruby/rails_best_practices 1.11.1 1.11.1-r1 1.13.7 1.15.4: a gem to check quality of rails app files
 dev-ruby/rbwebkitgtk 0.20100103: Ruby bindings for the GTK+ port of WebKit.
 dev-ruby/rchardet19 1.3.5 1.3.7: A character encoding detection library for ruby.
+dev-ruby/recaptcha 0.4.0: Adds helpers for the reCAPTCHA API
 dev-ruby/redcard 1.1.0: An API for specifying multiple ruby implementations and versions
 dev-ruby/redgreen 1.2.2: A wrapper to support colored output with test/unit.
 dev-ruby/reek 1.3.8 1.4.0-r1: A tool that examines Ruby classes, modules and methods and reports any code smells it finds.
@@ -113,7 +114,6 @@ dev-ruby/twitter_oauth 0.4.3 0.4.4 0.4.94: Extension of the Authlogic library to
 dev-ruby/user_agent 1.1.1: User Agent parser.
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/vpim 0.695-r1: A library to manipulate vCards and iCalendars
-dev-ruby/websocket-driver 0.3.4: A complete implementation of the WebSocket protocols
 dev-ruby/will_paginate 3.0.7-r1: Most awesome pagination solution for Ruby
 dev-ruby/xmpp4r-simple 0.8.8: Jabber::Simple - An extremely easy-to-use Jabber client library.
 dev-ruby/yamler 0.1.0: Making YAML easy and fun to use with Ruby
