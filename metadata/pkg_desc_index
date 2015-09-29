@@ -3,7 +3,7 @@ app-emacs/coffee-mode 0.5.2 0.6.0: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20120523 0.20141129: A major mode for editing Cucumber stories.
 app-emacs/elixir-mode 1.3.0: Emacs major mode for Elixir
 app-emacs/groovy-mode 201311291207: A major mode for editing CoffeeScript
-app-forensics/brakeman 3.0.4 3.0.5: a static analysis tool which checks Ruby on Rails applications for security vulnerabilities
+app-forensics/brakeman 3.0.4 3.0.5 3.1.0: a static analysis tool which checks Ruby on Rails applications for security vulnerabilities
 app-office/radicale 0.7.1 0.8 0.10: A simple CalDAV calendar server
 app-text/htmltidy5 0.20120821: Tidy the layout and correct errors in HTML and XML documents
 app-text/ttf2eot 0.0.2.2: Very small utility to convert TTF files to EOT.
@@ -81,7 +81,7 @@ dev-ruby/recaptcha 0.4.0: Adds helpers for the reCAPTCHA API
 dev-ruby/redcard 1.1.0: An API for specifying multiple ruby implementations and versions
 dev-ruby/redgreen 1.2.2: A wrapper to support colored output with test/unit.
 dev-ruby/reek 1.3.8 1.4.0-r1: A tool that examines Ruby classes, modules and methods and reports any code smells it finds.
-dev-ruby/request-log-analyzer 1.12.8 1.12.9: This is a simple command line tool to analyze request log files.
+dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 1.2.1 1.3.2: A wonderfully simple way to load your code
 dev-ruby/responds_to_parent 1.1.0-r1: Adds responds_to_parent to your controller to respond to the parent document of your page.
 dev-ruby/ri_cal 0.8.8-r1 0.8.8-r2: A new Ruby implementation of RFC2445 iCalendar.
@@ -117,6 +117,7 @@ dev-ruby/twitter_oauth 0.4.3 0.4.4 0.4.94: Extension of the Authlogic library to
 dev-ruby/user_agent 1.1.1: User Agent parser.
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/vpim 0.695-r1: A library to manipulate vCards and iCalendars
+dev-ruby/wasabi 3.5.0: A simple WSDL parser
 dev-ruby/will_paginate 3.0.7-r1: Most awesome pagination solution for Ruby
 dev-ruby/xmpp4r-simple 0.8.8: Jabber::Simple - An extremely easy-to-use Jabber client library.
 dev-ruby/yamler 0.1.0: Making YAML easy and fun to use with Ruby
@@ -137,7 +138,6 @@ net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for
 net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 net-im/ejabberd 2.1.11-r1 2.1.12-r1 2.1.13-r2: The Erlang Jabber Daemon
 net-im/jabber-bot 1.1.1: Jabber::Bot makes it simple to create and command your own Jabber bot with little fuss.
-net-nds/gq 1.3.4: A GTK+-based LDAP client
 sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
 www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
