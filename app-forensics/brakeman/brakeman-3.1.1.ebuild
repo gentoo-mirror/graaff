@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 USE_RUBY="ruby19 ruby20 ruby21"
@@ -28,17 +28,16 @@ ruby_add_rdepend "
 	>=dev-ruby/haml-3.0:*  <dev-ruby/haml-5:*
 	>=dev-ruby/highline-1.6.20 =dev-ruby/highline-1*
 	>=dev-ruby/multi_json-1.2 =dev-ruby/multi_json-1*
-	>=dev-ruby/ruby2ruby-2.1.1 =dev-ruby/ruby2ruby-2*
+	>=dev-ruby/ruby2ruby-2.1.1 <dev-ruby/ruby2ruby-2.3.0
 	>=dev-ruby/ruby_parser-3.7.0 =dev-ruby/ruby_parser-3*
 	>=dev-ruby/sass-3.0:* =dev-ruby/sass-3*:*
-	>=dev-ruby/terminal-table-1.4 =dev-ruby/terminal-table-1*"
+	>=dev-ruby/slim-1.3.6 <dev-ruby/slim-4.0
+	>=dev-ruby/terminal-table-1.4.5 =dev-ruby/terminal-table-1.4*"
 
 all_ruby_prepare() {
 	# Remove fastercsv since it's a no-op on ruby19.
 	sed -i -e '/fastercsv/d' \
-		-e '/ruby2ruby/ s/2.1.1/2.1/' \
 		-e '/ruby_parser/ s/3.7.0/3.7/' \
-		-e '/highline/ s/1.6.20/1.6/' \
 		${RUBY_FAKEGEM_GEMSPEC} || die
 }
 

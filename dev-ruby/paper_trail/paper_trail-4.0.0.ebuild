@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 USE_RUBY="ruby19 ruby20 ruby21"
@@ -16,7 +16,7 @@ DESCRIPTION="PaperTrail lets you track changes to your models' data."
 HOMEPAGE="https://github.com/airblade/paper_trail"
 
 LICENSE="MIT"
-SLOT="3real"
+SLOT="4"
 KEYWORDS="~amd64"
 IUSE=""
 
@@ -25,10 +25,13 @@ RESTRICT="test"
 
 #ruby_add_bdepend "test? ( >=dev-ruby/shoulda-3.5 >=dev-ruby/sqlite3-1.2 >=dev-ruby/capybara-2.0 dev-ruby/bundler )"
 
-ruby_add_rdepend ">dev-ruby/activerecord-3 <dev-ruby/activerecord-5
-	>dev-ruby/activesupport-3 <dev-ruby/activesupport-5"
+ruby_add_rdepend ">dev-ruby/activerecord-3:* <dev-ruby/activerecord-6:*
+	>dev-ruby/activesupport-3:* <dev-ruby/activesupport-6:*
+	>=dev-ruby/request_store-1.1:0"
 
 all_ruby_prepare() {
+	rm -f Gemfile.lock || die
+
 	# Ignore test unimportant to me failing due to deprecations.
-	rm test/unit/timestamp_test.rb || die
+	rm -f test/unit/timestamp_test.rb || die
 }
