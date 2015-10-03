@@ -93,7 +93,6 @@ dev-ruby/rspec-activemodel-mocks 1.0.1 1.0.1-r1: RSpec test doubles for ActiveMo
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.32.1 0.33.0 0.34.2: A Ruby static code analyzer
 dev-ruby/rubocop-checkstyle_formatter 0.1.1 0.2.0: A formatter for rubocop that outputs in checkstyle format
-dev-ruby/ruby-recaptcha 1.0.5: The ReCaptchaClient abstracts the ReCaptcha API for use in Rails Applications
 dev-ruby/ruby-saml 0.7.3-r1 0.8.2 1.0.0: A library for implementing the client side of a SAML authorization
 dev-ruby/ruby-stemmer 0.9.6: Ruby-Stemmer exposes SnowBall API to Ruby.
 dev-ruby/rubycas-client 2.3.1 2.3.9: Ruby client library for Yale's Central Authentication Service (CAS) protocol.
@@ -129,7 +128,6 @@ dev-util/fuubar-cucumber 0.0.19 0.0.20 0.0.21: Fuubar-cucumber is an instafailin
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
 dev-util/git-pivotal 0.8.0: The Git Pivotal utility provides three tools to integrate with your Pivotal Tracker project.
 dev-util/hologram 1.4.0: Build doc type things
-dev-util/reviewboard 1.7.28: A web-based code review tool that offers developers an easy way to handle code reviews
 dev-util/scss-lint 0.35.0 0.38.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
