@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/rspec-rails/rspec-rails-3.1.0.ebuild,v 1.1 2015/01/16 13:02:58 graaff Exp $
+# $Id$
 
 EAPI=5
 
@@ -14,7 +14,7 @@ RUBY_FAKEGEM_EXTRADOC="README.md"
 inherit ruby-fakegem versionator
 
 DESCRIPTION="RSpec test doubles for ActiveModel and ActiveRecord"
-HOMEPAGE="http://github.com/thomas-holmes/rspec-activemodel-mocks"
+HOMEPAGE="https://github.com/rspec/rspec-activemodel-mocks"
 
 LICENSE="MIT"
 SLOT="3"
@@ -23,7 +23,7 @@ IUSE=""
 
 SUBVERSION="$(get_version_component_range 1-2)"
 
-ruby_add_rdepend ">=dev-ruby/activesupport-3.0
-	>=dev-ruby/activemodel-3.0
-	>=dev-ruby/railties-3.0
-	>=dev-ruby/rspec-mocks-2.99 <dev-ruby/rspec-mocks-4"
+ruby_add_rdepend ">=dev-ruby/activesupport-3.0:*
+	>=dev-ruby/activemodel-3.0:*
+	>=dev-ruby/railties-3.0:*
+	>=dev-ruby/rspec-mocks-2.99:* <dev-ruby/rspec-mocks-4:*"
