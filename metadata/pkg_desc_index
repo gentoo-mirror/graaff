@@ -56,6 +56,7 @@ dev-ruby/isolate 3.3.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/joiner 0.2.0 0.3.4: Builds ActiveRecord joins from association paths
 dev-ruby/kaminari 0.15.1 0.16.1 0.16.3: A pagination engine plugin for Rails 3+ and other modern frameworks
 dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
+dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
 dev-ruby/linkedin 0.4.7 1.0.0: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.0 1.7.1: Cross platform mac address determination for ruby
 dev-ruby/metric_fu 2.1.1 2.1.1-r1: A set of rake tasks that make it easy to generate metrics reports.
