@@ -138,7 +138,7 @@ dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: A formatter to the scss-lint
 dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
 media-gfx/separate 0.5.5 0.5.8: Separate+ is the plug-in package that provides some useful color-management functions for the GIMP.
 media-video/flvtool2 1.0.6-r1: a manipulation tool for Macromedia Flash Video files (FLV).
-net-analyzer/munin-mysql 0.20130531 0.20150601: Improved MySQL Graphs for Munin
+net-analyzer/munin-mysql 0.20130531 0.20150601 0.20150827: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for Rails server environments.
 net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 net-im/ejabberd 2.1.11-r1 2.1.12-r1 2.1.13-r2: The Erlang Jabber Daemon
