@@ -23,6 +23,7 @@ dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpo
 dev-ruby/appraisal 0.5.2: integrates with bundler and rake to test your library against different versions of dependencies
 dev-ruby/authlogic 3.4.3 3.4.4 3.4.6: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r3: Extension of the Authlogic library to add OpenID support.
+dev-ruby/benchmark-ips 2.3.0: A iterations per second enhancement to Benchmark
 dev-ruby/breakpoint 2.4.2 2.4.6 2.5.0: Really Simple Media Queries with Sass
 dev-ruby/cache_digests 0.2.0 0.3.1: Nested fragment caches with (even) less situps.
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
@@ -39,6 +40,7 @@ dev-ruby/ffi-compiler 0.1.3: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.4: Fixes redirects to login pages when a user clicks a link to your site from a Microsoft application
 dev-ruby/flay 2.6.0 2.6.1: Flay analyzes code for structural similarities.
 dev-ruby/formtastic 2.3.1 3.0.0 3.1.3: a Rails FormBuilder DSL (with some other goodies) to make it far easier to create forms.
+dev-ruby/get_process_mem 0.2.0: Get memory usage of a process in Ruby
 dev-ruby/git-pivotal-tracker-integration 1.4.0: A set of additional Git commands to help developers when working with Pivotal Tracker
 dev-ruby/gli 2.12.0 2.12.2 2.13.1: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1: Parses, validates, and formats local and international phone numbers
@@ -47,6 +49,7 @@ dev-ruby/googlecharts 1.6.10 1.6.12: The goal of this Gem is to make the creatio
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/happymapper 0.4.1: Object to xml mapping library.
 dev-ruby/has_many_polymorphs 2.13: An ActiveRecord plugin for self-referential and double-sided polymorphic associations.
+dev-ruby/heapy 0.1.1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/highrise 3.2.1: A set of classes to access information on Highrise via the published API
 dev-ruby/httmultiparty 0.3.14: A thin wrapper around HTTParty to provide multipart uploads
 dev-ruby/httpi 2.4.1: Common interface for Ruby's HTTP libraries
@@ -59,6 +62,7 @@ dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
 dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
 dev-ruby/linkedin 0.4.7 1.0.0: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.0 1.7.1: Cross platform mac address determination for ruby
+dev-ruby/memory_profiler 0.9.6: Memory profiling routines for Ruby 2.1+
 dev-ruby/metric_fu 2.1.1 2.1.1-r1: A set of rake tasks that make it easy to generate metrics reports.
 dev-ruby/middleware 0.1.0: Generalized implementation of the middleware abstraction for Ruby
 dev-ruby/minitest-around 0.3.0 0.3.1 0.3.2: Alternative for setup/teardown dance
@@ -131,7 +135,6 @@ dev-ruby/zeus 0.15.4: Boot any rails app in under a second
 dev-util/cucumber-sinatra 0.2.3: This little gem will help you to initialize a cucumber environment for a sinatra application.
 dev-util/fuubar-cucumber 0.0.21: Fuubar-cucumber is an instafailing cucumber formatter with progress bar.
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
-dev-util/git-pivotal 0.8.0: The Git Pivotal utility provides three tools to integrate with your Pivotal Tracker project.
 dev-util/hologram 1.4.0: Build doc type things
 dev-util/scss-lint 0.35.0 0.38.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
