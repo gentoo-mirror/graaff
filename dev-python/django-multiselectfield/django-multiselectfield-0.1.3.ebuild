@@ -17,7 +17,7 @@ LICENSE="BSD"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="!<dev-python/django-1.8"
+RDEPEND=""
 DEPEND="${RDEPEND}
 	test? (
 		>=dev-python/django-1.6[${PYTHON_USEDEP}]
