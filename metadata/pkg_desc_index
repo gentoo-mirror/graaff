@@ -125,7 +125,6 @@ dev-ruby/test-construct 1.2.0 1.2.2: Construct is a DSL for creating temporary f
 dev-ruby/thinking-sphinx 3.0.6 3.1.0 3.1.1 3.1.3 3.1.4: A concise and easy-to-use Ruby library that connects ActiveRecord to the Sphinx search daemon.
 dev-ruby/ts-datetime-delta 1.0.2-r1 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
 dev-ruby/twitter_oauth 0.4.3 0.4.4 0.4.94: Extension of the Authlogic library to add OpenID support.
-dev-ruby/user_agent 1.1.1: User Agent parser.
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/vpim 0.695-r1: A library to manipulate vCards and iCalendars
 dev-ruby/wasabi 3.5.0: A simple WSDL parser
