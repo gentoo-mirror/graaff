@@ -11,7 +11,7 @@ app-text/htmltidy5 0.20120821: Tidy the layout and correct errors in HTML and XM
 app-text/ttf2eot 0.0.2.2: Very small utility to convert TTF files to EOT.
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
-dev-python/Djblets 0.7.31 0.9: A collection of useful extensions for Django
+dev-python/Djblets 0.7.31 0.8.23 0.9: A collection of useful extensions for Django
 dev-python/django 1.6.11.1: High-level Python web framework
 dev-python/django-multiselectfield 0.1.3: Django multiple select field
 dev-python/django-pipeline 1.2.24: An asset packaging library for Django
@@ -138,7 +138,7 @@ dev-util/cucumber-sinatra 0.2.3: This little gem will help you to initialize a c
 dev-util/fuubar-cucumber 0.0.21: Fuubar-cucumber is an instafailing cucumber formatter with progress bar.
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
 dev-util/hologram 1.4.0: Build doc type things
-dev-util/reviewboard 2.5.1.1: A web-based code review tool that offers developers an easy way to handle code reviews
+dev-util/reviewboard 2.0.20 2.5.1.1: A web-based code review tool that offers developers an easy way to handle code reviews
 dev-util/scss-lint 0.35.0 0.38.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
