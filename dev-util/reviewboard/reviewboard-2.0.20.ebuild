@@ -11,7 +11,7 @@ inherit distutils-r1
 MY_PN="ReviewBoard"
 DESCRIPTION="A web-based code review tool that offers developers an easy way to handle code reviews"
 HOMEPAGE="http://www.reviewboard.org/"
-SRC_URI="http://downloads.reviewboard.org/releases/${MY_PN}/2.5/${MY_PN}-${PV}.tar.gz"
+SRC_URI="https://downloads.reviewboard.org/releases/${MY_PN}/2.0/${MY_PN}-${PV}.tar.gz"
 KEYWORDS="~amd64 ~x86"
 IUSE="codebase doc manual rnotes test"
 
@@ -25,8 +25,8 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	<dev-python/django-evolution-0.8[${PYTHON_USEDEP}]
 	>=dev-python/django-haystack-2.3.1[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
-	>=dev-python/Djblets-0.9[${PYTHON_USEDEP}]
-	<dev-python/Djblets-0.10[${PYTHON_USEDEP}]
+	>=dev-python/Djblets-0.8.22[${PYTHON_USEDEP}]
+	<dev-python/Djblets-0.9[${PYTHON_USEDEP}]
 	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.0[${PYTHON_USEDEP}]
