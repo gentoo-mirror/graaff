@@ -20,7 +20,7 @@ SRC_URI="https://downloads.reviewboard.org/releases/Django/1.6/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE="doc sqlite test"
 
 RDEPEND=""
