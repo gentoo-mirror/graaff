@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Improved MySQL Graphs for Munin
+EAPI=5
+HOMEPAGE=https://github.com/kjellm/munin-mysql
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-perl/DBD-mysql dev-perl/DBI dev-perl/Module-Pluggable net-analyzer/munin
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/kjellm/munin-mysql/archive/7f6dfca1ee72461bb0c2962873cadb347c6f0472.tar.gz -> munin-mysql-0.20150601.tar.gz
+_eclass_exported_funcs=src_prepare:- src_install:-
+_md5_=ea19241b0c429f5b28b36d7792314344
