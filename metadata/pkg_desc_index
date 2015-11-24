@@ -1,155 +1,155 @@
 app-crypt/ssss 0.5: Shamir's Secret Sharing Scheme
-app-emacs/coffee-mode 0.5.2 0.6.0: A major mode for editing CoffeeScript
-app-emacs/cucumber-el 0.20120523 0.20141129: A major mode for editing Cucumber stories.
-app-emacs/elixir-mode 1.3.0: Emacs major mode for Elixir
-app-emacs/groovy-mode 201311291207: A major mode for editing CoffeeScript
-app-emacs/haml-mode 3.1.9: A major mode for editing HAML
-app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
-app-forensics/brakeman 3.0.5 3.1.0 3.1.1 3.1.2: a static analysis tool which checks Ruby on Rails applications for security vulnerabilities
-app-office/radicale 0.7.1 0.8 0.10: A simple CalDAV calendar server
+app-emacs/coffee-mode 0.5.2 0.6.0: 
+app-emacs/cucumber-el 0.20120523 0.20141129: 
+app-emacs/elixir-mode 1.3.0: 
+app-emacs/groovy-mode 201311291207: 
+app-emacs/haml-mode 3.1.9: 
+app-emacs/sass-mode 3.0.18: 
+app-forensics/brakeman 3.0.5 3.1.0 3.1.1 3.1.2: 
+app-office/radicale 0.7.1 0.8 0.10: 
 app-text/htmltidy5 0.20120821: Tidy the layout and correct errors in HTML and XML documents
 app-text/ttf2eot 0.0.2.2: Very small utility to convert TTF files to EOT.
-dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
+dev-db/MySlowTranCapture 0.20110406: 
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
-dev-python/Djblets 0.7.31 0.8.23 0.9: A collection of useful extensions for Django
-dev-python/django 1.6.11.1: High-level Python web framework
-dev-python/django-multiselectfield 0.1.3: Django multiple select field
-dev-python/django-pipeline 1.2.24: An asset packaging library for Django
-dev-ruby/aasm 3.4.0 4.3.0 4.4.1: A library for adding finite state machines to Ruby classes.
-dev-ruby/active_model_serializers 0.8.3 0.9.2 0.9.3: Making it easy to serialize models for client-side use
-dev-ruby/acts-as-taggable-on 3.1.1-r1 3.2.6 3.5.0: Advanced tagging for Rails.
-dev-ruby/akami 1.3.1: Building Web Service Security
-dev-ruby/animation 0.1_alpha_p3: Animation Compass Plugin
+dev-python/Djblets 0.7.31 0.8.23 0.9: 
+dev-python/django 1.6.11.1: 
+dev-python/django-multiselectfield 0.1.3: 
+dev-python/django-pipeline 1.2.24: 
+dev-ruby/aasm 3.4.0 4.3.0 4.4.1: 
+dev-ruby/active_model_serializers 0.8.3 0.9.2 0.9.3: 
+dev-ruby/acts-as-taggable-on 3.1.1-r1 3.2.6 3.5.0: 
+dev-ruby/akami 1.3.1: 
+dev-ruby/animation 0.1_alpha_p3: 
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
-dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appraisal 0.5.2: integrates with bundler and rake to test your library against different versions of dependencies
-dev-ruby/authlogic 3.4.3 3.4.4 3.4.6: A clean, simple, and unobtrusive ruby authentication solution.
+dev-ruby/api-versions 1.2.0 1.2.1: 
+dev-ruby/appraisal 0.5.2: 
+dev-ruby/authlogic 3.4.3 3.4.4 3.4.6: 
 dev-ruby/authlogic-oid 1.0.4-r3: Extension of the Authlogic library to add OpenID support.
-dev-ruby/benchmark-ips 2.3.0: A iterations per second enhancement to Benchmark
-dev-ruby/breakpoint 2.4.2 2.4.6 2.5.0: Really Simple Media Queries with Sass
-dev-ruby/cache_digests 0.2.0 0.3.1: Nested fragment caches with (even) less situps.
-dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
-dev-ruby/cane 2.6.2: Fails your build if code quality thresholds are not met
-dev-ruby/code_analyzer 0.3.2 0.4.5: Code analyzer helps you build your own code analyzer tool.
-dev-ruby/code_metrics 0.1.3: Extraction of the rails rake stats task as a gem and rails plugin
-dev-ruby/compass-rails 2.0.4 2.0.5: A Rails adapter for the Compass Stylesheet Authoring Framework
-dev-ruby/declarative_authorization 0.5.7: The declarative authorization plugin offers an authorization mechanism inspired by RBAC.
-dev-ruby/default_value_for 3.0.0.1 3.0.1: Allows one to define default values for ActiveRecord models in a declarative manner.
-dev-ruby/derailed_benchmarks 1.1.3: Go faster, off the Rails
-dev-ruby/draper 1.3.1 1.4.0 2.1.0: View Models for Rails
-dev-ruby/exception_notification 3.0.1 4.0.1 4.1.0 4.1.1: Exception Notifier Plugin for Rails
-dev-ruby/feed_parser 0.3.5: Rss and Atom feed parser built on top of Nokogiri
-dev-ruby/ffi-compiler 0.1.3: Ruby FFI Rakefile generator
-dev-ruby/fix_microsoft_links 0.1.4: Fixes redirects to login pages when a user clicks a link to your site from a Microsoft application
-dev-ruby/flay 2.6.0 2.6.1: Flay analyzes code for structural similarities.
-dev-ruby/formtastic 2.3.1 3.0.0 3.1.3: a Rails FormBuilder DSL (with some other goodies) to make it far easier to create forms.
-dev-ruby/get_process_mem 0.2.0: Get memory usage of a process in Ruby
-dev-ruby/git-pivotal-tracker-integration 1.4.0: A set of additional Git commands to help developers when working with Pivotal Tracker
-dev-ruby/gli 2.12.0 2.12.2 2.13.1: Git-Like Interface Command Line Parser
-dev-ruby/global_phone 1.0.1: Parses, validates, and formats local and international phone numbers
-dev-ruby/global_phone_dbgen 1.0.0: Parses, validates, and formats local and international phone numbers
-dev-ruby/googlecharts 1.6.10 1.6.12: The goal of this Gem is to make the creation of Google Charts a simple and easy task.
-dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
-dev-ruby/happymapper 0.4.1: Object to xml mapping library.
+dev-ruby/benchmark-ips 2.3.0: 
+dev-ruby/breakpoint 2.4.2 2.4.6 2.5.0: 
+dev-ruby/cache_digests 0.2.0 0.3.1: 
+dev-ruby/calendar_helper 0.2.6: 
+dev-ruby/cane 2.6.2: 
+dev-ruby/code_analyzer 0.3.2 0.4.5: 
+dev-ruby/code_metrics 0.1.3: 
+dev-ruby/compass-rails 2.0.4 2.0.5: 
+dev-ruby/declarative_authorization 0.5.7: 
+dev-ruby/default_value_for 3.0.0.1 3.0.1: 
+dev-ruby/derailed_benchmarks 1.1.3: 
+dev-ruby/draper 1.3.1 1.4.0 2.1.0: 
+dev-ruby/exception_notification 3.0.1 4.0.1 4.1.0 4.1.1: 
+dev-ruby/feed_parser 0.3.5: 
+dev-ruby/ffi-compiler 0.1.3: 
+dev-ruby/fix_microsoft_links 0.1.4: 
+dev-ruby/flay 2.6.0 2.6.1: 
+dev-ruby/formtastic 2.3.1 3.0.0 3.1.3: 
+dev-ruby/get_process_mem 0.2.0: 
+dev-ruby/git-pivotal-tracker-integration 1.4.0: 
+dev-ruby/gli 2.12.0 2.12.2 2.13.1: 
+dev-ruby/global_phone 1.0.1: 
+dev-ruby/global_phone_dbgen 1.0.0: 
+dev-ruby/googlecharts 1.6.10 1.6.12: 
+dev-ruby/gyoku 1.3.1: 
+dev-ruby/happymapper 0.4.1: 
 dev-ruby/has_many_polymorphs 2.13: An ActiveRecord plugin for self-referential and double-sided polymorphic associations.
-dev-ruby/heapy 0.1.1: Got a heap dump? Great. Use this tool to see what's in it!
-dev-ruby/highrise 3.2.1: A set of classes to access information on Highrise via the published API
-dev-ruby/httmultiparty 0.3.14: A thin wrapper around HTTParty to provide multipart uploads
-dev-ruby/httpi 2.4.1: Common interface for Ruby's HTTP libraries
-dev-ruby/icalendar 1.5.4 2.2.1 2.2.2 2.3.0: This library provides iCalendar support for ruby. (RFC-2445)
-dev-ruby/innertube 1.1.0: A thread-safe resource pool, originally borne in riak-client (Ripple)
-dev-ruby/isolate 3.3.1: Isolate is a very simple RubyGems sandbox.
-dev-ruby/joiner 0.2.0 0.3.4: Builds ActiveRecord joins from association paths
-dev-ruby/kaminari 0.15.1 0.16.1 0.16.3: A pagination engine plugin for Rails 3+ and other modern frameworks
-dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
-dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
-dev-ruby/linkedin 0.4.7 1.0.0: Ruby wrapper for the LinkedIn API
-dev-ruby/macaddr 1.7.0 1.7.1: Cross platform mac address determination for ruby
-dev-ruby/memory_profiler 0.9.6: Memory profiling routines for Ruby 2.1+
+dev-ruby/heapy 0.1.1: 
+dev-ruby/highrise 3.2.1: 
+dev-ruby/httmultiparty 0.3.14: 
+dev-ruby/httpi 2.4.1: 
+dev-ruby/icalendar 1.5.4 2.2.1 2.2.2 2.3.0: 
+dev-ruby/innertube 1.1.0: 
+dev-ruby/isolate 3.3.1: 
+dev-ruby/joiner 0.2.0 0.3.4: 
+dev-ruby/kaminari 0.15.1 0.16.1 0.16.3: 
+dev-ruby/krb5-auth 0.7-r5: 
+dev-ruby/let_it_go 0.0.3: 
+dev-ruby/linkedin 0.4.7 1.0.0: 
+dev-ruby/macaddr 1.7.0 1.7.1: 
+dev-ruby/memory_profiler 0.9.6: 
 dev-ruby/metric_fu 2.1.1 2.1.1-r1: A set of rake tasks that make it easy to generate metrics reports.
-dev-ruby/middleware 0.1.0: Generalized implementation of the middleware abstraction for Ruby
-dev-ruby/minitest-around 0.3.0 0.3.1 0.3.2: Alternative for setup/teardown dance
-dev-ruby/money 6.5.1: This library aids one in handling money and different currencies.
-dev-ruby/nested_form 0.3.2: A Rails gem for conveniently manage multiple nested models in a single form.
-dev-ruby/nokogiri-happymapper 0.5.9: Allows you to parse XML data and convert it quickly and easily into ruby data structures
-dev-ruby/nori 2.6.0: XML to Hash translator
-dev-ruby/oauth-plugin 0.5.1: A plugin for implementing OAuth Providers and Consumers in Rails applications.
-dev-ruby/odata 0.6.18: Simple OData library
-dev-ruby/open_id_authentication 1.2.0: a thin wrapper around the excellent ruby-openid gem from JanRain.
-dev-ruby/paper_trail 3.0.8 4.0.0: PaperTrail lets you track changes to your models' data.
-dev-ruby/parallel 1.2.2: Run any code in parallel Processes or Threads
+dev-ruby/middleware 0.1.0: 
+dev-ruby/minitest-around 0.3.0 0.3.1 0.3.2: 
+dev-ruby/money 6.5.1: 
+dev-ruby/nested_form 0.3.2: 
+dev-ruby/nokogiri-happymapper 0.5.9: 
+dev-ruby/nori 2.6.0: 
+dev-ruby/oauth-plugin 0.5.1: 
+dev-ruby/odata 0.6.18: 
+dev-ruby/open_id_authentication 1.2.0: 
+dev-ruby/paper_trail 3.0.8 4.0.0: 
+dev-ruby/parallel 1.2.2: 
 dev-ruby/paypal 2.0.0-r1: Library aiding with Paypal IPN from web applications.
-dev-ruby/pipedrive-ruby 0.3.3 0.3.3-r1: Ruby wrapper for the LinkedIn API
-dev-ruby/pivotal-tracker 0.5.12 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
-dev-ruby/powerpack 0.0.9 0.1.0 0.1.1: A few useful extensions to core Ruby classes
-dev-ruby/railroady 1.1.1 1.3.0: Generates Rails 3/4 model and controller UML diagrams
+dev-ruby/pipedrive-ruby 0.3.3 0.3.3-r1: 
+dev-ruby/pivotal-tracker 0.5.12 0.5.13: 
+dev-ruby/powerpack 0.0.9 0.1.0 0.1.1: 
+dev-ruby/railroady 1.1.1 1.3.0: 
 dev-ruby/rails-app-installer 0.2.0: This is an installer for Rails applications.
-dev-ruby/rails_best_practices 1.11.1 1.11.1-r1 1.13.7 1.15.4: a gem to check quality of rails app files
+dev-ruby/rails_best_practices 1.11.1 1.11.1-r1 1.13.7 1.15.4: 
 dev-ruby/rbwebkitgtk 0.20100103: Ruby bindings for the GTK+ port of WebKit.
-dev-ruby/rchardet19 1.3.5 1.3.7: A character encoding detection library for ruby.
-dev-ruby/recaptcha 0.4.0: Adds helpers for the reCAPTCHA API
-dev-ruby/redcard 1.1.0: An API for specifying multiple ruby implementations and versions
+dev-ruby/rchardet19 1.3.5 1.3.7: 
+dev-ruby/recaptcha 0.4.0: 
+dev-ruby/redcard 1.1.0: 
 dev-ruby/redgreen 1.2.2: A wrapper to support colored output with test/unit.
-dev-ruby/reek 1.3.8 1.4.0-r1: A tool that examines Ruby classes, modules and methods and reports any code smells it finds.
-dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
-dev-ruby/require_all 1.2.1 1.3.2: A wonderfully simple way to load your code
+dev-ruby/reek 1.3.8 1.4.0-r1: 
+dev-ruby/request-log-analyzer 1.13.4: 
+dev-ruby/require_all 1.2.1 1.3.2: 
 dev-ruby/responds_to_parent 1.1.0-r1: Adds responds_to_parent to your controller to respond to the parent document of your page.
-dev-ruby/ri_cal 0.8.8-r1 0.8.8-r2: A new Ruby implementation of RFC2445 iCalendar.
-dev-ruby/riddle 1.5.11 1.5.12: An interface to the Sphinx search daemon.
-dev-ruby/roodi 3.3.1 4.0.0: Roodi stands for Ruby Object Oriented Design Inferometer
-dev-ruby/rspec-activemodel-mocks 1.0.1-r1 1.0.2: RSpec test doubles for ActiveModel and ActiveRecord
-dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.32.1 0.33.0 0.34.2: A Ruby static code analyzer
-dev-ruby/rubocop-checkstyle_formatter 0.1.1 0.2.0: A formatter for rubocop that outputs in checkstyle format
-dev-ruby/ruby-saml 0.7.3-r1 0.8.2 1.0.0 1.1.0: A library for implementing the client side of a SAML authorization
-dev-ruby/ruby-stemmer 0.9.6: Ruby-Stemmer exposes SnowBall API to Ruby.
+dev-ruby/ri_cal 0.8.8-r1 0.8.8-r2: 
+dev-ruby/riddle 1.5.11 1.5.12: 
+dev-ruby/roodi 3.3.1 4.0.0: 
+dev-ruby/rspec-activemodel-mocks 1.0.1-r1 1.0.2: 
+dev-ruby/rspec_multi_matchers 1.2.1: 
+dev-ruby/rubocop 0.32.1 0.33.0 0.34.2: 
+dev-ruby/rubocop-checkstyle_formatter 0.1.1 0.2.0: 
+dev-ruby/ruby-saml 0.7.3-r1 0.8.2 1.0.0 1.1.0: 
+dev-ruby/ruby-stemmer 0.9.6: 
 dev-ruby/rubycas-client 2.3.1 2.3.9: Ruby client library for Yale's Central Authentication Service (CAS) protocol.
-dev-ruby/rvideo 0.9.3-r2 0.9.3-r3: Inspect and process video or audio files.
+dev-ruby/rvideo 0.9.3-r2 0.9.3-r3: 
 dev-ruby/saikuro 1.2.1: A Ruby cyclomatic complexity analyzer.
-dev-ruby/sass-globbing 1.1.0: Sass globbing allows you to import many sass or scss files in a single import statement
-dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
-dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
-dev-ruby/sassy-math 1.5 1.5.1: Advanced math functions for Compass
-dev-ruby/scrypt 2.0.0 2.0.2: Scrypt password hashing algorithm
-dev-ruby/selectivizr-rails 1.0.1 1.0.2 1.1.2: Include the Selectivizr.js library into your Rails 3.1 or higher app.
-dev-ruby/skydrive 0.1.5: Simple ruby client library for Skydrive cloud storage service with OAuth2
+dev-ruby/sass-globbing 1.1.0: 
+dev-ruby/sassy-buttons 0.2.6: 
+dev-ruby/sassy-maps 0.4.0: 
+dev-ruby/sassy-math 1.5 1.5.1: 
+dev-ruby/scrypt 2.0.0 2.0.2: 
+dev-ruby/selectivizr-rails 1.0.1 1.0.2 1.1.2: 
+dev-ruby/skydrive 0.1.5: 
 dev-ruby/soap4r 1.5.8: A clean, simple, and unobtrusive ruby authentication solution.
-dev-ruby/spring 1.4.0-r100: Rails application preloader
-dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
-dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
-dev-ruby/sshkit-sudo 0.0.4 0.0.4-r1: SSHKit extension, for sudo operation with password input
-dev-ruby/stale_fish 1.3.0 1.3.2: keeps fixtures synchronized with sources to prevent outdated fixtures going undetected.
-dev-ruby/susy 1.0.9 2.2.5 2.2.6: A semantic CSS grid system with a responsive twist
-dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
-dev-ruby/syslog-logger 1.6.8: Logger::Syslog is a Logger replacement that logs to syslog.
-dev-ruby/terminal-table 1.4.5 1.5.2: Simple, feature rich ascii table generation library
+dev-ruby/spring 1.4.0-r100: 
+dev-ruby/spring-commands-cucumber 1.0.1: 
+dev-ruby/spring-commands-rspec 1.0.4: 
+dev-ruby/sshkit-sudo 0.0.4 0.0.4-r1: 
+dev-ruby/stale_fish 1.3.0 1.3.2: 
+dev-ruby/susy 1.0.9 2.2.5 2.2.6: 
+dev-ruby/swf_fu 2.0.4: 
+dev-ruby/syslog-logger 1.6.8: 
+dev-ruby/terminal-table 1.4.5 1.5.2: 
 dev-ruby/test-construct 1.2.0 1.2.2: Construct is a DSL for creating temporary files and directories during testing.
-dev-ruby/thinking-sphinx 3.0.6 3.1.0 3.1.1 3.1.3 3.1.4: A concise and easy-to-use Ruby library that connects ActiveRecord to the Sphinx search daemon.
+dev-ruby/thinking-sphinx 3.0.6 3.1.0 3.1.1 3.1.3 3.1.4: 
 dev-ruby/ts-datetime-delta 1.0.2-r1 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
 dev-ruby/twitter_oauth 0.4.3 0.4.4 0.4.94: Extension of the Authlogic library to add OpenID support.
-dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
+dev-ruby/uuid 2.3.8: 
 dev-ruby/vpim 0.695-r1: A library to manipulate vCards and iCalendars
-dev-ruby/wasabi 3.5.0: A simple WSDL parser
-dev-ruby/will_paginate 3.0.7-r1: Most awesome pagination solution for Ruby
+dev-ruby/wasabi 3.5.0: 
+dev-ruby/will_paginate 3.0.7-r1: 
 dev-ruby/xmpp4r-simple 0.8.8: Jabber::Simple - An extremely easy-to-use Jabber client library.
 dev-ruby/yamler 0.1.0: Making YAML easy and fun to use with Ruby
-dev-ruby/zeus 0.15.4: Boot any rails app in under a second
+dev-ruby/zeus 0.15.4: 
 dev-util/cucumber-sinatra 0.2.3: This little gem will help you to initialize a cucumber environment for a sinatra application.
-dev-util/fuubar-cucumber 0.0.21: Fuubar-cucumber is an instafailing cucumber formatter with progress bar.
-dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
-dev-util/hologram 1.4.0: Build doc type things
-dev-util/reviewboard 2.0.20 2.5.1.1: A web-based code review tool that offers developers an easy way to handle code reviews
-dev-util/scss-lint 0.35.0 0.38.0: Configurable tool for writing clean and consistent SCSS
-dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
-dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
+dev-util/fuubar-cucumber 0.0.21: 
+dev-util/gerrit-bin 2.5.6 2.6.1: 
+dev-util/hologram 1.4.0: 
+dev-util/reviewboard 2.0.20 2.5.1.1: 
+dev-util/scss-lint 0.35.0 0.38.0: 
+dev-util/scss_lint_reporter_checkstyle 0.1.0 0.2.0: 
+dev-vcs/overcommit 0.8.0: 
 media-gfx/separate 0.5.5 0.5.8: Separate+ is the plug-in package that provides some useful color-management functions for the GIMP.
 media-video/flvtool2 1.0.6-r1: a manipulation tool for Macromedia Flash Video files (FLV).
-net-analyzer/munin-mysql 0.20130531 0.20150601 0.20150827: Improved MySQL Graphs for Munin
+net-analyzer/munin-mysql 0.20130531 0.20150601 0.20150827: 
 net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for Rails server environments.
-net-fs/afpfs-ng 0.8.1: AFP filesystem clients
-net-im/ejabberd 2.1.11-r1 2.1.12-r1 2.1.13-r2: The Erlang Jabber Daemon
+net-fs/afpfs-ng 0.8.1: 
+net-im/ejabberd 2.1.11-r1 2.1.12-r1 2.1.13-r2: 
 net-im/jabber-bot 1.1.1: Jabber::Bot makes it simple to create and command your own Jabber bot with little fuss.
-sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
+sys-apps/ipmiview 2.9.32: 
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
-www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
+www-misc/checkbot 1.80-r1: 
 www-servers/adsf 1.1.1 1.2.0: A Dead Simple Fileserver is a static file server that you can launch instantly in a directory.
