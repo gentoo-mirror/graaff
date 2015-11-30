@@ -7,7 +7,6 @@ app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-forensics/brakeman 3.0.5 3.1.0 3.1.1 3.1.2: a static analysis tool which checks Ruby on Rails applications for security vulnerabilities
 app-office/radicale 0.7.1 0.8 0.10: A simple CalDAV calendar server
-app-text/htmltidy5 0.20120821: Tidy the layout and correct errors in HTML and XML documents
 app-text/ttf2eot 0.0.2.2: Very small utility to convert TTF files to EOT.
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
