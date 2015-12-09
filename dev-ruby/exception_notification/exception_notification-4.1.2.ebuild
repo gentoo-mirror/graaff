@@ -1,9 +1,9 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
-USE_RUBY="ruby19 ruby20 ruby21"
+USE_RUBY="ruby20 ruby21"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.rdoc README.md"
 
@@ -25,4 +25,4 @@ KEYWORDS="~amd64"
 SLOT="4"
 IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/actionmailer-3.0.4 >=dev-ruby/activesupport-3.0.4"
+ruby_add_rdepend "=dev-ruby/actionmailer-4*:* =dev-ruby/activesupport-4*:*"
