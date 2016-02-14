@@ -1,9 +1,9 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header:  $
+# $Id$
 
 EAPI=5
-USE_RUBY="ruby19 ruby20"
+USE_RUBY="ruby20"
 
 RUBY_FAKEGEM_TASK_TEST=""
 
@@ -27,7 +27,7 @@ RUBY_PATCHES=( ${P}-rails32.patch )
 # This gem can use either tzinfo or activesupport and thus doesn't have
 # any explicit dependency. We always depend on tzinfo since newer
 # versions of activesupport do this as well.
-ruby_add_rdepend "dev-ruby/tzinfo"
+ruby_add_rdepend "dev-ruby/tzinfo:*"
 
 ruby_add_bdepend "test? ( dev-ruby/rspec:0 )"
 
