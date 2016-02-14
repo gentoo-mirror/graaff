@@ -9,7 +9,7 @@ PYTHON_REQ_USE="sqlite"
 inherit distutils-r1
 
 MY_PN="ReviewBoard"
-DESCRIPTION="A web-based code review tool that offers developers an easy way to handle code reviews"
+DESCRIPTION="A web-based code review tool that offers developers a way to handle code reviews"
 HOMEPAGE="http://www.reviewboard.org/"
 SRC_URI="http://downloads.reviewboard.org/releases/${MY_PN}/2.5/${MY_PN}-${PV}.tar.gz"
 KEYWORDS="~amd64 ~x86"
