@@ -21,7 +21,7 @@ S=${WORKDIR}/${MY_PN}-${PV}
 
 RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	<dev-python/django-1.7[${PYTHON_USEDEP},sqlite]
-	>=dev-python/django-evolution-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/django-evolution-0.7.6[${PYTHON_USEDEP}]
 	<dev-python/django-evolution-0.8[${PYTHON_USEDEP}]
 	>=dev-python/django-haystack-2.3.1[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
