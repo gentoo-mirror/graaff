@@ -119,8 +119,8 @@ pkg_postinst() {
 	elog "You must install any VCS tool you wish ${PN} to support."
 	elog "dev-util/cvs, dev-vcs/git, dev-vcs/mercurial or dev-util/subversion."
 	elog
-	elog "Enable the mysql, postgres or sqlite USEflag on dev-python/django"
-	elog "to use the corresponding database backend."
+	elog "Install dev-python/mysql-python for mysql support."
+	elog "Install dev-python/psycopg for postgres support."
 	elog
 	elog "For speed and responsiveness, consider installing net-misc/memcached"
 	elog "and dev-python/python-memcached"
