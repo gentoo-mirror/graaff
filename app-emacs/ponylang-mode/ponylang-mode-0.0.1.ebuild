@@ -9,8 +9,8 @@ inherit elisp
 IUSE=""
 
 DESCRIPTION="A major mode for editing pony"
-HOMEPAGE="https://github.com/abingham/ponylang-mode/"
-SRC_URI="https://github.com/abingham/ponylang-mode/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/SeanTAllen/ponylang-mode/"
+SRC_URI="https://github.com/SeanTAllen/ponylang-mode/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
