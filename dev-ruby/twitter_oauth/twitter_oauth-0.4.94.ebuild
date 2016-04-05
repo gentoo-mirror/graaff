@@ -13,8 +13,8 @@ RUBY_FAKEGEM_EXTRADOC="README.textile"
 
 inherit ruby-fakegem
 
-DESCRIPTION="Extension of the Authlogic library to add OpenID support."
-HOMEPAGE="http://authlogic-oid.rubyforge.org/"
+DESCRIPTION="Twitter OAuth REST API client library for Ruby"
+HOMEPAGE="https://github.com/moomerman/twitter_oauth"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86 ~x86-macos"
