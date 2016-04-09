@@ -8,9 +8,11 @@ USE_RUBY="ruby21 ruby22 ruby23"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
+RUBY_FAKEGEM_BINWRAP=""
+
 inherit ruby-fakegem
 
-DESCRIPTION="Provides an OOP interface to docker's command-line interface without relying on its HTTP API"
+DESCRIPTION="An OOP interface to docker's command-line interface without relying on its HTTP API"
 HOMEPAGE="https://github.com/xeger/docker"
 SRC_URI="https://github.com/xeger/docker/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
