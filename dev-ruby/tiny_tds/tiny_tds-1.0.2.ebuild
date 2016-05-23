@@ -13,6 +13,8 @@ RUBY_FAKEGEM_RECIPE_TEST="none"
 # The binary wrappers are already provided by freetds.
 RUBY_FAKEGEM_BINWRAP=""
 
+RUBY_FAKEGEM_EXTRAINSTALL="VERSION"
+
 inherit ruby-fakegem
 
 DESCRIPTION="A modern, simple and fast FreeTDS library for Ruby using DB-Library"
