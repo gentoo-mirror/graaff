@@ -25,8 +25,8 @@ SLOT="1"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND+="dev-db/freetds"
-DEPEND+="dev-db/freetds"
+RDEPEND+=">=dev-db/freetds-0.95"
+DEPEND+=">=dev-db/freetds-0.95"
 
 ruby_add_bdepend "dev-ruby/mini_portile2"
 
@@ -39,6 +39,6 @@ each_ruby_configure() {
 }
 
 each_ruby_compile() {
-	emake -Cext/tiny_tds
+	emake V=1 -Cext/tiny_tds
 	cp ext/tiny_tds/tiny_tds.so lib/tiny_tds/ || die
 }
