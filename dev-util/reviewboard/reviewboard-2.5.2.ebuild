@@ -9,7 +9,7 @@ PYTHON_REQ_USE="sqlite"
 inherit distutils-r1
 
 MY_PN="ReviewBoard"
-DESCRIPTION="A web-based code review tool that offers developers an easy way to handle code reviews"
+DESCRIPTION="A web-based code review tool that offers developers a way to handle code reviews"
 HOMEPAGE="http://www.reviewboard.org/"
 SRC_URI="http://downloads.reviewboard.org/releases/${MY_PN}/2.5/${MY_PN}-${PV}.tar.gz"
 KEYWORDS="~amd64 ~x86"
@@ -21,7 +21,7 @@ S=${WORKDIR}/${MY_PN}-${PV}
 
 RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	<dev-python/django-1.7[${PYTHON_USEDEP},sqlite]
-	>=dev-python/django-evolution-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/django-evolution-0.7.6[${PYTHON_USEDEP}]
 	<dev-python/django-evolution-0.8[${PYTHON_USEDEP}]
 	>=dev-python/django-haystack-2.3.1[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	>=dev-python/markdown-2.6.0[${PYTHON_USEDEP}]
 	<dev-python/markdown-2.7[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.12[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/pycrypto-2.6[${PYTHON_USEDEP}]
 	>=dev-python/mimeparse-0.1.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
@@ -118,8 +119,8 @@ pkg_postinst() {
 	elog "You must install any VCS tool you wish ${PN} to support."
 	elog "dev-util/cvs, dev-vcs/git, dev-vcs/mercurial or dev-util/subversion."
 	elog
-	elog "Enable the mysql, postgres or sqlite USEflag on dev-python/django"
-	elog "to use the corresponding database backend."
+	elog "Install dev-python/mysql-python for mysql support."
+	elog "Install dev-python/psycopg for postgres support."
 	elog
 	elog "For speed and responsiveness, consider installing net-misc/memcached"
 	elog "and dev-python/python-memcached"
