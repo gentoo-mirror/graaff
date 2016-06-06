@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare test
+DEPEND=dev-libs/libpcre2 dev-libs/openssl:= sys-devel/llvm:0/3.6 sys-libs/ncurses:= sys-libs/zlib virtual/pkgconfig
+DESCRIPTION=Compiler for the Pony language
+EAPI=5
+HOMEPAGE=http://www.ponylang.org/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-libs/libpcre2 dev-libs/openssl:= sys-devel/llvm:0/3.6 sys-libs/ncurses:= sys-libs/zlib
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/CausalityLtd/ponyc/archive/e4427917a3cccc04dd3633777a31e17b5133a743.tar.gz -> pony-0.2.1.20160331.tar.gz
+_eclass_exported_funcs=src_prepare:- src_compile:- src_test:- src_install:-
+_md5_=f745b956b43667f73a70efb0154fe43a
