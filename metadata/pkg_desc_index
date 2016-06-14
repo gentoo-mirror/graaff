@@ -57,6 +57,7 @@ dev-ruby/heapy 0.1.1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/httmultiparty 0.3.14: A thin wrapper around HTTParty to provide multipart uploads
 dev-ruby/httpi 2.4.1: Common interface for Ruby's HTTP libraries
 dev-ruby/icalendar 2.3.0: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/ice_cube 0.14.0: a recurring date library for Ruby
 dev-ruby/innertube 1.1.0: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/isolate 3.3.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/joiner 0.2.0 0.3.4: Builds ActiveRecord joins from association paths
