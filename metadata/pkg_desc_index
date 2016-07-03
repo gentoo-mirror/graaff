@@ -1,11 +1,12 @@
 app-crypt/ssss 0.5: Shamir's Secret Sharing Scheme
-app-emacs/coffee-mode 0.6.2 0.6.3: A major mode for editing CoffeeScript
+app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20141129 0.20141129-r1: A major mode for editing Cucumber stories.
-app-emacs/elixir-mode 1.3.0: Emacs major mode for Elixir
+app-emacs/elixir-mode 1.3.0 1.5.0: Emacs major mode for Elixir
 app-emacs/groovy-mode 201311291207: A major mode for editing CoffeeScript
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
-app-emacs/ponylang-mode 0.0.5 0.0.7: A major mode for editing pony
+app-emacs/ponylang-mode 0.0.7: A major mode for editing pony
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
+app-emacs/web-mode 14: web template editing mode for emacs
 app-forensics/brakeman 3.2.1: Static analysis tool which checks RoR applications for security vulnerabilities
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
