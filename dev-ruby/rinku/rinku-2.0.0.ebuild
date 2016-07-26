@@ -1,0 +1,34 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=5
+USE_RUBY="ruby20 ruby21 ruby22 ruby23"
+
+RUBY_FAKEGEM_RECIPE_DOC="rdoc"
+RUBY_FAKEGEM_EXTRADOC="README.markdown"
+
+inherit ruby-fakegem
+
+DESCRIPTION="A fast and very smart autolinking library"
+HOMEPAGE="https://github.com/vmg/rinku"
+
+LICENSE="ISC"
+SLOT="0"
+KEYWORDS="~amd64"
+IUSE="doc test"
+
+ruby_add_bdepend "test? ( dev-ruby/minitest )"
+
+each_ruby_configure() {
+	${RUBY} -Cext/rinku extconf.rb || die
+}
+
+each_ruby_compile() {
+	emake V=1 -Cext/rinku
+	cp ext/rinku/rinku.so lib/ || die
+}
+
+each_ruby_test() {
+	${RUBY} -Ilib test/autolink_test.rb || die
+}
