@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21"
+USE_RUBY="ruby20 ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -25,10 +25,10 @@ ruby_add_rdepend "
 	>=dev-ruby/actionpack-3.0:*
 	>=dev-ruby/activemodel-3.0:*
 	>=dev-ruby/activesupport-3.0:*
-	>=dev-ruby/request_store-1.0.3"
+	>=dev-ruby/request_store-1.0.3:0"
 
+# ammeter is only needed for generator specs which we skip
 ruby_add_bdepend "test? (
-		>=dev-ruby/ammeter-0.2.2
 		dev-ruby/active_model_serializers
 	)"
 
