@@ -1,9 +1,9 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header:  $
+# $Id$
 
 EAPI=5
-USE_RUBY="ruby19 ruby20 ruby21"
+USE_RUBY="ruby20 ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md DESIGN.textile README.md"
 
@@ -22,6 +22,6 @@ IUSE="test"
 # A bit more complicated setup than I have time for now...
 RESTRICT="test"
 
-ruby_add_rdepend ">=dev-ruby/activemodel-3.2"
+ruby_add_rdepend ">=dev-ruby/activemodel-3.2:*"
 
 #ruby_add_bdepend "test? ( >=dev-ruby/rails-3.0 )"
