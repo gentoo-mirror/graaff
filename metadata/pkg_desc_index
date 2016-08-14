@@ -58,14 +58,14 @@ dev-ruby/googlecharts 1.6.10 1.6.12: The goal of this Gem is to make the creatio
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/happymapper 0.4.1: Object to xml mapping library.
 dev-ruby/heapy 0.1.1: Got a heap dump? Great. Use this tool to see what's in it!
-dev-ruby/httmultiparty 0.3.14: A thin wrapper around HTTParty to provide multipart uploads
+dev-ruby/httmultiparty 0.3.16: A thin wrapper around HTTParty to provide multipart uploads
 dev-ruby/httpi 2.4.1: Common interface for Ruby's HTTP libraries
 dev-ruby/icalendar 2.3.0 2.4.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.0 1.1.0-r1: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.14.0: a recurring date library for Ruby
 dev-ruby/innertube 1.1.0: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/isolate 3.3.1: Isolate is a very simple RubyGems sandbox.
-dev-ruby/joiner 0.2.0 0.3.4: Builds ActiveRecord joins from association paths
+dev-ruby/joiner 0.3.4: Builds ActiveRecord joins from association paths
 dev-ruby/kaminari 0.15.1 0.16.1 0.16.3: A pagination engine plugin for Rails 3+ and other modern frameworks
 dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
 dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
