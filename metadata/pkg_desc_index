@@ -89,6 +89,7 @@ dev-ruby/parallel 1.2.2 1.2.4: Run any code in parallel Processes or Threads
 dev-ruby/pipedrive-ruby 0.3.3 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/powerpack 0.1.1: A few useful extensions to core Ruby classes
+dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
 dev-ruby/railroady 1.3.0 1.4.2: Generates Rails 3/4 model and controller UML diagrams
 dev-ruby/rails_best_practices 1.11.1 1.11.1-r1 1.13.7 1.15.4: a gem to check quality of rails app files
 dev-ruby/rchardet19 1.3.5 1.3.7: A character encoding detection library for ruby.
