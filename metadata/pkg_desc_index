@@ -68,7 +68,7 @@ dev-ruby/joiner 0.3.4: Builds ActiveRecord joins from association paths
 dev-ruby/kaminari 0.16.3 0.17.0: A pagination engine plugin for Rails 3+ and other modern frameworks
 dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
 dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
-dev-ruby/linkedin 0.4.7 1.0.0 1.1.0: Ruby wrapper for the LinkedIn API
+dev-ruby/linkedin 0.4.7 1.1.0: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.0 1.7.1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 0.9.6: Memory profiling routines for Ruby 2.1+
 dev-ruby/middleware 0.1.0: Generalized implementation of the middleware abstraction for Ruby
