@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22"
+USE_RUBY="ruby20 ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -16,7 +16,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="Simple, feature rich ascii table generation library"
 HOMEPAGE="https://github.com/tj/terminal-table"
-SRC_URI="https://github.com/tj/terminal-table/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/tj/terminal-table/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
@@ -24,6 +24,13 @@ SLOT="0"
 IUSE="test"
 
 # Test failures: https://github.com/visionmedia/terminal-table/issues/33
-RESTRICT="test"
+#RESTRICT="test"
+
+ruby_add_rdepend ">=dev-ruby/unicode-display_width-1.1:1"
 
 ruby_add_bdepend "test? ( dev-ruby/term-ansicolor )"
+
+all_ruby_prepare() {
+	# Avoid single test still broken upstream
+	sed -i -e '/should only increase column size for multi-column if it is unavoidable/,/^    end/ s:^:#:' spec/table_spec.rb || die
+}
