@@ -26,7 +26,7 @@ dev-ruby/akami 1.3.1: Building Web Service Security
 dev-ruby/animation 0.1_alpha_p3: Animation Compass Plugin
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/authlogic 3.4.3 3.4.4 3.4.6: A clean, simple, and unobtrusive ruby authentication solution.
+dev-ruby/authlogic 3.4.3 3.4.4 3.4.6 3.5.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r3: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 0.4.0 0.5.0: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.3.0 2.6.1 2.7.2: A iterations per second enhancement to Benchmark
