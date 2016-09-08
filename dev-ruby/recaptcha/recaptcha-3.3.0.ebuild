@@ -3,10 +3,10 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22 ruby23"
+USE_RUBY="ruby20 ruby21 ruby22"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
-RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.md"
+RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 inherit ruby-fakegem
 
@@ -16,7 +16,7 @@ SRC_URI="https://github.com/ambethia/recaptcha/archive/v${PV}.tar.gz -> ${P}.tar
 
 LICENSE="MIT"
 KEYWORDS="~amd64"
-SLOT="0.6"
+SLOT="3"
 IUSE="test"
 
 ruby_add_rdepend "dev-ruby/json:*"
@@ -26,6 +26,7 @@ ruby_add_bdepend "test? (
 	dev-ruby/activesupport
 	dev-ruby/i18n
 	dev-ruby/minitest:5
+	dev-ruby/webmock
 )"
 
 all_ruby_prepare() {
