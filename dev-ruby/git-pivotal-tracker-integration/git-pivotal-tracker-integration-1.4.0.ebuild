@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21"
+USE_RUBY="ruby20 ruby21 ruby22"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -14,7 +14,7 @@ RUBY_FAKEGEM_TASK_TEST=""
 
 inherit ruby-fakegem
 
-DESCRIPTION="A set of additional Git commands to help developers when working with Pivotal Tracker"
+DESCRIPTION="A set of Git commands to help developers when working with Pivotal Tracker"
 HOMEPAGE="https://github.com/nebhale/git-pivotal-tracker-integration"
 LICENSE="Apache-2.0"
 
