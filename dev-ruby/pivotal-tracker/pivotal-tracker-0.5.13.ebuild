@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21"
+USE_RUBY="ruby20 ruby21 ruby22"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -22,7 +22,7 @@ IUSE=""
 
 RESTRICT="test" # stale_fish does not work with activesupport 4.2.
 
-ruby_add_bdepend "test? ( >=dev-ruby/stale_fish-1.3.0 )"
+# ruby_add_bdepend "test? ( >=dev-ruby/stale_fish-1.3.0 )"
 
 ruby_add_rdepend ">=dev-ruby/rest-client-1.8.0
 	>=dev-ruby/nokogiri-1.5.5
