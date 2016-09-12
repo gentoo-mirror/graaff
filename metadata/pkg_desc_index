@@ -111,6 +111,7 @@ dev-ruby/sass-globbing 1.1.0 1.1.5: Allows you to import many sass or scss files
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scrypt 2.0.2 3.0.3: Scrypt password hashing algorithm
+dev-ruby/secure_headers 3.4.1: Security related headers all in one gem
 dev-ruby/selectivizr-rails 1.0.1 1.0.2 1.1.2: Include the Selectivizr.js library into your Rails 3.1 or higher app.
 dev-ruby/skydrive 0.1.5: Simple ruby client library for Skydrive cloud storage service with OAuth2
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
