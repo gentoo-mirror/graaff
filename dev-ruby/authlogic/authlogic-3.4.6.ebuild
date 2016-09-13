@@ -4,7 +4,7 @@
 
 EAPI=5
 
-USE_RUBY="ruby20 ruby21"
+USE_RUBY="ruby20 ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.rdoc"
@@ -38,4 +38,6 @@ all_ruby_prepare() {
 	# Avoid tests for now that fail due to our BCrypt hack
 	rm -f test/session_test/{http_auth,persistence,password,magic_columns}_test.rb || die
 	rm -f test/acts_as_authentic_test/{password,persistence_token}_test.rb || die
+
+	sed -i -e '1igem "activerecord", "<5"' test/test_helper.rb || die
 }
