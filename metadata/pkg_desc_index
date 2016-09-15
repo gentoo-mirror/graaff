@@ -121,11 +121,11 @@ dev-ruby/stale_fish 1.3.2: keeps fixtures synchronized with sources to prevent o
 dev-ruby/susy 2.2.10 2.2.12: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
 dev-ruby/syslog-logger 1.6.8: Logger::Syslog is a Logger replacement that logs to syslog.
-dev-ruby/terminal-table 1.5.2 1.7.0: Simple, feature rich ascii table generation library
+dev-ruby/terminal-table 1.5.2 1.7.0 1.7.2: Simple, feature rich ascii table generation library
 dev-ruby/thinking-sphinx 3.1.4 3.2.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/tiny_tds 1.0.2 1.0.3 1.0.4: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
-dev-ruby/unicode-display_width 0.3.1 1.0.3 1.1.0: Adds String#display_width to get the display size using EastAsianWidth.txt
+dev-ruby/unicode-display_width 0.3.1 1.1.0 1.1.1: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/wasabi 3.5.0: A simple WSDL parser
