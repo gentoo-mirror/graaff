@@ -139,6 +139,7 @@ dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
 media-video/flvtool2 1.0.6-r2: a manipulation tool for Macromedia Flash Video files (FLV).
 net-analyzer/munin-mysql 0.20150827: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for Rails server environments.
+net-analyzer/ssh-audit 1.6.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
