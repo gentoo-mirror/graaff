@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -24,6 +24,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	>=dev-python/django-evolution-0.7.6[${PYTHON_USEDEP}]
 	<dev-python/django-evolution-0.8[${PYTHON_USEDEP}]
 	>=dev-python/django-haystack-2.3.1[${PYTHON_USEDEP}]
+	<dev-python/django-haystack-2.5[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	>=dev-python/Djblets-0.9.3[${PYTHON_USEDEP}]
 	<dev-python/Djblets-0.10[${PYTHON_USEDEP}]
