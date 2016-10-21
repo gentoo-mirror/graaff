@@ -21,6 +21,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP}]
 	dev-python/pillowfight[${PYTHON_USEDEP}]
 	>=dev-python/django-pipeline-1.3.23[${PYTHON_USEDEP}]
 	<dev-python/django-pipeline-1.4[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-5.1.2[${PYTHON_USEDEP}]
 	>=dev-python/publicsuffix-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
