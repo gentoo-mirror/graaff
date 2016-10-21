@@ -19,6 +19,7 @@ dev-python/django 1.6.11.3 1.6.11.4: High-level Python web framework
 dev-python/django-evolution 0.7.6: A Django application that will run cron jobs for other django apps
 dev-python/django-multiselectfield 0.1.3: Django multiple select field
 dev-python/django-pipeline 1.2.24: An asset packaging library for Django
+dev-python/publicsuffix 1.1.0: Get a public suffix for a domain name using the Public Suffix List
 dev-ruby/aasm 3.4.0 4.5.2 4.11.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_serializers 0.8.3 0.9.3: Making it easy to serialize models for client-side use
 dev-ruby/acts-as-taggable-on 3.5.0 4.0.0: Advanced tagging for Rails.
