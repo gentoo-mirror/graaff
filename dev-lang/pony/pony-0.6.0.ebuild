@@ -4,19 +4,15 @@
 
 EAPI=5
 
-COMMIT=e4427917a3cccc04dd3633777a31e17b5133a743
-
 DESCRIPTION="Compiler for the Pony language"
 HOMEPAGE="http://www.ponylang.org/"
-SRC_URI="https://github.com/CausalityLtd/ponyc/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/ponylang/ponyc/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RESTRICT="strip"
-
-S="${WORKDIR}/ponyc-${COMMIT}"
 
 RDEPEND="dev-libs/libpcre2
 	dev-libs/openssl:=
@@ -27,6 +23,8 @@ RDEPEND="dev-libs/libpcre2
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
+
+S="${WORKDIR}/ponyc-${PV}"
 
 src_prepare() {
 	# bug #457530 means that '-ltinfo' might be needed besides '-lncurses' if a USE flag is enabled
@@ -47,7 +45,7 @@ src_prepare() {
 
 	# Avoid net/Broadcast test since it requires a working network
 	# connection.
-	sed -i -e '/test(_TestBroadcast)/d' packages/net/test.pony || die
+	sed -i -e '/test(_TestBroadcast)/d' packages/net/_test.pony || die
 }
 
 common_make_args="config=release prefix=\"${D}usr\" verbose=yes"
