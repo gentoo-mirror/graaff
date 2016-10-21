@@ -8,12 +8,12 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1 versionator
 
 DESCRIPTION="A collection of useful extensions for Django"
-HOMEPAGE="http://github.com/djblets/djblets"
+HOMEPAGE="https://github.com/djblets/djblets"
 SRC_URI="http://downloads.reviewboard.org/releases/${PN}/$(get_version_component_range 1-2)/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE=""
 
 RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP}]
@@ -22,6 +22,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP}]
 	>=dev-python/django-pipeline-1.3.23[${PYTHON_USEDEP}]
 	<dev-python/django-pipeline-1.4[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-5.1.2[${PYTHON_USEDEP}]
+	>=dev-python/publicsuffix-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
