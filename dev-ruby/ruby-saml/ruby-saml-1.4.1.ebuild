@@ -30,7 +30,7 @@ all_ruby_prepare() {
 	sed -i -e '/ruby-debug/d' \
 		-e '/bundler/I s:^:#:' \
 		-e '/simplecov/ s:^:#:' \
-		-e '/SimpleCov/,/end/ s:^:#:' test/test_helper.rb || die
+		-e '/SimpleCov/,/^end/ s:^:#:' test/test_helper.rb || die
 
 	sed -ie -e '/git ls-files/d' ${RUBY_FAKEGEM_GEMSPEC} || die
 
