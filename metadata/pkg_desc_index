@@ -83,7 +83,7 @@ dev-ruby/nokogiri-happymapper 0.5.9: Allows you to parse XML data and convert it
 dev-ruby/nori 2.6.0: XML to Hash translator
 dev-ruby/oauth-plugin 0.5.1 0.5.1-r1: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/odata 0.6.18: Simple OData library
-dev-ruby/open_id_authentication 1.2.0: a thin wrapper around the excellent ruby-openid gem from JanRain.
+dev-ruby/open_id_authentication 1.2.0 1.2.0-r1: a thin wrapper around the excellent ruby-openid gem from JanRain.
 dev-ruby/paper_trail 4.0.1 4.1.0 4.2.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/parallel 1.2.2 1.2.4: Run any code in parallel Processes or Threads
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
