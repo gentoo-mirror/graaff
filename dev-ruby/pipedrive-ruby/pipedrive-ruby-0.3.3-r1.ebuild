@@ -43,6 +43,7 @@ all_ruby_prepare() {
 	# Patch in support to use https
 	# https://github.com/GeneralScripting/pipedrive-ruby/issues/30
 	sed -i -e 's/api.pipedrive.com/api.pipedrive.com:443/' lib/pipedrive/base.rb || die
+	sed -i -e 's|http://api|https://api|' test/*.rb || die
 }
 
 each_ruby_test() {
