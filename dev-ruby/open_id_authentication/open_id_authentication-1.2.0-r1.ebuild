@@ -22,4 +22,6 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
 
+RUBY_PATCHES=( ${P}-dalli.patch )
+
 ruby_add_rdepend ">=dev-ruby/rack-openid-1.3"
