@@ -29,8 +29,10 @@ dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access 
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/authlogic 3.4.3 3.4.4 3.4.6 3.5.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r3: Extension of the Authlogic library to add OpenID support.
+dev-ruby/autoprefixer-rails 6.5.1.1: Add vendor prefixes to CSS rules using values from the Can I Use website
 dev-ruby/backticks 0.4.0 0.5.0: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.3.0 2.6.1 2.7.2: A iterations per second enhancement to Benchmark
+dev-ruby/bootstrap-sass 3.3.7: Sass-powered version of Bootstrap 3
 dev-ruby/breakpoint 2.5.0 2.7.0: Really Simple Media Queries with Sass
 dev-ruby/byebug 9.0.5 9.0.6: a Ruby 2 debugger
 dev-ruby/cache_digests 0.2.0 0.3.1: Nested fragment caches with (even) less situps.
@@ -85,6 +87,7 @@ dev-ruby/oauth-plugin 0.5.1 0.5.1-r1: A plugin for implementing OAuth Providers 
 dev-ruby/odata 0.6.18: Simple OData library
 dev-ruby/open_id_authentication 1.2.0 1.2.0-r1: a thin wrapper around the excellent ruby-openid gem from JanRain.
 dev-ruby/paper_trail 4.0.1 4.1.0 4.2.0: PaperTrail lets you track changes to your models' data.
+dev-ruby/paperclip 5.1.0: Easy upload management for ActiveRecord
 dev-ruby/parallel 1.2.2 1.2.4: Run any code in parallel Processes or Threads
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
