@@ -8,6 +8,8 @@ USE_RUBY="ruby21 ruby22 ruby23"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
+RUBY_FAKEGEM_EXTRAINSTALL="assets"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Sass-powered version of Bootstrap 3"
