@@ -10,6 +10,8 @@ RUBY_FAKEGEM_RECIPE_TEST="none"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
+RUBY_FAKEGEM_EXTRAINSTALL="assets"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Font-Awesome Sass gem for use in Ruby/Rails projects"
