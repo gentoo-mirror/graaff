@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22"
+USE_RUBY="ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -12,12 +12,10 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A formatter for rubocop that outputs in checkstyle format"
-HOMEPAGE="https://github.com/eitoball/rubocop-checkstyle_formatter"
+DESCRIPTION="Various extensions to the base thread library"
+HOMEPAGE="https://github.com/meh/ruby-thread"
+LICENSE="WTFPL-2"
 
-LICENSE="MIT"
-SLOT="0"
 KEYWORDS="~amd64"
+SLOT="0"
 IUSE=""
-
-ruby_add_rdepend ">=dev-ruby/rubocop-0.20.1"
