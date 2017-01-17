@@ -115,6 +115,7 @@ dev-ruby/ruby-stemmer 0.9.6: Ruby-Stemmer exposes SnowBall API to Ruby.
 dev-ruby/rvideo 0.9.3-r3: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.0 1.1.5: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassc 1.11.1: Use libsass with Ruby
+dev-ruby/sassc-rails 1.3.0: Integrate SassC-Ruby with Rails
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scrypt 2.0.2 3.0.3: Scrypt password hashing algorithm
