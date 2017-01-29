@@ -30,11 +30,11 @@ dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access 
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/authlogic 3.4.3 3.4.4 3.4.6 3.5.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r3: Extension of the Authlogic library to add OpenID support.
-dev-ruby/autoprefixer-rails 6.5.1.1 6.5.3: Add vendor prefixes to CSS rules using values from the Can I Use website
+dev-ruby/autoprefixer-rails 6.5.1.1 6.5.3 6.7.0: Add vendor prefixes to CSS rules using values from the Can I Use website
 dev-ruby/backticks 0.4.0 0.5.0: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.3.0 2.6.1 2.7.2: A iterations per second enhancement to Benchmark
 dev-ruby/bootstrap-sass 3.3.7: Sass-powered version of Bootstrap 3
-dev-ruby/breakpoint 2.5.0 2.7.0: Really Simple Media Queries with Sass
+dev-ruby/breakpoint 2.5.0 2.7.0 2.7.1: Really Simple Media Queries with Sass
 dev-ruby/byebug 9.0.5 9.0.6: a Ruby 2 debugger
 dev-ruby/cache_digests 0.2.0 0.3.1: Nested fragment caches with (even) less situps.
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
@@ -119,7 +119,7 @@ dev-ruby/sassc-rails 1.3.0: Integrate SassC-Ruby with Rails
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scrypt 2.0.2 3.0.3: Scrypt password hashing algorithm
-dev-ruby/secure_headers 3.4.1 3.5.0 3.5.1: Security related headers all in one gem
+dev-ruby/secure_headers 3.4.1 3.5.0 3.5.1 3.6.1: Security related headers all in one gem
 dev-ruby/selectivizr-rails 1.0.1 1.0.2 1.1.2: Include the Selectivizr.js library into your Rails 3.1 or higher app.
 dev-ruby/serverengine 2.0.1 2.0.4: A framework to implement robust multiprocess servers
 dev-ruby/sigdump 0.2.4: Setup signal handler which dumps backtrace of threads and allocated objects
