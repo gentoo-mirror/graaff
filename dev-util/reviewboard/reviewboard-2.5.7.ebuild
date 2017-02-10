@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,7 +12,7 @@ MY_PN="ReviewBoard"
 DESCRIPTION="A web-based code review tool that offers developers a way to handle code reviews"
 HOMEPAGE="http://www.reviewboard.org/"
 SRC_URI="http://downloads.reviewboard.org/releases/${MY_PN}/2.5/${MY_PN}-${PV}.tar.gz"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="codebase doc manual rnotes test"
 
 LICENSE="MIT"
