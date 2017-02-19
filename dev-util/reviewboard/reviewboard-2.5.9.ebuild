@@ -57,10 +57,10 @@ python_prepare_all() {
 
 	# https://github.com/reviewboard/reviewboard/commit/b1b8867deb7cd857003d8abbf16e85897b0cb4bf
 	# # The version bordering of python-dateutil is long out of date and wrong since end of March 2012!
-	sed -e 's:==1.5:>=1.5:' -i setup.py || die
+	sed -e 's:==1.5:>=1.5:' -i reviewboard/dependencies.py || die
 
 	# Use newer markdown version still available
-	sed -i -e '/markdown/ s/2.4/2.6/g' setup.py || die
+	sed -i -e '/markdown/ s/2.4/2.6/g' reviewboard/dependencies.py || die
 
 	distutils-r1_python_prepare_all
 }
