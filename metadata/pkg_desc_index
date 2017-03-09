@@ -153,5 +153,5 @@ net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
-www-apps/geckodriver-bin 0.11.1 0.13.0: WebDriver <-> Marionette proxy
+www-apps/geckodriver-bin 0.11.1 0.13.0 0.15.0: WebDriver <-> Marionette proxy
 www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
