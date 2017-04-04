@@ -106,7 +106,7 @@ dev-ruby/ri_cal 0.8.8-r2: A new Ruby implementation of RFC2445 iCalendar.
 dev-ruby/riddle 1.5.11 1.5.12: An interface to the Sphinx search daemon.
 dev-ruby/rspec-activemodel-mocks 1.0.3: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.46.0 0.47.0 0.47.1 0.48.0: A Ruby static code analyzer
+dev-ruby/rubocop 0.46.0 0.47.0 0.47.1 0.48.1: A Ruby static code analyzer
 dev-ruby/rubocop-checkstyle_formatter 0.3.0: A formatter for rubocop that outputs in checkstyle format
 dev-ruby/ruby-saml 1.3.1 1.4.1 1.4.2: A library for implementing the client side of a SAML authorization
 dev-ruby/ruby-stemmer 0.9.6: Ruby-Stemmer exposes SnowBall API to Ruby.
