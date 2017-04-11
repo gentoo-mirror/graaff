@@ -133,6 +133,7 @@ dev-ruby/thinking-sphinx 3.1.4 3.2.0: A concise library that connects ActiveReco
 dev-ruby/thread 0.2.0 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 1.0.4 1.0.5 1.1.0: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 4.5.5: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-rails
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
 dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
