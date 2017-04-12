@@ -148,7 +148,7 @@ dev-util/yamllint 1.6.0 1.6.1: A linter for YAML files
 dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
 media-video/flvtool2 1.0.6-r2: a manipulation tool for Macromedia Flash Video files (FLV).
 net-analyzer/Memcached-Munin-Plugin 1.0: Improved MySQL Graphs for Munin
-net-analyzer/munin-mysql 0.20150827: Improved MySQL Graphs for Munin
+net-analyzer/munin-mysql 0.20150827 0.20161010: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for Rails server environments.
 net-analyzer/ssh-audit 1.6.0 1.7.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-fs/afpfs-ng 0.8.1: AFP filesystem clients
