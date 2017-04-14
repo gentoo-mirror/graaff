@@ -82,6 +82,7 @@ dev-ruby/minitest-hooks 1.4.0: Adds around and before_all/after_all/around_all h
 dev-ruby/money 6.5.1: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2: A Rails gem for conveniently manage multiple nested models in a single form.
 dev-ruby/net-ping 1.7.8 2.0.1: Provides a ping interface for Ruby
+dev-ruby/newrelic_rpm 4.1.0.333: A performance management system developed by New Relic
 dev-ruby/nokogiri-happymapper 0.5.9: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/nori 2.6.0: XML to Hash translator
 dev-ruby/oauth-plugin 0.5.1 0.5.1-r1: A plugin for implementing OAuth Providers and Consumers in Rails applications.
