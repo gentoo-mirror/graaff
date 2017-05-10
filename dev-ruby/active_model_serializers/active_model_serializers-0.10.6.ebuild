@@ -8,6 +8,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 
+RUBY_FAKEGEM_BINWRAP=""
+
 inherit ruby-fakegem
 
 DESCRIPTION="Making it easy to serialize models for client-side use"
@@ -15,7 +17,7 @@ HOMEPAGE="https://github.com/rails-api/active_model_serializers"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="0"
+SLOT="0.10"
 IUSE="test"
 
 # A bit more complicated setup than I have time for now...
