@@ -15,7 +15,7 @@ HOMEPAGE="https://github.com/rails-api/active_model_serializers"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="0"
+SLOT="0.10"
 IUSE="test"
 
 # A bit more complicated setup than I have time for now...
