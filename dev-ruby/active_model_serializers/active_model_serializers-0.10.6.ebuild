@@ -8,6 +8,8 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 
+RUBY_FAKEGEM_BINWRAP=""
+
 inherit ruby-fakegem
 
 DESCRIPTION="Making it easy to serialize models for client-side use"
