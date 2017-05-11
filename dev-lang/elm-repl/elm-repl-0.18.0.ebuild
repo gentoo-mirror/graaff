@@ -3,7 +3,7 @@
 
 EAPI=6
 
-CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
+CABAL_FEATURES="profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
 DESCRIPTION="A bundle of all Elm tools, usable through the elm executable"
@@ -15,27 +15,23 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND="
+#RESTRICT="test" # has failures about unavailable modules
+
+HDEPEND="
 	>=dev-lang/ghc-7.6.0:=
-	>=dev-haskell/aeson-0.11
-	dev-haskell/aeson-pretty
-	>=dev-haskell/ansi-wl-pprint-0.6.7.3
-	>=dev-haskell/binary-0.7.0.0 <dev-haskell/binary-0.8
-	dev-haskell/edit-distance
+	dev-haskell/binary
+	>=dev-haskell/bytestring-trie-0.2.2 <dev-haskell/bytestring-trie-0.3
+	>=dev-haskell/cmdargs-0.7 <dev-haskell/cmdargs-0.11
 	~dev-lang/elm-compiler-${PV}
-	>=dev-haskell/http-4000.2.5 <dev-haskell/http-4000.4
-	>=dev-haskell/http-client-0.4.15 <dev-haskell/http-client-0.5
-	>=dev-haskell/http-client-tls-0.2 <dev-haskell/http-client-tls-0.3
-	>=dev-haskell/http-types-0.7 <dev-haskell/http-types-0.9
+	dev-lang/elm-package
+	>=dev-haskell/haskeline-0.7 <dev-haskell/haskeline-0.8
 	>=dev-haskell/mtl-2.2.1 <dev-haskell/mtl-3
-	>=dev-haskell/network-2.4 <dev-haskell/network-2.7
+	>=dev-haskell/parsec-3.1.1 <dev-haskell/parsec-3.5
 	dev-haskell/text
-	dev-haskell/unordered-containers
-	>=dev-haskell/vector-0.10 <dev-haskell/vector-0.12
-	dev-haskell/zip-archive
+	net-libs/nodejs
 "
 
-DEPEND="${RDEPEND}
+DEPEND="${HDEPEND}
 	dev-haskell/cabal
 "
 

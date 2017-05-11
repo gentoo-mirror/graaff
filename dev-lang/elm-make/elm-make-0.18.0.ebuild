@@ -3,7 +3,7 @@
 
 EAPI=6
 
-CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
+CABAL_FEATURES="profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
 DESCRIPTION="A bundle of all Elm tools, usable through the elm executable"
@@ -17,22 +17,18 @@ IUSE=""
 
 RDEPEND="
 	>=dev-lang/ghc-7.6.0:=
-	>=dev-haskell/aeson-0.11
-	dev-haskell/aeson-pretty
-	>=dev-haskell/ansi-wl-pprint-0.6.7.3
-	>=dev-haskell/binary-0.7.0.0 <dev-haskell/binary-0.8
-	dev-haskell/edit-distance
+	dev-haskell/aeson
+	dev-haskell/ansi-terminal
+	dev-haskell/ansi-wl-pprint
+	dev-haskell/binary
+	dev-haskell/blaze-html
+	dev-haskell/blaze-markup
 	~dev-lang/elm-compiler-${PV}
-	>=dev-haskell/http-4000.2.5 <dev-haskell/http-4000.4
-	>=dev-haskell/http-client-0.4.15 <dev-haskell/http-client-0.5
-	>=dev-haskell/http-client-tls-0.2 <dev-haskell/http-client-tls-0.3
-	>=dev-haskell/http-types-0.7 <dev-haskell/http-types-0.9
+	dev-lang/elm-package
 	>=dev-haskell/mtl-2.2.1 <dev-haskell/mtl-3
-	>=dev-haskell/network-2.4 <dev-haskell/network-2.7
+	>=dev-haskell/optparse-applicative-0.11 <dev-haskell/optparse-applicative-0.14
+	dev-haskell/raw-strings-qq
 	dev-haskell/text
-	dev-haskell/unordered-containers
-	>=dev-haskell/vector-0.10 <dev-haskell/vector-0.12
-	dev-haskell/zip-archive
 "
 
 DEPEND="${RDEPEND}
