@@ -13,7 +13,7 @@ DESCRIPTION="A web-based code review tool that offers developers a way to handle
 HOMEPAGE="https://www.reviewboard.org/"
 SRC_URI="https://downloads.reviewboard.org/releases/${MY_PN}/2.5/${MY_PN}-${PV}.tar.gz"
 KEYWORDS="~amd64"
-IUSE="codebase doc manual rnotes test"
+IUSE="codebase doc manual ldap rnotes test"
 
 LICENSE="MIT"
 SLOT="0"
@@ -41,7 +41,8 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2015.2[${PYTHON_USEDEP}]
 	dev-python/recaptcha-client[${PYTHON_USEDEP}]
-	>=dev-python/whoosh-2.6[${PYTHON_USEDEP}]"
+	>=dev-python/whoosh-2.6[${PYTHON_USEDEP}]
+	ldap? ( >=dev-python/python-ldap-2.4.21[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
