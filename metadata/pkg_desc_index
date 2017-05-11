@@ -14,17 +14,7 @@ app-emacs/web-mode 14: web template editing mode for emacs
 app-forensics/brakeman 3.4.1 3.5.0 3.6.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
-dev-haskell/bytestring-trie 0.2.4.1: An efficient finite map from (byte)strings to values
-dev-haskell/concatenative 1.0.1: Library for postfix control flow
-dev-haskell/indents 0.3.3 0.4.0.0: Indentation sensitive parser-combinators for parsec
-dev-haskell/union-find 0.2: Efficient union and equivalence testing of sets
-dev-haskell/websockets 0.9.8.2: Efficient union and equivalence testing of sets
-dev-haskell/websockets-snap 0.10.2.1: Snap integration for the websockets library
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
-dev-lang/elm-compiler 0.18.0: A bundle of all Elm tools, usable through the elm executable
-dev-lang/elm-make 0.18.0: A bundle of all Elm tools, usable through the elm executable
-dev-lang/elm-package 0.18.0: A bundle of all Elm tools, usable through the elm executable
-dev-lang/elm-repl 0.18.0: A bundle of all Elm tools, usable through the elm executable
 dev-lang/pony 0.3.0 0.5.1 0.6.0 0.7.0: Compiler for the Pony language
 dev-libs/libsass 3.3.6 3.4.2 3.4.3: A C/C++ implementation of a Sass compiler
 dev-python/Djblets 0.9.4 0.9.5 0.9.6: A collection of useful extensions for Django
