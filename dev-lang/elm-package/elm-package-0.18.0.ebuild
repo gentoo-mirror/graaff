@@ -3,7 +3,7 @@
 
 EAPI=6
 
-CABAL_FEATURES="bin lib profile haddock hoogle hscolour test-suite"
+CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
 DESCRIPTION="A bundle of all Elm tools, usable through the elm executable"
@@ -14,8 +14,6 @@ LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE=""
-
-RESTRICT=test # almost compiles
 
 RDEPEND="
 	>=dev-lang/ghc-7.6.0:=
@@ -36,9 +34,6 @@ RDEPEND="
 	>=dev-haskell/vector-0.10 <dev-haskell/vector-0.12
 	dev-haskell/zip-archive
 "
-
-# Maybe in default haskell install?
-#	>=dev-haskell/base-4.2 <dev-haskell/base-5
 
 DEPEND="${RDEPEND}
 	dev-haskell/cabal
