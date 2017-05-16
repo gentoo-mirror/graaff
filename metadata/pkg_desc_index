@@ -130,7 +130,7 @@ dev-ruby/terminal-table 1.5.2 1.7.0 1.7.2 1.7.3: Simple, feature rich ascii tabl
 dev-ruby/thinking-sphinx 3.1.4 3.2.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thread 0.2.0 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 1.0.4 1.0.5 1.1.0 1.3.0: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 4.5.5 4.5.6 4.5.7: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 4.5.5 4.5.6 4.5.7 4.6.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-rails
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
 dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3 1.2.1: Adds String#display_width to get the display size using EastAsianWidth.txt
