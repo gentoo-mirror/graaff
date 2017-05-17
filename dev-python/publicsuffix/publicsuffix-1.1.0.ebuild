@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 PYTHON_COMPAT=( python{2_7,3_4,3_5} )
@@ -16,8 +15,8 @@ IUSE="test"
 LICENSE="MIT"
 SLOT="0"
 
-RDEPEND="$(python_gen_cond_dep)"
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND="${RDEPEND}
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 
 python_test() {
