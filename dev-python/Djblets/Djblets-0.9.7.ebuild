@@ -1,15 +1,14 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=6
 PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1 versionator
 
 DESCRIPTION="A collection of useful extensions for Django"
 HOMEPAGE="https://github.com/djblets/djblets"
-SRC_URI="http://downloads.reviewboard.org/releases/${PN}/$(get_version_component_range 1-2)/${P}.tar.gz"
+SRC_URI="https://downloads.reviewboard.org/releases/${PN}/$(get_version_component_range 1-2)/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -31,4 +30,6 @@ src_prepare() {
 	# Running uglify is a problem right now, so skip this step. Rather
 	# have newer versions than compacted javascript.
 	sed -e "s/'pipeline.compressors.uglifyjs.UglifyJSCompressor'/None/" -i djblets/settings.py || die
+
+	default
 }
