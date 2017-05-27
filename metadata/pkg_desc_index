@@ -138,7 +138,7 @@ dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in
 dev-ruby/wasabi 3.5.0: A simple WSDL parser
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
 dev-util/hologram 1.4.0: Build doc type things
-dev-util/reviewboard 2.5.9 2.5.10 2.5.11: A web-based code review tool that offers developers a way to handle code reviews
+dev-util/reviewboard 2.5.9 2.5.10 2.5.12: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.38.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/yamllint 1.6.0 1.6.1 1.7.0: A linter for YAML files
