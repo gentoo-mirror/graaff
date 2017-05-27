@@ -42,7 +42,7 @@ dev-ruby/compass-rails 3.0.2: A Rails adapter for the Compass Stylesheet Authori
 dev-ruby/declarative_authorization 0.5.7: The declarative authorization plugin offers an authorization mechanism inspired by RBAC.
 dev-ruby/default_value_for 3.0.2: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/derailed_benchmarks 1.3.0: Go faster, off the Rails
-dev-ruby/draper 2.1.0-r1: View Models for Rails
+dev-ruby/draper 2.1.0-r1 3.0.0: View Models for Rails
 dev-ruby/elm-compiler 0.3.0: Allows you compile Elm files and write to a file or stdout
 dev-ruby/elm-rails 0.2.1: View helpers for incorporating Elm modules into Rails views
 dev-ruby/elmas 2.3.2: API wrapper for Exact Online
