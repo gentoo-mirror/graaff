@@ -13,7 +13,7 @@ DESCRIPTION="PaperTrail lets you track changes to your models' data."
 HOMEPAGE="https://github.com/airblade/paper_trail"
 
 LICENSE="MIT"
-SLOT="4"
+SLOT="5"
 KEYWORDS="~amd64"
 IUSE=""
 
