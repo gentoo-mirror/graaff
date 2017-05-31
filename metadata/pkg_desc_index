@@ -54,7 +54,7 @@ dev-ruby/font-awesome-sass 4.7.0: Font-Awesome Sass gem for use in Ruby/Rails pr
 dev-ruby/formtastic 3.1.4 3.1.5: Rails FormBuilder DSL to make it easier to create forms
 dev-ruby/get_process_mem 0.2.0 0.2.1: Get memory usage of a process in Ruby
 dev-ruby/git-pivotal-tracker-integration 1.4.0: A set of Git commands to help developers when working with Pivotal Tracker
-dev-ruby/gli 2.13.1 2.16.0: Git-Like Interface Command Line Parser
+dev-ruby/gli 2.16.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0: Parses, validates, and formats local and international phone numbers
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
