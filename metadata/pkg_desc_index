@@ -34,7 +34,7 @@ dev-ruby/backticks 0.4.0 0.5.0: Captures stdout, stderr and (optionally) stdin; 
 dev-ruby/benchmark-ips 2.3.0 2.6.1 2.7.2: A iterations per second enhancement to Benchmark
 dev-ruby/bootstrap-sass 3.3.7: Sass-powered version of Bootstrap 3
 dev-ruby/breakpoint 2.7.0 2.7.1: Really Simple Media Queries with Sass
-dev-ruby/byebug 9.0.5 9.0.6: a Ruby 2 debugger
+dev-ruby/byebug 9.0.6: a Ruby 2 debugger
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/code_analyzer 0.4.7: Code analyzer helps you build your own code analyzer tool.
@@ -144,6 +144,7 @@ dev-util/scss-lint 0.38.0: Configurable tool for writing clean and consistent SC
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/yamllint 1.6.0 1.6.1 1.7.0: A linter for YAML files
 dev-vcs/overcommit 0.8.0: The Opinionated Git Hook Manager
+media-fonts/fira-code 1.204: Monospaced font with programming ligatures
 media-video/flvtool2 1.0.6-r2: a manipulation tool for Macromedia Flash Video files (FLV).
 net-analyzer/Memcached-Munin-Plugin 1.0: Improved MySQL Graphs for Munin
 net-analyzer/munin-mysql 0.20150827 0.20161010: Improved MySQL Graphs for Munin
