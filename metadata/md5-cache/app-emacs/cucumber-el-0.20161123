@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=virtual/emacs-23
+DESCRIPTION=A major mode for editing Cucumber stories.
+EAPI=6
+HOMEPAGE=https://github.com/michaelklishin/cucumber.el
+KEYWORDS=~amd64
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=dev-ruby/ruby_parser >=dev-ruby/gherkin-2.11.8 >=virtual/emacs-23
+SLOT=0
+SRC_URI=https://github.com/michaelklishin/cucumber.el/archive/aa06b88ad96bc556992f011b6aef9b78e99ae48b.tar.gz -> cucumber-el-0.20161123-git.tgz
+_eclass_exported_funcs=pkg_postrm:elisp pkg_postinst:elisp pkg_setup:elisp src_unpack:elisp src_prepare:- src_configure:elisp src_compile:elisp src_install:-
+_eclasses_=elisp	571fd9c6c9d8b71c8461bb9f33e135ab	elisp-common	19ff54b35acd0bf2a14831a308a57753
+_md5_=213f9cfd9f95c3177f3c3d191f63abaa

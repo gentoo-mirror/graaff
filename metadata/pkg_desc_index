@@ -1,7 +1,7 @@
 app-crypt/ssss 0.5: Shamir's Secret Sharing Scheme
 app-emacs/ag 0.47: An Emacs frontend to ag, ('the silver searcher' ack replacement)
 app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
-app-emacs/cucumber-el 0.20141129 0.20141129-r1: A major mode for editing Cucumber stories.
+app-emacs/cucumber-el 0.20141129 0.20141129-r1 0.20161123: A major mode for editing Cucumber stories.
 app-emacs/elixir-mode 1.3.0 1.5.0: Emacs major mode for Elixir
 app-emacs/elm-mode 0.20.3 0.20.3-r1: Emacs major mode for elm
 app-emacs/groovy-mode 1.0.1: A major mode for editing Groovy
@@ -10,7 +10,7 @@ app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their name
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/s 1.11.0: The long lost Emacs string manipulation library
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
-app-emacs/web-mode 14: web template editing mode for emacs
+app-emacs/web-mode 14 15: web template editing mode for emacs
 app-forensics/brakeman 3.6.1 3.6.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
