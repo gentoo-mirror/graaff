@@ -1,8 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=6
 USE_RUBY="ruby21 ruby22 ruby23"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
@@ -24,6 +23,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
+	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-2.3.3.1:0
 	>=dev-ruby/powerpack-0.1:0
 	dev-ruby/rainbow:2
