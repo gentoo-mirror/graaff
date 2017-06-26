@@ -23,7 +23,7 @@ dev-python/django-multiselectfield 0.1.3: Django multiple select field
 dev-python/publicsuffix 1.1.0: Get a public suffix for a domain name using the Public Suffix List
 dev-ruby/aasm 4.5.2 4.11.0 4.11.1 4.12.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_serializers 0.8.3 0.9.3 0.10.6: Making it easy to serialize models for client-side use
-dev-ruby/acts-as-taggable-on 3.5.0-r1 4.0.0-r1: Advanced tagging for Rails.
+dev-ruby/acts-as-taggable-on 3.5.0-r1 4.0.0-r1 5.0.0: Advanced tagging for Rails.
 dev-ruby/akami 1.3.1: Building Web Service Security
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
@@ -134,7 +134,7 @@ dev-ruby/tiny_tds 1.0.4 1.0.5 1.1.0 1.3.0: A modern, simple and fast FreeTDS lib
 dev-ruby/tinymce-rails 4.5.7 4.6.2 4.6.4: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-rails
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
-dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3 1.2.1: Adds String#display_width to get the display size using EastAsianWidth.txt
+dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
 dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
 dev-ruby/wasabi 3.5.0: A simple WSDL parser
@@ -155,5 +155,5 @@ net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
-www-apps/geckodriver-bin 0.15.0 0.16.0 0.16.1 0.17.0: WebDriver <-> Marionette proxy
+www-apps/geckodriver-bin 0.16.1 0.17.0: WebDriver <-> Marionette proxy
 www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
