@@ -8,6 +8,7 @@ app-emacs/elm-mode 0.20.3 0.20.3-r1: Emacs major mode for elm
 app-emacs/groovy-mode 1.0.1: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
+app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/s 1.11.0: The long lost Emacs string manipulation library
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
