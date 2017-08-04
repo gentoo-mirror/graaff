@@ -14,6 +14,8 @@ RUBY_FAKEGEM_BINWRAP=""
 
 RUBY_FAKEGEM_EXTRAINSTALL="VERSION"
 
+RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
+
 inherit ruby-fakegem
 
 DESCRIPTION="A modern, simple and fast FreeTDS library for Ruby using DB-Library"
@@ -27,10 +29,9 @@ IUSE=""
 RDEPEND+=">=dev-db/freetds-0.95"
 DEPEND+=">=dev-db/freetds-0.95"
 
-ruby_add_bdepend "dev-ruby/mini_portile2"
-
 all_ruby_prepare() {
 	sed -i -e '/bundler/I s:^:#:' test/test_helper.rb || die
+	sed -i -e '/portile/d' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
 
 each_ruby_configure() {
