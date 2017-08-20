@@ -113,7 +113,6 @@ dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumera
 dev-ruby/rubocop 0.48.1 0.49.0 0.49.1: A Ruby static code analyzer
 dev-ruby/rubocop-checkstyle_formatter 0.3.0: A formatter for rubocop that outputs in checkstyle format
 dev-ruby/ruby-saml 1.3.1 1.4.1 1.4.2 1.4.3: A library for implementing the client side of a SAML authorization
-dev-ruby/ruby-stemmer 0.9.6: Ruby-Stemmer exposes SnowBall API to Ruby.
 dev-ruby/rvideo 0.9.3-r3: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassc 1.11.1: Use libsass with Ruby
@@ -138,8 +137,6 @@ dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-r
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
 dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
-dev-ruby/uuid 2.3.8: Generates universally unique identifiers (UUIDs) for use in distributed applications
-dev-ruby/wasabi 3.5.0: A simple WSDL parser
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
 dev-util/hologram 1.4.0: Build doc type things
 dev-util/reviewboard 2.5.12 2.5.13.1 2.5.14 2.5.15: A web-based code review tool that offers developers a way to handle code reviews
