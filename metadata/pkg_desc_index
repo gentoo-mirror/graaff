@@ -27,7 +27,6 @@ dev-python/publicsuffix 1.1.0: Get a public suffix for a domain name using the P
 dev-ruby/aasm 4.11.1 4.12.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_serializers 0.8.3 0.9.3 0.10.6: Making it easy to serialize models for client-side use
 dev-ruby/acts-as-taggable-on 3.5.0-r1 4.0.0-r1 5.0.0: Advanced tagging for Rails.
-dev-ruby/akami 1.3.1: Building Web Service Security
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/authlogic 3.4.6 3.5.0 3.6.0: A clean, simple, and unobtrusive ruby authentication solution.
@@ -43,7 +42,7 @@ dev-ruby/code_analyzer 0.4.7 0.4.8: Code analyzer helps you build your own code 
 dev-ruby/compass-rails 3.0.2: A Rails adapter for the Compass Stylesheet Authoring Framework
 dev-ruby/config 1.4.0: Easiest way to manage multi-environment settings in any ruby project
 dev-ruby/declarative 0.0.9: DSL for nested generic schemas with inheritance and refining
-dev-ruby/declarative_authorization 0.5.7: The declarative authorization plugin offers an authorization mechanism inspired by RBAC.
+dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
 dev-ruby/default_value_for 3.0.2: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/derailed_benchmarks 1.3.0: Go faster, off the Rails
 dev-ruby/draper 2.1.0-r1 3.0.0: View Models for Rails
@@ -52,7 +51,7 @@ dev-ruby/elm-rails 0.2.1: View helpers for incorporating Elm modules into Rails 
 dev-ruby/elmas 2.3.2: API wrapper for Exact Online
 dev-ruby/exception_notification 4.2.1 4.2.2: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5: Rss and Atom feed parser built on top of Nokogiri
-dev-ruby/ffi-compiler 0.1.3 1.0.1: Ruby FFI Rakefile generator
+dev-ruby/ffi-compiler 1.0.1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.4: Fixes redirects to login pages when a user clicks a link to your site from a Microsoft application
 dev-ruby/font-awesome-sass 4.7.0: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/formtastic 3.1.4 3.1.5: Rails FormBuilder DSL to make it easier to create forms
@@ -87,7 +86,6 @@ dev-ruby/nested_form 0.3.2: A Rails gem for conveniently manage multiple nested 
 dev-ruby/net-ping 2.0.1: Provides a ping interface for Ruby
 dev-ruby/newrelic_rpm 4.1.0.333 4.2.0.334 4.3.0.335: A performance management system developed by New Relic
 dev-ruby/nokogiri-happymapper 0.5.9: Parse XML data and convert it quickly and easily into ruby data structures
-dev-ruby/nori 2.6.0: XML to Hash translator
 dev-ruby/oauth-plugin 0.5.1-r1: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/odata 0.6.18: Simple OData library
 dev-ruby/open_id_authentication 1.2.0 1.2.0-r1 1.3.0: a thin wrapper around the excellent ruby-openid gem from JanRain.
@@ -105,7 +103,7 @@ dev-ruby/rchardet19 1.3.7: A character encoding detection library for ruby.
 dev-ruby/recaptcha 0.4.0 3.3.0 3.4.0: Adds helpers for the reCAPTCHA API
 dev-ruby/redcard 1.1.0: An API for specifying multiple ruby implementations and versions
 dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
-dev-ruby/require_all 1.3.3 1.4.0: A wonderfully simple way to load your code
+dev-ruby/require_all 1.4.0: A wonderfully simple way to load your code
 dev-ruby/responds_to_parent 1.1.0-r1 1.1.20130915: Adds responds_to_parent to your controller to respond to the parent document.
 dev-ruby/riddle 1.5.12 2.2.0: An interface to the Sphinx search daemon.
 dev-ruby/rspec-activemodel-mocks 1.0.3: RSpec test doubles for ActiveModel and ActiveRecord
@@ -126,7 +124,7 @@ dev-ruby/sigdump 0.2.4: Setup signal handler which dumps backtrace of threads an
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0: SSHKit extension, for sudo operation with password input
-dev-ruby/susy 2.2.10 2.2.12: A semantic CSS grid system with a responsive twist
+dev-ruby/susy 2.2.12: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
 dev-ruby/terminal-table 1.7.3 1.8.0: Simple, feature rich ascii table generation library
 dev-ruby/thinking-sphinx 3.1.4 3.2.0: A concise library that connects ActiveRecord to the Sphinx search daemon
@@ -135,10 +133,9 @@ dev-ruby/tiny_tds 1.1.0 1.3.0 2.0.0: A modern, simple and fast FreeTDS library f
 dev-ruby/tinymce-rails 4.5.7 4.6.2 4.6.4 4.6.5: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-rails
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
-dev-ruby/unicode-display_width 0.3.1 1.1.2 1.1.3 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
+dev-ruby/unicode-display_width 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
-dev-util/hologram 1.4.0: Build doc type things
 dev-util/reviewboard 2.5.12 2.5.13.1 2.5.14 2.5.15: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.38.0 0.54.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
@@ -148,7 +145,7 @@ media-fonts/fira-code 1.204: Monospaced font with programming ligatures
 media-video/flvtool2 1.0.6-r2: a manipulation tool for Macromedia Flash Video files (FLV).
 net-analyzer/Memcached-Munin-Plugin 1.0: Improved MySQL Graphs for Munin
 net-analyzer/munin-mysql 0.20150827 0.20161010: Improved MySQL Graphs for Munin
-net-analyzer/munin-plugins-rails 0.2.11: Collection of Concise Munin plugins for Rails server environments.
+net-analyzer/munin-plugins-rails 0.2.11 0.2.13: Collection of Concise Munin plugins for Rails server environments.
 net-analyzer/ssh-audit 1.6.0 1.7.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
