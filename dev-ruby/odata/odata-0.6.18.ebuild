@@ -1,9 +1,8 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22"
+USE_RUBY="ruby22 ruby23"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -22,7 +21,7 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/nokogiri-1.6.2 >=dev-ruby/typhoeus-0.6.8"
+ruby_add_rdepend ">=dev-ruby/nokogiri-1.6.2 >=dev-ruby/typhoeus-0.6.8:*"
 
 all_ruby_prepare() {
 	sed -i -e '/typhoeus/ s/0.6.8/0.6/' ${RUBY_FAKEGEM_GEMSPEC} || die
