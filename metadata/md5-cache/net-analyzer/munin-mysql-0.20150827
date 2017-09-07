@@ -8,5 +8,4 @@ RDEPEND=dev-perl/DBD-mysql dev-perl/DBI dev-perl/Module-Pluggable net-analyzer/m
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/kjellm/munin-mysql/archive/257d253045d0655394f8df276071b5e07822cfb4.tar.gz -> munin-mysql-0.20150827.tar.gz
-_eclass_exported_funcs=src_prepare:- src_install:-
 _md5_=8225eb6725c448acb4edb363fb408e62
