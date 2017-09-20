@@ -152,5 +152,5 @@ sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
-www-apps/geckodriver-bin 0.16.1 0.17.0 0.18.0: WebDriver <-> Marionette proxy
+www-apps/geckodriver-bin 0.18.0 0.19.0: WebDriver <-> Marionette proxy
 www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.

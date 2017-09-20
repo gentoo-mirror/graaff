@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=WebDriver <-> Marionette proxy
-EAPI=6
-HOMEPAGE=https://github.com/mozilla/geckodriver
-KEYWORDS=~amd64
-LICENSE=MPL-2.0
-SLOT=0
-SRC_URI=https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-linux64.tar.gz
-_md5_=9ae301fe0d98d4ec607039641686979d
