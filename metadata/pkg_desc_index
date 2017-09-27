@@ -95,6 +95,7 @@ dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/polymer-rails 1.2.4.1: Use of web components and polymer-project in Ruby on Rails projects
 dev-ruby/powerpack 0.1.1: A few useful extensions to core Ruby classes
+dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
 dev-ruby/railroady 1.5.2: Generates Rails 3/4/5 model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.2: Extracting assigns and assert_template from ActionDispatch
@@ -133,6 +134,7 @@ dev-ruby/tiny_tds 1.1.0 1.3.0 2.0.0: A modern, simple and fast FreeTDS library f
 dev-ruby/tinymce-rails 4.5.7 4.6.2 4.6.4 4.6.5: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20160310: Additional language packs for tinymce-rails
 dev-ruby/ts-datetime-delta 1.0.3: Manage delta indexes via datetime columns for Thinking Sphinx.
+dev-ruby/turnout 2.4.1: makes it easy to put your Rails application into maintenance mode
 dev-ruby/unicode-display_width 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
