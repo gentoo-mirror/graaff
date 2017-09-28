@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -26,7 +26,7 @@ ruby_add_rdepend "
 	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-2.3.3.1:0
 	>=dev-ruby/powerpack-0.1:0
-	dev-ruby/rainbow:2
+	>=dev-ruby/rainbow-2.2.2:2
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-1.0.1:1"
 
