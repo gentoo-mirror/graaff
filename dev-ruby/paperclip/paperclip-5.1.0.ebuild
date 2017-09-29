@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -29,6 +29,8 @@ ruby_add_rdepend "
 	>=dev-ruby/mimemagic-0.3.0:0
 	dev-ruby/mime-types
 "
+
+ruby_add_bdepend "test? ( dev-ruby/bourne )"
 
 all_ruby_prepare() {
 	# Remove specs for unpackaged dependencies
