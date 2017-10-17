@@ -32,5 +32,5 @@ all_ruby_prepare() {
 	rake extract rename || die
 
 	# Substitute the correct version number
-	sed -i -e 's/4.5.7/'${PV}'/' lib/tinymce/rails/version.rb || die
+	sed -i -e 's/4.5.7/'${PV}'/' ../metadata lib/tinymce/rails/version.rb || die
 }
