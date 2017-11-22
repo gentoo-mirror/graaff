@@ -40,7 +40,7 @@ dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/code_analyzer 0.4.7 0.4.8: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/compass-rails 3.0.2: A Rails adapter for the Compass Stylesheet Authoring Framework
-dev-ruby/config 1.4.0 1.5.0 1.5.1: Easiest way to manage multi-environment settings in any ruby project
+dev-ruby/config 1.5.1: Easiest way to manage multi-environment settings in any ruby project
 dev-ruby/declarative 0.0.9 0.0.10: DSL for nested generic schemas with inheritance and refining
 dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
 dev-ruby/default_value_for 3.0.2 3.0.3: Allows to define default values for ActiveRecord models in a declarative manner
@@ -154,5 +154,5 @@ sys-apps/ipmiview 2.9.32: Supermicro IPMIView tool
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_h264 2.2.7: Apache2 module that processes X-SENDFILE headers registered by the original output handler
-www-apps/geckodriver-bin 0.18.0 0.19.0: WebDriver <-> Marionette proxy
+www-apps/geckodriver-bin 0.18.0 0.19.0 0.19.1: WebDriver <-> Marionette proxy
 www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
