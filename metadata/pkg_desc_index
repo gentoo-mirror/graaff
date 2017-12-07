@@ -138,7 +138,7 @@ dev-ruby/turnout 2.4.1: makes it easy to put your Rails application into mainten
 dev-ruby/unicode-display_width 1.2.1 1.3.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/useragent 0.16.8: HTTP User Agent parser
 dev-util/gerrit-bin 2.5.6 2.6.1: Gerrit Code Review
-dev-util/reviewboard 2.5.15 2.5.16: A web-based code review tool that offers developers a way to handle code reviews
+dev-util/reviewboard 2.5.15 2.5.16 2.5.17: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.38.0 0.54.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/yamllint 1.6.0 1.6.1 1.7.0: A linter for YAML files
