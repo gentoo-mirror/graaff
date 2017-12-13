@@ -6,8 +6,10 @@ app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20141129 0.20141129-r1 0.20161123: A major mode for editing Cucumber stories.
 app-emacs/elixir-mode 1.3.0 1.5.0: Emacs major mode for Elixir
 app-emacs/elm-mode 0.20.3 0.20.3-r1: Emacs major mode for elm
+app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
 app-emacs/groovy-mode 1.0.1: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
+app-emacs/helm 2.8.6: Framework for incremental completions and narrowing selections
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
