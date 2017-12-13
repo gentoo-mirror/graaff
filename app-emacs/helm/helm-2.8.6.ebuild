@@ -16,8 +16,15 @@ KEYWORDS="~amd64"
 
 SITEFILE="50${PN}-gentoo.el"
 
-DEPEND="app-emacs/dash app-emacs/s"
+DEPEND="app-emacs/emacs-async"
+RDEPEND="${DEPEND}"
 
-RDEPEND="${DEPEND}
-	sys-apps/the_silver_searcher
-"
+src_prepare() {
+	echo ";;; Generated autoloads from helm.el" > helm-autoloads.el || die
+	default
+}
+
+src_compile() {
+	export EMACSLOADPATH=.:${EMACSLOADPATH} emake autoloads
+	default
+}
