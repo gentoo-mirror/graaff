@@ -17,7 +17,7 @@ DESCRIPTION="Integration of TinyMCE with the Rails asset pipeline"
 HOMEPAGE="https://github.com/spohlenz/tinymce-rails"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="4.6"
 KEYWORDS="~amd64"
 IUSE=""
 
