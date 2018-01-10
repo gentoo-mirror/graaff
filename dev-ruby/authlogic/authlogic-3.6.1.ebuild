@@ -1,10 +1,9 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=6
 
-USE_RUBY="ruby20 ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -18,12 +17,12 @@ HOMEPAGE="https://github.com/binarylogic/authlogic"
 LICENSE="Ruby"
 
 KEYWORDS="~amd64"
-SLOT="3"
+SLOT="3.6"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/activerecord-3.2:*   <dev-ruby/activerecord-5.1:*
-	>=dev-ruby/activesupport-3.2:*  <dev-ruby/activesupport-5.1:*
+	>=dev-ruby/activerecord-3.2:*   <dev-ruby/activerecord-5.2:*
+	>=dev-ruby/activesupport-3.2:*  <dev-ruby/activesupport-5.2:*
 	>=dev-ruby/request_store-1.0.5:*
 	>=dev-ruby/bcrypt-ruby-3.1.5"
 ruby_add_bdepend "test? ( >=dev-ruby/bcrypt-ruby-3.1.5 dev-ruby/sqlite3 )"
