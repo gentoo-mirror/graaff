@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/airblade/paper_trail"
 SRC_URI="https://github.com/airblade/paper_trail/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="6"
+SLOT="7"
 KEYWORDS="~amd64"
 IUSE=""
 
