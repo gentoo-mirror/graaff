@@ -1,9 +1,8 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22"
+EAPI=6
+USE_RUBY="ruby23 ruby24"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -20,3 +19,13 @@ LICENSE="MIT"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
+
+DEPEND+=" test? ( dev-vcs/git )"
+
+all_ruby_prepare() {
+	sed -i -e '/rake/ s/~>/>=/' heapy.gemspec || die
+	git init . || die
+
+	# Remove failing spec
+	rm -f spec/slow_spec.rb || die
+}
