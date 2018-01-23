@@ -20,4 +20,4 @@ KEYWORDS="~amd64"
 SLOT="0"
 IUSE="doc"
 
-ruby_add_rdepend ">=dev-ruby/rack-1.1.1"
+ruby_add_rdepend ">=dev-ruby/rack-1.1.1:*"
