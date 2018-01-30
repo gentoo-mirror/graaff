@@ -1,9 +1,10 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22 ruby23"
+EAPI=6
+USE_RUBY="ruby22 ruby23 ruby24"
+
+RUBY_FAKEGEM_NAME="scss_lint"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 
@@ -22,15 +23,14 @@ SLOT="0"
 IUSE=""
 
 ruby_add_rdepend "
-	dev-ruby/rainbow:2
-	>=dev-ruby/sass-3.4.1:3.4
-"
-
-ruby_add_bdepend "
-	test? ( >=dev-ruby/nokogiri-1.6.0 )
+	dev-ruby/rake
+	>=dev-ruby/sass-3.4.20:3.4
 "
 
 all_ruby_prepare() {
-	# Skip tests that depend on specific file ordering.
-	rm spec/scss_lint/file_finder_spec.rb || die
+	# Skip tests that fail on legacy exist? method
+	rm -f spec/scss_lint/plugins/linter_gem_spec.rb || die
+
+	sed -i -e '/simplecov/ s:^:#:' \
+		-e '1igem "sass", "~> 3.4.0"' spec/spec_helper.rb || die
 }
