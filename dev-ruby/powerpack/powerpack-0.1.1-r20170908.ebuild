@@ -25,4 +25,3 @@ LICENSE="MIT"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
-
