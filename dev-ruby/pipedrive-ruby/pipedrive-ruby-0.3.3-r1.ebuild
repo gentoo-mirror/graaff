@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY="ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23 ruby24"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -23,7 +23,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	dev-ruby/httparty
-	>=dev-ruby/json-1.7.7
+	>=dev-ruby/json-1.7.7:*
 	>=dev-ruby/multi_xml-0.5.2
 "
 
