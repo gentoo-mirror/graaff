@@ -1,9 +1,8 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
-USE_RUBY="ruby20 ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23 ruby24"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
@@ -11,7 +10,7 @@ RUBY_FAKEGEM_EXTRADOC="HISTORY README.textile"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A concise and easy-to-use Ruby library that connects ActiveRecord to the Sphinx search daemon."
+DESCRIPTION="A Ruby library that connects ActiveRecord to the Sphinx search daemon."
 HOMEPAGE="http://freelancing-god.github.com/ts/en/"
 LICENSE="MIT"
 
