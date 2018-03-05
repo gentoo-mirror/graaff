@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY="ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23 ruby24"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
@@ -25,7 +25,7 @@ IUSE=""
 # also requires rspec 3.
 RESTRICT="test"
 
-ruby_add_rdepend ">=dev-ruby/rails-3.2 <dev-ruby/rails-5"
+ruby_add_rdepend ">=dev-ruby/rails-3.2:* <dev-ruby/rails-5:*"
 
 #ruby_add_bdepend "test? ( dev-ruby/rspec:2 =dev-ruby/rspec-rails-2.13* >=dev-ruby/ammeter-0.1.3 dev-ruby/activerecord[sqlite3] )"
 
