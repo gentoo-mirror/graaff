@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/mozilla/geckodriver
 KEYWORDS=~amd64
 LICENSE=MPL-2.0
 SLOT=0
-SRC_URI=https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
-_md5_=7e768eaa2f2eb27ed37734e99c250c13
+SRC_URI=https://github.com/mozilla/geckodriver/releases/download/v0.20.0/geckodriver-v0.20.0-linux64.tar.gz
+_md5_=af6eb727f6163bdf492860dff1d9ad8b
