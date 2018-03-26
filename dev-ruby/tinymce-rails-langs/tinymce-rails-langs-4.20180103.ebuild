@@ -21,4 +21,4 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend "|| ( dev-ruby/tinymce-rails:4.6 >=dev-ruby/tinymce-rails-4.1.10:0 )"
+ruby_add_rdepend "dev-ruby/tinymce-rails:*"
