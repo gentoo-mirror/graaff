@@ -17,7 +17,7 @@ HOMEPAGE="https://github.com/binarylogic/authlogic"
 LICENSE="Ruby"
 
 KEYWORDS="~amd64"
-SLOT="3.6"
+SLOT="3.8"
 IUSE=""
 
 ruby_add_rdepend "
