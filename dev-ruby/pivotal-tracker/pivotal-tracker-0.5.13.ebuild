@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY="ruby21 ruby22 ruby23"
+USE_RUBY="ruby22 ruby23 ruby24"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -23,7 +23,7 @@ RESTRICT="test" # stale_fish does not work with activesupport 4.2.
 
 # ruby_add_bdepend "test? ( >=dev-ruby/stale_fish-1.3.0 )"
 
-ruby_add_rdepend ">=dev-ruby/rest-client-1.8.0
+ruby_add_rdepend ">=dev-ruby/rest-client-1.8.0:*
 	>=dev-ruby/nokogiri-1.5.5
 	>=dev-ruby/nokogiri-happymapper-0.5.4
 	dev-ruby/crack
