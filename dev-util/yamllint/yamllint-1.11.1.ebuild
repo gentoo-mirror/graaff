@@ -15,4 +15,4 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}] dev-python/pathspec[${PYTHON_USEDEP}]"
