@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-USE_RUBY="ruby21 ruby22 ruby23"
+EAPI=6
+USE_RUBY="ruby23 ruby24"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -19,7 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/activerecord-3.2.0:* <dev-ruby/activerecord-5.1:*"
+ruby_add_rdepend ">=dev-ruby/activerecord-3.2.0:* <dev-ruby/activerecord-6:*"
 
 ruby_add_bdepend "test? ( dev-ruby/minitest dev-ruby/minitest-around )"
 
