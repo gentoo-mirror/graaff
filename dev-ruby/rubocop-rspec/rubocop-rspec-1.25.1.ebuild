@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby22 ruby23"
+USE_RUBY="ruby23 ruby24"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-0.52.1
+	>=dev-ruby/rubocop-0.53.0
 "
 
 all_ruby_prepare() {
