@@ -19,7 +19,7 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/loofah-1.0.0"
 
-ruby_add_bdepend "dev-ruby/acts_as_fu"
+ruby_add_bdepend "test? ( dev-ruby/acts_as_fu )"
 
 all_ruby_prepare() {
 	# acts_as_fu is not compatible with later rails versions
