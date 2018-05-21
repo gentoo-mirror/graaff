@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-USE_RUBY="ruby21 ruby22 ruby23"
+EAPI=6
+USE_RUBY="ruby23 ruby24"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -14,7 +14,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="assets rails_best_practices.yml"
 inherit ruby-fakegem
 
 DESCRIPTION="a gem to check quality of rails app files"
-HOMEPAGE="http://wiki.github.com/flyerhzm/rails_best_practices"
+HOMEPAGE="https://wiki.github.com/flyerhzm/rails_best_practices"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
@@ -24,13 +24,12 @@ IUSE=""
 ruby_add_bdepend "test? ( dev-ruby/rspec:2 dev-ruby/haml )"
 
 ruby_add_rdepend "
-	dev-ruby/awesome_print
-	>=dev-ruby/code_analyzer-0.4.3
-	dev-ruby/colored
+	dev-ruby/activesupport:*
+	>=dev-ruby/code_analyzer-0.4.8
 	dev-ruby/erubis
-	dev-ruby/activesupport
-	dev-ruby/i18n
-	dev-ruby/require_all
+	dev-ruby/i18n:*
+	dev-ruby/json:*
+	=dev-ruby/require_all-1.5*
 	dev-ruby/ruby-progressbar"
 
 all_ruby_prepare() {

@@ -9,18 +9,17 @@ RUBY_FAKEGEM_EXTRADOC="README.md"
 
 inherit ruby-fakegem
 
-DESCRIPTION="Extracting assigns and assert_template from ActionDispatch"
-HOMEPAGE="https://github.com/rails/rails-controller-testing"
+DESCRIPTION="Rack app providing request/response rewriting proxy capabilities with streaming"
+HOMEPAGE="http://rubygems.org/gems/rack-proxy"
 
 LICENSE="MIT"
-SLOT="1"
+SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
+# All tests work against live services
 RESTRICT="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/actionpack-5.0.1:* =dev-ruby/actionpack-5*:*
-	>=dev-ruby/actionview-5.0.1:* =dev-ruby/actionview-5*:*
-	=dev-ruby/activesupport-5*:*
+	dev-ruby/rack:*
 "

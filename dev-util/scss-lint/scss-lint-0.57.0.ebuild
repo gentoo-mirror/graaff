@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby21 ruby22 ruby23 ruby24"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_NAME="scss_lint"
 
@@ -24,12 +24,13 @@ IUSE=""
 
 ruby_add_rdepend "
 	dev-ruby/rake
-	>=dev-ruby/sass-3.4.20:3.4
+	>=dev-ruby/sass-3.5.5:3.5
 "
 
 all_ruby_prepare() {
 	# Skip tests that fail on legacy exist? method
 	rm -f spec/scss_lint/plugins/linter_gem_spec.rb || die
 
-	sed -i -e '/simplecov/ s:^:#:' spec/spec_helper.rb || die
+	sed -i -e '/simplecov/ s:^:#:' \
+		-e '1igem "sass", "~> 3.5.5"' spec/spec_helper.rb || die
 }
