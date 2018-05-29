@@ -5,18 +5,20 @@ EAPI=6
 USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
-RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
-RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
+RUBY_FAKEGEM_RECIPE_TEST="none"
+
+RUBY_FAKEGEM_EXTRAINSTALL="app config"
 
 inherit ruby-fakegem
 
-DESCRIPTION="HTTP User Agent parser"
-HOMEPAGE="https://github.com/gshutler/useragent"
-SRC_URI="https://github.com/gshutler/useragent/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Displays a cookie consent"
+HOMEPAGE="https://github.com/infinum/cookies_eu"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="3"
+SLOT="1"
 IUSE=""
+
+ruby_add_rdepend "=dev-ruby/js_cookie_rails-2.2*"
