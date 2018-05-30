@@ -7,6 +7,8 @@ USE_RUBY="ruby23 ruby24"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
+RUBY_FAKEGEM_EXTRAINSTALL="misc"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Improve the rendering of HTML emails"
