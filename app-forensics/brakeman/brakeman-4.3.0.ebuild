@@ -32,12 +32,15 @@ ruby_add_rdepend "
 	>=dev-ruby/safe_yaml-1.0
 	>=dev-ruby/sass-3.0:* <dev-ruby/sass-3.5:*
 	>=dev-ruby/sexp_processor-4.7:4
-	>=dev-ruby/slim-1.3.6 <dev-ruby/slim-3.0.8
+	>=dev-ruby/slim-1.3.6 <dev-ruby/slim-4.0
 	>=dev-ruby/terminal-table-1.4.5 =dev-ruby/terminal-table-1*"
 
 all_ruby_prepare() {
 	# Avoid seemingly harmless test failure
 	sed -i -e '/test_highline/askip "gentoo"' test/tests/pager.rb || die
+
+	# Allow newer slim versions (original limit was because slim 3.0.8 requires ruby 2.0)
+	sed -i -e '/slim/ s/3.0.8/4.0/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }
 
 each_ruby_test() {
