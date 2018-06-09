@@ -24,7 +24,13 @@ ruby_add_rdepend "
 	dev-ruby/nokogiri
 "
 
+ruby_add_bdepend "test? (
+	dev-ruby/bundler
+	dev-ruby/rspec-rails
+)"
+
 all_ruby_prepare() {
 	rm -f Gemfile.lock || die
 	sed -i -e '/rubocop/I s:^:#:' -e '/bundler/I s:^:#:' Rakefile || die
+	sed -i -e '/rubocop/ s:^:#:' inky.gemspec || die
 }
