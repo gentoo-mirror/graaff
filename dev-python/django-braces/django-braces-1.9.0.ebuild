@@ -7,20 +7,17 @@ PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1
 
-DESCRIPTION="OAuth2 goodies for the Djangonauts"
-HOMEPAGE="https://github.com/evonove/django-oauth-toolkit"
+DESCRIPTION="Reusable, generic mixins for Django"
+HOMEPAGE="https://github.com/brack3t/django-braces"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="1"
 KEYWORDS="~amd64"
 IUSE="test"
 
 RDEPEND="
 	>=dev-python/django-1.4[${PYTHON_USEDEP}]
-	>=dev-python/django-braces-1.1.1[${PYTHON_USEDEP}]
-	=dev-python/oauthlib-1.0*[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
