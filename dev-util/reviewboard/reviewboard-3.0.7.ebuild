@@ -42,13 +42,13 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2015.2[${PYTHON_USEDEP}]
 	>=dev-python/whoosh-2.6[${PYTHON_USEDEP}]
-	>=dev-python/rbintegrations-1.0[${PYTHON_USEDEP}]
 	ldap? ( >=dev-python/python-ldap-2.4.21[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}
 	net-libs/nodejs
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+PDEPEND="	>=dev-python/rbintegrations-1.0[${PYTHON_USEDEP}]"
 
 REQUIRED_USE="doc? ( || ( codebase manual rnotes ) )"
 # Tests mostly access the inet and when run mostly fail
