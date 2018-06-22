@@ -17,9 +17,10 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 RDEPEND="
-	>=dev-python/django-1.11[${PYTHON_USEDEP}]
-	>=dev-python/oauthlib-2.0.3[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/django-1.4[${PYTHON_USEDEP}]
+	>=dev-python/django-braces-1.1.1[${PYTHON_USEDEP}]
+	=dev-python/oauthlib-1.0*[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
