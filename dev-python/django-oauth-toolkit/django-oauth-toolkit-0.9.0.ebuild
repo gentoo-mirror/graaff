@@ -24,3 +24,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
+
+python_prepare() {
+	sed -i -e '/oauthlib/ s/1.0.1/1.0.3/' setup.py || die
+}
