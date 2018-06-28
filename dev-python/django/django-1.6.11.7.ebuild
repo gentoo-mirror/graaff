@@ -3,7 +3,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 python3_4 pypy )
+PYTHON_COMPAT=( python2_7 pypy )
 
 PYTHON_REQ_USE='sqlite?,threads(+)'
 WEBAPP_NO_AUTO_INSTALL="yes"

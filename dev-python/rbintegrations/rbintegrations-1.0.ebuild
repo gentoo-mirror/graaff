@@ -15,7 +15,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	=dev-util/reviewboard-3.0*[${PYTHON_USEDEP}]
+"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 src_unpack() {
