@@ -35,6 +35,10 @@ DISTUTILS_IN_SOURCE_BUILD=1
 # Requires npm modules
 RESTRICT="test"
 
+python_prepare() {
+	sed -i -e 's/1.6.13/1.6.14/' setup.py docs/conf.py || die
+}
+
 python_compile_all() {
 	use doc && emake -C docs html
 }
