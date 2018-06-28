@@ -16,6 +16,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 RDEPEND="
+	dev-python/asana[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	=dev-util/reviewboard-3.0*[${PYTHON_USEDEP}]
 "
