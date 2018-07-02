@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=virtual/emacs-23
+DESCRIPTION=web template editing mode for emacs
+EAPI=6
+HOMEPAGE=http://web-mode.org
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-23
+SLOT=0
+SRC_URI=https://github.com/fxbois/web-mode/archive/v16.tar.gz -> web-mode-16.tar.gz
+_eclasses_=elisp	12e33ba725e375a938c5997b692a8667	elisp-common	23f47b2e1de7abf387105eddd1318738
+_md5_=5edef9c13022c7f5c6b7b8a757d17c4c
