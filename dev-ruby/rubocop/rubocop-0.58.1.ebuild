@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby22 ruby23 ruby24"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -10,8 +10,9 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="assets config"
+RUBY_FAKEGEM_BINDIR="exe"
 
-inherit ruby-fakegem
+inherit eapi7-ver ruby-fakegem
 
 DESCRIPTION="A Ruby static code analyzer"
 HOMEPAGE="https://github.com/bbatsov/rubocop"
@@ -23,6 +24,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
+	=dev-ruby/jaro_winkler-1.5*
 	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-2.5:0
 	>=dev-ruby/powerpack-0.1:0
