@@ -3,7 +3,7 @@
 
 EAPI=5
 
-USE_RUBY="ruby23 ruby24"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_DOCDIR="doc"
@@ -30,6 +30,8 @@ ruby_add_rdepend "
 all_ruby_prepare() {
 	# Use unbundled libsass
 	rm -rf ext || die
+
+	sed -i -e '/pry/ s:^:#:' test/test_helper.rb || die
 
 	sed -i -e '/spec =/,/ffi_lib/ s:^:#:' \
 		-e '/ffi_lib/a    ffi_lib "/usr/lib64/libsass.so"' \
