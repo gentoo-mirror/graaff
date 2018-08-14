@@ -7,6 +7,8 @@ USE_RUBY="ruby23 ruby24 ruby25"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
+RUBY_FAKEGEM_EXTRAINSTALL="package.json"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Use webpack to manage app-like JavaScript modules in Rails"
