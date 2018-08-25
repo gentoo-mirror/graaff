@@ -24,4 +24,4 @@ SLOT="0.3"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND+=" dev-lang/elm-platform"
+RDEPEND+=" dev-lang/elm"
