@@ -16,7 +16,7 @@ HOMEPAGE="https://github.com/onesupercoder/rack-livereload"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="$(ver_cut 1-2)"
+SLOT="$(ver_cut 1)"
 IUSE=""
 
 RESTRICT="test"
