@@ -14,6 +14,8 @@ IUSE=""
 
 S=${WORKDIR}
 
+RDEPEND="|| ( >=www-client/firefox-57 >=www-client/firefox-bin-57 )"
+
 src_install() {
 	dobin geckodriver
 }
