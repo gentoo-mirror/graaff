@@ -1,14 +1,14 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 PYTHON_COMPAT=( python2_7 )
 
-inherit distutils-r1 versionator
+inherit distutils-r1 eapi7-ver
 
 DESCRIPTION="A collection of useful extensions for Django"
 HOMEPAGE="https://github.com/djblets/djblets"
-SRC_URI="https://downloads.reviewboard.org/releases/${PN}/$(get_version_component_range 1-2)/${P}.tar.gz"
+SRC_URI="https://downloads.reviewboard.org/releases/${PN}/$(ver_cut 1-2)/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -25,12 +25,17 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP}]
 	>=dev-python/publicsuffix-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+	net-libs/nodejs"
 
-src_prepare() {
-	# Running uglify is a problem right now, so skip this step. Rather
-	# have newer versions than compacted javascript.
-	sed -e "s/'pipeline.compressors.uglifyjs.UglifyJSCompressor'/None/" -i djblets/settings.py || die
-
+src_unpack() {
 	default
+
+	cd "${S}"
+	npm install less@2.5.0 less-plugin-autoprefix@1.5.1 uglify-js@2.4.10 babel-cli@6.5.1 babel-preset-es2015@6.5.0 babel-plugin-dedent@2.0.0 || die
+}
+
+src_install() {
+	export PATH="node-modules/.bin:${PATH}"
+	distutils-r1_src_install
 }
