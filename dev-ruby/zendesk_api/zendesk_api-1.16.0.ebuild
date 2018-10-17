@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby22 ruby23 ruby24"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_RECIPE_TEST="none"
 
@@ -23,5 +23,5 @@ ruby_add_rdepend "
 	>=dev-ruby/hashie-3.5.3:3
 	dev-ruby/inflection
 	dev-ruby/multipart-post:0
-	dev-ruby/mime-types
+	dev-ruby/mime-types:*
 "
