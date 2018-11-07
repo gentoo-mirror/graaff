@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] net-libs/nodejs python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=A collection of useful extensions for Django
+EAPI=6
+HOMEPAGE=https://github.com/djblets/djblets
+IUSE=python_targets_python2_7
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-python/django-1.6.11.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] <dev-python/django-1.12[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/django-pipeline-1.6.14[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] =dev-python/django-pipeline-1.6*[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/dnspython-1.14.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/feedparser-5.1.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pillowfight[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/publicsuffix-1.1.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/python-dateutil-2.7[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/pytz[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=https://downloads.reviewboard.org/releases/Djblets/1.0/Djblets-1.0.8.tar.gz
+_eclasses_=distutils-r1	8595c9c7530ac3963f3aa0d77aa7e2d8	eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	multibuild	40fe59465edacd730c644ec2bc197809	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	xdg-utils	93b2dfbb00a09161e1e7f6360c0f7f6b
+_md5_=334abc874c7c173fd6a8c1ea004dbbdd
