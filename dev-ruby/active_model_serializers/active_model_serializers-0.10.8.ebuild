@@ -1,8 +1,8 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby21 ruby22 ruby23"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -27,7 +27,7 @@ ruby_add_rdepend "
 	>=dev-ruby/actionpack-4.1:* <dev-ruby/actionpack-6:*
 	>=dev-ruby/activemodel-4.1:* <dev-ruby/activemodel-6:*
 	>=dev-ruby/case_transform-0.2
-	=dev-ruby/jsonapi-renderer-0.1*
+	=dev-ruby/jsonapi-renderer-0.2*
 "
 
 #ruby_add_bdepend "test? ( >=dev-ruby/rails-3.0 )"
