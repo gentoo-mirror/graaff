@@ -1,10 +1,10 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-USE_RUBY="ruby22 ruby23 ruby24"
+EAPI=6
+USE_RUBY="ruby23 ruby24 ruby25"
 
-RUBY_FAKEGEM_RECIPE_TEST="rspec"
+RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_TASK_DOC="yard"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -16,14 +16,14 @@ RUBY_FAKEGEM_EXTRAINSTALL="config"
 inherit ruby-fakegem
 
 DESCRIPTION="This library aids one in handling money and different currencies."
-HOMEPAGE="http://money.rubyforge.org/"
+HOMEPAGE="https://rubymoney.github.io/money/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
-ruby_add_rdepend ">=dev-ruby/i18n-0.6.4:0.6"
+ruby_add_rdepend "|| ( dev-ruby/i18n:1 >=dev-ruby/i18n-0.6.4:0.6 )"
 
 ruby_add_bdepend "doc? ( dev-ruby/yard )"
 
