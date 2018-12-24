@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -21,6 +21,8 @@ KEYWORDS="~amd64"
 SLOT="2"
 IUSE=""
 
+PATCHES=( "${FILESDIR}/${P}-vtimezone-rrule.patch" )
+
 ruby_add_rdepend ">=dev-ruby/ice_cube-0.16:0"
 
 ruby_add_bdepend "test? ( >=dev-ruby/tzinfo-1.2:1 )"
@@ -32,5 +34,5 @@ all_ruby_prepare() {
 
 	# Avoid one failing spec with TZ offset. May fail since we use the
 	# overall timezone database, rather than tzinfo.
-	#sed -i -e '/no end transition/,/^  end/ s:^:#:' spec/tzinfo_spec.rb || die
+	sed -i -e '/no end transition/,/^  end/ s:^:#:' spec/tzinfo_spec.rb || die
 }
