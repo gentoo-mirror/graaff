@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -25,7 +25,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-0.58.0
+	>=dev-ruby/rubocop-0.60.0
 "
 
 all_ruby_prepare() {
