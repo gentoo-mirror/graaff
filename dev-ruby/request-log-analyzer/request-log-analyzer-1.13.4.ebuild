@@ -1,14 +1,16 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY="ruby22 ruby23 ruby24"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_DOCDIR=""
 RUBY_FAKEGEM_EXTRADOC="DESIGN.rdoc README.rdoc"
+
+RUBY_FAKEGEM_BINWRAP="request-log-analyzer"
 
 inherit ruby-fakegem
 
@@ -19,6 +21,8 @@ LICENSE="MIT"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
+
+ruby_add_bdepend "test? ( dev-ruby/activerecord[sqlite] )"
 
 all_ruby_prepare() {
 	rm Gemfile || die
