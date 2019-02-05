@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -15,7 +15,7 @@ DESCRIPTION="Ruby wrapper for the LinkedIn API"
 HOMEPAGE="https://github.com/hexgnu/linkedin"
 
 LICENSE="MIT"
-SLOT="1"
+SLOT="1.1.1"
 KEYWORDS="~amd64"
 IUSE=""
 
