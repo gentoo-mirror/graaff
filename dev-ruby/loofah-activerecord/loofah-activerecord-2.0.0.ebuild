@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -19,7 +19,7 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/loofah-1.0.0"
 
-ruby_add_bdepend "test? ( dev-ruby/acts_as_fu )"
+ruby_add_bdepend "test? ( dev-ruby/hoe dev-ruby/acts_as_fu )"
 
 all_ruby_prepare() {
 	# acts_as_fu is not compatible with later rails versions
