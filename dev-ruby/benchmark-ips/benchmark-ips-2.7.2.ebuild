@@ -1,8 +1,8 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY="ruby22 ruby23 ruby24 ruby25"
+USE_RUBY="ruby23 ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="History.txt README.md"
@@ -21,4 +21,8 @@ ruby_add_bdepend "test? ( >=dev-ruby/minitest-5.6:5 )"
 
 all_ruby_prepare() {
 	sed -i -e '1i require "tempfile"' test/test_benchmark_ips.rb || die
+}
+
+each_ruby_test() {
+	${RUBY} -Ilib:. -e 'Dir["test/test_*.rb"].each{|f| require f}' || die
 }
