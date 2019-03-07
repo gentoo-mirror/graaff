@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -6,26 +6,28 @@ USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_TASK_TEST=""
-RUBY_FAKEGEM_EXTRADOC="HISTORY README.textile"
+RUBY_FAKEGEM_EXTRADOC="CHANGELOG.markdown README.textile"
 
 RUBY_FAKEGEM_BINWRAP=""
 
-inherit ruby-fakegem
+inherit ruby-fakegem eapi7-ver
 
 DESCRIPTION="A concise library that connects ActiveRecord to the Sphinx search daemon"
 HOMEPAGE="http://freelancing-god.github.com/ts/en/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="3.4"
+SLOT="$(ver_cut 1-2)"
 IUSE=""
+
+PATCHES=( "${FILESDIR}/${P}-source-query.patch" )
 
 ruby_add_rdepend ">=dev-ruby/activerecord-3.1.0:*
 	>=dev-ruby/builder-2.1.2:*
 	>=dev-ruby/innertube-1.0.2
 	>=dev-ruby/joiner-0.2.0:*
 	>=dev-ruby/middleware-0.1.0
-	>=dev-ruby/riddle-2.0.0"
+	>=dev-ruby/riddle-2.3"
 
 # There are specs and features but not all files are present so they
 # don't run. We also need additional unpackaged dependencies for this.
