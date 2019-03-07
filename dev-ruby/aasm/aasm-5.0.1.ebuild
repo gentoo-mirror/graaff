@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -12,7 +12,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 inherit ruby-fakegem eapi7-ver
 
 DESCRIPTION="A library for adding finite state machines to Ruby classes."
-HOMEPAGE="https://github.com/rubyist/aasm"
+HOMEPAGE="https://github.com/aasm/aasm"
 
 LICENSE="MIT"
 SLOT="$(ver_cut 1)"
