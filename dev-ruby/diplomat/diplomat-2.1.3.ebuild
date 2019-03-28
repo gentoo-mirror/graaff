@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -23,8 +23,8 @@ SLOT="2"
 RESTRICT="test"
 
 ruby_add_rdepend "
+	>=dev-ruby/deep_merge-1.0.1:0
 	>=dev-ruby/faraday-0.9:0
-	dev-ruby/json:*
 "
 
 all_ruby_prepare() {
