@@ -25,3 +25,12 @@ ruby_add_rdepend "
 	>=dev-ruby/childprocess-0.6.3:2
 	>=dev-ruby/iniparse-1.4:1
 "
+
+each_ruby_install() {
+	each_fakegem_install
+
+	local hooks
+	hooks="$(ruby_fakegem_gemsdir)/gems/${RUBY_FAKEGEM_NAME}-${RUBY_FAKEGEM_VERSION}/template-dir/hooks"
+
+	fperms 0755 "${hooks}"/*
+}
