@@ -29,8 +29,8 @@ ruby_add_rdepend "
 each_ruby_install() {
 	each_fakegem_install
 
-	local hooks
-	hooks="$(ruby_fakegem_gemsdir)/gems/${RUBY_FAKEGEM_NAME}-${RUBY_FAKEGEM_VERSION}/template-dir/hooks"
+	local hookdir
+	hookdir="$(ruby_fakegem_gemsdir)/gems/${RUBY_FAKEGEM_NAME}-${RUBY_FAKEGEM_VERSION}/template-dir/hooks"
 
-	fperms 0755 "${hooks}"/*
+	fperms 0755 "${hookdir}"/{commit-msg,overcommit-hook,post-checkout,post-commit,post-merge,post-rewrite,pre-commit,prepare-commit-msg,pre-push,pre-rebase}
 }
