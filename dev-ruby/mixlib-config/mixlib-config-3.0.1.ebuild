@@ -1,8 +1,8 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby23 ruby24"
+USE_RUBY="ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -24,5 +24,5 @@ ruby_add_rdepend "dev-ruby/tomlrb"
 
 all_ruby_prepare() {
 	# Avoid spec failing without bundler
-	sed -i -e '/turns TOML into method-style setting/askip "fails without bundler"' spec/mixlib/config_spec.rb || die
+	sed -i -e '/turns \(TOML\|YAML\) into method-style setting/askip "fails without bundler"' spec/mixlib/config_spec.rb || die
 }
