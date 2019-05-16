@@ -1,8 +1,8 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby23 ruby24 ruby25"
+USE_RUBY="ruby23 ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -23,7 +23,7 @@ KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 
-ruby_add_rdepend "|| ( dev-ruby/i18n:1 >=dev-ruby/i18n-0.6.4:0.6 )"
+ruby_add_rdepend "dev-ruby/i18n:1"
 
 ruby_add_bdepend "doc? ( dev-ruby/yard )"
 
