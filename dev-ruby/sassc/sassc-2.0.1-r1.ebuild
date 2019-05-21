@@ -3,7 +3,7 @@
 
 EAPI=6
 
-USE_RUBY="ruby23 ruby24 ruby25"
+USE_RUBY="ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_DOCDIR="doc"
@@ -21,7 +21,7 @@ KEYWORDS="~amd64"
 SLOT="2"
 IUSE=""
 
-RDEPEND+="~dev-libs/libsass-3.5.2"
+RDEPEND+=">=dev-libs/libsass-3.5.5"
 
 ruby_add_rdepend "
 	>=dev-ruby/ffi-1.9.6
