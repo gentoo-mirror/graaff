@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby23 ruby24 ruby25 ruby26"
+USE_RUBY="ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -15,7 +15,7 @@ DESCRIPTION="Works for both HOTP and TOTP, and includes QR Code provisioning"
 HOMEPAGE="https://github.com/mdp/rotp"
 
 LICENSE="MIT"
-SLOT="4"
+SLOT="5"
 KEYWORDS="~amd64"
 IUSE=""
 
