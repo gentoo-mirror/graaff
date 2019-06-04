@@ -45,5 +45,5 @@ all_ruby_prepare() {
 		-e '/ruby_parser/ s/3.11.0/3.11/' \
 		-i gem_common.rb || die
 
-	sed -i -e '/rake/ s/,.*$// ; /codeclimate/ s:^:#:' Gemfile || die
+	sed -i -e '/rake/ s/,.*$// ; /codeclimate/ s:^:#: ; /json/ s:^:#:' Gemfile || die
 }
