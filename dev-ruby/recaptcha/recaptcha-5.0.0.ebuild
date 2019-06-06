@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby23 ruby24 ruby25"
+USE_RUBY="ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -17,22 +17,22 @@ SRC_URI="https://github.com/ambethia/recaptcha/archive/v${PV}.tar.gz -> ${P}.tar
 
 LICENSE="MIT"
 KEYWORDS="~amd64"
-SLOT="4"
+SLOT="5"
 IUSE="test"
 
 ruby_add_rdepend "dev-ruby/json:*"
 
 ruby_add_bdepend "test? (
 	dev-ruby/bundler
+	dev-ruby/maxitest
 	dev-ruby/mocha
-	dev-ruby/activesupport
 	dev-ruby/i18n
 	dev-ruby/minitest:5
 	dev-ruby/webmock
 )"
 
 all_ruby_prepare() {
-	sed -i -e '/bump/ s:^:#:' Rakefile test/helper.rb || die
+	sed -i -e '/\(bump\|byebug\)/ s:^:#:' Rakefile test/helper.rb || die
 	sed -i -e '/\(bump\|pry\)/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
 	rm -f Gemfile.lock || die
 }
