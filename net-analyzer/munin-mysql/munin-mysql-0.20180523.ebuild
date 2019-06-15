@@ -1,10 +1,9 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=7
 
-GITHUB_COMMIT="257d253045d0655394f8df276071b5e07822cfb4"
+GITHUB_COMMIT="eaad017b7064f8debfeda6dd706b81e30cfa70a4"
 
 DESCRIPTION="Improved MySQL Graphs for Munin"
 HOMEPAGE="https://github.com/kjellm/munin-mysql"
@@ -30,6 +29,8 @@ RESTRICT="test"
 src_prepare() {
 	# Don't restart node automatically.
 	sed -i -e '/restart/d' Makefile || die
+
+	default
 }
 
 src_install() {
