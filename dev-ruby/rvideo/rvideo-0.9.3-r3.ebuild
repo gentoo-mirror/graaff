@@ -15,13 +15,11 @@ RUBY_FAKEGEM_EXTRAINSTALL="config"
 inherit ruby-fakegem
 
 DESCRIPTION="Inspect and process video or audio files."
-HOMEPAGE="http://code.google.com/p/rvideo/"
+HOMEPAGE="https://github.com/zencoder/rvideo/issues"
 LICENSE="MIT"
 
 KEYWORDS="~amd64 ~x86 ~x86-macos"
 SLOT="0"
-IUSE="doc flv"
+IUSE="doc"
 
 RUBY_PATCHES=( rvideo-ffmpeg.patch rvideo-output-encoding.patch )
-
-ruby_add_rdepend "flv? ( media-video/flvtool2 )"
