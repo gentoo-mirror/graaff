@@ -17,7 +17,6 @@ DESCRIPTION="Integration of TinyMCE with the Rails asset pipeline"
 HOMEPAGE="https://github.com/spohlenz/tinymce-rails"
 SRC_URI="https://rubygems.org/gems/tinymce-rails-5.0.5.gem https://download.ephox.com/tinymce/community/tinymce_${PV}.zip https://download.ephox.com/tinymce/community/tinymce_${PV}_dev.zip"
 
-
 LICENSE="MIT"
 SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
@@ -35,4 +34,3 @@ all_ruby_prepare() {
 	# Substitute the correct version number
 	sed -i -e 's/5.0.5/'${PV}'/' ../metadata lib/tinymce/rails/version.rb || die
 }
-
