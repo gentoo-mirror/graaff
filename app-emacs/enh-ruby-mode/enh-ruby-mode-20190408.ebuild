@@ -19,3 +19,9 @@ KEYWORDS="~amd64"
 SITEFILE="50${PN}-gentoo.el"
 
 DOCS="README.rdoc"
+
+src_install() {
+	elisp_src_install
+
+	elisp-install ${PN}/ruby ruby/*
+}
