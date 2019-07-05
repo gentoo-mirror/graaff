@@ -7,20 +7,22 @@ USE_RUBY="ruby24 ruby25 ruby26"
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
-RUBY_FAKEGEM_EXTRAINSTALL="js skel"
+inherit ruby-fakegem
 
-inherit eapi7-ver ruby-fakegem
-
-DESCRIPTION="Insert LiveReload into your app easily as Rack middleware"
-HOMEPAGE="https://github.com/onesupercoder/rack-livereload"
+DESCRIPTION="Automatically reloads when changes are detected"
+HOMEPAGE="https://github.com/ddfreyne/adsf/"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="$(ver_cut 1)"
+SLOT="0"
 IUSE=""
 
 RESTRICT="test"
 
 ruby_add_rdepend "
-	dev-ruby/rack
+	www-servers/adsf:0
+	>=dev-ruby/em-websocket-0.5:0
+	>=dev-ruby/eventmachine-1.2:0
+	dev-ruby/listen:3
+	>=dev-ruby/rack-livereload-0.3:0
 "
