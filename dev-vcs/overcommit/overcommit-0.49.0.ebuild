@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby24 ruby25"
+USE_RUBY="ruby24 ruby25 ruby26"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_RECIPE_TEST="none"
@@ -22,8 +22,7 @@ SLOT="0"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/childprocess-0.6.3:2
-	=dev-ruby/childprocess-0*:2
+	<dev-ruby/childprocess-2.0:2
 	>=dev-ruby/iniparse-1.4:1
 "
 
