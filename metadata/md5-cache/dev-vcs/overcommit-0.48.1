@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=test? ( ruby_targets_ruby24? ( >=dev-ruby/childprocess-0.6.3:2[ruby_targets_ruby24] =dev-ruby/childprocess-0*:2[ruby_targets_ruby24] >=dev-ruby/iniparse-1.4:1[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/childprocess-0.6.3:2[ruby_targets_ruby25] =dev-ruby/childprocess-0*:2[ruby_targets_ruby25] >=dev-ruby/iniparse-1.4:1[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) )
+DESCRIPTION=The Opinionated Git Hook Manager
+EAPI=6
+HOMEPAGE=https://github.com/sds/overcommit
+IUSE=test ruby_targets_ruby24 ruby_targets_ruby25 doc test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=ruby_targets_ruby24? ( >=dev-ruby/childprocess-0.6.3:2[ruby_targets_ruby24] =dev-ruby/childprocess-0*:2[ruby_targets_ruby24] >=dev-ruby/iniparse-1.4:1[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/childprocess-0.6.3:2[ruby_targets_ruby25] =dev-ruby/childprocess-0*:2[ruby_targets_ruby25] >=dev-ruby/iniparse-1.4:1[ruby_targets_ruby25] ) ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] )
+REQUIRED_USE=|| ( ruby_targets_ruby24 ruby_targets_ruby25 )
+SLOT=0
+SRC_URI=https://github.com/causes/overcommit/archive/v0.48.1.tar.gz -> overcommit-0.48.1.tar.gz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	ruby-fakegem	4044516b167f460104703fee4a3c7f5f	ruby-ng	5c4651afba2163db96ee4e836aa8dec5	ruby-utils	10cec86289e60f4b0d731b2e4b545e5d	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
+_md5_=6cedae79a23fcc1ea7fa5e58a30ff57c
