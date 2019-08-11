@@ -2,3 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-util/reviewboard:codebase - Enables a build of the docs/codebase folder
+dev-util/reviewboard:manual - Enables a build of the docs/manual folder
+dev-util/reviewboard:rnotes - Enables a doc build of the release notes
+net-fs/afpfs-ng:fuse - Support for the FUSE filesystem.
