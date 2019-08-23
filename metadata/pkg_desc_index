@@ -170,7 +170,7 @@ dev-ruby/sshkit-sudo 0.1.0: SSHKit extension, for sudo operation with password i
 dev-ruby/susy 2.2.14: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
 dev-ruby/terminal-table 1.8.0-r1: Simple, feature rich ascii table generation library
-dev-ruby/thinking-sphinx 3.1.4 4.1.0 4.1.0-r1 4.2.0 4.3.0 4.3.2: A concise library that connects ActiveRecord to the Sphinx search daemon
+dev-ruby/thinking-sphinx 3.1.4 4.1.0 4.2.0 4.3.2 4.4.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thread 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 2.1.2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 4.7.13 4.8.4 4.9.4 5.0.10 5.0.11 5.0.12 5.0.13 5.0.14: Integration of TinyMCE with the Rails asset pipeline
