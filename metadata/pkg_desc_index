@@ -53,7 +53,7 @@ dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenI
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2: A iterations per second enhancement to Benchmark
 dev-ruby/better_html 1.0.11 1.0.12 1.0.13 1.0.14: Better HTML for Rails
-dev-ruby/bootsnap 1.4.4: Boot large ruby/rails apps faster
+dev-ruby/bootsnap 1.4.4 1.4.5: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.3.1: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
 dev-ruby/bootstrap_form 4.1.0 4.2.0: A rails form builder to create forms using Bootstrap 4
