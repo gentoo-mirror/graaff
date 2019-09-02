@@ -62,6 +62,7 @@ dev-ruby/browser 2.5.3 2.6.1: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2: a Ruby 2 debugger
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
+dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.4.8: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/compass-rails 3.1.0: A Rails adapter for the Compass Stylesheet Authoring Framework
 dev-ruby/cookies_eu 1.7.4 1.7.5: Displays a cookie consent
