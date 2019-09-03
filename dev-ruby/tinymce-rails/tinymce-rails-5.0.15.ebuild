@@ -15,6 +15,7 @@ inherit ruby-fakegem eapi7-ver
 
 DESCRIPTION="Integration of TinyMCE with the Rails asset pipeline"
 HOMEPAGE="https://github.com/spohlenz/tinymce-rails"
+SRC_URI="https://rubygems.org/gems/tinymce-rails-5.0.14.gem https://download.ephox.com/tinymce/community/tinymce_${PV}.zip https://download.ephox.com/tinymce/community/tinymce_${PV}_dev.zip"
 
 LICENSE="MIT"
 SLOT="$(ver_cut 1-2)"
@@ -22,3 +23,14 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/railties-3.1.1:*"
+
+all_ruby_prepare() {
+	mkdir tmp || die
+	cp "${DISTDIR}/tinymce_${PV}.zip" tmp/tinymce.zip || die
+	cp "${DISTDIR}/tinymce_${PV}_dev.zip" tmp/tinymce.dev.zip || die
+
+	rake extract rename || die
+
+	# Substitute the correct version number
+	sed -i -e 's/5.0.14/'${PV}'/' ../metadata lib/tinymce/rails/version.rb || die
+}
