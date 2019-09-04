@@ -82,7 +82,7 @@ dev-ruby/formtastic 3.1.5: Rails FormBuilder DSL to make it easier to create for
 dev-ruby/foundation_emails 2.2.1.0: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.3 0.2.4: Get memory usage of a process in Ruby
 dev-ruby/git-pivotal-tracker-integration 1.4.0: A set of Git commands to help developers when working with Pivotal Tracker
-dev-ruby/gli 2.18.1 2.18.2: Git-Like Interface Command Line Parser
+dev-ruby/gli 2.18.1 2.18.2 2.19.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0: Parses, validates, and formats local and international phone numbers
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
@@ -180,7 +180,7 @@ dev-ruby/unicode-display_width 1.4.0 1.4.1 1.5.0 1.6.0: Adds String#display_widt
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/webpacker 3.5.5-r1 3.6.0 4.0.2 4.0.4 4.0.6 4.0.7: Use webpack to manage app-like JavaScript modules in Rails
-dev-ruby/zendesk_api 1.16.0 1.17.0 1.19.0: Wrapper for the REST API at https://www.zendesk.com
+dev-ruby/zendesk_api 1.17.0 1.19.0 1.19.1: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.13 3.0.14 3.0.15: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.57.1 0.58.0: Configurable tool for writing clean and consistent SCSS
