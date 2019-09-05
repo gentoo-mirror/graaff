@@ -1,15 +1,14 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 USE_RUBY="ruby24 ruby25 ruby26"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md README_FROM_VERSION_3_TO_4.md"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
-inherit ruby-fakegem eapi7-ver
+inherit ruby-fakegem
 
 DESCRIPTION="A library for adding finite state machines to Ruby classes."
 HOMEPAGE="https://github.com/aasm/aasm"
