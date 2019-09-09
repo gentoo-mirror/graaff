@@ -48,7 +48,7 @@ dev-ruby/adal 1.0.0: Windows Azure Active Directory authentication client librar
 dev-ruby/ancestry 3.0.5 3.0.6 3.0.7: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/authlogic 3.8.0 4.4.2 5.0.0 5.0.1: A clean, simple, and unobtrusive ruby authentication solution.
+dev-ruby/authlogic 3.8.0 4.4.2 5.0.0 5.0.1 5.0.3: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2: A iterations per second enhancement to Benchmark
