@@ -143,7 +143,7 @@ dev-ruby/record_tag_helper 1.0.0: ActionView Record Tag Helpers
 dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 1.5.0 2.0.0: A wonderfully simple way to load your code
 dev-ruby/riddle 2.3.2 2.4.0: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.21.0 3.22.0 3.23.0: Routing tree web toolkit
+dev-ruby/roda 3.21.0 3.22.0 3.23.0 3.24.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
