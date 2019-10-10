@@ -11,6 +11,7 @@ app-emacs/enh-ruby-mode 20190408: Major mode for editing Ruby files
 app-emacs/flycheck 31 31_p20190503-r1: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
+app-emacs/hcl-mode 0.03: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.8: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/json-mode 1.7.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
