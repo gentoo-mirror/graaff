@@ -14,6 +14,7 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
+	dev-perl/IO-Socket-INET6
 	net-analyzer/munin
 "
 
