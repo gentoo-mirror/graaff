@@ -1,10 +1,9 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 USE_RUBY="ruby24 ruby25 ruby26"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -12,7 +11,9 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 RUBY_FAKEGEM_EXTRAINSTALL="assets config"
 RUBY_FAKEGEM_BINDIR="exe"
 
-inherit eapi7-ver ruby-fakegem
+RUBY_FAKEGEM_GEMSPEC="rubocop.gemspec"
+
+inherit ruby-fakegem
 
 DESCRIPTION="A Ruby static code analyzer"
 HOMEPAGE="https://github.com/bbatsov/rubocop"
