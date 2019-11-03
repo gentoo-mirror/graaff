@@ -167,7 +167,7 @@ dev-ruby/scrypt 3.0.6: Scrypt password hashing algorithm
 dev-ruby/secure_headers 3.7.3 6.0.0 6.1.0 6.1.1: Security related headers all in one gem
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/smart_properties 1.13.1 1.14.0 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
-dev-ruby/sneakers 2.11.0: Fast background processing framework for Ruby and RabbitMQ
+dev-ruby/sneakers 2.11.0-r1: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0: SSHKit extension, for sudo operation with password input
