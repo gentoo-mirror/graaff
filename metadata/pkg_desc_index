@@ -201,5 +201,4 @@ net-fs/afpfs-ng 0.8.1: AFP filesystem clients
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
-www-misc/checkbot 1.80-r1: Checkbot is a tool to verify links on a set of HTML pages.
 www-servers/adsf-live 1.4.1 1.4.2: Automatically reloads when changes are detected
