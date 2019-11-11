@@ -1,10 +1,9 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-ruby/hoe/hoe-1.2.1.ebuild,v 1.1 2007/06/04 20:47:21 graaff Exp $
 
-EAPI=5
+EAPI=7
 
-inherit perl-app
+inherit perl-module
 
 DESCRIPTION="Checkbot is a tool to verify links on a set of HTML pages."
 HOMEPAGE="https://degraaff.org/checkbot/"
