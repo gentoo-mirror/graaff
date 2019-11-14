@@ -152,7 +152,7 @@ dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and incl
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.73.0 0.74.0 0.75.0 0.75.1 0.76.0: A Ruby static code analyzer
-dev-ruby/rubocop-performance 1.3.0 1.4.1 1.5.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.3.0 1.4.1 1.5.0 1.5.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.2.1 2.3.0 2.3.1 2.3.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.33.0 1.34.1 1.35.0 1.36.0: Code style checking for RSpec files
 dev-ruby/ruby-oembed 0.12.0: An oEmbed consumer library written in Ruby.
@@ -183,7 +183,7 @@ dev-ruby/unicode-display_width 1.4.0 1.4.1 1.5.0 1.6.0: Adds String#display_widt
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
-dev-ruby/webpacker 3.5.5-r1 3.6.0 4.0.2 4.0.4 4.0.6 4.0.7: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/webpacker 3.6.0 4.0.6 4.0.7 4.2.0: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/zendesk_api 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.13 3.0.14 3.0.15: A web-based code review tool that offers developers a way to handle code reviews
