@@ -22,7 +22,7 @@ app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/reformatter 0.4: Define commands which run reformatters on the current buffer
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
-app-forensics/brakeman 4.3.1-r1 4.7.0 4.7.1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.3.1-r1 4.7.0 4.7.1 4.7.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
@@ -154,7 +154,7 @@ dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumera
 dev-ruby/rubocop 0.73.0 0.74.0 0.75.0 0.75.1 0.76.0: A Ruby static code analyzer
 dev-ruby/rubocop-performance 1.3.0 1.4.1 1.5.0 1.5.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.2.1 2.3.0 2.3.1 2.3.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rspec 1.33.0 1.34.1 1.35.0 1.36.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 1.33.0 1.34.1 1.35.0 1.36.0 1.37.0: Code style checking for RSpec files
 dev-ruby/ruby-oembed 0.12.0: An oEmbed consumer library written in Ruby.
 dev-ruby/ruby-saml 1.9.0 1.10.0 1.10.1 1.10.2 1.11.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r3: Inspect and process video or audio files.
@@ -184,7 +184,7 @@ dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 3.6.0 4.0.6 4.0.7 4.2.0-r1: Use webpack to manage app-like JavaScript modules in Rails
-dev-ruby/zendesk_api 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0: Wrapper for the REST API at https://www.zendesk.com
+dev-ruby/zendesk_api 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0 1.22.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.13 3.0.14 3.0.15: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.57.1 0.58.0: Configurable tool for writing clean and consistent SCSS
