@@ -60,7 +60,7 @@ dev-ruby/bootstrap 4.3.1: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / e
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
 dev-ruby/bootstrap_form 4.1.0 4.2.0 4.3.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/breakpoint 2.7.1: Really Simple Media Queries with Sass
-dev-ruby/browser 2.5.3 2.6.1 2.7.0: Do some browser detection with Ruby
+dev-ruby/browser 2.5.3 2.6.1 2.7.0 2.7.1: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2: a Ruby 2 debugger
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
@@ -93,7 +93,7 @@ dev-ruby/heapy 0.1.4: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7: HTML Tokenizer
 dev-ruby/httmultiparty 0.3.16: A thin wrapper around HTTParty to provide multipart uploads
 dev-ruby/httpi 2.4.4: Common interface for Ruby's HTTP libraries
-dev-ruby/icalendar 2.5.3: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.5.3 2.6.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
@@ -151,9 +151,9 @@ dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.73.0 0.74.0 0.75.0 0.75.1 0.76.0: A Ruby static code analyzer
+dev-ruby/rubocop 0.73.0 0.74.0 0.75.0 0.75.1 0.76.0 0.77.0: A Ruby static code analyzer
 dev-ruby/rubocop-performance 1.3.0 1.4.1 1.5.0 1.5.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.2.1 2.3.0 2.3.1 2.3.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.2.1 2.3.0 2.3.1 2.3.2 2.4.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.33.0 1.34.1 1.35.0 1.36.0 1.37.0: Code style checking for RSpec files
 dev-ruby/ruby-oembed 0.12.0: An oEmbed consumer library written in Ruby.
 dev-ruby/ruby-saml 1.9.0 1.10.0 1.10.1 1.10.2 1.11.0: A library for implementing the client side of a SAML authorization
