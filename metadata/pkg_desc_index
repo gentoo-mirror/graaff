@@ -187,7 +187,7 @@ dev-ruby/webpacker 3.6.0 4.0.6 4.0.7 4.2.0-r1: Use webpack to manage app-like Ja
 dev-ruby/zendesk_api 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0 1.22.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.13 3.0.14 3.0.15: A web-based code review tool that offers developers a way to handle code reviews
-dev-util/scss-lint 0.57.1 0.58.0: Configurable tool for writing clean and consistent SCSS
+dev-util/scss-lint 0.57.1 0.58.0 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/transpec 3.3.0 3.4.0: Converts specs to the latest RSpec syntax with static and dynamic code analysis
 dev-util/yamllint 1.11.1 1.15.0 1.16.0: A linter for YAML files
