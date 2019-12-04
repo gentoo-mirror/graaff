@@ -4,10 +4,10 @@ app-emacs/avy 0.4.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20161123: A major mode for editing Cucumber stories.
 app-emacs/elixir-mode 1.3.0 1.5.0: Emacs major mode for Elixir
-app-emacs/elm-mode 0.20.3-r1 0.20.3_p20190222 0.20.3_p20190815: Emacs major mode for elm
+app-emacs/elm-mode 0.20.3-r1 0.20.3_p20190222 0.20.3_p20190815 0.20.3_p20191125: Emacs major mode for elm
 app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
 app-emacs/emacs-libvterm 0.20190822: Emacs libvterm integration
-app-emacs/enh-ruby-mode 20190408: Major mode for editing Ruby files
+app-emacs/enh-ruby-mode 20190408 20191111: Major mode for editing Ruby files
 app-emacs/flycheck 31 31_p20190503-r1: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML

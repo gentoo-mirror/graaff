@@ -1,0 +1,12 @@
+BDEPEND=>=virtual/emacs-23
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=Major mode for editing Ruby files
+EAPI=7
+HOMEPAGE=https://github.com/zenspider/enhanced-ruby-mode
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=virtual/emacs-23
+SLOT=0
+SRC_URI=https://github.com/zenspider/enhanced-ruby-mode/archive/v20191111.tar.gz -> enh-ruby-mode-20191111.tar.gz
+_eclasses_=elisp	11f1230b542918f2de1aef02bfbb3539	elisp-common	23f47b2e1de7abf387105eddd1318738
+_md5_=249e9b76678a8b72cda56eea298c992c
