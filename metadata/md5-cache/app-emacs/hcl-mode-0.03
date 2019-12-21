@@ -1,13 +1,13 @@
-BDEPEND=>=virtual/emacs-23
+BDEPEND=>=app-editors/emacs-23.1:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DESCRIPTION=Major mode of HCL (Hashicorp Configuration Language)
 EAPI=7
 HOMEPAGE=https://github.com/syohex/emacs-hcl-mode
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=virtual/emacs-23
+RDEPEND=>=app-editors/emacs-23.1:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/syohex/emacs-hcl-mode/archive/0.03.tar.gz -> hcl-mode-0.03.tar.gz
-_eclasses_=elisp	c774c0b6e71acd42b75cc46721bc2d0e	elisp-common	23f47b2e1de7abf387105eddd1318738
+_eclasses_=elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	4367f5e0a8c043fd95f5511c7d885a41
 _md5_=fd723182ef42f9adfa27f490a8bad1bc
