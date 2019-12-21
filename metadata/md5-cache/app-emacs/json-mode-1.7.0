@@ -8,5 +8,5 @@ LICENSE=GPL-3+
 RDEPEND=>=app-emacs/json-reformat-0.0.5 >=app-emacs/json-snatcher-1.0.0 >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/joshwnj/json-mode/archive/v1.7.0.tar.gz -> json-mode-1.7.0.tar.gz
-_eclasses_=eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	8393a1ed85e62f0a719ef2f2e3d03eb1
+_eclasses_=eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	f651b1af2a931eb45710eb2ce171246e
 _md5_=51ac0e24381741638353e289c172bc68
