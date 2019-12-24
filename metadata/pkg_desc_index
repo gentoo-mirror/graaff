@@ -147,7 +147,7 @@ dev-ruby/record_tag_helper 1.0.0 1.0.1: ActionView Record Tag Helpers
 dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/riddle 2.3.2 2.4.0: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.21.0 3.22.0 3.23.0 3.24.0 3.25.0: Routing tree web toolkit
+dev-ruby/roda 3.24.0 3.25.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
@@ -168,7 +168,7 @@ dev-ruby/scrypt 3.0.6: Scrypt password hashing algorithm
 dev-ruby/secure_headers 3.7.3 6.0.0 6.1.0 6.1.1: Security related headers all in one gem
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/smart_properties 1.13.1 1.14.0 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
-dev-ruby/sneakers 2.11.0-r1: Fast background processing framework for Ruby and RabbitMQ
+dev-ruby/sneakers 2.11.0-r1 2.12.0: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0: SSHKit extension, for sudo operation with password input
