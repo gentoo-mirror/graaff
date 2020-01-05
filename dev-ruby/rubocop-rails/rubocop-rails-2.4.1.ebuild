@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,13 +10,15 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="config"
 
-RUBY_FAKEGEM_GEMSPEC="rubocop-performance.gemspec"
+RUBY_FAKEGEM_BINWRAP=""
+
+RUBY_FAKEGEM_GEMSPEC="rubocop-rails.gemspec"
 
 inherit ruby-fakegem
 
 DESCRIPTION="A collection of RuboCop cops to check for performance optimizations in Ruby code"
-HOMEPAGE="https://github.com/rubocop-hq/rubocop-performance/"
-SRC_URI="https://github.com/rubocop-hq/rubocop-performance/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop-hq/rubocop-rails/"
+SRC_URI="https://github.com/rubocop-hq/rubocop-rails/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -24,5 +26,6 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-0.71.0
+	>=dev-ruby/rack-1.1:*
+	>=dev-ruby/rubocop-0.72.0
 "
