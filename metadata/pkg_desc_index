@@ -61,7 +61,7 @@ dev-ruby/bootstrap 4.3.1 4.4.1: Bootstrap 4 rubygem for Rails / Sprockets / Hana
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
 dev-ruby/bootstrap_form 4.1.0 4.2.0 4.3.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/breakpoint 2.7.1: Really Simple Media Queries with Sass
-dev-ruby/browser 2.7.0 2.7.1 3.0.2: Do some browser detection with Ruby
+dev-ruby/browser 2.7.0 2.7.1 3.0.2 3.0.3: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2: a Ruby 2 debugger
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
@@ -131,7 +131,7 @@ dev-ruby/paper_trail-association_tracking 1.0.0 1.1.1: Plugin for the PaperTrail
 dev-ruby/paperclip 5.3.0: Easy upload management for ActiveRecord
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
-dev-ruby/popper_js 1.14.5: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.11.1: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3: The power of the premailer gem to Rails without any configuration needs
@@ -143,7 +143,7 @@ dev-ruby/railroady 1.5.3: Generates Rails 3/4/5 model and controller UML diagram
 dev-ruby/rails-controller-testing 1.0.4: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.19.2: a gem to check quality of rails app files
 dev-ruby/rchardet19 1.3.7: A character encoding detection library for ruby.
-dev-ruby/recaptcha 4.14.0 5.0.0 5.1.0 5.1.1 5.2.1: Adds helpers for the reCAPTCHA API
+dev-ruby/recaptcha 4.14.0 5.0.0 5.1.0 5.1.1 5.2.1 5.3.0: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.0 1.0.1: ActionView Record Tag Helpers
 dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
