@@ -33,13 +33,14 @@ dev-python/django 1.6.11.7 1.6.11.8: High-level Python web framework
 dev-python/django-braces 1.9.0: Reusable, generic mixins for Django
 dev-python/django-cors-headers 1.1.0: Django app for handling the server headers required for CORS
 dev-python/django-evolution 0.7.6 0.7.7: A Django application that will run cron jobs for other django apps
+dev-python/django-haystack 2.4.1: Pluggable search for Django
 dev-python/django-multiselectfield 0.1.3: Django multiple select field
 dev-python/django-oauth-toolkit 0.9.0: OAuth2 goodies for the Djangonauts
 dev-python/django-pipeline 1.6.14: An asset packaging library for Django
 dev-python/pathspec 0.5.6 0.5.9: A utility library for pattern matching of file paths
 dev-python/publicsuffix 1.1.0: Get a public suffix for a domain name using the Public Suffix List
 dev-python/pymdown-extensions 3.5.0 4.8: A collection of extensions for Python Markdown
-dev-python/rbintegrations 1.0: A set of third-party service integrations for Review Board 3.0+
+dev-python/rbintegrations 1.0 1.0.1: A set of third-party service integrations for Review Board 3.0+
 dev-ruby/PoParser 3.2.3 3.2.4: A PO file parser, editor and generator
 dev-ruby/aasm 4.12.3 5.0.5 5.0.6: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190104 1.2.0-r20190105 2.0.1: Adds methods to set and authenticate against one time passwords
@@ -188,7 +189,7 @@ dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 3.6.0 4.0.6 4.0.7 4.2.0-r1 4.2.2: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/zendesk_api 1.20.0 1.21.0 1.22.0 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
-dev-util/reviewboard 3.0.13 3.0.14 3.0.15: A web-based code review tool that offers developers a way to handle code reviews
+dev-util/reviewboard 3.0.13 3.0.14 3.0.15 3.0.16: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.57.1 0.58.0 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/transpec 3.3.0 3.4.0: Converts specs to the latest RSpec syntax with static and dynamic code analysis
