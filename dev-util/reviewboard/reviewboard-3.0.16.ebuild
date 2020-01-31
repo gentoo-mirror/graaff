@@ -20,6 +20,7 @@ S=${WORKDIR}/${MY_PN}-${PV}
 
 RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	<dev-python/django-1.7[${PYTHON_USEDEP},sqlite]
+	=dev-python/django-braces-1.13.0[${PYTHON_USEDEP}]
 	>=dev-python/django-cors-headers-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/django-cors-headers-1.2[${PYTHON_USEDEP}]
 	>=dev-python/django-evolution-0.7.7[${PYTHON_USEDEP}]
@@ -41,6 +42,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2015.2[${PYTHON_USEDEP}]
+	=dev-python/requests-oauthlib-0.8*[${PYTHON_USEDEP}]
 	>=dev-python/whoosh-2.6[${PYTHON_USEDEP}]
 	ldap? ( >=dev-python/python-ldap-2.4.21[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}"
