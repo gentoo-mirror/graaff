@@ -22,3 +22,12 @@ all_ruby_prepare() {
 	# Avoid tests for unpackaged dependencies
 	rm -f test/test_{statsd,prowl,airbrake,jabber}.rb || die
 }
+
+each_ruby_configure() {
+	${RUBY} -Cext/god extconf.rb || die
+}
+
+each_ruby_compile() {
+	emake V=1 -Cext/god
+	cp ext/god/netlink_handler_ext.so lib/ || die
+}
