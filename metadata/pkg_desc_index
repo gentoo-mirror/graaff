@@ -196,7 +196,7 @@ dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which
 dev-util/transpec 3.3.0 3.4.0: Converts specs to the latest RSpec syntax with static and dynamic code analysis
 dev-util/yamllint 1.11.1 1.15.0 1.16.0: A linter for YAML files
 dev-util/yardstick 0.9.9: Measure YARD documentation coverage
-dev-vcs/overcommit 0.50.0 0.51.0 0.52.0: The Opinionated Git Hook Manager
+dev-vcs/overcommit 0.50.0 0.51.0 0.52.0 0.52.1: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-mysql 0.20161010 0.20180523: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for Rails server environments.
