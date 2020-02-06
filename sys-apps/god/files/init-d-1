@@ -1,0 +1,30 @@
+#!/sbin/openrc-run
+# Copyright 1999-2020 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+depend() {
+	need net
+	use logger
+}
+
+checkconfig() {
+	if [ ! -f /etc/god/*.god ] ; then
+		eerror "Please add .god files to /etc/god"
+		return 1
+	fi
+	return 0
+}
+
+start() {
+	checkconfig || return $?
+
+	ebegin "Starting god"
+	start-stop-daemon --start --pidfile /run/god/god.pid --exec /usr/bin/god -- -c /etc/god/*.god --pid /run/god/god.pid
+	eend $? "Failed to start god"
+}
+
+stop() {
+	ebegin "Stopping god"
+	start-stop-daemon --stop --pidfile /run/god/god.pid --exec /usr/bin/god
+	eend $? "Failed to stop god"
+}
