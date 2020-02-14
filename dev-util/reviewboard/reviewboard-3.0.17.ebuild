@@ -1,7 +1,7 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="sqlite"
 
@@ -20,6 +20,7 @@ S=${WORKDIR}/${MY_PN}-${PV}
 
 RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	<dev-python/django-1.7[${PYTHON_USEDEP},sqlite]
+	=dev-python/django-braces-1.13.0[${PYTHON_USEDEP}]
 	>=dev-python/django-cors-headers-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/django-cors-headers-1.2[${PYTHON_USEDEP}]
 	>=dev-python/django-evolution-0.7.7[${PYTHON_USEDEP}]
@@ -28,7 +29,7 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	=dev-python/django-oauth-toolkit-0.9*[${PYTHON_USEDEP}]
 	=dev-python/Djblets-1.0*[${PYTHON_USEDEP}]
-	>=dev-python/Djblets-1.0.10[${PYTHON_USEDEP}]
+	>=dev-python/Djblets-1.0.12[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.1[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
@@ -41,14 +42,16 @@ RDEPEND=">=dev-python/django-1.6.11.1[${PYTHON_USEDEP},sqlite]
 	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2015.2[${PYTHON_USEDEP}]
+	=dev-python/requests-oauthlib-0.8*[${PYTHON_USEDEP}]
 	>=dev-python/whoosh-2.6[${PYTHON_USEDEP}]
 	ldap? ( >=dev-python/python-ldap-2.4.21[${PYTHON_USEDEP}] )"
-DEPEND="${RDEPEND}
+DEPEND="${RDEPEND}"
+BDEPEND="
 	net-libs/nodejs
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
-PDEPEND="	>=dev-python/rbintegrations-1.0[${PYTHON_USEDEP}]"
+PDEPEND="	>=dev-python/rbintegrations-1.0.1[${PYTHON_USEDEP}]"
 
 REQUIRED_USE="doc? ( || ( codebase manual rnotes ) )"
 # Tests mostly access the inet and when run mostly fail
@@ -58,7 +61,7 @@ src_unpack() {
 	default
 
 	cd "${S}"
-	npm install less@2.5.0 less-plugin-autoprefix@1.5.1 uglify-js@2.4.10 babel-cli@6.5.1 babel-preset-es2015@6.5.0 babel-plugin-dedent@2.0.0 || die
+	npm install less@3.9.0 less-plugin-autoprefix@2.0.0 uglify-js@2.4.10 babel-cli@6.5.1 babel-preset-es2015@6.5.0 babel-plugin-dedent@2.0.0 || die
 }
 
 python_prepare_all() {
