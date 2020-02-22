@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/russel/groovy-emacs-modes/archive/75741c6f558f628d515142a647ad40538d6a3151.tar.gz -> groovy-mode-1.0.2_p20190225.tar.gz
-_eclasses_=elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	a1054cff648e1c6a806e17001d052176
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	504a3383c45504fde86b00426619a709
 _md5_=9787c7518c4f9ea44623d76d9d764cde
