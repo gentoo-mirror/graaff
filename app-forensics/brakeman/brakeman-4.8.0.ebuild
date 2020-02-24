@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -39,6 +39,7 @@ all_ruby_prepare() {
 
 	sed -e '/ruby_parser-legacy/ s:^:#:' \
 		-e '/minitest-ci/ s:^:#:' \
+		-e '/simplecov/ s:^:#:' \
 		-i gem_common.rb || die
 
 	sed -i -e '/rake/ s/,.*$// ; /codeclimate/ s:^:#: ; /json/ s:^:#:' Gemfile || die

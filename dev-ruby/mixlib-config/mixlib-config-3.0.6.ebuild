@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -11,11 +11,18 @@ RUBY_FAKEGEM_EXTRA_DOC="CHANGELOG.md README.md"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A simple mixin for CLI interfaces, including option parsing"
-HOMEPAGE="https://github.com/opscode/mixlib-cli"
+DESCRIPTION="A class based configuration library"
+HOMEPAGE="https://github.com/opscode/mixlib-config"
 SRC_URI="https://github.com/opscode/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
+
+ruby_add_rdepend "dev-ruby/tomlrb"
+
+all_ruby_prepare() {
+	# Avoid spec failing without bundler
+	sed -i -e '/turns \(TOML\|YAML\) into method-style setting/askip "fails without bundler"' spec/mixlib/config_spec.rb || die
+}
