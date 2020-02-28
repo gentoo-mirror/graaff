@@ -100,7 +100,7 @@ dev-ruby/icalendar 2.5.3 2.6.0 2.6.1: This library provides iCalendar support fo
 dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
-dev-ruby/iniparse 1.4.4: A pure Ruby library for parsing INI configuration and data files
+dev-ruby/iniparse 1.4.4 1.5.0: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.3.7.4 1.3.7.5: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 1.0.0: Unobtrusive, flexible and simple spam protection for Rails applications
@@ -118,7 +118,7 @@ dev-ruby/macaddr 1.7.1 1.7.2: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 0.9.13 0.9.14: Memory profiling routines for Ruby 2.1+
 dev-ruby/microsoft_graph 0.1.3-r1: Ruby SDK for Microsoft Graph
 dev-ruby/middleware 0.1.0: Generalized implementation of the middleware abstraction for Ruby
-dev-ruby/mini_portile2 2.3.0 2.4.0: Simplistic port-like solution for developers
+dev-ruby/mini_portile2 2.3.0 2.4.0 2.5.0: Simplistic port-like solution for developers
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.0.6 2.1.1 2.1.5: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 2.2.18 3.0.1 3.0.5 3.0.6: A class based configuration library
