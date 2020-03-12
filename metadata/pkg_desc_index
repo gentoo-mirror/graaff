@@ -60,7 +60,7 @@ dev-ruby/better_html 1.0.11 1.0.12 1.0.13 1.0.14: Better HTML for Rails
 dev-ruby/bootsnap 1.4.4 1.4.5 1.4.6: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.3.1 4.4.1: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
-dev-ruby/bootstrap_form 4.1.0 4.2.0 4.3.0: A rails form builder to create forms using Bootstrap 4
+dev-ruby/bootstrap_form 4.1.0 4.2.0 4.3.0 4.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/breakpoint 2.7.1: Really Simple Media Queries with Sass
 dev-ruby/browser 2.7.1 3.0.3 4.0.0 4.0.0-r1: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2: a Ruby 2 debugger
@@ -142,7 +142,7 @@ dev-ruby/rack-livereload 0.3.17: Insert LiveReload into your app easily as Rack 
 dev-ruby/rack-proxy 0.6.5: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.5.3: Generates Rails 3/4/5 model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.4: Extracting assigns and assert_template from ActionDispatch
-dev-ruby/rails_best_practices 1.19.2: a gem to check quality of rails app files
+dev-ruby/rails_best_practices 1.19.2 1.20.0: a gem to check quality of rails app files
 dev-ruby/rchardet19 1.3.7: A character encoding detection library for ruby.
 dev-ruby/recaptcha 4.14.0 5.0.0 5.1.0 5.1.1 5.2.1 5.3.0: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.0 1.0.1: ActionView Record Tag Helpers
@@ -183,7 +183,7 @@ dev-ruby/thread 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 2.1.2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 4.7.13 4.8.4 4.9.4 5.0.15 5.0.16 5.1.4 5.1.4.1 5.1.5 5.1.6 5.2.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103: Additional language packs for tinymce-rails
-dev-ruby/unicode-display_width 1.4.0 1.4.1 1.5.0 1.6.0 1.6.1: Adds String#display_width to get the display size using EastAsianWidth.txt
+dev-ruby/unicode-display_width 1.5.0 1.6.1 1.7.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
