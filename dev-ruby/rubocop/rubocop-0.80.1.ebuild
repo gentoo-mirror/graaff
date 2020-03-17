@@ -31,7 +31,7 @@ ruby_add_rdepend "
 	>=dev-ruby/rainbow-2.2.2:2
 	dev-ruby/rexml
 	>=dev-ruby/ruby-progressbar-1.7:0
-	>=dev-ruby/unicode-display_width-1.4.0:1"
+	>=dev-ruby/unicode-display_width-1.4.0:1 <dev-ruby/unicode-display_width-1.7:1"
 
 ruby_add_bdepend "test? ( dev-ruby/webmock )"
 
