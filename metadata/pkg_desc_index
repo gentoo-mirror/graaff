@@ -21,7 +21,7 @@ app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/reformatter 0.4: Define commands which run reformatters on the current buffer
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
-app-forensics/brakeman 4.3.1-r1 4.7.2 4.8.0: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.7.2 4.8.0: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
