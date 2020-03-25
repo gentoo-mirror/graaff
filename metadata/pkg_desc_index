@@ -52,7 +52,7 @@ dev-ruby/adal 1.0.0: Windows Azure Active Directory authentication client librar
 dev-ruby/ancestry 3.0.5 3.0.6 3.0.7: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/authlogic 3.8.0 4.4.2 5.0.0 5.0.1 5.0.3 5.0.4: A clean, simple, and unobtrusive ruby authentication solution.
+dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2: A iterations per second enhancement to Benchmark
@@ -123,7 +123,7 @@ dev-ruby/mixlib-cli 2.0.6 2.1.1 2.1.5: A simple mixin for CLI interfaces, includ
 dev-ruby/mixlib-config 2.2.18 3.0.1 3.0.5 3.0.6: A class based configuration library
 dev-ruby/money 6.13.1 6.13.3 6.13.4 6.13.7: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2: A Rails gem for conveniently manage multiple nested models in a single form.
-dev-ruby/net-ping 2.0.4 2.0.5 2.0.6: Provides a ping interface for Ruby
+dev-ruby/net-ping 2.0.4 2.0.5 2.0.6 2.0.7: Provides a ping interface for Ruby
 dev-ruby/nokogiri-happymapper 0.8.0 0.8.1: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r2: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/open_id_authentication 1.3.0: a thin wrapper around the excellent ruby-openid gem from JanRain.
@@ -157,7 +157,7 @@ dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and A
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.78.0 0.79.0 0.80.0 0.80.1: A Ruby static code analyzer
 dev-ruby/rubocop-performance 1.5.0 1.5.1 1.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.4.0 2.4.1 2.4.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.4.0 2.4.1 2.4.2 2.5.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.36.0 1.37.0 1.37.1 1.38.0 1.38.1: Code style checking for RSpec files
 dev-ruby/ruby-oembed 0.12.0: An oEmbed consumer library written in Ruby.
 dev-ruby/ruby-saml 1.9.0 1.10.0 1.10.1 1.10.2 1.11.0: A library for implementing the client side of a SAML authorization
@@ -191,7 +191,7 @@ dev-ruby/webpacker 3.6.0 4.0.6 4.0.7 4.2.0-r1 4.2.2: Use webpack to manage app-l
 dev-ruby/zendesk_api 1.20.0 1.21.0 1.22.0 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.15 3.0.16 3.0.17: A web-based code review tool that offers developers a way to handle code reviews
-dev-util/scss-lint 0.57.1 0.58.0 0.59.0: Configurable tool for writing clean and consistent SCSS
+dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
 dev-util/transpec 3.3.0 3.4.0: Converts specs to the latest RSpec syntax with static and dynamic code analysis
 dev-util/yamllint 1.11.1 1.15.0 1.16.0: A linter for YAML files
