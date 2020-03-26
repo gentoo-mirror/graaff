@@ -188,7 +188,7 @@ dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 3.6.0 4.0.7 4.2.2: Use webpack to manage app-like JavaScript modules in Rails
-dev-ruby/zendesk_api 1.20.0 1.21.0 1.22.0 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
+dev-ruby/zendesk_api 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.15 3.0.16 3.0.17: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
