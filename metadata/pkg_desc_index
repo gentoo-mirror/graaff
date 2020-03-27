@@ -170,6 +170,7 @@ dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/scrypt 3.0.6: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0: Security related headers all in one gem
+dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/smart_properties 1.13.1 1.14.0 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.11.0-r1 2.12.0-r1: Fast background processing framework for Ruby and RabbitMQ
