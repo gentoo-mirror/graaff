@@ -101,7 +101,7 @@ dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
 dev-ruby/iniparse 1.4.4 1.5.0: A pure Ruby library for parsing INI configuration and data files
-dev-ruby/inky-rb 1.3.7.4 1.3.7.5: A templating language that converts simple HTML into responsive email-ready HTML
+dev-ruby/inky-rb 1.3.7.4 1.3.7.5 1.3.8.0: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 1.0.0 1.0.1: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.3.1 3.4.0 3.5.0: Isolate is a very simple RubyGems sandbox.
@@ -189,7 +189,7 @@ dev-ruby/unicode-display_width 1.5.0 1.6.1 1.7.0: Adds String#display_width to g
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
-dev-ruby/webpacker 3.6.0 4.0.7 4.2.2: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/webpacker 3.6.0 4.0.7 4.2.2 5.0.1: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
