@@ -9,7 +9,7 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
-RUBY_FAKEGEM_EXTRAINSTALL="resources"
+RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 inherit ruby-fakegem
 
@@ -42,7 +42,6 @@ each_ruby_configure() {
 
 each_ruby_compile() {
 	emake V=1 -Cext
-	cp ext/appsignal_extension.so lib/ || die
 }
 
 each_ruby_test() {
