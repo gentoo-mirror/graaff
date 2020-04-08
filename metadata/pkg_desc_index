@@ -21,7 +21,7 @@ app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/reformatter 0.4: Define commands which run reformatters on the current buffer
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
-app-forensics/brakeman 4.7.2 4.8.0: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.7.2 4.8.0 4.8.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
@@ -58,7 +58,7 @@ dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenI
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.6.0: Provides a better error page for Rails and other Rack apps
-dev-ruby/better_html 1.0.11 1.0.12 1.0.13 1.0.14: Better HTML for Rails
+dev-ruby/better_html 1.0.13 1.0.14: Better HTML for Rails
 dev-ruby/bootsnap 1.4.4 1.4.5 1.4.6: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.3.1 4.4.1: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
@@ -79,7 +79,7 @@ dev-ruby/default_value_for 3.2.0 3.3.0: Allows to define default values for Acti
 dev-ruby/derailed_benchmarks 1.3.5 1.3.6: Go faster, off the Rails
 dev-ruby/diplomat 2.2.4 2.2.5 2.3.0 2.3.1 2.3.3: A simple wrapper for Consul
 dev-ruby/draper 3.1.0 4.0.0 4.0.1: View Models for Rails
-dev-ruby/erb_lint 0.0.29 0.0.30 0.0.31: ERB Linter tool
+dev-ruby/erb_lint 0.0.29 0.0.30 0.0.31 0.0.32: ERB Linter tool
 dev-ruby/exception_notification 4.2.2 4.3.0 4.4.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1: Ruby FFI Rakefile generator
@@ -172,7 +172,7 @@ dev-ruby/scrypt 3.0.6: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
-dev-ruby/smart_properties 1.13.1 1.14.0 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
+dev-ruby/smart_properties 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.11.0-r1 2.12.0-r1: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
