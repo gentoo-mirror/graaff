@@ -7,10 +7,10 @@ app-emacs/elm-mode 0.20.3_p20191125 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
 app-emacs/emacs-libvterm 0.20190822: Emacs libvterm integration
 app-emacs/enh-ruby-mode 20190408 20191111: Major mode for editing Ruby files
-app-emacs/flycheck 31 31_p20190503-r1 31_p20200224: On the fly syntax checking for GNU Emacs
+app-emacs/flycheck 31 31_p20190503-r1 31_p20200224 31_p20200406: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001 1.0.2_p20191031: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
-app-emacs/hcl-mode 0.03: Major mode of HCL (Hashicorp Configuration Language)
+app-emacs/hcl-mode 0.03 0.03_p20200315: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.8: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/json-mode 1.7.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
@@ -18,7 +18,7 @@ app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
-app-emacs/reformatter 0.4: Define commands which run reformatters on the current buffer
+app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
 app-emacs/rg-el 1.8.1: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
