@@ -24,6 +24,7 @@ app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
 app-forensics/brakeman 4.7.2 4.8.0 4.8.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
+app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-javascript/jsl 0.3.0: Check all your JavaScript source code for common mistakes without actually running the script.
@@ -54,6 +55,7 @@ dev-ruby/ancestry 3.0.5 3.0.6 3.0.7: Allows records to be organized in a tree st
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 2.10.4: The official appsignal.com gem
+dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
@@ -158,7 +160,7 @@ dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.78.0 0.79.0 0.80.0 0.80.1 0.81.0: A Ruby static code analyzer
+dev-ruby/rubocop 0.78.0 0.79.0 0.80.0 0.80.1 0.81.0 0.82.0: A Ruby static code analyzer
 dev-ruby/rubocop-performance 1.5.0 1.5.1 1.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.4.0 2.4.1 2.4.2 2.5.0 2.5.1 2.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.36.0 1.37.0 1.37.1 1.38.0 1.38.1: Code style checking for RSpec files
