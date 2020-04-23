@@ -155,9 +155,9 @@ dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to anal
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.24.0 3.25.0 3.29.0 3.30.0: Routing tree web toolkit
+dev-ruby/roda 3.24.0 3.25.0 3.29.0 3.30.0 3.31.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
-dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
+dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.78.0 0.79.0 0.80.0 0.80.1 0.81.0 0.82.0: A Ruby static code analyzer
@@ -192,9 +192,9 @@ dev-ruby/unicode-display_width 1.5.0 1.6.1 1.7.0: Adds String#display_width to g
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
-dev-ruby/webpacker 3.6.0 4.0.7 4.2.2 5.0.1 5.1.0: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/webpacker 3.6.0 4.0.7 4.2.2 5.0.1 5.1.0 5.1.1: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
-dev-ruby/zendesk_api 1.23.0 1.24.0: Wrapper for the REST API at https://www.zendesk.com
+dev-ruby/zendesk_api 1.23.0 1.24.0 1.25.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.15 3.0.16 3.0.17: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
