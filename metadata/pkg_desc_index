@@ -114,6 +114,7 @@ dev-ruby/joiner 0.3.4 0.4.2 0.5.0: Builds ActiveRecord joins from association pa
 dev-ruby/js_cookie_rails 2.2.0: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsonapi-renderer 0.2.0 0.2.1 0.2.2: Efficiently render JSON API documents
 dev-ruby/kaminari 0.17.0: A pagination engine plugin for Rails 3+ and other modern frameworks
+dev-ruby/kramdown-parser-gfm 1.1.0: A kramdown parser for the GFM dialect of Markdown
 dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
 dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
 dev-ruby/linkedin 1.1.0 1.1.1 1.1.1-r1: Ruby wrapper for the LinkedIn API
@@ -171,7 +172,7 @@ dev-ruby/sassc-rails 2.0.0 2.1.0 2.1.1 2.1.2: Integrate SassC-Ruby with Rails
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
-dev-ruby/scrypt 3.0.6: Scrypt password hashing algorithm
+dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
@@ -186,7 +187,7 @@ dev-ruby/terminal-table 1.8.0-r1: Simple, feature rich ascii table generation li
 dev-ruby/thinking-sphinx 3.1.4 4.1.0 4.2.0 4.3.2 4.4.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thread 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 2.1.2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 4.7.13 4.8.4 4.9.4 5.0.15 5.0.16 5.1.4 5.1.4.1 5.1.5 5.1.6 5.2.0 5.2.1: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 4.7.13 4.8.4 4.9.4 5.0.15 5.0.16 5.1.4 5.1.4.1 5.1.5 5.1.6 5.2.0 5.2.1 5.2.2: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103: Additional language packs for tinymce-rails
 dev-ruby/unicode-display_width 1.5.0 1.6.1 1.7.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/uri_template 0.7.0: A templating system for URIs
@@ -195,7 +196,7 @@ dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 3.6.0 4.0.7 4.2.2 5.0.1 5.1.0 5.1.1: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.23.0 1.24.0 1.25.0: Wrapper for the REST API at https://www.zendesk.com
-dev-util/mdl 0.5.0 0.6.0: Style checker/lint tool for markdown files
+dev-util/mdl 0.5.0 0.6.0 0.9.0: Style checker/lint tool for markdown files
 dev-util/reviewboard 3.0.15 3.0.16 3.0.17: A web-based code review tool that offers developers a way to handle code reviews
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
