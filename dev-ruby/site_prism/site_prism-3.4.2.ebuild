@@ -18,7 +18,7 @@ SRC_URI="https://github.com/site-prism/site_prism/archive/v${PV}.tar.gz -> ${P}.
 LICENSE="BSD"
 
 KEYWORDS="~amd64"
-SLOT="0"
+SLOT="$(ver_cut 1)"
 IUSE="doc"
 
 ruby_add_rdepend "
