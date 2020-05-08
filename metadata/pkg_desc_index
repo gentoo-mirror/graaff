@@ -176,7 +176,7 @@ dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
-dev-ruby/site_prism 3.4.2: A simple, clean and semantic DSL for describing your site with Page Object Model
+dev-ruby/site_prism 3.4.2 3.4.2-r1: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.11.0-r1 2.12.0-r1: Fast background processing framework for Ruby and RabbitMQ
