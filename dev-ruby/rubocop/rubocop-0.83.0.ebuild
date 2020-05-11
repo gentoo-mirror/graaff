@@ -25,10 +25,10 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	=dev-ruby/jaro_winkler-1.5*
 	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-2.7.0.1
 	>=dev-ruby/rainbow-2.2.2:2
+	dev-ruby/rexml
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-1.4.0:1"
 
