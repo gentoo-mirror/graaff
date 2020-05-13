@@ -22,7 +22,7 @@ app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the cur
 app-emacs/rg-el 1.8.1: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16: web template editing mode for emacs
-app-forensics/brakeman 4.7.2 4.8.0 4.8.1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.7.2 4.8.0 4.8.1 4.8.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
