@@ -87,7 +87,7 @@ dev-ruby/exception_notification 4.2.2 4.3.0 4.4.0: Exception Notifier Plugin for
 dev-ruby/feed_parser 0.3.5: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6: Fixes redirects to login pages when following links from a Microsoft application
-dev-ruby/font-awesome-sass 4.7.0 5.9.0 5.11.2 5.12.0: Font-Awesome Sass gem for use in Ruby/Rails projects
+dev-ruby/font-awesome-sass 4.7.0 5.12.0: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/formtastic 3.1.5: Rails FormBuilder DSL to make it easier to create forms
 dev-ruby/foundation_emails 2.2.1.0: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5: Get memory usage of a process in Ruby
