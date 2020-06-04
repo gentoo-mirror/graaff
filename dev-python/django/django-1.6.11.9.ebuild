@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -21,6 +21,8 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc sqlite test"
+
+RESTRICT="test"
 
 RDEPEND=""
 DEPEND="${RDEPEND}
@@ -85,11 +87,6 @@ src_install() {
 python_install_all() {
 	newbashcomp extras/django_bash_completion ${PN}-admin
 	bashcomp_alias ${PN}-admin django-admin.py
-
-	if use doc; then
-		rm -fr docs/_build/html/_sources || die
-		local HTML_DOCS=( docs/_build/html/. )
-	fi
 
 	insinto "${MY_HTDOCSDIR#${EPREFIX}}"
 	doins -r django/contrib/admin/static/admin/.
