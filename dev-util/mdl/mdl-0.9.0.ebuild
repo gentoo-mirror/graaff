@@ -30,6 +30,7 @@ ruby_add_rdepend "
 
 all_ruby_prepare() {
 	sed -i -e '/bundler/I s:^:#:' Rakefile test/setup_tests.rb || die
+	sed -i -e '3igem "kramdown-parser-gfm", "~> 1.0"' test/setup_tests.rb || die
 
 	# Throws errors and probably needs a more elaborate environment setup
 	rm -f test/test_cli.rb || die
