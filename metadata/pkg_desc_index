@@ -54,7 +54,7 @@ dev-ruby/adal 1.0.0: Windows Azure Active Directory authentication client librar
 dev-ruby/ancestry 3.0.5 3.0.6 3.0.7: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 2.10.4 2.10.5 2.10.6 2.10.7 2.10.8: The official appsignal.com gem
+dev-ruby/appsignal 2.10.4 2.10.5 2.10.6 2.10.7 2.10.8 2.10.9: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
@@ -114,7 +114,6 @@ dev-ruby/joiner 0.3.4 0.4.2 0.5.0: Builds ActiveRecord joins from association pa
 dev-ruby/js_cookie_rails 2.2.0: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsonapi-renderer 0.2.0 0.2.1 0.2.2: Efficiently render JSON API documents
 dev-ruby/kaminari 0.17.0: A pagination engine plugin for Rails 3+ and other modern frameworks
-dev-ruby/kramdown-parser-gfm 1.1.0: A kramdown parser for the GFM dialect of Markdown
 dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
 dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
 dev-ruby/linkedin 1.1.0 1.1.1 1.1.1-r1: Ruby wrapper for the LinkedIn API
@@ -160,7 +159,7 @@ dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.80.0 0.80.1 0.81.0 0.82.0 0.83.0 0.84.0 0.85.0 0.85.1: A Ruby static code analyzer
+dev-ruby/rubocop 0.82.0 0.83.0 0.84.0 0.85.0 0.85.1 0.86.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.0.3: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.5.2 1.6.0 1.6.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.4.2 2.5.0 2.5.1 2.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -185,13 +184,11 @@ dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/susy 2.2.14: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
-dev-ruby/terminal-table 1.8.0-r1: Simple, feature rich ascii table generation library
 dev-ruby/thinking-sphinx 3.1.4 4.1.0 4.2.0 4.3.2 4.4.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thread 0.2.2: Various extensions to the base thread library
 dev-ruby/tiny_tds 2.1.2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 4.9.4 5.0.16 5.1.5 5.1.6 5.2.1 5.2.2 5.3.0 5.3.2: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103 5.20200505: Additional language packs for tinymce-rails
-dev-ruby/unicode-display_width 1.5.0 1.6.1 1.7.0: Adds String#display_width to get the display size using EastAsianWidth.txt
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0: A Ruby API client for interacting with a Vault server
