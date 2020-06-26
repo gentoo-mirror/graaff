@@ -22,8 +22,9 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-2.7.1.4
+	>=dev-ruby/parser-2.7.0.1
 "
+ruby_add_bdepend "test? ( >=dev-ruby/parser-2.7.1.4 )"
 
 all_ruby_prepare() {
 	sed -i -e '3irequire "uri"' spec/spec_helper.rb || die
