@@ -1,10 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
-
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
+EAPI=7
+USE_RUBY="ruby25 ruby26"
 
 inherit ruby-fakegem
 
@@ -13,7 +11,7 @@ HOMEPAGE="https://github.com/Shopify/better-html"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="1"
+SLOT="$(ver_cut 1)"
 IUSE=""
 
 ruby_add_rdepend "
@@ -26,7 +24,11 @@ ruby_add_rdepend "
 	dev-ruby/smart_properties
 "
 
-ruby_add_bdepend "test? ( dev-ruby/mocha )"
+ruby_add_bdepend "test? ( dev-ruby/mocha dev-ruby/railties:5.2 )"
+
+all_ruby_prepare() {
+	sed -i -e '/mocha/ s/mini_test/minitest/' -e '1i gem "actionview", " ~> 5.2" ; gem "railties", "~> 5.2"' test/test_helper.rb || die
+}
 
 each_ruby_test() {
 	${RUBY} -Ilib:test:. -e "Dir['test/**/*_test.rb'].each{|f| require f}" || die
