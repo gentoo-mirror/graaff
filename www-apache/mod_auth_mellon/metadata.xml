@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>graaff@gentoo.org</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">latchset/mod_auth_mellon</remote-id>
+  </upstream>
+  <use>
+    <flag name="diagnostics">Enable ability to collect diagnostics</flag>
+  </use>
+</pkgmetadata>
