@@ -26,7 +26,6 @@ DOCFILES="ECP.rst NEWS README.md"
 APACHE2_MOD_CONF="10_${PN}"
 APACHE2_MOD_DEFINE="AUTH_MELLON"
 
-
 pkg_setup() {
 	_init_apache2
 	_init_apache2_late
