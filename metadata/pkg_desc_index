@@ -134,6 +134,7 @@ dev-ruby/open_id_authentication 1.3.0: a thin wrapper around the excellent ruby-
 dev-ruby/paper_trail 9.2.0 10.3.0 10.3.1: PaperTrail lets you track changes to your models' data.
 dev-ruby/paper_trail-association_tracking 1.0.0 1.1.1: Plugin for the PaperTrail gem to track and reify associations
 dev-ruby/paperclip 5.3.0: Easy upload management for ActiveRecord
+dev-ruby/pipedrive-rb 0.2.0: Pipedrive.com API Wrapper
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
