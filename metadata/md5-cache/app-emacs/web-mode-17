@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=web template editing mode for emacs
+EAPI=7
+HOMEPAGE=http://web-mode.org
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/fxbois/web-mode/archive/v17.tar.gz -> web-mode-17.tar.gz
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	504a3383c45504fde86b00426619a709
+_md5_=ac5daef84000e50d35c062f45b9f69e6
