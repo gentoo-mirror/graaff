@@ -139,7 +139,7 @@ dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2: A few useful extensions to core Ruby classes
-dev-ruby/premailer 1.11.1: Improve the rendering of HTML emails
+dev-ruby/premailer 1.11.1 1.12.1: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3 1.11.0 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
@@ -156,7 +156,7 @@ dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to anal
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.30.0 3.31.0 3.32.0: Routing tree web toolkit
+dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
