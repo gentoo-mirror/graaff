@@ -161,7 +161,7 @@ dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.84.0 0.85.1 0.86.0 0.87.0 0.87.1: A Ruby static code analyzer
+dev-ruby/rubocop 0.84.0 0.85.1 0.86.0 0.87.0 0.87.1 0.88.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.0.3 0.1.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.5.2 1.6.0 1.6.1 1.7.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.4.2 2.5.0 2.5.1 2.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -174,7 +174,7 @@ dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
-dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0: Security related headers all in one gem
+dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0 6.3.1: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2 3.4.2-r1: A simple, clean and semantic DSL for describing your site with Page Object Model
