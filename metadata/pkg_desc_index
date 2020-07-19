@@ -156,13 +156,13 @@ dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to anal
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0: Routing tree web toolkit
+dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0 3.34.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.84.0 0.85.1 0.86.0 0.87.0 0.87.1 0.88.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 0.0.3 0.1.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 0.0.3 0.1.0 0.2.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.5.2 1.6.0 1.6.1 1.7.0 1.7.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.4.2 2.5.0 2.5.1 2.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.37.1 1.38.1 1.39.0 1.40.0 1.41.0 1.42.0: Code style checking for RSpec files
