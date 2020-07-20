@@ -157,7 +157,7 @@ dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your co
 dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0 3.34.0: Routing tree web toolkit
-dev-ruby/roo 2.8.2: Access the contents of various spreadsheet files.
+dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
