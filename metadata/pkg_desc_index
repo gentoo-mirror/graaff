@@ -164,7 +164,7 @@ dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumera
 dev-ruby/rubocop 0.84.0 0.85.1 0.86.0 0.87.0 0.87.1 0.88.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.0.3 0.1.0 0.2.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.5.2 1.6.0 1.6.1 1.7.0 1.7.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.4.2 2.5.0 2.5.1 2.5.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.4.2 2.5.2 2.7.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.37.1 1.38.1 1.39.0 1.40.0 1.41.0 1.42.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.10.2 1.11.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r3: Inspect and process video or audio files.
