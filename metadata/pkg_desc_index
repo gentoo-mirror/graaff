@@ -50,7 +50,7 @@ dev-ruby/active_model_serializers 0.8.3 0.10.10: Making it easy to serialize mod
 dev-ruby/activerecord-session_store 1.1.1 1.1.2 1.1.3: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.0.0 6.5.0: Advanced tagging for Rails.
 dev-ruby/acts_as_fu 0.0.9: Generate ActiveRecord models on the fly for your tests
-dev-ruby/ancestry 3.0.5 3.0.6 3.0.7: Allows records to be organized in a tree structure
+dev-ruby/ancestry 3.0.7 3.1.0: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 2.10.8 2.10.9 2.10.10 2.10.11 2.10.12: The official appsignal.com gem
@@ -157,7 +157,7 @@ dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0 3.34.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
-dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0: Works for both HOTP and TOTP, and includes QR Code provisioning
+dev-ruby/rotp 4.1.0-r1 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.88.0: A Ruby static code analyzer
