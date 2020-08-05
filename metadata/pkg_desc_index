@@ -22,7 +22,7 @@ app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the cur
 app-emacs/rg-el 1.8.1: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16 17: web template editing mode for emacs
-app-forensics/brakeman 4.7.2 4.8.0 4.8.1 4.8.2: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.7.2 4.8.2 4.9.0: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.11: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -138,7 +138,7 @@ dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2: A few useful extensions to core Ruby classes
-dev-ruby/premailer 1.11.1 1.12.1: Improve the rendering of HTML emails
+dev-ruby/premailer 1.11.1 1.12.1 1.13.1: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3 1.11.0 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
@@ -157,7 +157,7 @@ dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.30.0 3.31.0 3.32.0 3.33.0 3.34.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
-dev-ruby/rotp 4.1.0-r1 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
+dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.88.0: A Ruby static code analyzer
