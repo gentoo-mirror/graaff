@@ -11,7 +11,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
-AGENT_VERSION=6ced5a6
+AGENT_VERSION=c8f8185
 
 inherit ruby-fakegem
 
