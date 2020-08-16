@@ -1,16 +1,15 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_RECIPE_TEST="none"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 RUBY_FAKEGEM_EXTRAINSTALL="config libexec template-dir"
 
-# Needs to work around require_relative
-# RUBY_FAKEGEM_GEMSPEC="overcommit.gemspec"
+RUBY_FAKEGEM_GEMSPEC="overcommit.gemspec"
 
 inherit ruby-fakegem
 
@@ -27,6 +26,10 @@ ruby_add_rdepend "
 	dev-ruby/childprocess:2
 	>=dev-ruby/iniparse-1.4:1
 "
+
+all_ruby_prepare() {
+	sed -i -e "s/_relative //" ${RUBY_FAKEGEM_GEMSPEC} || die
+}
 
 each_ruby_install() {
 	each_fakegem_install
