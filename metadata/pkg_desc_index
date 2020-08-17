@@ -77,7 +77,7 @@ dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inherita
 dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
 dev-ruby/default_value_for 3.2.0 3.3.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/derailed_benchmarks 1.3.5 1.3.6: Go faster, off the Rails
-dev-ruby/diplomat 2.2.5 2.3.3 2.4.0: A simple wrapper for Consul
+dev-ruby/diplomat 2.2.5 2.3.3 2.4.0 2.4.1: A simple wrapper for Consul
 dev-ruby/draper 3.1.0 4.0.0 4.0.1: View Models for Rails
 dev-ruby/erb_lint 0.0.32 0.0.35: ERB Linter tool
 dev-ruby/exception_notification 4.2.2 4.3.0 4.4.0 4.4.1 4.4.3: Exception Notifier Plugin for Rails
@@ -189,7 +189,7 @@ dev-ruby/tinymce-rails-langs 4.20180103 5.20200505: Additional language packs fo
 dev-ruby/uri_template 0.7.0: A templating system for URIs
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0 0.14.0 0.15.0: A Ruby API client for interacting with a Vault server
-dev-ruby/webpacker 3.6.0 4.0.7 4.2.2 5.0.1 5.1.0 5.1.1: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/webpacker 3.6.0 4.2.2 5.1.1 5.2.0: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.25.0 1.26.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/mdl 0.9.0 0.10.0: Style checker/lint tool for markdown files
