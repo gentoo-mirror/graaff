@@ -24,6 +24,6 @@ RDEPEND="
 src_install() {
 	default
 
-	exeinto /usr/share/munin/plugins
+	exeinto /usr/libexec/munin/plugins
 	doexe elasticsearch_
 }
