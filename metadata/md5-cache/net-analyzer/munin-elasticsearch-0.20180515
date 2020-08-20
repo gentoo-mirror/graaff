@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=A Munin plugin for monitoring Elasticsearch nodes
+EAPI=7
+HOMEPAGE=https://github.com/claygregory/munin-elasticsearch
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-ruby/json net-analyzer/munin
+SLOT=0
+SRC_URI=https://github.com/claygregory/munin-elasticsearch/archive/0cdb6b488e07a8e6b4ffabc748ddd567c336d93d.tar.gz -> munin-elasticsearch-0.20180515.tar.gz
+_md5_=bd1cff5e57984a0a507847031c5d2933

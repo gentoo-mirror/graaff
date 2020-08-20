@@ -200,6 +200,7 @@ dev-util/yamllint 1.21.0 1.23.0: A linter for YAML files
 dev-util/yardstick 0.9.9: Measure YARD documentation coverage
 dev-vcs/overcommit 0.52.0 0.52.1 0.55.0: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0 1.0-r1: Improved MySQL Graphs for Munin
+net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20161010 0.20180523: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for Rails server environments.
 net-analyzer/ssh-audit 2.1.1 2.2.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
