@@ -61,3 +61,12 @@ each_ruby_compile() {
 each_ruby_test() {
 	${RUBY} -S bundle exec rspec-3 spec || die
 }
+
+each_ruby_install() {
+	each_fakegem_install
+
+	local extdir
+	extdir="$(ruby_fakegem_gemsdir)/gems/${RUBY_FAKEGEM_NAME}-${RUBY_FAKEGEM_VERSION}/ext"
+
+	fperms 0755 "${extdir}/appsignal-agent"
+}
