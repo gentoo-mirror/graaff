@@ -18,8 +18,9 @@ SLOT="0"
 IUSE="diagnostics"
 need_apache2_4
 
-CDEPEND="net-misc/curl dev-libs/openssl:0= "
-DEPEND+=" virtual/pkgconfig"
+CDEPEND=">=dev-libs/lasso-2.1 net-misc/curl dev-libs/openssl:0= "
+DEPEND+=" virtual/pkgconfig ${CDEPEND}"
+RDEPEND=${CDEPEND}
 
 DOCFILES="ECP.rst NEWS README.md"
 
