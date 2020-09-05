@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -26,6 +26,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
+	dev-ruby/activesupport:*
 	>=dev-ruby/rack-1.1:*
-	>=dev-ruby/rubocop-0.72.0
+	>=dev-ruby/rubocop-0.87.0
 "
