@@ -27,7 +27,7 @@ IUSE=""
 ruby_add_rdepend "
 	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-2.7.1.1
-	|| ( dev-ruby/rainbow:3 >=dev-ruby/rainbow-2.2.2:2 )
+	dev-ruby/rainbow:3
 	>=dev-ruby/regexp_parser-1.7
 	dev-ruby/rexml
 	>=dev-ruby/rubocop-ast-0.3.0:0
