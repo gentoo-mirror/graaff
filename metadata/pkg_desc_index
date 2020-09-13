@@ -57,7 +57,7 @@ dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the A
 dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
-dev-ruby/benchmark-ips 2.7.2 2.8.2: A iterations per second enhancement to Benchmark
+dev-ruby/benchmark-ips 2.7.2 2.8.2 2.8.3: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.6.0 2.7.0 2.7.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.14 1.0.15: Better HTML for Rails
 dev-ruby/bootsnap 1.4.6 1.4.8: Boot large ruby/rails apps faster
@@ -97,8 +97,7 @@ dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7: HTML Tokenizer
 dev-ruby/httmultiparty 0.3.16: A thin wrapper around HTTParty to provide multipart uploads
-dev-ruby/httpi 2.4.4: Common interface for Ruby's HTTP libraries
-dev-ruby/icalendar 2.5.3 2.6.0 2.6.1: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.5.3 2.6.0 2.6.1 2.7.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
@@ -158,7 +157,7 @@ dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0 6.1.0: Works for both HOTP and TO
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 0.88.0 0.89.1 0.90.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 0.0.3 0.1.0 0.2.0 0.3.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 0.0.3 0.1.0 0.2.0 0.3.0 0.4.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.6.1 1.7.0 1.7.1 1.8.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.7.0 2.7.1 2.8.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.40.0 1.41.0 1.42.0 1.43.1 1.43.2: Code style checking for RSpec files
