@@ -152,7 +152,7 @@ dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to anal
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/rexml 3.2.4: An XML toolkit for Ruby
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.34.0 3.35.0: Routing tree web toolkit
+dev-ruby/roda 3.34.0 3.35.0 3.36.0: Routing tree web toolkit
 dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
@@ -186,6 +186,7 @@ dev-ruby/thinking-sphinx 4.4.1 5.0.0: A concise library that connects ActiveReco
 dev-ruby/tiny_tds 2.1.2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 5.0.16 5.1.5 5.1.6 5.2.1 5.2.2 5.3.0 5.3.2 5.4.0 5.4.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103 5.20200505: Additional language packs for tinymce-rails
+dev-ruby/unicode_plot 0.0.4: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0 0.14.0 0.15.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 4.2.2 5.1.1 5.2.0 5.2.1: Use webpack to manage app-like JavaScript modules in Rails
