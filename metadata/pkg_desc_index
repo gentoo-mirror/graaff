@@ -54,11 +54,11 @@ dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access 
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 2.10.10 2.10.11 2.10.12 2.11.0: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the Atlassian Connect REST APIs
-dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0: A clean, simple, and unobtrusive ruby authentication solution.
+dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0 6.2.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2 2.8.2 2.8.3: A iterations per second enhancement to Benchmark
-dev-ruby/better_errors 2.7.1 2.8.0: Provides a better error page for Rails and other Rack apps
+dev-ruby/better_errors 2.7.1 2.8.0 2.8.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.14 1.0.15: Better HTML for Rails
 dev-ruby/bootsnap 1.4.6 1.4.8: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.3.1 4.4.1 4.5.0 4.5.2: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
