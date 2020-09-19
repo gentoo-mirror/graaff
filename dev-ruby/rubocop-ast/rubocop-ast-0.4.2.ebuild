@@ -22,7 +22,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-2.7.0.1
+	>=dev-ruby/parser-2.7.1.4
 "
 ruby_add_bdepend "test? ( >=dev-ruby/parser-2.7.1.4 )"
 
