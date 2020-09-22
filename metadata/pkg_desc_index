@@ -45,7 +45,7 @@ dev-python/rbintegrations 1.0 1.0.1: A set of third-party service integrations f
 dev-python/requests-oauthlib 0.8.0: This project provides first-class OAuth library support for Requests
 dev-ruby/PoParser 3.2.4: A PO file parser, editor and generator
 dev-ruby/aasm 4.12.3 5.0.5 5.0.8: A library for adding finite state machines to Ruby classes.
-dev-ruby/active_model_otp 1.2.0-r20190104 1.2.0-r20190105 2.0.1: Adds methods to set and authenticate against one time passwords
+dev-ruby/active_model_otp 1.2.0-r20190105 2.0.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.3 0.10.10: Making it easy to serialize models for client-side use
 dev-ruby/activerecord-session_store 1.1.1 1.1.2 1.1.3: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.0.0 6.5.0: Advanced tagging for Rails.
@@ -135,7 +135,7 @@ dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2: A few useful extensions to core Ruby classes
-dev-ruby/premailer 1.11.1 1.12.1 1.13.1 1.14.1: Improve the rendering of HTML emails
+dev-ruby/premailer 1.11.1 1.12.1 1.13.1 1.14.1 1.14.2: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3 1.11.0 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
