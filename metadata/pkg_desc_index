@@ -49,7 +49,7 @@ dev-ruby/active_model_otp 1.2.0-r20190105 2.0.1: Adds methods to set and authent
 dev-ruby/active_model_serializers 0.8.3 0.10.10: Making it easy to serialize models for client-side use
 dev-ruby/activerecord-session_store 1.1.1 1.1.2 1.1.3: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.0.0 6.5.0: Advanced tagging for Rails.
-dev-ruby/ancestry 3.0.7 3.1.0: Allows records to be organized in a tree structure
+dev-ruby/ancestry 3.0.7 3.1.0 3.2.1: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 2.10.10 2.10.11 2.10.12 2.11.0: The official appsignal.com gem
@@ -65,7 +65,7 @@ dev-ruby/bootstrap 4.3.1 4.4.1 4.5.0 4.5.2: Bootstrap 4 rubygem for Rails / Spro
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
 dev-ruby/bootstrap_form 4.3.0 4.4.0 4.5.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/breakpoint 2.7.1: Really Simple Media Queries with Sass
-dev-ruby/browser 2.7.1 3.0.3 4.0.0 4.0.0-r1 4.1.0 4.2.0: Do some browser detection with Ruby
+dev-ruby/browser 2.7.1 3.0.3 4.2.0 5.0.0: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2: a Ruby 2 debugger
 dev-ruby/calendar_helper 0.2.6: A simple helper for creating an HTML calendar
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
@@ -157,7 +157,7 @@ dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.88.0 0.89.1 0.90.0 0.91.0: A Ruby static code analyzer
+dev-ruby/rubocop 0.88.0 0.89.1 0.90.0 0.91.0 0.91.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.3.0 0.4.0 0.4.1 0.4.2: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.6.1 1.7.0 1.7.1 1.8.0 1.8.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.7.0 2.7.1 2.8.0 2.8.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
