@@ -10,5 +10,5 @@ LICENSE=|| ( GPL-2 GPL-3 )
 RDEPEND=dev-ruby/ruby_parser >=dev-ruby/gherkin-2.11.8 >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/michaelklishin/cucumber.el/archive/11ae1671629bfedaa553c7b819676d64eb320992.tar.gz -> cucumber-el-0.20190801-git.tgz
-_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	848a95b01913ff6374bcb5eae09c52ba
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	34cc2b6f6d8914019a353fe39cff43ce
 _md5_=d5fbbad0ae542423e9f5cce7b95eb070
