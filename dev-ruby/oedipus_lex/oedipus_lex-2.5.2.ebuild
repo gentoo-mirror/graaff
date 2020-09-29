@@ -9,7 +9,7 @@ RUBY_FAKEGEM_EXTRADOC="History.rdoc README.rdoc"
 inherit ruby-fakegem
 
 DESCRIPTION="A lexer generator in the same family as Rexical and Rex"
-HOMEPAGE="http://github.com/seattlerb/oedipus_lex"
+HOMEPAGE="https://github.com/seattlerb/oedipus_lex"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
