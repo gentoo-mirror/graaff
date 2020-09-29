@@ -1,8 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26"
 
 RUBY_FAKEGEM_DOCDIR="docs"
 RUBY_FAKEGEM_EXTRADOC="CHANGES.md FEATURES OPTIONS.md README.md"
@@ -12,7 +12,7 @@ RUBY_FAKEGEM_GEMSPEC="brakeman.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="Static analysis tool which checks RoR applications for security vulnerabilities"
-HOMEPAGE="http://brakemanscanner.org/"
+HOMEPAGE="https://brakemanscanner.org/"
 SRC_URI="https://github.com/presidentbeef/brakeman/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BPUL"
@@ -22,7 +22,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	>=dev-ruby/erubis-2.6
-	>=dev-ruby/haml-5.1:5
+	>=dev-ruby/haml-5.1:5 =dev-ruby/haml-5.1*
 	dev-ruby/highline:2
 	>=dev-ruby/ruby2ruby-2.4.0 =dev-ruby/ruby2ruby-2.4*
 	>=dev-ruby/ruby_parser-3.13.0 =dev-ruby/ruby_parser-3*
@@ -39,6 +39,7 @@ all_ruby_prepare() {
 
 	sed -e '/ruby_parser-legacy/ s:^:#:' \
 		-e '/minitest-ci/ s:^:#:' \
+		-e '/simplecov/ s:^:#:' \
 		-i gem_common.rb || die
 
 	sed -i -e '/rake/ s/,.*$// ; /codeclimate/ s:^:#: ; /json/ s:^:#:' Gemfile || die
