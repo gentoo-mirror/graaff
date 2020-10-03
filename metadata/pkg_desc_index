@@ -58,7 +58,7 @@ dev-ruby/authlogic 4.4.2 5.0.3 5.0.4 5.1.0 6.2.0: A clean, simple, and unobtrusi
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.7.2 2.8.2 2.8.3: A iterations per second enhancement to Benchmark
-dev-ruby/better_errors 2.7.1 2.8.0 2.8.1 2.8.2: Provides a better error page for Rails and other Rack apps
+dev-ruby/better_errors 2.7.1 2.8.0 2.8.1 2.8.2 2.8.3: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.14 1.0.15: Better HTML for Rails
 dev-ruby/bootsnap 1.4.6 1.4.8: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.3.1 4.4.1 4.5.0 4.5.2: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
@@ -72,7 +72,7 @@ dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of Active
 dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.1 0.5.2: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/compass-rails 3.1.0 4.0.0: A Rails adapter for the Compass Stylesheet Authoring Framework
-dev-ruby/cookies_eu 1.7.4 1.7.5 1.7.6: Displays a cookie consent
+dev-ruby/cookies_eu 1.7.4 1.7.5 1.7.6 1.7.7: Displays a cookie consent
 dev-ruby/debride 1.8.2: Analyze code for potentially uncalled / dead methods
 dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inheritance and refining
 dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
