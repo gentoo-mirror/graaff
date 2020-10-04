@@ -22,7 +22,7 @@ SLOT="4"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/autoprefixer-rails-9.1.0
+	>=dev-ruby/autoprefixer-rails-9.1.0:*
 	>=dev-ruby/popper_js-1.14.3:1
 	>=dev-ruby/sassc-rails-2.0.0
 "
