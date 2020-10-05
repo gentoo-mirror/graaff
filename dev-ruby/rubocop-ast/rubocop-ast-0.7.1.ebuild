@@ -33,7 +33,9 @@ all_ruby_prepare() {
 
 	# Avoid unneeded dependencies
 	rm -f tasks/cut_release.rake || die
-	sed -i -e "/\(gemspec\|bump\|pry\|'rubocop\|simplecov\)/ s:^:#:" Gemfile || die
+	sed -e "/\(gemspec\|bump\|pry\|'rubocop\|simplecov\)/ s:^:#:" \
+		-e '/rake/ s/~> 13.0/>= 12/' \
+		-i Gemfile || die
 }
 
 each_ruby_prepare() {
