@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A full-featured & carefully designed adaptive prompt for Bash & Zsh
+EAPI=7
+HOMEPAGE=https://github.com/nojhan/liquidprompt
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+SLOT=0
+SRC_URI=https://github.com/nojhan/liquidprompt/archive/v1.12.0.tar.gz -> liquidprompt-1.12.0.tar.gz
+_md5_=063a750cf577618b3e658a428eb084c5
