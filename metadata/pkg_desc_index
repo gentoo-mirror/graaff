@@ -1,11 +1,11 @@
 app-emacs/ac-etags 0.06: etags/ctags completion source for auto-complete
 app-emacs/avy 0.4.0 0.5.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
-app-emacs/cucumber-el 0.20161123 0.20190801: A major mode for editing Cucumber stories.
+app-emacs/cucumber-el 0.20190801: A major mode for editing Cucumber stories.
 app-emacs/elixir-mode 1.3.0 1.5.0: Emacs major mode for Elixir
 app-emacs/elm-mode 0.20.3_p20191125 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
-app-emacs/enh-ruby-mode 20190408 20191111: Major mode for editing Ruby files
+app-emacs/enh-ruby-mode 20191111: Major mode for editing Ruby files
 app-emacs/flycheck 31 31_p20190503-r1 31_p20200224 31_p20200406 31_p20200610: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001 1.0.2_p20191031: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
@@ -132,7 +132,7 @@ dev-ruby/oedipus_lex 2.5.2: A lexer generator in the same family as Rexical and 
 dev-ruby/open_id_authentication 1.3.0: a thin wrapper around the excellent ruby-openid gem from JanRain.
 dev-ruby/paper_trail 9.2.0 10.3.0 10.3.1 11.0.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/paper_trail-association_tracking 1.0.0 1.1.1: Plugin for the PaperTrail gem to track and reify associations
-dev-ruby/pipedrive-rb 0.2.0: Pipedrive.com API Wrapper
+dev-ruby/pipedrive-rb 0.2.0 0.3.0: Pipedrive.com API Wrapper
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
