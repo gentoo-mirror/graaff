@@ -159,8 +159,8 @@ dev-ruby/roo 2.8.2 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.1.0 6.0.0 6.1.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 0.88.0 0.89.1 0.90.0 0.91.0 0.91.1 0.92.0 0.93.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 0.3.0 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0 0.7.1: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop 0.88.0 0.89.1 0.90.0 0.91.0 0.91.1 0.92.0 0.93.0 0.93.1: A Ruby static code analyzer
+dev-ruby/rubocop-ast 0.3.0 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0 0.7.1 0.8.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.6.1 1.7.0 1.7.1 1.8.0 1.8.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.7.0 2.7.1 2.8.0 2.8.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 1.40.0 1.41.0 1.42.0 1.43.1 1.43.2: Code style checking for RSpec files
