@@ -26,7 +26,7 @@ ruby_add_rdepend "
 	>=dev-ruby/actionpack-4.0:*
 	>=dev-ruby/activerecord-4.0:*
 	>=dev-ruby/multi_json-1.11.2:0
-	|| ( dev-ruby/rack:2.0 dev-ruby/rack:1.6 )
+	|| ( dev-ruby/rack:2.2 dev-ruby/rack:2.0 )
 	>=dev-ruby/railties-4.0:*
 "
 
