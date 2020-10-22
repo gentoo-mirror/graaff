@@ -26,11 +26,11 @@ IUSE=""
 
 ruby_add_rdepend "
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-2.7.1.1
+	>=dev-ruby/parser-2.7.1.5
 	dev-ruby/rainbow:3
-	>=dev-ruby/regexp_parser-1.7
+	>=dev-ruby/regexp_parser-1.8
 	dev-ruby/rexml
-	>=dev-ruby/rubocop-ast-0.4.0:0
+	>=dev-ruby/rubocop-ast-0.6.0:0
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-1.4.0:1"
 
