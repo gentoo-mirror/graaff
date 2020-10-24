@@ -18,6 +18,7 @@ app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their name
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
+app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 1.8.1: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18: A major mode for editing CoffeeScript
 app-emacs/web-mode 16 17: web template editing mode for emacs
