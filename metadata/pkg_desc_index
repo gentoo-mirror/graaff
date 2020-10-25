@@ -16,6 +16,7 @@ app-emacs/json-mode 1.7.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
+app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/ponylang-mode 0.0.7 0.0.8: A major mode for editing pony
 app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
