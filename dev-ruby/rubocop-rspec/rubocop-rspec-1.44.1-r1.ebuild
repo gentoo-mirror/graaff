@@ -26,6 +26,6 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-0.87.0
+	>=dev-ruby/rubocop-0.87.0 =dev-ruby/rubocop-0*
 	>=dev-ruby/rubocop-ast-0.7.1
 "
