@@ -18,7 +18,7 @@ SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend "!<dev-ruby/rotp-5.1.0-r1:5"
+ruby_add_rdepend "!<dev-ruby/rotp-5.0.0-r1:5"
 
 ruby_add_bdepend "
 	test? ( dev-ruby/timecop )
