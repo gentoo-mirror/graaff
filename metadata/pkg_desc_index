@@ -176,6 +176,7 @@ dev-ruby/sassc-rails 2.0.0 2.1.0 2.1.1 2.1.2: Integrate SassC-Ruby with Rails
 dev-ruby/sassy-buttons 0.2.6: Super sassy and super easy CSS3 buttons
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
+dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.0.0 6.1.0 6.1.1 6.1.2 6.3.0 6.3.1: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0: node-semver in ruby for comparison and inclusion of semantic versions and ranges
