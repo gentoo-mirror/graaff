@@ -30,7 +30,7 @@ ruby_add_rdepend "
 	dev-ruby/rainbow:3
 	>=dev-ruby/regexp_parser-1.8
 	dev-ruby/rexml
-	>=dev-ruby/rubocop-ast-0.6.0:0
+	>=dev-ruby/rubocop-ast-1.1.1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-1.4.0:1"
 
@@ -39,9 +39,13 @@ ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/webmock )"
 all_ruby_prepare() {
 	sed -e '/pry/ s:^:#:' \
 		-i spec/spec_helper.rb || die
+	sed -i -e "s:_relative ': './:" ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	# Avoid bundler spec
 	sed -i -e '/and the gem is bundled/,/^      end/ s:^:#:' spec/rubocop/config_loader_spec.rb || die
 
 	sed -i -e 's:/tmp/example:'${TMPDIR}'/example:' spec/rubocop/cop/team_spec.rb || die
+
+	# Fix broken changelog (as per specs), already fixed upstream
+	echo "#\n" > CHANGELOG.md || die
 }
