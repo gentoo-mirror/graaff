@@ -20,5 +20,6 @@ IUSE=""
 src_install() {
 	default
 
+	doman ssh-audit.1
 	newbin ssh-audit.py ssh-audit
 }
