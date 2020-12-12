@@ -4,7 +4,7 @@
 EAPI=7
 
 PYTHON_COMPAT=(python3_{7,8,9})
-inherit python-any-r1
+inherit distutils-r1
 
 DESCRIPTION="SSH server auditing (banner, key exchange, encryption, mac, compression, etc)"
 HOMEPAGE="https://github.com/jtesta/ssh-audit"
@@ -18,8 +18,7 @@ IUSE=""
 # Tests require prospector which is not packaged
 
 src_install() {
-	default
+	distutils-r1_src_install
 
 	doman ssh-audit.1
-	newbin ssh-audit.py ssh-audit
 }
