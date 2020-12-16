@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -33,5 +33,5 @@ all_ruby_prepare() {
 	# Remove pregenerated documentation so we can update it.
 	rm -rf doc || die
 
-	sed -i -e '/simplecov/,/^end/ s:^:#:' spec/spec_helper.rb || die
+	sed -i -e '/simplecov/,/^end/ s:^:#:' -e '1irequire "uri"' spec/spec_helper.rb || die
 }
