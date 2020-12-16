@@ -9,5 +9,5 @@ RDEPEND=>=app-editors/emacs-23.1:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/purcell/emacs-hcl-mode/archive/c3d1158ad1a64f06aa8986ab1cdea6b7fbdd4bf7.tar.gz -> hcl-mode-0.03_p20200315.tar.gz
-_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	34cc2b6f6d8914019a353fe39cff43ce
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	b9df8d576b8e3d10e3da1c292b027912
 _md5_=8677a8db9a28633f2e9468697caf01de
