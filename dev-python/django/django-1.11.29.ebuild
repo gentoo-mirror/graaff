@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{7,8,9} pypy )
+PYTHON_COMPAT=( python3_{7,8} pypy )
 PYTHON_REQ_USE='sqlite?,threads(+)'
 WEBAPP_NO_AUTO_INSTALL="yes"
 
@@ -25,7 +25,7 @@ LICENSE+=" Apache-2.0"
 # admin icons, jquery, xregexp.js
 LICENSE+=" MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="~amd64"
 IUSE="doc sqlite test"
 
 RDEPEND=""
@@ -40,7 +40,6 @@ DEPEND="${RDEPEND}
 		dev-python/pillow[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 		dev-python/mock[${PYTHON_USEDEP}]
-		virtual/python-enum34[${PYTHON_USEDEP}]
 		)"
 
 S="${WORKDIR}/${MY_P}"
