@@ -1,8 +1,8 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} pypy )
+PYTHON_COMPAT=( python3_{7,8} pypy )
 
 inherit distutils-r1
 
@@ -15,14 +15,14 @@ SRC_URI="https://github.com/cyberdelia/django-pipeline/archive/${PV}.tar.gz -> $
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="doc test"
 
 RDEPEND="
 	>=dev-python/django-1.6[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
-	virtual/python-futures[${PYTHON_USEDEP}]"
+"
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
