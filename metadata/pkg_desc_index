@@ -62,7 +62,7 @@ dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the A
 dev-ruby/authlogic 4.4.2 5.1.0 6.2.0 6.3.0 6.4.0: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
-dev-ruby/benchmark-ips 2.7.2 2.8.2 2.8.3: A iterations per second enhancement to Benchmark
+dev-ruby/benchmark-ips 2.8.3 2.8.4: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.7.1 2.8.3 2.9.0 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.14 1.0.15: Better HTML for Rails
 dev-ruby/bootsnap 1.4.6 1.4.8 1.4.9 1.5.0 1.5.1: Boot large ruby/rails apps faster
