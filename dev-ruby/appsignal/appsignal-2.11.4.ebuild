@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -11,7 +11,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
-AGENT_VERSION=c8f8185
+AGENT_VERSION=361340a
 
 inherit ruby-fakegem
 
