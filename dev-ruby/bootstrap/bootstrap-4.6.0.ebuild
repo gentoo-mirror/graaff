@@ -1,10 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
-
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
+USE_RUBY="ruby25 ruby26"
 
 # Requires capybara + poltergeist
 RUBY_FAKEGEM_RECIPE_TEST="none"
@@ -24,7 +22,7 @@ SLOT="4"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/autoprefixer-rails-9.1.0
+	>=dev-ruby/autoprefixer-rails-9.1.0:*
 	>=dev-ruby/popper_js-1.14.3:1
 	>=dev-ruby/sassc-rails-2.0.0
 "
