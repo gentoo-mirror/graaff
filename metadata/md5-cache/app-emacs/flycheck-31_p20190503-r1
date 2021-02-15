@@ -10,5 +10,5 @@ RDEPEND=>=app-emacs/dash-2.12.1 >=app-editors/emacs-23.1:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/flycheck/flycheck/archive/47174a12fd84a685f36019632838c73b4813b66d.tar.gz -> flycheck-31_p20190503.tar.gz
-_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	34cc2b6f6d8914019a353fe39cff43ce
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	d4b53ec63c580b993ed19445f411e1d2
 _md5_=7d2a21d2068df9fcb85e9d908d729034
