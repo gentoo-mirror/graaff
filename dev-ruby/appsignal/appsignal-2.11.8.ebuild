@@ -3,7 +3,7 @@
 
 EAPI=7
 
-USE_RUBY="ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -11,7 +11,9 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
-AGENT_VERSION=361340a
+RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
+
+AGENT_VERSION=d98461b
 
 inherit ruby-fakegem
 
@@ -48,14 +50,6 @@ all_ruby_prepare() {
 
 	# Avoid specs that require a network
 	sed -i -e '/\(the\|extension\) installation report/askip "requires live network"' spec/lib/appsignal/cli/diagnose_spec.rb || die
-}
-
-each_ruby_configure() {
-	${RUBY} -Cext extconf.rb || die
-}
-
-each_ruby_compile() {
-	emake V=1 -Cext
 }
 
 each_ruby_test() {
