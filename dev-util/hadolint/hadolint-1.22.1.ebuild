@@ -13,7 +13,7 @@ HOMEPAGE="https://hadolint.github.io/hadolint/"
 SRC_URI="https://hackage.haskell.org/package/hadolint/${MY_P}.tar.gz"
 
 LICENSE="GPL-3"
-SLOT="0/${PV}"
+SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
@@ -23,6 +23,7 @@ RDEPEND="
 	dev-haskell/cryptonite:=[profile?]
 	>=dev-haskell/gitrev-1.3.1:=[profile?]
 	dev-haskell/hsyaml:=[profile?]
+	>=dev-haskell/language-docker-9.1.2:=[profile?]
 	>=dev-haskell/megaparsec-9.0.0:=[profile?]
 	>=dev-haskell/mtl-2.2.1:=[profile?]
 	>=dev-haskell/optparse-applicative-0.14.0:=[profile?]
