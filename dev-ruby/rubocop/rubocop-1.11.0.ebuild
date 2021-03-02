@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -26,22 +26,28 @@ IUSE=""
 
 ruby_add_rdepend "
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-2.7.1.5
+	>=dev-ruby/parser-3.0.0.0
 	dev-ruby/rainbow:3
-	>=dev-ruby/regexp_parser-1.8
+	|| ( dev-ruby/regexp_parser:2 >=dev-ruby/regexp_parser-1.8.0:1 )
 	dev-ruby/rexml
-	>=dev-ruby/rubocop-ast-0.6.0:0
+	>=dev-ruby/rubocop-ast-1.2.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
-	>=dev-ruby/unicode-display_width-1.4.0:1"
+	|| ( dev-ruby/unicode-display_width:2 >=dev-ruby/unicode-display_width-1.4.0:1 )"
 
 ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/webmock )"
 
 all_ruby_prepare() {
 	sed -e '/pry/ s:^:#:' \
 		-i spec/spec_helper.rb || die
+	sed -i -e "s:_relative ': './:" ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	# Avoid bundler spec
 	sed -i -e '/and the gem is bundled/,/^      end/ s:^:#:' spec/rubocop/config_loader_spec.rb || die
+	sed -i -e '/bundler integration/,/^    end/ s:^:#:' spec/rubocop/cli_spec.rb || die
+	rm -f spec/rubocop/cli_spec.rb spec/rubocop/lockfile_spec.rb || die
 
 	sed -i -e 's:/tmp/example:'${TMPDIR}'/example:' spec/rubocop/cop/team_spec.rb || die
+
+	# Fix broken changelog (as per specs), already fixed upstream
+	echo "#\n" > CHANGELOG.md || die
 }
