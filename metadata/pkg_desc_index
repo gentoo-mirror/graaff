@@ -132,7 +132,7 @@ dev-ruby/paper_trail-association_tracking 1.0.0 1.1.1: Plugin for the PaperTrail
 dev-ruby/pipedrive-rb 0.2.0 0.3.0: Pipedrive.com API Wrapper
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
-dev-ruby/popper_js 1.14.5 1.16.0: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 1.14.5 1.16.0 2.8.6: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.11.1 1.12.1 1.13.1 1.14.1 1.14.2: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3 1.11.0 1.11.1: The power of the premailer gem to Rails without any configuration needs
@@ -182,7 +182,7 @@ dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with passwor
 dev-ruby/strscan 1.0.3 3.0.0: Provides lexical scanning operations on a String
 dev-ruby/susy 2.2.14: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
-dev-ruby/terser 1.1.1: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.1 1.1.2: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 4.4.1 5.0.0 5.1.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/tiny_tds 2.1.2 2.1.3: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 5.2.2 5.3.2 5.4.1 5.5.1 5.6.1 5.6.2 5.6.2.1: Integration of TinyMCE with the Rails asset pipeline
