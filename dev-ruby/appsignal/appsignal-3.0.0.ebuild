@@ -1,9 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-USE_RUBY="ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -11,7 +11,9 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
-AGENT_VERSION=4548c88
+RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
+
+AGENT_VERSION=d98461b
 
 inherit ruby-fakegem
 
@@ -50,14 +52,15 @@ all_ruby_prepare() {
 	sed -i -e '/\(the\|extension\) installation report/askip "requires live network"' spec/lib/appsignal/cli/diagnose_spec.rb || die
 }
 
-each_ruby_configure() {
-	${RUBY} -Cext extconf.rb || die
-}
-
-each_ruby_compile() {
-	emake V=1 -Cext
-}
-
 each_ruby_test() {
 	${RUBY} -S bundle exec rspec-3 spec || die
+}
+
+each_ruby_install() {
+	each_fakegem_install
+
+	local extdir
+	extdir="$(ruby_fakegem_gemsdir)/gems/${RUBY_FAKEGEM_NAME}-${RUBY_FAKEGEM_VERSION}/ext"
+
+	fperms 0755 "${extdir}/appsignal-agent"
 }
