@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
@@ -26,12 +26,15 @@ ruby_add_rdepend "
 	>=dev-ruby/actionpack-4.0:*
 	>=dev-ruby/activerecord-4.0:*
 	>=dev-ruby/multi_json-1.11.2:0
-	|| ( dev-ruby/rack:2.2 dev-ruby/rack:2.0 )
+	dev-ruby/rack:2.2
 	>=dev-ruby/railties-4.0:*
 "
 
 all_ruby_prepare() {
 	sed -i -e '/appraisal/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	# Avoid deprecated method in tests
+	sed -i -e 's/update_attributes/update/' test/destroy_session_test.rb || die
 }
 
 each_ruby_test() {
