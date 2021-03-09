@@ -1,6 +1,6 @@
 app-emacs/ac-etags 0.06: etags/ctags completion source for auto-complete
 app-emacs/avy 0.4.0 0.5.0: Jump to things in Emacs tree-style
-app-emacs/coffee-mode 0.6.3: A major mode for editing CoffeeScript
+app-emacs/coffee-mode 0.6.3 0.6.3.20200315: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20190801: A major mode for editing Cucumber stories.
 app-emacs/dockerfile-mode 1.3: A major mode for editing Dockerfiles
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
@@ -119,10 +119,9 @@ dev-ruby/microsoft_graph 0.1.3-r1: Ruby SDK for Microsoft Graph
 dev-ruby/mini_portile2 2.3.0 2.4.0 2.5.0: Simplistic port-like solution for developers
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.0.6 2.1.1 2.1.5 2.1.6 2.1.8: A simple mixin for CLI interfaces, including option parsing
-dev-ruby/mixlib-config 3.0.5 3.0.6 3.0.9: A class based configuration library
+dev-ruby/mixlib-config 3.0.9: A class based configuration library
 dev-ruby/money 6.13.8: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2: A Rails gem for conveniently manage multiple nested models in a single form.
-dev-ruby/net-ping 2.0.7 2.0.8: Provides a ping interface for Ruby
 dev-ruby/nokogiri-happymapper 0.8.0 0.8.1: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r2: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/oedipus_lex 2.5.2: A lexer generator in the same family as Rexical and Rex
