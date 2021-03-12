@@ -1,10 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-USE_RUBY="ruby25 ruby26 ruby27"
+EAPI=7
+USE_RUBY="ruby25 ruby26 ruby27 ruby30"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="ENV ENV2 History.txt README.txt RULES"
 
 # There are specs but they require an old version of rspec.
@@ -18,8 +17,11 @@ DESCRIPTION="Inspect and process video or audio files."
 HOMEPAGE="https://github.com/zencoder/rvideo/issues"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86 ~x86-macos"
+KEYWORDS="~amd64"
 SLOT="0"
 IUSE="doc"
 
-RUBY_PATCHES=( rvideo-ffmpeg.patch rvideo-output-encoding.patch )
+all_ruby_prepare() {
+	eapply -p0 "${FILESDIR}/rvideo-ffmpeg.patch"
+	eapply -p0 "${FILESDIR}/rvideo-output-encoding.patch"
+}
