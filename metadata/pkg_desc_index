@@ -58,7 +58,7 @@ dev-ruby/benchmark-ips 2.8.3 2.8.4: A iterations per second enhancement to Bench
 dev-ruby/better_errors 2.7.1 2.8.3 2.9.0 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.14 1.0.15 1.0.16: Better HTML for Rails
 dev-ruby/bootsnap 1.4.9 1.5.1 1.7.2: Boot large ruby/rails apps faster
-dev-ruby/bootstrap 4.3.1 4.4.1 4.5.3 4.6.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
+dev-ruby/bootstrap 4.5.3 4.6.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap-sass 3.3.7 3.4.1: Sass-powered version of Bootstrap 3
 dev-ruby/bootstrap_form 4.3.0 4.4.0 4.5.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/breakpoint 2.7.1: Really Simple Media Queries with Sass
