@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -25,7 +25,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/hashie-3.0 =dev-ruby/hashie-3*
+	dev-ruby/hashie:3
 	dev-ruby/multi_json:0
 	=dev-ruby/oauth2-1*
 "
