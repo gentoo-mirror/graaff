@@ -95,7 +95,7 @@ dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7: HTML Tokenizer
 dev-ruby/httmultiparty 0.3.16: A thin wrapper around HTTParty to provide multipart uploads
-dev-ruby/icalendar 2.5.3 2.6.0 2.6.1 2.7.0: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.6.1 2.7.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
