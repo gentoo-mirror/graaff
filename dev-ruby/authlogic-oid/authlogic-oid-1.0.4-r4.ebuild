@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -16,7 +16,7 @@ DESCRIPTION="Extension of the Authlogic library to add OpenID support."
 HOMEPAGE="http://authlogic-oid.rubyforge.org/"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86-macos"
+KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
 
