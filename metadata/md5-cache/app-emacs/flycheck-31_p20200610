@@ -4,11 +4,12 @@ DEPEND=>=app-emacs/dash-2.12.1
 DESCRIPTION=On the fly syntax checking for GNU Emacs
 EAPI=7
 HOMEPAGE=https://github.com/flycheck/flycheck
+INHERIT=elisp
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=app-emacs/dash-2.12.1 >=app-editors/emacs-23.1:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/flycheck/flycheck/archive/c02cd773dded0215f9417ec04dfe8dabda63ef43.tar.gz -> flycheck-31_p20200610.tar.gz
-_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	d4b53ec63c580b993ed19445f411e1d2
+_eclasses_=elisp-common	36f97076abd90f943a34f8bcd58b5bcc	elisp	00840e1f4eb277c757dbfa5abf73c4c7
 _md5_=965c9754a8b1221b90cc0092ba5d9818
