@@ -1,15 +1,14 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=7
 
 inherit elisp
 
 IUSE=""
 
 DESCRIPTION="A major mode for editing HAML"
-HOMEPAGE="https://github.com/nex3/haml"
+HOMEPAGE="https://github.com/nex3/haml-mode"
 SRC_URI="https://github.com/nex3/haml-mode/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
