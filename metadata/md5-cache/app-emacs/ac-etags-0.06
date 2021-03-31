@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 RDEPEND=app-emacs/auto-complete >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/syohex/emacs-ac-etags/archive/0.06.tar.gz -> ac-etags-0.06.tar.gz
-_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp-common	36f97076abd90f943a34f8bcd58b5bcc	elisp	00840e1f4eb277c757dbfa5abf73c4c7
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp-common	36f97076abd90f943a34f8bcd58b5bcc	elisp	023dd24ad9e6d5e62907e7007f548ca3
 _md5_=e26cd64705f8e058b3b0e48ab573c3c6
