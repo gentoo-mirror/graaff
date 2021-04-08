@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -26,7 +26,7 @@ RESTRICT="test"
 #ruby_add_bdepend "test? ( >=dev-ruby/shoulda-3.5 >=dev-ruby/sqlite3-1.2 >=dev-ruby/capybara-2.0 dev-ruby/bundler )"
 
 ruby_add_rdepend "
-	>dev-ruby/activerecord-4.2:*
+	>dev-ruby/activerecord-5.2:*
 	>=dev-ruby/request_store-1.1:0
 "
 
