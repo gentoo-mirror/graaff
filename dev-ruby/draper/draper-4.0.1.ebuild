@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby25 ruby26"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -24,10 +24,10 @@ IUSE="test"
 RESTRICT="test"
 
 ruby_add_rdepend "
-	=dev-ruby/actionpack-5*:*
-	=dev-ruby/activemodel-5*:*
+	>=dev-ruby/actionpack-5:*
+	>=dev-ruby/activemodel-5:*
 	dev-ruby/activemodel-serializers-xml:1.0
-	=dev-ruby/activesupport-5*:*
+	>=dev-ruby/activesupport-5:*
 	>=dev-ruby/request_store-1.0.3:0"
 
 each_ruby_test() {
