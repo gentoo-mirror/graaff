@@ -39,7 +39,6 @@ dev-python/django 1.11.29: High-level Python web framework
 dev-python/django-braces 1.13.0: Reusable, generic mixins for Django
 dev-python/django-cors-headers 1.1.0: Django app for handling the server headers required for CORS
 dev-python/django-evolution 2.1: A database schema evolution tool for the Django web framework
-dev-python/django-pipeline 1.6.14: An asset packaging library for Django
 dev-ruby/PoParser 3.2.4 3.2.5: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.0.1 2.1.0 2.1.1: Adds methods to set and authenticate against one time passwords
