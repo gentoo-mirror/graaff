@@ -19,7 +19,7 @@ SRC_URI="https://github.com/onelogin/ruby-saml/archive/v${PV}.tar.gz -> ${P}.tar
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="0.8"
+SLOT="0.12"
 IUSE="doc"
 
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.10.5 dev-ruby/rexml"
