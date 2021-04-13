@@ -128,7 +128,7 @@ dev-ruby/paper_trail-association_tracking 1.0.0 1.1.1: Plugin for the PaperTrail
 dev-ruby/pipedrive-rb 0.2.0 0.3.0: Pipedrive.com API Wrapper
 dev-ruby/pipedrive-ruby 0.3.3-r1: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
-dev-ruby/popper_js 1.14.5 1.16.0 2.8.6: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 1.16.0 2.8.6: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.1-r20170908 0.1.2 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.11.1 1.12.1 1.13.1 1.14.1 1.14.2: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.10.2-r1 1.10.3 1.11.0 1.11.1: The power of the premailer gem to Rails without any configuration needs
@@ -156,7 +156,7 @@ dev-ruby/rubocop-ast 0.8.0 1.1.1 1.2.0 1.3.0 1.4.1: RuboCop's Node and NodePatte
 dev-ruby/rubocop-performance 1.8.1 1.9.1 1.9.2 1.10.0 1.10.1 1.10.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.7.0 2.7.1 2.8.0 2.8.1 2.9.0 2.9.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.1.0 2.2.0: Code style checking for RSpec files
-dev-ruby/ruby-saml 1.10.2 1.11.0 1.12.1 1.12.2: A library for implementing the client side of a SAML authorization
+dev-ruby/ruby-saml 1.10.2 1.11.0 1.12.2: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassc-rails 2.0.0 2.1.0 2.1.1 2.1.2: Integrate SassC-Ruby with Rails
