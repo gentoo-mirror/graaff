@@ -8,7 +8,7 @@ app-emacs/elixir-mode 1.5.0: Emacs major mode for Elixir
 app-emacs/elm-mode 0.20.3_p20191125 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
 app-emacs/enh-ruby-mode 20191111: Major mode for editing Ruby files
-app-emacs/flycheck 31 31_p20190503-r1 31_p20200224 31_p20200406 31_p20200610: On the fly syntax checking for GNU Emacs
+app-emacs/flycheck 31 31_p20190503-r1 31_p20200224 31_p20200406 31_p20200610 31_p20210321: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001 1.0.2_p20191031: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03 0.03_p20200315 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
