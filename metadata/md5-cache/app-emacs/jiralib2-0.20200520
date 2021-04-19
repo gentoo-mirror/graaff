@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=app-emacs/request-0.3 >=app-emacs/dash-2.14.1 >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/nyyManni/jiralib2/archive/c21c4e759eff549dbda11099f2f680b78d7f5a01.tar.gz -> jiralib2-0.20200520.tar.gz
-_eclasses_=elisp-common	36f97076abd90f943a34f8bcd58b5bcc	elisp	023dd24ad9e6d5e62907e7007f548ca3
+_eclasses_=elisp-common	6bfea130fc0f2cbd4cbc23dc12992349	elisp	8d41193227fc27c56371b201ec7d861c
 _md5_=fa04d83286c09552e013e0c3912668f5
