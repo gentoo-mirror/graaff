@@ -1,8 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
+EAPI=7
+USE_RUBY="ruby25 ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -21,6 +21,8 @@ KEYWORDS="~amd64"
 SLOT="0.8"
 IUSE="doc"
 
+PATCHES=( "${FILESDIR}/${P}-rexml.patch" )
+
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.8.2"
 
 ruby_add_bdepend "test? ( dev-ruby/timecop dev-ruby/mocha dev-ruby/shoulda:0 )"
@@ -28,7 +30,7 @@ ruby_add_bdepend "test? ( dev-ruby/timecop dev-ruby/mocha dev-ruby/shoulda:0 )"
 all_ruby_prepare() {
 	sed -i -e '/ruby-debug/d' \
 		-e '/bundler/I s:^:#:' \
-		-e '/simplecov/ s:^:#:' \
+		-e '/\(simplecov\|coveralls\)/ s:^:#:' \
 		-e '/SimpleCov/,/^end/ s:^:#:' test/test_helper.rb || die
 
 	sed -ie -e '/git ls-files/d' ${RUBY_FAKEGEM_GEMSPEC} || die

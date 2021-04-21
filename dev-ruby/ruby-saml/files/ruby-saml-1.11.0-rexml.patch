@@ -1,0 +1,22 @@
+From b40edbf27c038b523aa7ea6b26b1144ed0e0ef53 Mon Sep 17 00:00:00 2001
+From: Sixto Martin <pitbulk@gmail.com>
+Date: Mon, 5 Apr 2021 22:48:01 +0200
+Subject: [PATCH] See #577. Fix XPath typo incompatible with Rexml 3.2.5
+
+---
+ lib/onelogin/ruby-saml/response.rb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/onelogin/ruby-saml/response.rb b/lib/onelogin/ruby-saml/response.rb
+index 5be27142..3acfd914 100644
+--- a/lib/onelogin/ruby-saml/response.rb
++++ b/lib/onelogin/ruby-saml/response.rb
+@@ -828,7 +828,7 @@ def validate_signature
+         # otherwise, review if the decrypted assertion contains a signature
+         sig_elements = REXML::XPath.match(
+           document,
+-          "/p:Response[@ID=$id]/ds:Signature]",
++          "/p:Response[@ID=$id]/ds:Signature",
+           { "p" => PROTOCOL, "ds" => DSIG },
+           { 'id' => document.signed_element_id }
+         )
