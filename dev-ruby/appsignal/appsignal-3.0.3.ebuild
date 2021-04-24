@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION=d98461b
+AGENT_VERSION=75e76ad
 
 inherit ruby-fakegem
 
@@ -39,6 +39,7 @@ ruby_add_bdepend "test? (
 all_ruby_prepare() {
 	sed -i -e '/rake/ s/~>/>=/' -e '/\("rubocop\|pry\)/ s:^:#:' appsignal.gemspec || die
 	sed -i -e '/pry/ s:^:#:' spec/spec_helper.rb || die
+	echo 'gem "json"' >> Gemfile || die
 
 	# This is a horrible hack to work around the default unpack support
 	# in all_ruby_unpack which tries to unpack all files in ${A} and
