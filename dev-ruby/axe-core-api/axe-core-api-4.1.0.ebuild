@@ -8,6 +8,8 @@ RUBY_FAKEGEM_EXTRADOC="README.md"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
+RUBY_FAKEGEM_EXTRAINSTALL="node_modules"
+
 inherit ruby-fakegem
 
 DESCRIPTION="Provides a collection of methods which interface as an API for Axe"
