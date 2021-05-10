@@ -15,7 +15,7 @@ HOMEPAGE="https://github.com/stefankroes/ancestry"
 SRC_URI="https://github.com/stefankroes/ancestry/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="2"
+SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
 IUSE=""
 
