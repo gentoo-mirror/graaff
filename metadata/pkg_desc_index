@@ -45,7 +45,7 @@ dev-ruby/acts-as-taggable-on 6.0.0 6.5.0 7.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 3.2.1 4.0.0: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 2.11.9 3.0.2 3.0.3: The official appsignal.com gem
+dev-ruby/appsignal 2.11.9 3.0.2 3.0.3 3.0.4: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 4.4.2 5.1.0 6.2.0 6.3.0 6.4.0 6.4.1: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
@@ -67,7 +67,7 @@ dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of Active
 dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.1 0.5.2: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/compass-rails 3.1.0 4.0.0: A Rails adapter for the Compass Stylesheet Authoring Framework
-dev-ruby/cookies_eu 1.7.4 1.7.5 1.7.6 1.7.7: Displays a cookie consent
+dev-ruby/cookies_eu 1.7.6 1.7.7: Displays a cookie consent
 dev-ruby/debride 1.8.2: Analyze code for potentially uncalled / dead methods
 dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inheritance and refining
 dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
@@ -80,7 +80,7 @@ dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the 
 dev-ruby/enumerable-statistics 2.0.1 2.0.3 2.0.3-r1: This library provides statistics features for Enumerable
 dev-ruby/erb_lint 0.0.37: ERB Linter tool
 dev-ruby/exception_notification 4.2.2 4.3.0 4.4.0 4.4.1 4.4.3: Exception Notifier Plugin for Rails
-dev-ruby/feed_parser 0.3.5: Rss and Atom feed parser built on top of Nokogiri
+dev-ruby/feed_parser 0.3.5 0.3.5-r1: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/font-awesome-sass 4.7.0 5.12.0 5.13.0 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails projects
