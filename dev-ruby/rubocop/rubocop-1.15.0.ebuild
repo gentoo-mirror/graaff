@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby25 ruby26"
+USE_RUBY="ruby25 ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -30,7 +30,7 @@ ruby_add_rdepend "
 	dev-ruby/rainbow:3
 	|| ( dev-ruby/regexp_parser:2 >=dev-ruby/regexp_parser-1.8.0:1 )
 	dev-ruby/rexml
-	>=dev-ruby/rubocop-ast-1.2.0:1
+	>=dev-ruby/rubocop-ast-1.5.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	|| ( dev-ruby/unicode-display_width:2 >=dev-ruby/unicode-display_width-1.4.0:1 )"
 
@@ -46,7 +46,9 @@ all_ruby_prepare() {
 	sed -i -e '/bundler integration/,/^    end/ s:^:#:' spec/rubocop/cli_spec.rb || die
 	rm -f spec/rubocop/cli_spec.rb spec/rubocop/lockfile_spec.rb || die
 
-	sed -i -e 's:/tmp/example:'${TMPDIR}'/example:' spec/rubocop/cop/team_spec.rb || die
+	sed -e 's:/tmp/example:'${TMPDIR}'/example:' \
+		-e 's:/tmp/Gemfile:'${TMPDIR}'/Gemfile:' \
+		-i spec/rubocop/cop/team_spec.rb || die
 
 	# Fix broken changelog (as per specs), already fixed upstream
 	echo "#\n" > CHANGELOG.md || die
