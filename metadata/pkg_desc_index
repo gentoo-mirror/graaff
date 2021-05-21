@@ -30,7 +30,7 @@ app-shells/liquidprompt 1.12.0 2.0.2: A full-featured & carefully designed adapt
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
-dev-haskell/language-docker 9.1.2: Dockerfile parser, pretty-printer and embedded DSL
+dev-haskell/language-docker 9.1.2 10.0.0: Dockerfile parser, pretty-printer and embedded DSL
 dev-libs/lasso 2.6.0: C library aiming to implement the Liberty Alliance standards
 dev-python/django 1.11.29: High-level Python web framework
 dev-python/django-braces 1.13.0: Reusable, generic mixins for Django
