@@ -49,8 +49,8 @@ dev-ruby/appsignal 2.11.9 2.11.9-r1 3.0.2 3.0.3 3.0.4 3.0.5: The official appsig
 dev-ruby/atlassian-jwt 0.2.0: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 4.4.2 5.1.0 6.2.0 6.3.0 6.4.0 6.4.1: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
-dev-ruby/axe-core-api 4.1.0: Provides a collection of methods which interface as an API for Axe
-dev-ruby/axe-core-cucumber 4.1.0: Cucumber step definitions for Axe
+dev-ruby/axe-core-api 4.1.0 4.2.0: Provides a collection of methods which interface as an API for Axe
+dev-ruby/axe-core-cucumber 4.1.0 4.2.0: Cucumber step definitions for Axe
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark-ips 2.8.3 2.8.4: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.7.1 2.8.3 2.9.0 2.9.1: Provides a better error page for Rails and other Rack apps
