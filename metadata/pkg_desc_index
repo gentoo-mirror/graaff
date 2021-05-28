@@ -75,7 +75,7 @@ dev-ruby/deep_cloneable 3.0.0 3.1.0: Extends the functionality of ActiveRecord::
 dev-ruby/default_value_for 3.2.0 3.3.0 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/derailed_benchmarks 1.3.5 1.3.6: Go faster, off the Rails
 dev-ruby/diplomat 2.4.1 2.4.2 2.4.4 2.5.1: A simple wrapper for Consul
-dev-ruby/draper 3.1.0 4.0.0 4.0.1: View Models for Rails
+dev-ruby/draper 3.1.0 4.0.0 4.0.1 4.0.2: View Models for Rails
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/enumerable-statistics 2.0.1 2.0.3 2.0.3-r1: This library provides statistics features for Enumerable
 dev-ruby/erb_lint 0.0.37: ERB Linter tool
