@@ -30,7 +30,7 @@ ruby_add_rdepend "
 	dev-ruby/rainbow:3
 	|| ( dev-ruby/regexp_parser:2 >=dev-ruby/regexp_parser-1.8.0:1 )
 	dev-ruby/rexml
-	>=dev-ruby/rubocop-ast-1.2.0:1
+	>=dev-ruby/rubocop-ast-1.7.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	|| ( dev-ruby/unicode-display_width:2 >=dev-ruby/unicode-display_width-1.4.0:1 )"
 
