@@ -2,12 +2,12 @@ app-emacs/ac-etags 0.06: etags/ctags completion source for auto-complete
 app-emacs/avy 0.4.0 0.5.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3.20200315: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20190801: A major mode for editing Cucumber stories.
-app-emacs/dockerfile-mode 1.3: A major mode for editing Dockerfiles
+app-emacs/dockerfile-mode 1.3 1.4: A major mode for editing Dockerfiles
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
 app-emacs/elm-mode 0.20.3_p20191125 0.21.0: Emacs major mode for elm
-app-emacs/emacs-async 1.9.2: Simple library for asynchronous processing in Emacs
+app-emacs/emacs-async 1.9.2 1.9.4: Simple library for asynchronous processing in Emacs
 app-emacs/enh-ruby-mode 20191111: Major mode for editing Ruby files
-app-emacs/flycheck 31 31_p20190503-r1 31_p20200224 31_p20200406 31_p20200610 31_p20210321: On the fly syntax checking for GNU Emacs
+app-emacs/flycheck 31 31_p20200610 31_p20210321: On the fly syntax checking for GNU Emacs
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001 1.0.2_p20191031: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03 0.03_p20200315 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
@@ -22,7 +22,7 @@ app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
-app-emacs/rg-el 1.8.1: Emacs search tool based on ripgrep
+app-emacs/rg-el 1.8.1 2.0.3: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing CoffeeScript
 app-emacs/web-mode 16 17: web template editing mode for emacs
 app-forensics/brakeman 4.9.1 4.10.1 5.0.0: Static analysis tool which checks RoR applications for security vulnerabilities
