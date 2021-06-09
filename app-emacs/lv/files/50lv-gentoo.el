@@ -1,4 +1,4 @@
-;;; ht site-lisp configuration
+;;; lvsite-lisp configuration
 
 (add-to-list 'load-path "@SITELISP@")
 
