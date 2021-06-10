@@ -11,6 +11,7 @@ app-emacs/flycheck 31 31_p20200610 31_p20210321: On the fly syntax checking for 
 app-emacs/groovy-mode 1.0.2 1.0.2_p20190225 1.0.2_p20190408 1.0.2_p20191001 1.0.2_p20191031: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03 0.03_p20200315 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
+app-emacs/ht 2.3: The missing hash table library for Emacs
 app-emacs/imenu-list 0.8: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
 app-emacs/json-mode 1.7.0: Major mode for editing JSON files
@@ -18,12 +19,14 @@ app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
+app-emacs/lv 0.15.0: Other echo area
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
 app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 1.8.1 2.0.3: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing CoffeeScript
+app-emacs/spinner 1.7.3: Emacs mode-line spinner for operations in progress
 app-emacs/web-mode 16 17: web template editing mode for emacs
 app-forensics/brakeman 4.9.1 4.10.1 5.0.0: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 1.12.0 2.0.2: A full-featured & carefully designed adaptive prompt for Bash & Zsh
@@ -156,11 +159,11 @@ dev-ruby/roo 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.0.0-r1 5.1.0-r1 6.0.0 6.1.0 6.2.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.13.0 1.14.0 1.15.0 1.16.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.13.0 1.14.0 1.15.0 1.16.0 1.16.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.8.0 1.1.1 1.2.0 1.3.0 1.4.1 1.5.0 1.6.0 1.7.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.10.2 1.11.1 1.11.2 1.11.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.7.1 2.8.1 2.9.1 2.10.0 2.10.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rspec 2.1.0 2.2.0 2.3.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 2.1.0 2.2.0 2.3.0 2.4.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.12.2: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5: Allows you to import many sass or scss files in a single import statement

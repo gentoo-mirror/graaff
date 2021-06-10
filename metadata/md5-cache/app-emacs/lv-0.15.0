@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=Other echo area
+EAPI=7
+HOMEPAGE=https://github.com/abo-abo/hydra
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/abo-abo/hydra/archive/0.15.0.tar.gz -> lv-0.15.0.tar.gz
+_eclasses_=elisp-common	6bfea130fc0f2cbd4cbc23dc12992349	elisp	8d41193227fc27c56371b201ec7d861c
+_md5_=9d2d2163686edfe70635cb5b846b7ac1
