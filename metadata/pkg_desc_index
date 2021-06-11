@@ -196,7 +196,7 @@ dev-ruby/useragent 0.16.10: HTTP User Agent parser
 dev-ruby/vault 0.13.0 0.14.0 0.15.0 0.16.0: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 4.2.2 5.1.1 5.2.0 5.2.1 5.3.0 5.4.0: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
-dev-ruby/zendesk_api 1.27.0 1.28.0 1.29.0: Wrapper for the REST API at https://www.zendesk.com
+dev-ruby/zendesk_api 1.27.0 1.28.0 1.29.0 1.30.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 1.21.0 1.22.1: Dockerfile linter
 dev-util/mdl 0.11.0: Style checker/lint tool for markdown files
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
