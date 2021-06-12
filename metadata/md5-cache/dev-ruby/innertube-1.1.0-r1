@@ -1,0 +1,17 @@
+BDEPEND=ruby_targets_ruby26? ( test? ( dev-ruby/thwait[ruby_targets_ruby26(-)] ) ) ruby_targets_ruby27? ( test? ( dev-ruby/thwait[ruby_targets_ruby27(-)] ) ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby26? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby26(-)] ) ) ruby_targets_ruby27? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby27(-)] ) ) ruby_targets_ruby26? ( test? ( dev-ruby/rspec:2[ruby_targets_ruby26(-)] >=dev-ruby/rspec-core-2.14.8-r2[ruby_targets_ruby26(-)] ) ) ruby_targets_ruby27? ( test? ( dev-ruby/rspec:2[ruby_targets_ruby27(-)] >=dev-ruby/rspec-core-2.14.8-r2[ruby_targets_ruby27(-)] ) ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] !!dev-ruby/psych[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] !!dev-ruby/psych[ruby_targets_ruby27(-)] ) test? ( ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] ) )
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] )
+DESCRIPTION=A thread-safe resource pool, originally borne in riak-client (Ripple)
+EAPI=7
+HOMEPAGE=https://github.com/basho/innertube
+INHERIT=ruby-fakegem
+IUSE=ruby_targets_ruby26 ruby_targets_ruby27 doc test test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] )
+REQUIRED_USE=|| ( ruby_targets_ruby26 ruby_targets_ruby27 )
+RESTRICT=!test? ( test ) !test? ( test )
+SLOT=0
+SRC_URI=https://rubygems.org/gems/innertube-1.1.0.gem
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multilib	ebdbaed22e873a5abe6205f41349b479	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	ruby-utils	03dfa7f54d59d740c2964dc7256d2820	ruby-ng	b97a1a9a3103f9a66f622ea3eb2ce12b	ruby-fakegem	5e2d0d0c89a1e9425bc8dacd73e7e940
+_md5_=115a1512ffc1510f402e8b04d7e24645
