@@ -11,6 +11,7 @@
 
 (autoload 'lsp-dired-mode "lsp-dired" "Display `lsp-mode' icons for each file in a dired buffer." t)
 
+(autoload 'lsp-headerline--enable-breadcrumb "lsp-headerline" "Enable breadcrumb on headerline.")
 (autoload 'lsp-headerline-breadcrumb-mode "lsp-headerline" "Toggle breadcrumb on headerline." t)
 
 (autoload 'lsp-ido-workspace-symbol "lsp-ido" "`ido' for lsp workspace/symbol." t)
