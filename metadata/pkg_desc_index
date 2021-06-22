@@ -20,6 +20,7 @@ app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
 app-emacs/lsp-mode 7.0.1: Emacs client/library for the Language Server Protocol
+app-emacs/lsp-ui 7.0.1: UI modules for lsp-mode
 app-emacs/lv 0.15.0: Other echo area
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
@@ -156,7 +157,7 @@ dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to anal
 dev-ruby/require_all 1.5.0 2.0.0 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0: Map simple html back into markdown
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.34.0 3.35.0 3.36.0 3.41.0: Routing tree web toolkit
+dev-ruby/roda 3.36.0 3.41.0 3.45.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.0.0-r1 5.1.0-r1 6.0.0 6.1.0 6.2.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
@@ -164,7 +165,7 @@ dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumera
 dev-ruby/rubocop 1.13.0 1.14.0 1.15.0 1.16.0 1.16.1 1.17.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.8.0 1.1.1 1.2.0 1.3.0 1.4.1 1.5.0 1.6.0 1.7.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.10.2 1.11.1 1.11.2 1.11.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.7.1 2.8.1 2.9.1 2.10.0 2.10.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.9.1 2.10.0 2.10.1 2.11.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.1.0 2.2.0 2.3.0 2.4.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.12.2: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
@@ -200,7 +201,7 @@ dev-ruby/vault 0.13.0 0.14.0 0.15.0 0.16.0: A Ruby API client for interacting wi
 dev-ruby/webpacker 4.2.2 5.1.1 5.2.0 5.2.1 5.3.0 5.4.0: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r1: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.27.0 1.28.0 1.29.0 1.30.0: Wrapper for the REST API at https://www.zendesk.com
-dev-util/hadolint 1.21.0 1.22.1: Dockerfile linter
+dev-util/hadolint 1.22.1-r1: Dockerfile linter
 dev-util/mdl 0.11.0: Style checker/lint tool for markdown files
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/scss_lint_reporter_checkstyle 0.2.0: A formatter to the scss-lint which is compatible with the Checkstyle standard
