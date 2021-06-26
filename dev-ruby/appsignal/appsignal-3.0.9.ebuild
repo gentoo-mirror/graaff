@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION=75e76ad
+AGENT_VERSION=9f282f3
 
 inherit ruby-fakegem
 
@@ -28,6 +28,7 @@ IUSE="test"
 
 ruby_add_rdepend "
 	dev-ruby/rack:*
+	!<dev-ruby/appsignal-2.11.9-r1:2
 "
 
 ruby_add_bdepend "test? (
