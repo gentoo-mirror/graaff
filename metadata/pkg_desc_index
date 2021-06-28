@@ -43,9 +43,9 @@ dev-python/django-cors-headers 1.1.0: Django app for handling the server headers
 dev-python/django-evolution 2.1: A database schema evolution tool for the Django web framework
 dev-ruby/PoParser 3.2.4 3.2.5: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
-dev-ruby/active_model_otp 1.2.0-r20190105 2.0.1 2.1.0 2.1.1 2.2.0: Adds methods to set and authenticate against one time passwords
+dev-ruby/active_model_otp 1.2.0-r20190105 2.0.1 2.1.0 2.1.1 2.2.0 2.3.0: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.3 0.10.10 0.10.12: Making it easy to serialize models for client-side use
-dev-ruby/active_storage_validations 0.9.4: Validations for Active Storage (presence)
+dev-ruby/active_storage_validations 0.9.4 0.9.5: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 1.1.3 2.0.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.0.0 6.5.0 7.0.0 8.0.0 8.1.0: Advanced tagging for Rails.
 dev-ruby/ancestry 3.2.1 4.0.0: Allows records to be organized in a tree structure
@@ -101,7 +101,7 @@ dev-ruby/global_phone 1.0.1: Parses, validates, and formats local and internatio
 dev-ruby/global_phone_dbgen 1.0.0: Parses, validates, and formats local and international phone numbers
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
-dev-ruby/html_tokenizer 0.0.7: HTML Tokenizer
+dev-ruby/html_tokenizer 0.0.7 0.0.7-r1: HTML Tokenizer
 dev-ruby/httmultiparty 0.3.16: A thin wrapper around HTTParty to provide multipart uploads
 dev-ruby/icalendar 2.6.1 2.7.0 2.7.1: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.2 1.1.3: Provides recurrence to icalendar gem
@@ -190,7 +190,7 @@ dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with passwor
 dev-ruby/strscan 1.0.3 3.0.0: Provides lexical scanning operations on a String
 dev-ruby/susy 2.2.14: A semantic CSS grid system with a responsive twist
 dev-ruby/swf_fu 2.0.4: With the swf_fu plugin, rails treats your swf files like any other asset.
-dev-ruby/terser 1.1.1 1.1.2 1.1.3: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.1 1.1.2 1.1.3 1.1.4: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 4.4.1 5.0.0 5.1.0 5.2.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.2 2.1.3 2.1.4 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
