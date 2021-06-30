@@ -183,7 +183,7 @@ dev-ruby/site_prism 3.4.2 3.4.2-r1 3.7 3.7.1: A simple, clean and semantic DSL f
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.42.3: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.42.3 0.42.3-r1: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
