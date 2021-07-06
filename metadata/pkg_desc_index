@@ -34,7 +34,7 @@ app-forensics/brakeman 4.9.1 4.10.1 5.0.0 5.0.4: Static analysis tool which chec
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
-dev-db/MySlowTranCapture 0.20110406: A tool to print MySQL transactions that take more than <n> milliseconds
+dev-db/MySlowTranCapture 0.20110406-r1: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-haskell/language-docker 9.1.2 10.0.0: Dockerfile parser, pretty-printer and embedded DSL
 dev-libs/lasso 2.6.0: C library aiming to implement the Liberty Alliance standards
 dev-python/django 1.11.29: High-level Python web framework
