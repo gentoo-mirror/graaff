@@ -2,5 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-fs/afpfs-ng:fuse - Support for the FUSE filesystem.
 www-apache/mod_auth_mellon:diagnostics - Enable ability to collect diagnostics
