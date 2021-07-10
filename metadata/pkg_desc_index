@@ -74,7 +74,6 @@ dev-ruby/calendar_helper 0.2.6 0.2.6-r1: A simple helper for creating an HTML ca
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.1 0.5.2: Code analyzer helps you build your own code analyzer tool.
-dev-ruby/compass-rails 3.1.0 4.0.0: A Rails adapter for the Compass Stylesheet Authoring Framework
 dev-ruby/cookies_eu 1.7.6 1.7.7: Displays a cookie consent
 dev-ruby/debride 1.8.2: Analyze code for potentially uncalled / dead methods
 dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inheritance and refining
@@ -217,7 +216,7 @@ net-analyzer/ssh-audit 2.1.1 2.2.0 2.3.1 2.4.0: SSH server auditing (banner, key
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
-sys-fs/zfstools 0.3.6: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
+sys-fs/zfstools 0.3.6 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.16.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
 www-servers/adsf-live 1.4.1 1.4.2 1.4.3: Automatically reloads when changes are detected
