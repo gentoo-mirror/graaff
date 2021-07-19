@@ -1,0 +1,15 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-emacs/dash-2.12.1
+DESCRIPTION=On the fly syntax checking for GNU Emacs
+EAPI=7
+HOMEPAGE=https://github.com/flycheck/flycheck
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=app-emacs/dash-2.12.1 >=app-editors/emacs-23.1:*
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/flycheck/flycheck/archive/21d52264aa80bfa4ede94c59e37a20fb6d033b0c.tar.gz -> flycheck-31_p20210708.tar.gz
+_eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	b165dc0288d12ab26e86f41c56f03914
+_md5_=8046ee4efed02141512db7b19d4afd97
