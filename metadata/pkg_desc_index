@@ -161,7 +161,7 @@ dev-ruby/roo 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.0.0-r1 5.1.0-r1 6.0.0 6.1.0 6.2.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.15.0 1.16.1 1.17.0 1.18.1 1.18.2 1.18.3: A Ruby static code analyzer
+dev-ruby/rubocop 1.15.0 1.16.1 1.17.0 1.18.1 1.18.2 1.18.3 1.18.4: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.8.0 1.4.1 1.5.0 1.6.0 1.7.0 1.8.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.10.2 1.11.1 1.11.2 1.11.3 1.11.4: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.9.1 2.10.1 2.11.1 2.11.2 2.11.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -182,7 +182,7 @@ dev-ruby/site_prism 3.4.2 3.4.2-r1 3.7 3.7.1: A simple, clean and semantic DSL f
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.15.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.42.3 0.42.3-r1 0.42.4: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.42.3 0.42.3-r1 0.42.4 0.43.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
