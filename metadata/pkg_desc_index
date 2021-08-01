@@ -74,7 +74,7 @@ dev-ruby/calendar_helper 0.2.6 0.2.6-r1: A simple helper for creating an HTML ca
 dev-ruby/case_transform 0.2: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.1 0.5.2: Code analyzer helps you build your own code analyzer tool.
-dev-ruby/cookies_eu 1.7.6 1.7.7: Displays a cookie consent
+dev-ruby/cookies_eu 1.7.6 1.7.7 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.8.2: Analyze code for potentially uncalled / dead methods
 dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inheritance and refining
 dev-ruby/declarative_authorization 0.5.7: Plugin that offers an authorization mechanism inspired by RBAC.
