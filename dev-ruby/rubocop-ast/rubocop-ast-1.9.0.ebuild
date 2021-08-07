@@ -1,8 +1,8 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+EAPI=8
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -22,13 +22,13 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-2.7.1.5
+	>=dev-ruby/parser-3.0.1.1
 "
 
 ruby_add_bdepend "dev-ruby/bundler dev-ruby/oedipus_lex dev-ruby/racc"
 
 all_ruby_prepare() {
-	sed -i -e '3irequire "uri"' spec/spec_helper.rb || die
+	sed -i -e '3irequire "uri" ; gem "parser"' spec/spec_helper.rb || die
 	sed -i -e '1irequire "oedipus_lex"' tasks/compile.rake || die
 
 	# Avoid unneeded dependencies
