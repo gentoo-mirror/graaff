@@ -49,7 +49,7 @@ all_ruby_prepare() {
 	sed -i -e '/pry/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	sed -i -e '/bundler/ s:^:#:' spec/spec_helper.rb || die
-	rm -f spec/api_map/bundler_methods_spec.rb spec/yard_map_spec.rb|| die
+	rm -f spec/api_map/bundler_methods_spec.rb spec/{documentor,yard_map}_spec.rb|| die
 
 	sed -i -e '/ignores undefined method calls from external sources/askip "Does not work with Gentoo installed package"' spec/type_checker/levels/strict_spec.rb || die
 }
