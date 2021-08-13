@@ -2,13 +2,13 @@ BDEPEND=>=app-editors/emacs-23.1:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DEPEND=>=app-emacs/s-1.12.0 >=app-emacs/dash-2.13.0
 DESCRIPTION=A major mode for editing Groovy
-EAPI=7
-HOMEPAGE=https://github.com/russel/groovy-emacs-modes
+EAPI=8
+HOMEPAGE=https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes
 INHERIT=elisp
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
-SRC_URI=https://github.com/russel/groovy-emacs-modes/archive/aa531c659758b896ff8fbd307080ce0d1d04ebfb.tar.gz -> groovy-mode-1.0.2_p20190408.tar.gz
+SRC_URI=https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes/archive/99eaf70720e4a6337fbd5acb68ae45cc1779bdc4.tar.gz -> groovy-mode-2.0_p20210510.tar.gz
 _eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	b165dc0288d12ab26e86f41c56f03914
-_md5_=cc02d81fc26892616f27394d7832d5f4
+_md5_=51b9f492790f4aaa54429d7075ca17f2
