@@ -22,7 +22,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	>=dev-ruby/erubis-2.6
-	>=dev-ruby/haml-5.1:5 =dev-ruby/haml-5.1*
+	>=dev-ruby/haml-5.1:5
 	dev-ruby/highline:2
 	>=dev-ruby/parallel-1.20:1
 	dev-ruby/rexml
