@@ -30,7 +30,7 @@ app-emacs/rg-el 1.8.1 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing CoffeeScript
 app-emacs/spinner 1.7.3: Emacs mode-line spinner for operations in progress
 app-emacs/web-mode 16 17: web template editing mode for emacs
-app-forensics/brakeman 4.9.1 4.10.1 5.0.0 5.0.4 5.1.1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 4.10.1 5.0.4 5.1.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -163,7 +163,7 @@ dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and A
 dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.15.0 1.16.1 1.17.0 1.18.4 1.19.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 0.8.0 1.7.0 1.8.0 1.9.0 1.9.1 1.10.0: RuboCop's Node and NodePattern classes
-dev-ruby/rubocop-performance 1.10.2 1.11.1 1.11.2 1.11.3 1.11.4: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.10.2 1.11.4 1.11.5: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.9.1 2.10.1 2.11.1 2.11.2 2.11.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.1.0 2.2.0 2.3.0 2.4.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.12.2: A library for implementing the client side of a SAML authorization
