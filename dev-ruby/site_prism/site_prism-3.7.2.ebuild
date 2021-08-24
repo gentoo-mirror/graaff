@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+EAPI=8
+USE_RUBY="ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="HACKING.md README.md UPGRADING.md"
 
@@ -31,6 +31,5 @@ all_ruby_prepare() {
 	# Version does not get autoloaded.
 	sed -i -e '3irequire "site_prism/version"' spec/site_prism/version_spec.rb || die
 
-	# Fix version number in gemspec
-	sed -i -e 's/3.4.1/'${PV}'/' lib/site_prism/version.rb || die
+	sed -i -e '/simplecov/ s:^:#:' spec/spec_helper.rb || die
 }
