@@ -1,7 +1,7 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 USE_RUBY="ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -54,5 +54,5 @@ all_ruby_prepare() {
 		-i spec/rubocop/cop/team_spec.rb || die
 
 	# Fix broken changelog (as per specs), already fixed upstream
-	echo "#\n" > CHANGELOG.md || die
+	#echo "#\n" > CHANGELOG.md || die
 }
