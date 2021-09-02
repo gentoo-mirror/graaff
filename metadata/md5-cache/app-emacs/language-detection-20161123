@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/andreasjansson/language-detection.el/archive/54a6ecf55304fba7d215ef38a4ec96daff2f35a4.tar.gz -> language-detection-20161123.tar.gz
-_eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	b165dc0288d12ab26e86f41c56f03914
+_eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	532fa549a4f54b2a3f83b827b272a4a9
 _md5_=b8c606f3a0d3866c482fb36d18cac4b1
