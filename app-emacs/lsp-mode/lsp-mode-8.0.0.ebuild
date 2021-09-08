@@ -30,3 +30,10 @@ DEPEND=${RDEPEND}
 
 # Requires unpackaged dependencies, e.g. Cask
 RESTRICT="test"
+
+src_install() {
+	elisp_src_install
+
+	elisp-install ${PN}/clients clients/*
+}
+
