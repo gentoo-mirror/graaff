@@ -19,8 +19,8 @@ app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
 app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
-app-emacs/lsp-mode 7.0.1: Emacs client/library for the Language Server Protocol
-app-emacs/lsp-ui 7.0.1: UI modules for lsp-mode
+app-emacs/lsp-mode 7.0.1 8.0.0: Emacs client/library for the Language Server Protocol
+app-emacs/lsp-ui 7.0.1 8.0.0: UI modules for lsp-mode
 app-emacs/lv 0.15.0: Other echo area
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
@@ -166,7 +166,7 @@ dev-ruby/rubocop-ast 0.8.0 1.7.0 1.8.0 1.9.0 1.9.1 1.10.0 1.11.0: RuboCop's Node
 dev-ruby/rubocop-performance 1.10.2 1.11.4 1.11.5: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.9.1 2.10.1 2.11.1 2.11.2 2.11.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.1.0 2.2.0 2.3.0 2.4.0: Code style checking for RSpec files
-dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.12.2 1.13.0: A library for implementing the client side of a SAML authorization
+dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.13.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassc-rails 2.0.0 2.1.0 2.1.1 2.1.2: Integrate SassC-Ruby with Rails
