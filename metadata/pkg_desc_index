@@ -61,7 +61,7 @@ dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1: A performance benchmarking library
 dev-ruby/benchmark-ips 2.8.3 2.8.4: A iterations per second enhancement to Benchmark
-dev-ruby/better_errors 2.7.1 2.8.3 2.9.0 2.9.1: Provides a better error page for Rails and other Rack apps
+dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16: Better HTML for Rails
 dev-ruby/bootsnap 1.7.2 1.7.3 1.7.4 1.7.5: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.5.3 4.6.0 5.0.0 5.0.1 5.1.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
@@ -174,7 +174,7 @@ dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
-dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2: Security related headers all in one gem
+dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2: A simple, clean and semantic DSL for describing your site with Page Object Model
@@ -192,7 +192,7 @@ dev-ruby/terser 1.1.1 1.1.2 1.1.3 1.1.4 1.1.5: Terser minifies JavaScript files 
 dev-ruby/thinking-sphinx 4.4.1 5.0.0 5.1.0 5.2.0 5.2.1 5.3.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.2 2.1.3 2.1.4 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 5.6.2.1 5.7.1 5.8.2 5.9.0 5.9.1: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 5.6.2.1 5.7.1 5.8.2 5.9.0 5.9.1 5.9.2: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103 5.20200505: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.4 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
