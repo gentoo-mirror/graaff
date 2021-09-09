@@ -36,4 +36,3 @@ src_install() {
 
 	elisp-install ${PN}/clients clients/*
 }
-
