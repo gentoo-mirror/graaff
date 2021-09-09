@@ -12,4 +12,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/emacs-lsp/lsp-mode/archive/8.0.0.tar.gz -> lsp-mode-8.0.0.tar.gz
 _eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	532fa549a4f54b2a3f83b827b272a4a9
-_md5_=538c5650a051dd135ba92c0f5719e585
+_md5_=6f56da1e4b054b9f0dc216b3f9078d9d
