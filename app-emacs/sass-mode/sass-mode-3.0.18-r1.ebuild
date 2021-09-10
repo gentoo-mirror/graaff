@@ -7,7 +7,7 @@ inherit elisp
 
 IUSE=""
 
-DESCRIPTION="A major mode for editing CoffeeScript"
+DESCRIPTION="A major mode for editing Sass"
 HOMEPAGE="https://github.com/nex3/sass-mode"
 SRC_URI="https://github.com/nex3/sass-mode/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
