@@ -1,7 +1,7 @@
 BDEPEND=>=app-editors/emacs-23.1:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DEPEND=>=app-emacs/haml-mode-3.0.15
-DESCRIPTION=A major mode for editing CoffeeScript
+DESCRIPTION=A major mode for editing Sass
 EAPI=7
 HOMEPAGE=https://github.com/nex3/sass-mode
 INHERIT=elisp
@@ -11,4 +11,4 @@ RDEPEND=>=app-emacs/haml-mode-3.0.15 >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/nex3/sass-mode/archive/3.0.18.tar.gz -> sass-mode-3.0.18.tar.gz
 _eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	532fa549a4f54b2a3f83b827b272a4a9
-_md5_=c808dfdc03a45217de501dc5d798e93f
+_md5_=0129aa44091ae59cf4431f4b0f085f4b

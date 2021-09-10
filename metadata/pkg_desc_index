@@ -1,35 +1,35 @@
-app-emacs/ac-etags 0.06: etags/ctags completion source for auto-complete
-app-emacs/avy 0.4.0 0.5.0: Jump to things in Emacs tree-style
+app-emacs/ac-etags 0.06-r1: etags/ctags completion source for auto-complete
+app-emacs/avy 0.5.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3.20200315: A major mode for editing CoffeeScript
-app-emacs/cucumber-el 0.20190801: A major mode for editing Cucumber stories.
-app-emacs/dockerfile-mode 1.4: A major mode for editing Dockerfiles
+app-emacs/cucumber-el 0.20190801 0.20200815: A major mode for editing Cucumber stories.
+app-emacs/dockerfile-mode 1.4 1.5: A major mode for editing Dockerfiles
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
-app-emacs/elm-mode 0.20.3_p20191125 0.21.0: Emacs major mode for elm
-app-emacs/emacs-async 1.9.2 1.9.4: Simple library for asynchronous processing in Emacs
-app-emacs/enh-ruby-mode 20191111 20210124: Major mode for editing Ruby files
-app-emacs/flycheck 31 31_p20200610 31_p20210321 31_p20210708: On the fly syntax checking for GNU Emacs
-app-emacs/groovy-mode 1.0.2_p20191001 1.0.2_p20191031 2.0_p20210510: A major mode for editing Groovy
+app-emacs/elm-mode 0.21.0: Emacs major mode for elm
+app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
+app-emacs/enh-ruby-mode 20210124: Major mode for editing Ruby files
+app-emacs/flycheck 31_p20210321 31_p20210708: On the fly syntax checking for GNU Emacs
+app-emacs/groovy-mode 1.0.2_p20191031 2.0_p20210510: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
-app-emacs/hcl-mode 0.03 0.03_p20200315 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
+app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/ht 2.3: The missing hash table library for Emacs
-app-emacs/imenu-list 0.8: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
+app-emacs/imenu-list 0.8 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
 app-emacs/json-mode 1.7.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
-app-emacs/let-alist 1.0.5: Easily let-bind values of an assoc-list by their names
+app-emacs/let-alist 1.0.5 1.0.6: Easily let-bind values of an assoc-list by their names
 app-emacs/lsp-mode 7.0.1 8.0.0: Emacs client/library for the Language Server Protocol
 app-emacs/lsp-ui 7.0.1 8.0.0: UI modules for lsp-mode
 app-emacs/lv 0.15.0: Other echo area
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/pivotal-tracker 0.20170720: Emacs client for Pivotal Tracker
-app-emacs/reformatter 0.4 0.5: Define commands which run reformatters on the current buffer
+app-emacs/reformatter 0.5 0.6: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
-app-emacs/rg-el 1.8.1 2.0.3 2.1.0: Emacs search tool based on ripgrep
-app-emacs/sass-mode 3.0.18-r1: A major mode for editing CoffeeScript
-app-emacs/spinner 1.7.3: Emacs mode-line spinner for operations in progress
-app-emacs/web-mode 16 17: web template editing mode for emacs
+app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
+app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
+app-emacs/spinner 1.7.3 1.7.4: Emacs mode-line spinner for operations in progress
+app-emacs/web-mode 17: web template editing mode for emacs
 app-forensics/brakeman 4.10.1 5.0.4 5.1.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format

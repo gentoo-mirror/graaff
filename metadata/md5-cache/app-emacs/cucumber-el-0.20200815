@@ -1,0 +1,15 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=test? ( dev-ruby/bundler )
+DESCRIPTION=A major mode for editing Cucumber stories.
+EAPI=8
+HOMEPAGE=https://github.com/michaelklishin/cucumber.el
+INHERIT=elisp
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=dev-ruby/ruby_parser >=dev-util/cucumber-4.1.0 >=dev-util/cucumber-gherkin-14.0.1 >=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/michaelklishin/cucumber.el/archive/8e1464113b489b54067294cd988ff6a11a423fdb.tar.gz -> cucumber-el-0.20200815-git.tgz
+_eclasses_=elisp-common	cf4fd1b0835b9f3e638724840468064a	elisp	532fa549a4f54b2a3f83b827b272a4a9
+_md5_=104b8787b012787c473a204c61b07c45
