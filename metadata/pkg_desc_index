@@ -173,7 +173,7 @@ dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and incl
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
-dev-ruby/smart_properties 1.15.0 1.16.0 1.16.2: A more flexible and feature-rich alternative to traditional Ruby accessors
+dev-ruby/smart_properties 1.15.0 1.16.0 1.16.2 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/solargraph 0.42.3 0.42.3-r1 0.42.4 0.43.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1 1.0.1-r1: cucumber command for spring
