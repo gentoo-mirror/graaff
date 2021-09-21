@@ -55,8 +55,8 @@ dev-ruby/appsignal 2.11.9 2.11.9-r1 3.0.9 3.0.12 3.0.13: The official appsignal.
 dev-ruby/atlassian-jwt 0.2.0 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 5.1.0 5.2.0 6.4.1: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
-dev-ruby/axe-core-api 4.1.0 4.2.0 4.2.1: Provides a collection of methods which interface as an API for Axe
-dev-ruby/axe-core-cucumber 4.1.0 4.2.0 4.2.1: Cucumber step definitions for Axe
+dev-ruby/axe-core-api 4.1.0 4.2.0 4.2.1 4.3.0: Provides a collection of methods which interface as an API for Axe
+dev-ruby/axe-core-cucumber 4.1.0 4.2.0 4.2.1 4.3.0: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1: A performance benchmarking library
@@ -171,11 +171,11 @@ dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
-dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2: A simple, clean and semantic DSL for describing your site with Page Object Model
+dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.15.0 1.16.0 1.16.2 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.42.3 0.42.3-r1 0.42.4 0.43.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.42.4 0.43.0 0.43.1: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
