@@ -15,7 +15,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="yardoc"
 inherit ruby-fakegem
 
 DESCRIPTION="IDE tools for code completion, inline documentation, and static analysis"
-HOMEPAGE="http://solargraph.org/"
+HOMEPAGE="https://solargraph.org/"
 SRC_URI="https://github.com/castwide/solargraph/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
@@ -49,5 +49,15 @@ all_ruby_prepare() {
 	sed -i -e '/pry/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	sed -i -e '/bundler/ s:^:#:' spec/spec_helper.rb || die
-	rm -f spec/api_map/bundler_methods_spec.rb spec/yard_map_spec.rb|| die
+	rm -f spec/api_map/bundler_methods_spec.rb spec/{documentor,yard_map}_spec.rb|| die
+
+	sed -i -e '/ignores undefined method calls from external sources/askip "Does not work with Gentoo installed package"' spec/type_checker/levels/strict_spec.rb || die
+}
+
+each_ruby_test() {
+	each_fakegem_test
+
+	# Remove cached gem installs in homedir since they will cause the
+	# next run to fail.
+	rm -rf "${HOME}/.local/share/gem" || die
 }
