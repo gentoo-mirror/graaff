@@ -133,7 +133,7 @@ dev-ruby/pipedrive-ruby 0.3.3-r1 0.3.3-r2: Ruby wrapper for the LinkedIn API
 dev-ruby/pivotal-tracker 0.5.13: Ruby gem that provides an AR-style interface for the Pivotal Tracker API.
 dev-ruby/popper_js 1.16.0 2.8.6 2.9.2 2.9.3: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
-dev-ruby/premailer 1.13.1 1.14.1 1.14.2: Improve the rendering of HTML emails
+dev-ruby/premailer 1.14.2 1.14.3: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
