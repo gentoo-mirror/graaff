@@ -1,10 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby24 ruby25 ruby26"
+USE_RUBY="ruby26 ruby27"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="ChangeLog.md README.md"
 
 RUBY_FAKEGEM_GEMSPEC="sneakers.gemspec"
@@ -30,7 +29,7 @@ ruby_add_rdepend "
 "
 
 ruby_add_bdepend "test? (
-	dev-ruby/rr
+	=dev-ruby/rr-1*
 )"
 
 all_ruby_prepare() {
