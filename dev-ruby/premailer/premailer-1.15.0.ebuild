@@ -25,10 +25,11 @@ ruby_add_rdepend "
 	dev-ruby/addressable
 	>=dev-ruby/css_parser-1.6.0
 	>=dev-ruby/htmlentities-4.0.0
+	dev-ruby/nokogiri
 "
 
 ruby_add_bdepend "
-	test? ( dev-ruby/nokogiri dev-ruby/maxitest dev-ruby/webmock )
+	test? ( dev-ruby/maxitest dev-ruby/webmock )
 "
 
 all_ruby_prepare() {
