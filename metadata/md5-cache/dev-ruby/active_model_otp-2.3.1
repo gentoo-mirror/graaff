@@ -2,7 +2,7 @@ BDEPEND=test? ( ruby_targets_ruby26? ( dev-ruby/activemodel:*[ruby_targets_ruby2
 DEFINED_PHASES=compile configure install prepare setup test unpack
 DEPEND=ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] )
 DESCRIPTION=Adds methods to set and authenticate against one time passwords
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/heapsource/active_model_otp
 INHERIT=ruby-fakegem
 IUSE=test ruby_targets_ruby26 ruby_targets_ruby27 doc test test
@@ -12,6 +12,6 @@ RDEPEND=ruby_targets_ruby26? ( dev-ruby/activemodel:*[ruby_targets_ruby26(-)] =d
 REQUIRED_USE=|| ( ruby_targets_ruby26 ruby_targets_ruby27 )
 RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=2
-SRC_URI=https://github.com/heapsource/active_model_otp/archive/v2.1.1.tar.gz -> active_model_otp-2.1.1.tar.gz
+SRC_URI=https://github.com/heapsource/active_model_otp/archive/v2.3.1.tar.gz -> active_model_otp-2.3.1.tar.gz
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	ruby-utils	08ae6f9c60b19aabce3f66a30cce9a2d	ruby-ng	b3936ca28790633a9d3e5dd891ac9ae6	ruby-fakegem	78af56c35604aab62ec93223e5654246
-_md5_=4c53941c7a36b52b7689958a30a3a195
+_md5_=17a5c32b4218f8ff62339a57d2e967a2
