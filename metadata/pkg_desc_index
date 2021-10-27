@@ -44,7 +44,7 @@ dev-python/django-evolution 2.1: A database schema evolution tool for the Django
 dev-ruby/PoParser 3.2.4 3.2.5: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
-dev-ruby/active_model_serializers 0.8.3 0.8.3-r1 0.10.10 0.10.12: Making it easy to serialize models for client-side use
+dev-ruby/active_model_serializers 0.8.3 0.8.3-r1 0.8.4 0.10.10 0.10.12: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.4 0.9.5: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 1.1.3 2.0.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.5.0 7.0.0 8.0.0 8.1.0: Advanced tagging for Rails.
@@ -96,16 +96,16 @@ dev-ruby/global_phone 1.0.1 1.0.1-r1: Parses, validates, and formats local and i
 dev-ruby/global_phone_dbgen 1.0.0-r1: Parses, validates, and formats local and international phone numbers
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
-dev-ruby/html_tokenizer 0.0.7 0.0.7-r1: HTML Tokenizer
+dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
 dev-ruby/icalendar 2.7.1: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
 dev-ruby/iniparse 1.4.4 1.5.0: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.3.8.0: A templating language that converts simple HTML into responsive email-ready HTML
-dev-ruby/innertube 1.1.0 1.1.0-r1: A thread-safe resource pool, originally borne in riak-client (Ripple)
+dev-ruby/innertube 1.1.0-r1: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 1.1.0 2.0.0: Unobtrusive, flexible and simple spam protection for Rails applications
-dev-ruby/isolate 3.3.1 3.4.0 3.5.0: Isolate is a very simple RubyGems sandbox.
+dev-ruby/isolate 3.5.0: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.1 1.5.4 1.5.4-r1: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/joiner 0.4.2 0.5.0 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0: A simple, lightweight JavaScript API for handling cookies
@@ -145,7 +145,7 @@ dev-ruby/rchardet19 1.3.7: A character encoding detection library for ruby.
 dev-ruby/recaptcha 5.5.0 5.6.0 5.8.1: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.1 1.0.1-r1: ActionView Record Tag Helpers
 dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/request-log-analyzer 1.13.4: This is a simple command line tool to analyze request log files.
+dev-ruby/request-log-analyzer 1.13.4 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0: Map simple html back into markdown
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
@@ -165,7 +165,7 @@ dev-ruby/sass-globbing 1.1.5: Allows you to import many sass or scss files in a 
 dev-ruby/sassy-maps 0.4.0: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
-dev-ruby/scrypt 3.0.6 3.0.7: Scrypt password hashing algorithm
+dev-ruby/scrypt 3.0.7: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
@@ -182,7 +182,7 @@ dev-ruby/susy 2.2.14: A semantic CSS grid system with a responsive twist
 dev-ruby/terser 1.1.5 1.1.6 1.1.7: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 4.4.1 5.0.0 5.1.0 5.2.0 5.2.1 5.3.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
-dev-ruby/tiny_tds 2.1.2 2.1.3 2.1.4 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
+dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 5.6.2.1 5.7.1 5.8.2 5.9.0 5.9.1 5.9.2 5.10.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 4.20180103 5.20200505: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.4 0.0.5: Plot your data by Unicode characters
