@@ -30,7 +30,7 @@ app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/spinner 1.7.3 1.7.4: Emacs mode-line spinner for operations in progress
 app-emacs/web-mode 17: web template editing mode for emacs
-app-forensics/brakeman 5.1.1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 5.1.1 5.1.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -153,7 +153,7 @@ dev-ruby/roda 3.36.0 3.41.0 3.45.0 3.47.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.0.0-r1 5.1.0-r1 6.0.0 6.1.0 6.2.0: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
-dev-ruby/rspec_multi_matchers 1.2.1: test collection using each or other enumerable methods
+dev-ruby/rspec_multi_matchers 1.2.1 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.20.0 1.21.0 1.22.0 1.22.1 1.22.3: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.9.0 1.9.1 1.10.0 1.11.0 1.12.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.10.2 1.11.4 1.11.5: A collection of RuboCop cops to check for performance optimizations in Ruby code
