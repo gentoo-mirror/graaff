@@ -58,7 +58,7 @@ dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenI
 dev-ruby/axe-core-api 4.1.0 4.2.0 4.2.1 4.3.0 4.3.1 4.3.2: Provides a collection of methods which interface as an API for Axe
 dev-ruby/axe-core-cucumber 4.1.0 4.2.0 4.2.1 4.3.0 4.3.1 4.3.2: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
-dev-ruby/backticks 1.0.2: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
+dev-ruby/backticks 1.0.2-r1: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1: A performance benchmarking library
 dev-ruby/benchmark-ips 2.8.3 2.8.4 2.9.1: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
@@ -147,7 +147,7 @@ dev-ruby/record_tag_helper 1.0.1 1.0.1-r1: ActionView Record Tag Helpers
 dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
-dev-ruby/reverse_markdown 2.0.0: Map simple html back into markdown
+dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
 dev-ruby/riddle 2.3.2 2.4.0 2.4.1 2.4.2: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.36.0 3.41.0 3.45.0 3.47.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3: Access the contents of various spreadsheet files.
