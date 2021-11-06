@@ -29,6 +29,7 @@ app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/spinner 1.7.3 1.7.4: Emacs mode-line spinner for operations in progress
+app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/web-mode 17: web template editing mode for emacs
 app-forensics/brakeman 5.1.1 5.1.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
@@ -44,7 +45,7 @@ dev-python/django-evolution 2.1: A database schema evolution tool for the Django
 dev-ruby/PoParser 3.2.4 3.2.5: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
-dev-ruby/active_model_serializers 0.8.3 0.8.3-r1 0.8.4 0.10.10 0.10.12: Making it easy to serialize models for client-side use
+dev-ruby/active_model_serializers 0.8.4 0.10.12: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.4 0.9.5: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 1.1.3 2.0.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.5.0 7.0.0 8.0.0 8.1.0: Advanced tagging for Rails.
@@ -64,7 +65,7 @@ dev-ruby/benchmark-ips 2.8.3 2.8.4 2.9.1: A iterations per second enhancement to
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16: Better HTML for Rails
 dev-ruby/bootsnap 1.7.2 1.7.3 1.7.4 1.7.5: Boot large ruby/rails apps faster
-dev-ruby/bootstrap 4.5.3 4.6.0 5.0.0 5.0.1 5.1.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
+dev-ruby/bootstrap 4.5.3 4.6.0 4.6.1 5.0.0 5.0.1 5.1.0 5.1.3: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 4.5.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 2.7.1 3.0.3 4.2.0 5.0.0 5.1.0 5.2.0 5.3.1: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2 11.1.3: a Ruby 2 debugger
@@ -81,7 +82,7 @@ dev-ruby/diplomat 2.5.1 2.6.0: A simple wrapper for Consul
 dev-ruby/draper 3.1.0 4.0.0 4.0.1 4.0.2: View Models for Rails
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0: Module for defining custom exceptions with specific messages
-dev-ruby/enumerable-statistics 2.0.3-r1 2.0.7: This library provides statistics features for Enumerable
+dev-ruby/enumerable-statistics 2.0.7: This library provides statistics features for Enumerable
 dev-ruby/erb_lint 0.0.37 0.1.0 0.1.1: ERB Linter tool
 dev-ruby/exception_notification 4.3.0 4.4.3: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r1 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
@@ -92,7 +93,7 @@ dev-ruby/foundation_emails 2.2.1.0 2.2.1.0-r1: A framework for creating responsi
 dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/git-pivotal-tracker-integration 1.4.0: A set of Git commands to help developers when working with Pivotal Tracker
 dev-ruby/gli 2.18.2 2.19.2: Git-Like Interface Command Line Parser
-dev-ruby/global_phone 1.0.1 1.0.1-r1: Parses, validates, and formats local and international phone numbers
+dev-ruby/global_phone 1.0.1-r1: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r1: Parses, validates, and formats local and international phone numbers
 dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
@@ -206,7 +207,7 @@ net-analyzer/ssh-audit 2.1.1 2.2.0 2.3.1 2.4.0: SSH server auditing (banner, key
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
-sys-fs/zfstools 0.3.6 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
+sys-fs/zfstools 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.16.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
 www-servers/adsf-live 1.4.3: Automatically reloads when changes are detected
