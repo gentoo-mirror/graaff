@@ -131,7 +131,6 @@ dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.14.2 1.14.3 1.15.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
-dev-ruby/rack-coffee 1.0.3: Rack Middlware for compiling and serving .coffee files
 dev-ruby/rack-livereload 0.3.17: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-proxy 0.6.5 0.7.0: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
@@ -167,9 +166,9 @@ dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and incl
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
-dev-ruby/smart_properties 1.15.0 1.16.0 1.16.2 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
+dev-ruby/smart_properties 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.42.4 0.43.3 0.44.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.42.4 0.43.3 0.44.0 0.44.1: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
