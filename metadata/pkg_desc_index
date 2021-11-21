@@ -57,7 +57,7 @@ dev-ruby/axe-core-api 4.1.0 4.2.0 4.2.1 4.3.0 4.3.1 4.3.2: Provides a collection
 dev-ruby/axe-core-cucumber 4.1.0 4.2.0 4.2.1 4.3.0 4.3.1 4.3.2: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
-dev-ruby/benchmark 0.1.1: A performance benchmarking library
+dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
 dev-ruby/benchmark-ips 2.8.3 2.8.4 2.9.1: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16: Better HTML for Rails
@@ -91,7 +91,6 @@ dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7: Get memory usage of a pr
 dev-ruby/gli 2.18.2 2.19.2: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r1: Parses, validates, and formats local and international phone numbers
-dev-ruby/gyoku 1.3.1: Translates Ruby Hashes to XML
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
 dev-ruby/icalendar 2.7.1: This library provides iCalendar support for ruby. (RFC-2445)
