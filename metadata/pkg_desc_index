@@ -58,7 +58,7 @@ dev-ruby/axe-core-cucumber 4.1.0 4.2.0 4.2.1 4.3.0 4.3.1 4.3.2: Cucumber step de
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
-dev-ruby/benchmark-ips 2.8.3 2.8.4 2.9.1: A iterations per second enhancement to Benchmark
+dev-ruby/benchmark-ips 2.8.3 2.8.4 2.9.1 2.9.2: A iterations per second enhancement to Benchmark
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16: Better HTML for Rails
 dev-ruby/bootsnap 1.7.5 1.9.1: Boot large ruby/rails apps faster
