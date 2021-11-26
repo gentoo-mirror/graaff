@@ -114,7 +114,7 @@ dev-ruby/memory_profiler 0.9.13 0.9.14 1.0.0: Memory profiling routines for Ruby
 dev-ruby/microsoft_graph 0.1.3-r1: Ruby SDK for Microsoft Graph
 dev-ruby/mini_portile2 2.6.1 2.7.0: Simplistic port-like solution for developers
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
-dev-ruby/mixlib-cli 2.0.6 2.1.1 2.1.5 2.1.6 2.1.8: A simple mixin for CLI interfaces, including option parsing
+dev-ruby/mixlib-cli 2.1.6 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.9: A class based configuration library
 dev-ruby/money 6.13.8 6.16.0: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2-r1: A Rails gem for conveniently manage multiple nested models in a single form.
@@ -158,7 +158,7 @@ dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in
 dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
-dev-ruby/scrypt 3.0.7 3.0.7-r1: Scrypt password hashing algorithm
+dev-ruby/scrypt 3.0.7 3.0.7-r1 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
