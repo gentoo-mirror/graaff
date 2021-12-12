@@ -34,12 +34,12 @@ app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType 
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406-r1: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-haskell/language-docker 9.1.2 10.0.0: Dockerfile parser, pretty-printer and embedded DSL
-dev-libs/lasso 2.6.0: C library aiming to implement the Liberty Alliance standards
+dev-libs/lasso 2.6.0 2.7.0: C library aiming to implement the Liberty Alliance standards
 dev-python/django 1.11.29: High-level Python web framework
 dev-python/django-braces 1.13.0: Reusable, generic mixins for Django
 dev-python/django-cors-headers 1.1.0: Django app for handling the server headers required for CORS
 dev-python/django-evolution 2.1: A database schema evolution tool for the Django web framework
-dev-ruby/PoParser 3.2.4 3.2.5: A PO file parser, editor and generator
+dev-ruby/PoParser 3.2.5: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.12: Making it easy to serialize models for client-side use
@@ -161,7 +161,7 @@ dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warsh
 dev-ruby/scrypt 3.0.7 3.0.7-r1 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
-dev-ruby/simple_po_parser 1.1.5: A simple PO file to ruby hash parser
+dev-ruby/simple_po_parser 1.1.5 1.1.5-r1: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
@@ -200,6 +200,6 @@ net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based On
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
-www-apache/mod_auth_mellon 0.16.0: An Apache module with a simple SAML 2.0 service provider
+www-apache/mod_auth_mellon 0.16.0 0.18.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
 www-servers/adsf-live 1.4.3: Automatically reloads when changes are detected
