@@ -28,7 +28,7 @@ app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/web-mode 17: web template editing mode for emacs
-app-forensics/brakeman 5.1.1 5.1.2: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 5.1.1 5.1.2 5.2.0: Static analysis tool which checks RoR applications for security vulnerabilities
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -164,7 +164,7 @@ dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and incl
 dev-ruby/simple_po_parser 1.1.5 1.1.5-r1: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
-dev-ruby/smart_properties 1.16.3: A more flexible and feature-rich alternative to traditional Ruby accessors
+dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/solargraph 0.42.4 0.43.3 0.44.0 0.44.1 0.44.2: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
@@ -195,7 +195,7 @@ net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for Rails server environments.
-net-analyzer/ssh-audit 2.1.1 2.2.0 2.3.1 2.4.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
+net-analyzer/ssh-audit 2.4.0 2.5.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
