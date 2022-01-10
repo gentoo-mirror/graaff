@@ -73,7 +73,7 @@ dev-ruby/code_analyzer 0.5.2: Code analyzer helps you build your own code analyz
 dev-ruby/cookies_eu 1.7.6 1.7.7 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.8.2: Analyze code for potentially uncalled / dead methods
 dev-ruby/declarative 0.0.10 0.0.20: DSL for nested generic schemas with inheritance and refining
-dev-ruby/deep_cloneable 3.0.0 3.1.0 3.2.0: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
+dev-ruby/deep_cloneable 3.0.0 3.1.0 3.2.0 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.2.0 3.3.0 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.5.1 2.6.0 2.6.1: A simple wrapper for Consul
 dev-ruby/draper 3.1.0 4.0.0 4.0.1 4.0.2: View Models for Rails
