@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION=0f40689
+AGENT_VERSION="15ee07b"
 
 inherit ruby-fakegem
 
