@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+EAPI=8
+USE_RUBY="ruby26 ruby27"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -11,6 +11,8 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 RUBY_FAKEGEM_EXTRAINSTALL="config"
 
 RUBY_FAKEGEM_GEMSPEC="rubocop-performance.gemspec"
+
+RUBY_FAKEGEM_BINWRAP=""
 
 inherit ruby-fakegem
 
@@ -24,6 +26,8 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-0.90.0
+	>=dev-ruby/rubocop-1.7.0:0
 	>=dev-ruby/rubocop-ast-0.4.0
 "
+
+ruby_add_bdepend "test? ( >=dev-ruby/rubocop-1.13.0 )"
