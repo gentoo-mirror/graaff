@@ -81,7 +81,7 @@ dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the 
 dev-ruby/e2mmap 0.1.0: Module for defining custom exceptions with specific messages
 dev-ruby/enumerable-statistics 2.0.7: This library provides statistics features for Enumerable
 dev-ruby/erb_lint 0.0.37 0.1.0 0.1.1: ERB Linter tool
-dev-ruby/exception_notification 4.3.0 4.4.3: Exception Notifier Plugin for Rails
+dev-ruby/exception_notification 4.3.0 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r1 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6: Fixes redirects to login pages when following links from a Microsoft application
