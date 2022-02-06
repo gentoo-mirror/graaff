@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+EAPI=8
+USE_RUBY="ruby26 ruby27"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -23,13 +23,13 @@ IUSE=""
 
 ruby_add_rdepend "
 	|| ( dev-ruby/faraday:1 >=dev-ruby/faraday-0.9:0 )
-	|| ( dev-ruby/hashie:4 >=dev-ruby/hashie-3.5.3:3 )
+	|| ( dev-ruby/hashie:5 dev-ruby/hashie:4 >=dev-ruby/hashie-3.5.3:3 )
 	dev-ruby/inflection
 	dev-ruby/mini_mime
 	=dev-ruby/multipart-post-2*
 "
 
-ruby_add_bdepend "test? ( dev-ruby/webmock )"
+ruby_add_bdepend "test? ( dev-ruby/vcr:6 dev-ruby/webmock )"
 
 all_ruby_prepare() {
 	# Avoid live specs that require a network and credentials
