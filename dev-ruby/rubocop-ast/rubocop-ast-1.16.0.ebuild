@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,7 +22,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-3.0.3.1
+	>=dev-ruby/parser-3.1.1.0
 "
 
 ruby_add_bdepend "dev-ruby/bundler >=dev-ruby/oedipus_lex-2.6.0 dev-ruby/racc dev-ruby/rspec:3"
