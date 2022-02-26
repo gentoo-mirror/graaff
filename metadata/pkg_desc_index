@@ -188,7 +188,7 @@ dev-vcs/overcommit 0.57.0 0.58.0: The Opinionated Git Hook Manager
 media-gfx/emulsion 9.0-r1: A fast and minimalistic image viewer
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
-net-analyzer/munin-mysql 0.20180523: Improved MySQL Graphs for Munin
+net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for Rails server environments.
 net-analyzer/ssh-audit 2.4.0 2.5.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
