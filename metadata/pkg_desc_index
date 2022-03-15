@@ -146,7 +146,7 @@ dev-ruby/rubocop-ast 1.13.0 1.15.2 1.16.0: RuboCop's Node and NodePattern classe
 dev-ruby/rubocop-performance 1.11.5 1.12.0 1.13.1 1.13.2 1.13.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.11.3 2.12.3 2.12.4 2.13.0 2.13.1 2.13.2 2.14.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0: Code style checking for RSpec files
-dev-ruby/ruby-saml 1.11.0 1.11.0-r1 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
+dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
