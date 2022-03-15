@@ -15,7 +15,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="A library for implementing the client side of a SAML authorization"
 HOMEPAGE="https://github.com/onelogin/ruby-saml"
-SRC_URI="https://github.com/onelogin/ruby-saml/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/onelogin/ruby-saml/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
