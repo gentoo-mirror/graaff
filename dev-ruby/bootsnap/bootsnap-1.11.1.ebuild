@@ -25,7 +25,7 @@ SLOT="1"
 IUSE=""
 
 ruby_add_rdepend "
-	dev-ruby/msgpack:0
+	>=dev-ruby/msgpack-1.2:0
 "
 
 ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/minitest:5 >=dev-ruby/mocha-1.2:1.0 )"
