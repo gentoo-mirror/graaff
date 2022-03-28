@@ -34,7 +34,7 @@ app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406-r1: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-haskell/language-docker 9.1.2 10.0.0: Dockerfile parser, pretty-printer and embedded DSL
 dev-libs/lasso 2.6.0 2.7.0: C library aiming to implement the Liberty Alliance standards
-dev-ruby/PoParser 3.2.5: A PO file parser, editor and generator
+dev-ruby/PoParser 3.2.5 3.2.6: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.12: Making it easy to serialize models for client-side use
