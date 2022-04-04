@@ -38,7 +38,7 @@ dev-ruby/PoParser 3.2.5 3.2.6: A PO file parser, editor and generator
 dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.12: Making it easy to serialize models for client-side use
-dev-ruby/active_storage_validations 0.9.4 0.9.5 0.9.6: Validations for Active Storage (presence)
+dev-ruby/active_storage_validations 0.9.6 0.9.7: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 1.1.3 2.0.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 6.5.0 7.0.0 8.0.0 8.1.0: Advanced tagging for Rails.
 dev-ruby/ancestry 3.2.1 4.0.0 4.1.0: Allows records to be organized in a tree structure
@@ -51,10 +51,10 @@ dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenI
 dev-ruby/axe-core-api 4.1.0 4.2.1 4.3.2 4.4.0: Provides a collection of methods which interface as an API for Axe
 dev-ruby/axe-core-cucumber 4.1.0 4.2.1 4.3.2 4.4.0: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
-dev-ruby/backticks 1.0.2-r1: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
+dev-ruby/backticks 1.0.2-r1 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
-dev-ruby/better_html 1.0.16: Better HTML for Rails
+dev-ruby/better_html 1.0.16 1.0.16-r1: Better HTML for Rails
 dev-ruby/bootsnap 1.9.4 1.10.3 1.11.1: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.5.3 4.6.0 4.6.1 5.0.0 5.0.1 5.1.0 5.1.3: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 4.5.0: A rails form builder to create forms using Bootstrap 4
@@ -74,7 +74,7 @@ dev-ruby/draper 3.1.0 4.0.0 4.0.1 4.0.2: View Models for Rails
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0: Module for defining custom exceptions with specific messages
 dev-ruby/enumerable-statistics 2.0.7: This library provides statistics features for Enumerable
-dev-ruby/erb_lint 0.0.37 0.1.0 0.1.1: ERB Linter tool
+dev-ruby/erb_lint 0.1.1: ERB Linter tool
 dev-ruby/exception_notification 4.3.0 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r1 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
@@ -125,7 +125,7 @@ dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Ac
 dev-ruby/rack-livereload 0.3.17: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-proxy 0.7.0 0.7.2: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
-dev-ruby/rails-controller-testing 1.0.4 1.0.5: Extracting assigns and assert_template from ActionDispatch
+dev-ruby/rails-controller-testing 1.0.5: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.20.0 1.21.0: a gem to check quality of rails app files
 dev-ruby/rchardet19 1.3.7: A character encoding detection library for ruby.
 dev-ruby/recaptcha 5.5.0 5.6.0 5.8.1: Adds helpers for the reCAPTCHA API
@@ -154,9 +154,9 @@ dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.7 3.0.7-r1 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
-dev-ruby/semantic_range 2.3.0 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
+dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5-r1 1.1.6: A simple PO file to ruby hash parser
-dev-ruby/site_prism 3.4.2-r1 3.7.1 3.7.2 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
+dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
