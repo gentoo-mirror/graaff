@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -27,7 +27,7 @@ ruby_add_rdepend "
 	>=dev-ruby/parallel-1.20:1
 	dev-ruby/rexml
 	>=dev-ruby/ruby2ruby-2.4.0 =dev-ruby/ruby2ruby-2.4*
-	>=dev-ruby/ruby_parser-3.18.0 =dev-ruby/ruby_parser-3*
+	>=dev-ruby/ruby_parser-3.19.0 =dev-ruby/ruby_parser-3*
 	>=dev-ruby/safe_yaml-1.0
 	>=dev-ruby/sexp_processor-4.7:4
 	>=dev-ruby/slim-1.3.6:*
