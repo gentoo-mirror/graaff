@@ -30,6 +30,6 @@ ruby_add_rdepend "
 	dev-ruby/concurrent-ruby:1
 "
 
-ruby_add_bdepend "test? (
-	dev-ruby/dry-types
-)"
+#ruby_add_bdepend "test? (
+#	dev-ruby/dry-types
+#)"
