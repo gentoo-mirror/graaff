@@ -175,7 +175,7 @@ dev-ruby/tinymce-rails 5.6.2.1 5.7.1 5.8.2 5.9.2 5.10.3 5.10.4 6.0.2: Integratio
 dev-ruby/tinymce-rails-langs 4.20180103 5.20200505 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.4 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
-dev-ruby/vault 0.13.0 0.14.0 0.15.0 0.16.0: A Ruby API client for interacting with a Vault server
+dev-ruby/vault 0.16.0 0.17.0: A Ruby API client for interacting with a Vault server
 dev-ruby/warning 1.2.1: Custom processing for warnings
 dev-ruby/webpacker 4.2.2 5.2.1 5.3.0 5.4.0 5.4.2 5.4.3: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r1 0.3.2-r2: Provides a dev bar and an overlay to visualize your UI's rendered partials
