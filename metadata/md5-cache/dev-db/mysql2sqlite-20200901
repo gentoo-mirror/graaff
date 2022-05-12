@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=virtual/awk
+DESCRIPTION=Converts MySQL dump to SQLite3 compatible dump
+EAPI=8
+HOMEPAGE=https://github.com/dumblob/mysql2sqlite
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=virtual/awk
+SLOT=0
+SRC_URI=https://github.com/dumblob/mysql2sqlite/archive/d14d22ad7029cdf4d11825ee3c96922e8fbb0122.tar.gz
+_md5_=7b851a1dd98e1bdc5709e6364fa4dda0
