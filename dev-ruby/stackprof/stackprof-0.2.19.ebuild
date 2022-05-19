@@ -5,6 +5,7 @@ EAPI=8
 USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
+RUBY_FAKEGEM_EXTENSIONS=(ext/stackprof/extconf.rb)
 
 inherit ruby-fakegem
 
