@@ -10,7 +10,7 @@ RUBY_FAKEGEM_EXTENSIONS=(ext/stackprof/extconf.rb)
 inherit ruby-fakegem
 
 DESCRIPTION="A fast sampling profiler for ruby code"
-HOMEPAGE="http://github.com/tmm1/stackprof"
+HOMEPAGE="https://github.com/tmm1/stackprof"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
