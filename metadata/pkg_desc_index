@@ -86,8 +86,8 @@ dev-ruby/font-awesome-sass 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails p
 dev-ruby/foundation_emails 2.2.1.0 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.18.2 2.19.2 2.21.0: Git-Like Interface Command Line Parser
-dev-ruby/global_phone 1.0.1-r1: Parses, validates, and formats local and international phone numbers
-dev-ruby/global_phone_dbgen 1.0.0-r1: Parses, validates, and formats local and international phone numbers
+dev-ruby/global_phone 1.0.1-r1 1.0.1.20151004: Parses, validates, and formats local and international phone numbers
+dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0.20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
 dev-ruby/icalendar 2.7.1: This library provides iCalendar support for ruby. (RFC-2445)
