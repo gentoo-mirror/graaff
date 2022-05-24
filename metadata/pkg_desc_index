@@ -1,14 +1,12 @@
 app-emacs/ac-etags 0.06-r1: etags/ctags completion source for auto-complete
 app-emacs/avy 0.5.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3.20200315: A major mode for editing CoffeeScript
-app-emacs/cucumber-el 0.20190801 0.20200815: A major mode for editing Cucumber stories.
-app-emacs/dockerfile-mode 1.4 1.5: A major mode for editing Dockerfiles
+app-emacs/cucumber-el 0.20200815: A major mode for editing Cucumber stories.
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
 app-emacs/elm-mode 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
-app-emacs/enh-ruby-mode 20210124: Major mode for editing Ruby files
-app-emacs/flycheck 31_p20210321 31_p20210708: On the fly syntax checking for GNU Emacs
-app-emacs/groovy-mode 1.0.2_p20191031 2.0_p20210510: A major mode for editing Groovy
+app-emacs/enh-ruby-mode 20210124 20220426: Major mode for editing Ruby files
+app-emacs/groovy-mode 2.0_p20210510: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.8 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
@@ -147,7 +145,7 @@ dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and A
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.24.1 1.25.1 1.26.0 1.27.0 1.28.2 1.29.0 1.29.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.13.0 1.15.2 1.16.0 1.17.0 1.18.0: RuboCop's Node and NodePattern classes
-dev-ruby/rubocop-performance 1.11.5 1.12.0 1.13.1 1.13.2 1.13.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.12.0 1.13.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0 2.10.0 2.11.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
@@ -164,7 +162,7 @@ dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your 
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.43.3 0.44.2 0.44.3: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.43.3 0.44.2 0.44.3 0.45.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
