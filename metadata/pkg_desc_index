@@ -101,8 +101,7 @@ dev-ruby/jaro_winkler 1.5.1 1.5.4 1.5.4-r1: Implementation of Jaro-Winkler dista
 dev-ruby/joiner 0.4.2 0.5.0 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsonapi-renderer 0.2.2 0.2.2-r1: Efficiently render JSON API documents
-dev-ruby/krb5-auth 0.7-r5: Ruby bindings for the Kerberos library
-dev-ruby/let_it_go 0.0.3: Finds un-frozen string literals in your program
+dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/linkedin 1.1.1-r1 1.1.1-r2: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 0.9.13 0.9.14 1.0.0: Memory profiling routines for Ruby 2.5+
@@ -117,7 +116,7 @@ dev-ruby/oauth-plugin 0.5.1-r3: A plugin for implementing OAuth Providers and Co
 dev-ruby/oedipus_lex 2.6.0: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 10.3.1 11.1.0 12.0.0 12.1.0 12.2.0 12.3.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/pipedrive-rb 0.3.0: Pipedrive.com API Wrapper
-dev-ruby/pipedrive-ruby 0.3.3-r1 0.3.3-r2: Ruby wrapper for the LinkedIn API
+dev-ruby/pipedrive-ruby 0.3.3-r2: Ruby wrapper for the LinkedIn API
 dev-ruby/popper_js 1.16.0 2.8.6 2.9.2 2.9.3: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.14.2 1.14.3 1.15.0: Improve the rendering of HTML emails
@@ -143,7 +142,7 @@ dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0 4.1.0-r1 5.0.0 5.0.0-r1 5.1.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.24.1 1.25.1 1.26.0 1.27.0 1.28.2 1.29.0 1.29.1: A Ruby static code analyzer
+dev-ruby/rubocop 1.27.0 1.28.2 1.29.1 1.30.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.13.0 1.15.2 1.16.0 1.17.0 1.18.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
