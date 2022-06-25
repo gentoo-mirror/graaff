@@ -11,7 +11,7 @@ app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
-app-emacs/json-mode 1.7.0: Major mode for editing JSON files
+app-emacs/json-mode 1.7.0 1.8.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
