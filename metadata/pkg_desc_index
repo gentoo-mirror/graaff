@@ -145,7 +145,7 @@ dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enum
 dev-ruby/rubocop 1.27.0 1.28.2 1.29.1 1.30.0 1.30.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.13.0 1.15.2 1.16.0 1.17.0 1.18.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0 2.10.0 2.11.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
@@ -195,6 +195,7 @@ net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for
 net-analyzer/ssh-audit 2.4.0 2.5.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
+sys-apps/viddy 0.3.4: A modern watch command. Time machine and pager etc.
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.16.0 0.18.0: An Apache module with a simple SAML 2.0 service provider
