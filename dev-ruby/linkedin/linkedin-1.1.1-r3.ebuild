@@ -1,12 +1,11 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
+EAPI=8
+USE_RUBY="ruby26 ruby27 ruby30"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md EXAMPLES.md README.md"
-
+RUBY_FAKEGEM_GEMSPEC="linkedin.gemspec"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 COMMIT=b6b269d2ee6016122b93751c1046f5eee7b74367
@@ -25,9 +24,15 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	dev-ruby/hashie:3
+	dev-ruby/hashie:4
 	dev-ruby/multi_json:0
 	=dev-ruby/oauth2-1*
 "
 
-ruby_add_bdepend "test? ( dev-ruby/vcr:3 )"
+ruby_add_bdepend "test? ( dev-ruby/vcr:3 dev-ruby/webmock )"
+
+all_ruby_prepare() {
+	sed -i -e '/hashie/ s/3/4/' ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	sed -i -e '/User-Agent/ s/Faraday v0.15.4/Faraday v1.3.1/' spec/cases/v2_spec.rb || die
+}
