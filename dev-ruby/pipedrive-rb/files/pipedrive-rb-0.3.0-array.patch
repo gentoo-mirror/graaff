@@ -1,0 +1,23 @@
+From 9172f7a8cbb83be4436875132398187896002f27 Mon Sep 17 00:00:00 2001
+From: Barash Asenov <asenov@carlfinance.de>
+Date: Mon, 19 Apr 2021 14:39:19 +0200
+Subject: [PATCH] [fix] Fix undefined method extract_options! issue.
+
+Added active support `require` statement at the parent of the file.
+Fix failing specs
+---
+ lib/pipedrive.rb | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/lib/pipedrive.rb b/lib/pipedrive.rb
+index b872e92..9e5199f 100644
+--- a/lib/pipedrive.rb
++++ b/lib/pipedrive.rb
+@@ -2,6 +2,7 @@
+ 
+ require 'logger'
+ require 'active_support/core_ext/hash'
++require 'active_support/core_ext/array'
+ require 'active_support/concern'
+ require 'active_support/inflector'
+ 
