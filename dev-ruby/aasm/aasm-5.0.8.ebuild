@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md README_FROM_VERSION_3_TO_4.md"
 
@@ -25,8 +25,10 @@ ruby_add_bdepend "test? ( dev-ruby/activerecord dev-ruby/rr )"
 all_ruby_prepare() {
 	rm Gemfile || die
 	sed -i -e '/[Bb]undler/d' Rakefile || die
-	sed -i -e '/coveralls/I s:^:#:' \
-		-e '/pry/ s:^:#:' spec/spec_helper.rb || die
+	sed -e '/coveralls/I s:^:#:' \
+		-e '/simplecov/,/^end/ s:^:#:' \
+		-e '/pry/ s:^:#:' \
+		-i spec/spec_helper.rb || die
 
 	# We currently don't package sdoc
 	sed -i -e '/sdoc/d' Rakefile || die
