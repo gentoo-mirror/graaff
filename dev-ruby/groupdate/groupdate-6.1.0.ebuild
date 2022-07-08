@@ -21,7 +21,7 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/activesupport-5.2:*"
 
-ruby_add_bdepend ">=dev-ruby/activerecord-5.2[sqlite]"
+ruby_add_bdepend "test? ( >=dev-ruby/activerecord-5.2[sqlite] )"
 
 all_ruby_prepare() {
 	sed -i -e '/bundler/I s:^:#:' Rakefile test/test_helper.rb || die
