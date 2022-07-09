@@ -34,7 +34,7 @@ dev-db/mysql2sqlite 20200901: Converts MySQL dump to SQLite3 compatible dump
 dev-haskell/language-docker 9.1.2 10.0.0: Dockerfile parser, pretty-printer and embedded DSL
 dev-libs/lasso 2.6.0 2.7.0: C library aiming to implement the Liberty Alliance standards
 dev-ruby/PoParser 3.2.5 3.2.6: A PO file parser, editor and generator
-dev-ruby/aasm 5.0.8: A library for adding finite state machines to Ruby classes.
+dev-ruby/aasm 5.0.8 5.2.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 1.2.0-r20190105 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.12 0.10.13: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.6 0.9.7 0.9.8: Validations for Active Storage (presence)
