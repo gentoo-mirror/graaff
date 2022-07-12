@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby25 ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -20,7 +20,11 @@ IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/activerecord-3.2.0:* <dev-ruby/activerecord-7:*"
 
-ruby_add_bdepend "test? ( dev-ruby/minitest dev-ruby/minitest-around )"
+ruby_add_bdepend "test? ( dev-ruby/minitest dev-ruby/minitest-around <dev-ruby/railties-7 )"
+
+all_ruby_prepare() {
+	sed -i -e '1igem "railties", "<7"; gem "activerecord", "<7"' test.rb || die
+}
 
 each_ruby_test() {
 	${RUBY} -Ilib test.rb || die
