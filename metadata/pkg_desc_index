@@ -81,7 +81,7 @@ dev-ruby/feed_parser 0.3.5-r1 0.3.5-r2: Rss and Atom feed parser built on top of
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/font-awesome-sass 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails projects
-dev-ruby/foundation_emails 2.2.1.0 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
+dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.18.2 2.19.2 2.21.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
@@ -89,7 +89,7 @@ dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0-r20151004: Parses, validates, and for
 dev-ruby/groupdate 6.1.0: The simplest way to group temporal data
 dev-ruby/heapy 0.1.4 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
-dev-ruby/icalendar 2.7.1: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.7.1 2.8.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.3: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.3-r1 0.16.4: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0: Support library for inflections
