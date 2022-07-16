@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=https://github.com/zenspider/enhanced-ruby-mode/archive/e960bf941d9fa9d92eabf7c03a8bbb51ba1ac453.tar.gz -> enh-ruby-mode-20210124.tar.gz
-_eclasses_=elisp-common	e7aaa047873789f549ea3df2f04b2145	elisp	c1c17e9c24d72d3bd58c611de8116fb6	ruby-utils	707c7b16c28e3483e51d7ec7f7b0d5ed	ruby-single	d832a35ebec5113ec8d275b948432e59
+_eclasses_=elisp-common	e7aaa047873789f549ea3df2f04b2145	elisp	c1c17e9c24d72d3bd58c611de8116fb6	ruby-utils	97c8e15d89dc6537e36cddedf413ed22	ruby-single	d832a35ebec5113ec8d275b948432e59
 _md5_=442411239df4d8264abdb93d9920cf74
