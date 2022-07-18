@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27 ruby30"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -22,7 +22,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-3.0.3.1
+	>=dev-ruby/parser-3.1.1.0
 "
 
 ruby_add_bdepend "dev-ruby/bundler >=dev-ruby/oedipus_lex-2.6.0 dev-ruby/racc dev-ruby/rspec:3"
@@ -36,6 +36,8 @@ all_ruby_prepare() {
 	sed -e "/\(gemspec\|bump\|pry\|'rubocop\|simplecov\)/ s:^:#:" \
 		-e '/rake/ s/~> 13.0/>= 12/' \
 		-i Gemfile || die
+
+	rm -f tasks/check_commit.rake || die
 }
 
 each_ruby_prepare() {
