@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -40,8 +40,8 @@ ruby_add_rdepend "
 	>=dev-ruby/yard-0.9.24:0
 "
 
+# public_suffix is listed as a development dependency but not actually used anywhere.
 ruby_add_bdepend "test? (
-	>=dev-ruby/public_suffix-3.1:3
 	>=dev-ruby/webmock-3.6:3
 )"
 
