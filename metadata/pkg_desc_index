@@ -83,7 +83,7 @@ dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/font-awesome-sass 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
-dev-ruby/get_process_mem 0.2.3 0.2.4 0.2.5 0.2.6 0.2.7: Get memory usage of a process in Ruby
+dev-ruby/get_process_mem 0.2.6 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.18.2 2.19.2 2.21.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
@@ -144,7 +144,7 @@ dev-ruby/rotp 4.1.0-r1 5.0.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP 
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.30.1 1.31.1 1.31.2: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.13.0 1.15.2 1.16.0 1.17.0 1.18.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0 2.10.0 2.11.1 2.12.0 2.12.1: Code style checking for RSpec files
@@ -152,7 +152,7 @@ dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of 
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
-dev-ruby/scallop 0.9.0 0.9.1: Ergonomic shell wrapper
+dev-ruby/scallop 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.0 6.3.1 6.3.2 6.3.3: Security related headers all in one gem
@@ -167,7 +167,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.19: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.8 1.1.9 1.1.10 1.1.11: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.10 1.1.11 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 4.4.1 5.0.0 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
