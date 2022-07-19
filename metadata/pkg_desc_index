@@ -41,6 +41,7 @@ dev-ruby/activerecord-session_store 1.1.3 2.0.0: An Action Dispatch session stor
 dev-ruby/acts-as-taggable-on 7.0.0 8.1.0 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 3.2.1 4.0.0 4.1.0 4.2.0: Allows records to be organized in a tree structure
 dev-ruby/apache_log_parser 1.1.0: A library designed to easily parse and access standard Apache log files.
+dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 2.11.9 2.11.9-r1 3.0.19 3.0.20 3.0.25 3.0.27: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 5.1.0 5.2.0 6.4.1 6.4.2: A clean, simple, and unobtrusive ruby authentication solution.
@@ -144,7 +145,7 @@ dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and A
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.30.1 1.31.1 1.31.2: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1: RuboCop's Node and NodePattern classes
-dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2 1.14.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0 2.10.0 2.11.1 2.12.0 2.12.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
