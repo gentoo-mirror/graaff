@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
 inherit ruby-fakegem
 
 DESCRIPTION="Generates Rails model and controller UML diagrams"
-HOMEPAGE="http://github.com/preston/railroady"
+HOMEPAGE="https://github.com/preston/railroady"
 
 LICENSE="GPL-2+"
 SLOT="0"
