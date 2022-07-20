@@ -9,7 +9,7 @@ RUBY_FAKEGEM_EXTRADOC="README.md"
 inherit ruby-fakegem
 
 DESCRIPTION="Generates Rails model and controller UML diagrams"
-HOMEPAGE="http://github.com/preston/railroady"
+HOMEPAGE="https://github.com/preston/railroady"
 
 LICENSE="GPL-2+"
 SLOT="0"
