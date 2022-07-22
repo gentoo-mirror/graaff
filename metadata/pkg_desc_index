@@ -138,12 +138,12 @@ dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.9.0: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.47.0 3.55.0: Routing tree web toolkit
+dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0-r1 5.0.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.30.1 1.31.1 1.31.2: A Ruby static code analyzer
+dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2 1.14.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
