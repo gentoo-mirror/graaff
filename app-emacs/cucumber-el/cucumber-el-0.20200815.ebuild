@@ -8,6 +8,7 @@ inherit elisp
 GIT_COMMIT=8e1464113b489b54067294cd988ff6a11a423fdb
 
 IUSE="test"
+RESTRICT="!test? ( test )"
 
 DESCRIPTION="A major mode for editing Cucumber stories."
 HOMEPAGE="https://github.com/michaelklishin/cucumber.el"
