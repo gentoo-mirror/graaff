@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -24,8 +24,8 @@ SLOT="2"
 RESTRICT="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/deep_merge-1.0.1:0
-	>=dev-ruby/faraday-0.9:*
+	>=dev-ruby/deep_merge-1.2:0
+	|| ( dev-ruby/faraday:1 >=dev-ruby/faraday-0.9:0 )
 "
 
 all_ruby_prepare() {

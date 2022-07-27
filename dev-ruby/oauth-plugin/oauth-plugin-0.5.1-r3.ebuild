@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
-RUBY_FAKEGEM_RECIPE_TEST="rspec"
+RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_TASK_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG README.rdoc UPGRADE.rdoc"
@@ -26,6 +26,7 @@ IUSE="doc"
 PATCHES=( "${FILESDIR}/oauth-filter-action.patch" )
 
 ruby_add_rdepend ">=dev-ruby/oauth-0.4.4 =dev-ruby/oauth-0* >=dev-ruby/oauth2-0.5.0 dev-ruby/rack:* dev-ruby/multi_json"
+ruby_add_bdepend "test? ( dev-ruby/rack-test )"
 
 all_ruby_prepare() {
 	# Avoid specs that fail with new hash ordering. Remove the whole
@@ -39,4 +40,7 @@ all_ruby_prepare() {
 
 	# Loosen oauth dependency
 	sed -i -e '/oauth/ s/0.4.4/0.4/' ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	# Fix compatibility with rspec 3
+	sed -i -e 's/stub!/stub/' spec/rack/oauth_filter_spec.rb || die
 }
