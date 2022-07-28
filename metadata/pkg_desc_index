@@ -43,7 +43,6 @@ dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpo
 dev-ruby/appsignal 2.11.9 2.11.9-r1 3.0.19 3.0.20 3.0.25 3.0.27: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 5.1.0 5.2.0 6.4.1 6.4.2: A clean, simple, and unobtrusive ruby authentication solution.
-dev-ruby/authlogic-oid 1.0.4-r4: Extension of the Authlogic library to add OpenID support.
 dev-ruby/axe-core-api 4.3.2 4.4.0 4.4.1: Provides a collection of methods which interface as an API for Axe
 dev-ruby/axe-core-cucumber 4.3.2 4.4.0 4.4.1: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
