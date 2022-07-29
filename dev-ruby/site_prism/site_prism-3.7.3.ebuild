@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="HACKING.md README.md UPGRADING.md"
 
@@ -20,6 +20,8 @@ LICENSE="BSD"
 KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
 IUSE="doc"
+
+PATCHES=( "${FILESDIR}"/${P}-kwargs{1,2}.patch )
 
 ruby_add_rdepend "
 	>=dev-ruby/addressable-2.6:0
