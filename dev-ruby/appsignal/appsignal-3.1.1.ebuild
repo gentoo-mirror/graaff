@@ -3,7 +3,7 @@
 
 EAPI=8
 
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION="15ee07b"
+AGENT_VERSION="d573c9b"
 
 inherit ruby-fakegem
 
@@ -41,6 +41,7 @@ all_ruby_prepare() {
 	sed -i -e '/rake/ s/~>/>=/' -e '/\("rubocop\|pry\)/ s:^:#:' appsignal.gemspec || die
 	sed -i -e '/pry/ s:^:#:' spec/spec_helper.rb || die
 	echo 'gem "json"' >> Gemfile || die
+	echo 'gem "rexml"' >> Gemfile || die
 
 	# This is a horrible hack to work around the default unpack support
 	# in all_ruby_unpack which tries to unpack all files in ${A} and
