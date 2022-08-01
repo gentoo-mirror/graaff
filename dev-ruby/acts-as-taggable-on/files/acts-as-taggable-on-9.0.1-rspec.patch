@@ -1,0 +1,281 @@
+From bc55548f5b9f26ca63a322d2369e9bc8cec736e5 Mon Sep 17 00:00:00 2001
+From: Thong Kuah <kuahyeow@gmail.com>
+Date: Tue, 26 Apr 2022 21:06:14 +1200
+Subject: [PATCH] Implicit block expectation syntax is deprecated (#1080)
+
+Fix to pass a block instead
+
+Co-authored-by: Thong Kuah <tkuah@gitlab.com>
+---
+ .../acts_as_tagger_spec.rb                    |  4 +-
+ spec/acts_as_taggable_on/tag_list_spec.rb     |  4 +-
+ spec/acts_as_taggable_on/tag_spec.rb          |  4 +-
+ spec/acts_as_taggable_on/taggable_spec.rb     | 48 +++++++++----------
+ spec/acts_as_taggable_on/tagger_spec.rb       | 16 +++----
+ spec/acts_as_taggable_on/tagging_spec.rb      |  4 +-
+ 6 files changed, 40 insertions(+), 40 deletions(-)
+
+diff --git a/spec/acts_as_taggable_on/acts_as_tagger_spec.rb b/spec/acts_as_taggable_on/acts_as_tagger_spec.rb
+index 218f7b2a9..c7b67469d 100644
+--- a/spec/acts_as_taggable_on/acts_as_tagger_spec.rb
++++ b/spec/acts_as_taggable_on/acts_as_tagger_spec.rb
+@@ -70,9 +70,9 @@
+ 
+       it 'should throw an exception when the default is over-ridden' do
+         expect(@taggable.tag_list_on(:foo_boo)).to be_empty
+-        expect(-> {
++        expect {
+           @tagger.tag(@taggable, with: 'this, and, that', on: :foo_boo, force: false)
+-        }).to raise_error(RuntimeError)
++        }.to raise_error(RuntimeError)
+       end
+ 
+       it 'should not create the tag context on-the-fly when the default is over-ridden' do
+diff --git a/spec/acts_as_taggable_on/tag_list_spec.rb b/spec/acts_as_taggable_on/tag_list_spec.rb
+index 81fa30f9e..48decfe28 100644
+--- a/spec/acts_as_taggable_on/tag_list_spec.rb
++++ b/spec/acts_as_taggable_on/tag_list_spec.rb
+@@ -104,8 +104,8 @@
+ 
+     it 'should be able to call to_s on a frozen tag list' do
+       tag_list.freeze
+-      expect(-> { tag_list.add('cool', 'rad,bodacious') }).to raise_error(RuntimeError)
+-      expect(-> { tag_list.to_s }).to_not raise_error
++      expect { tag_list.add('cool', 'rad,bodacious') }.to raise_error(RuntimeError)
++      expect { tag_list.to_s }.to_not raise_error
+     end
+   end
+ 
+diff --git a/spec/acts_as_taggable_on/tag_spec.rb b/spec/acts_as_taggable_on/tag_spec.rb
+index 0546658d6..b7ba88fdc 100644
+--- a/spec/acts_as_taggable_on/tag_spec.rb
++++ b/spec/acts_as_taggable_on/tag_spec.rb
+@@ -100,9 +100,9 @@
+     end
+ 
+     it 'should create by name' do
+-      expect(-> {
++      expect {
+         ActsAsTaggableOn::Tag.find_or_create_with_like_by_name('epic')
+-      }).to change(ActsAsTaggableOn::Tag, :count).by(1)
++      }.to change(ActsAsTaggableOn::Tag, :count).by(1)
+     end
+   end
+ 
+diff --git a/spec/acts_as_taggable_on/taggable_spec.rb b/spec/acts_as_taggable_on/taggable_spec.rb
+index e9fd6cfd3..a19ac539c 100644
+--- a/spec/acts_as_taggable_on/taggable_spec.rb
++++ b/spec/acts_as_taggable_on/taggable_spec.rb
+@@ -27,9 +27,9 @@
+     @taggable.tag_list = 'rails, ruby, css'
+     expect(@taggable.instance_variable_get('@tag_list').instance_of?(ActsAsTaggableOn::TagList)).to be_truthy
+ 
+-    expect(-> {
++    expect{
+       @taggable.save
+-    }).to change(ActsAsTaggableOn::Tag, :count).by(3)
++    }.to change(ActsAsTaggableOn::Tag, :count).by(3)
+ 
+     @taggable.reload
+     expect(@taggable.tag_list).to eq(%w(rails ruby css))
+@@ -61,9 +61,9 @@
+     @taggable.tag_list = 'pow, ruby, rails'
+     expect(@taggable.instance_variable_get('@tag_list').instance_of?(ActsAsTaggableOn::TagList)).to be_truthy
+ 
+-    expect(-> {
++    expect {
+       @taggable.save
+-    }).to change(ActsAsTaggableOn::Tag, :count).by(3)
++    }.to change(ActsAsTaggableOn::Tag, :count).by(3)
+ 
+     @taggable.reload
+     expect(@taggable.tags.map { |t| t.name }).to eq(%w(pow ruby rails))
+@@ -157,9 +157,9 @@
+     @taggable.skill_list = 'ruby, rails, css'
+     expect(@taggable.instance_variable_get('@skill_list').instance_of?(ActsAsTaggableOn::TagList)).to be_truthy
+ 
+-    expect(-> {
++    expect{
+       @taggable.save
+-    }).to change(ActsAsTaggableOn::Tag, :count).by(3)
++    }.to change(ActsAsTaggableOn::Tag, :count).by(3)
+ 
+     @taggable.reload
+     expect(@taggable.skill_list.sort).to eq(%w(ruby rails css).sort)
+@@ -555,39 +555,39 @@
+       let(:bob) { TaggableModel.create(name: 'Bob') }
+       context 'case sensitive' do
+         it '#add' do
+-          expect(lambda {
++          expect {
+             bob.tag_list.add 'happier'
+             bob.tag_list.add 'happier'
+             bob.tag_list.add 'happier', 'rich', 'funny'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(3)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(3)
+         end
+         it '#<<' do
+-          expect(lambda {
++          expect {
+             bob.tag_list << 'social'
+             bob.tag_list << 'social'
+             bob.tag_list << 'social' << 'wow'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(2)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(2)
+ 
+         end
+ 
+         it 'unicode' do
+ 
+-          expect(lambda {
++          expect {
+             bob.tag_list.add 'ПРИВЕТ'
+             bob.tag_list.add 'ПРИВЕТ'
+             bob.tag_list.add 'ПРИВЕТ', 'ПРИВЕТ'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(1)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(1)
+ 
+         end
+ 
+         it '#=' do
+-          expect(lambda {
++          expect {
+             bob.tag_list = ['Happy', 'Happy']
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(1)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(1)
+         end
+       end
+       context 'case insensitive' do
+@@ -595,39 +595,39 @@
+         after(:all) { ActsAsTaggableOn.force_lowercase = false }
+ 
+         it '#<<' do
+-          expect(lambda {
++          expect {
+             bob.tag_list << 'Alone'
+             bob.tag_list << 'AloNe'
+             bob.tag_list << 'ALONE' << 'In The dark'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(2)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(2)
+ 
+         end
+ 
+         it '#add' do
+-          expect(lambda {
++          expect {
+             bob.tag_list.add 'forever'
+             bob.tag_list.add 'ForEver'
+             bob.tag_list.add 'FOREVER', 'ALONE'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(2)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(2)
+         end
+ 
+         it 'unicode' do
+ 
+-          expect(lambda {
++          expect {
+             bob.tag_list.add 'ПРИВЕТ'
+             bob.tag_list.add 'привет', 'Привет'
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(1)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(1)
+ 
+         end
+ 
+         it '#=' do
+-          expect(lambda {
++          expect {
+             bob.tag_list = ['Happy', 'HAPPY']
+             bob.save
+-          }).to change(ActsAsTaggableOn::Tagging, :count).by(1)
++          }.to change(ActsAsTaggableOn::Tagging, :count).by(1)
+         end
+ 
+ 
+@@ -726,9 +726,9 @@
+       @taggable.skill_list = 'ruby, rails, css'
+       expect(@taggable.instance_variable_get('@skill_list').instance_of?(ActsAsTaggableOn::TagList)).to be_truthy
+ 
+-      expect(-> {
++      expect {
+         @taggable.save
+-      }).to change(ActsAsTaggableOn::Tag, :count).by(3)
++      }.to change(ActsAsTaggableOn::Tag, :count).by(3)
+ 
+       @taggable.reload
+       expect(@taggable.skill_list.sort).to eq(%w(ruby rails css).sort)
+diff --git a/spec/acts_as_taggable_on/tagger_spec.rb b/spec/acts_as_taggable_on/tagger_spec.rb
+index 4ed31f273..82e9dd15f 100644
+--- a/spec/acts_as_taggable_on/tagger_spec.rb
++++ b/spec/acts_as_taggable_on/tagger_spec.rb
+@@ -61,10 +61,10 @@
+ 
+   it 'should not overlap tags from different taggers' do
+     @user2 = User.new
+-    expect(-> {
++    expect {
+       @user.tag(@taggable, with: 'ruby, scheme', on: :tags)
+       @user2.tag(@taggable, with: 'java, python, lisp, ruby', on: :tags)
+-    }).to change(ActsAsTaggableOn::Tagging, :count).by(6)
++    }.to change(ActsAsTaggableOn::Tagging, :count).by(6)
+ 
+     [@user, @user2, @taggable].each(&:reload)
+ 
+@@ -83,9 +83,9 @@
+     @user2.tag(@taggable, with: 'java, python, lisp, ruby', on: :tags)
+     @user.tag(@taggable, with: 'ruby, scheme', on: :tags)
+ 
+-    expect(-> {
++    expect {
+       @user2.tag(@taggable, with: 'java, python, lisp', on: :tags)
+-    }).to change(ActsAsTaggableOn::Tagging, :count).by(-1)
++    }.to change(ActsAsTaggableOn::Tagging, :count).by(-1)
+ 
+     [@user, @user2, @taggable].each(&:reload)
+ 
+@@ -102,9 +102,9 @@
+     @user.tag(@taggable, with: 'awesome', on: :tags)
+     @user2.tag(@taggable, with: 'awesome, epic', on: :tags)
+ 
+-    expect(-> {
++    expect {
+       @user2.tag(@taggable, with: 'epic', on: :tags)
+-    }).to change(ActsAsTaggableOn::Tagging, :count).by(-1)
++    }.to change(ActsAsTaggableOn::Tagging, :count).by(-1)
+ 
+     @taggable.reload
+     expect(@taggable.all_tags_list).to include('awesome')
+@@ -119,9 +119,9 @@
+     expect(@taggable.tag_list).to eq(%w(ruby))
+     expect(@taggable.all_tags_list.sort).to eq(%w(ruby scheme).sort)
+ 
+-    expect(-> {
++    expect {
+       @taggable.update(tag_list: '')
+-    }).to change(ActsAsTaggableOn::Tagging, :count).by(-1)
++    }.to change(ActsAsTaggableOn::Tagging, :count).by(-1)
+ 
+     expect(@taggable.tag_list).to be_empty
+     expect(@taggable.all_tags_list.sort).to eq(%w(ruby scheme).sort)
+diff --git a/spec/acts_as_taggable_on/tagging_spec.rb b/spec/acts_as_taggable_on/tagging_spec.rb
+index 4ef573c02..4efc72cdb 100644
+--- a/spec/acts_as_taggable_on/tagging_spec.rb
++++ b/spec/acts_as_taggable_on/tagging_spec.rb
+@@ -20,9 +20,9 @@
+     @taggable = TaggableModel.create(name: 'Bob Jones')
+     @tag = ActsAsTaggableOn::Tag.create(name: 'awesome')
+ 
+-    expect(-> {
++    expect {
+       2.times { ActsAsTaggableOn::Tagging.create(taggable: @taggable, tag: @tag, context: 'tags') }
+-    }).to change(ActsAsTaggableOn::Tagging, :count).by(1)
++    }.to change(ActsAsTaggableOn::Tagging, :count).by(1)
+   end
+ 
+   it 'should not delete tags of other records' do
