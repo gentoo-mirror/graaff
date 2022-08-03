@@ -23,7 +23,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	|| ( dev-ruby/faraday:1 >=dev-ruby/faraday-0.9:0 )
-	|| ( dev-ruby/hashie:5 dev-ruby/hashie:4 >=dev-ruby/hashie-3.5.3:3 )
+	|| ( dev-ruby/hashie:5 dev-ruby/hashie:4 )
 	dev-ruby/inflection
 	dev-ruby/mini_mime
 	=dev-ruby/multipart-post-2*
