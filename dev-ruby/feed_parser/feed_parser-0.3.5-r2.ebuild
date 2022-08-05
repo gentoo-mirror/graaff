@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27 ruby30"
+USE_RUBY="ruby26 ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -22,3 +22,7 @@ IUSE=""
 PATCHES=( "${FILESDIR}/${P}-uri-open.patch" )
 
 ruby_add_rdepend "dev-ruby/nokogiri"
+
+all_ruby_prepare() {
+	sed -i -e '28 s|:url => "http://blog.example.com/feed/"|{ url: "http://blog.example.com/feed/" }|' spec/feed_parser_spec.rb || die
+}
