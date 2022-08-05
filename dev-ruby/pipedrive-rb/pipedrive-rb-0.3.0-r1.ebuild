@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby26 ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -34,4 +34,8 @@ ruby_add_bdepend "test? ( dev-ruby/webmock )"
 all_ruby_prepare() {
 	sed -i -e '/simplecov/,/^end/ s:^:#:' spec/spec_helper.rb || die
 	sed -i -e 's/v0.2.0/v0.3.0/' spec/lib/pipedrive/base_spec.rb || die
+
+	sed -i -e '1igem "faraday", "<2"' spec/spec_helper.rb || die
+
+	sed -i -e '/with/ s/start: 0/{ start: 0 }/ ; /with/ s/start: 10/{ start: 10 }/' spec/lib/pipedrive/operations/read_spec.rb || die
 }
