@@ -15,7 +15,7 @@ app-emacs/json-mode 1.8.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.6: Reformat tool for JSON
 app-emacs/json-snatcher 1.0.0: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
-app-emacs/let-alist 1.0.5 1.0.6: Easily let-bind values of an assoc-list by their names
+app-emacs/let-alist 1.0.6: Easily let-bind values of an assoc-list by their names
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
 app-emacs/reformatter 0.5 0.6: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
@@ -140,7 +140,7 @@ dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0-r1 5.0.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0 1.33.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2 1.14.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
