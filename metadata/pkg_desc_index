@@ -51,7 +51,7 @@ dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16 1.0.16-r1: Better HTML for Rails
 dev-ruby/bootsnap 1.9.4 1.10.3 1.11.1 1.12.0 1.13.0: Boot large ruby/rails apps faster
-dev-ruby/bootstrap 4.5.3 4.6.1 5.0.1 5.1.3 5.2.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
+dev-ruby/bootstrap 4.6.1 5.2.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 4.5.0 5.0.0 5.1.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1: Do some browser detection with Ruby
 dev-ruby/byebug 10.0.2 11.1.3: a Ruby 2 debugger
@@ -164,7 +164,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.19 0.2.20: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.10 1.1.11 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
