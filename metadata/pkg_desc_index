@@ -149,7 +149,6 @@ dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of 
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in a single import statement
 dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
-dev-ruby/scallop 0.9.1: Ergonomic shell wrapper
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.3.3 6.3.4: Security related headers all in one gem
