@@ -120,7 +120,7 @@ dev-ruby/popper_js 1.16.0 2.9.3 2.11.5: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.14.2 1.14.3 1.15.0 1.16.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.11.1: The power of the premailer gem to Rails without any configuration needs
-dev-ruby/rack-accept 0.4.5: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
+dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.0 0.7.2: Rack app providing request/response rewriting proxy capabilities with streaming
@@ -141,7 +141,7 @@ dev-ruby/rotp 4.1.0-r1 5.0.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP 
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0 1.33.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1 1.20.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2 1.14.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.7.0 2.8.0 2.9.0 2.10.0 2.11.1 2.12.0 2.12.1: Code style checking for RSpec files
