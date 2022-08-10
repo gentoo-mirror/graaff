@@ -22,7 +22,7 @@ app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
-app-forensics/brakeman 5.1.2 5.2.1 5.2.2 5.2.3: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 5.1.2 5.2.1 5.2.2 5.2.3 5.3.0: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-shells/liquidprompt 2.0.2 2.0.3: A full-featured & carefully designed adaptive prompt for Bash & Zsh
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
@@ -187,7 +187,6 @@ net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-plugins-rails 0.2.13: Collection of Concise Munin plugins for Rails server environments.
-net-analyzer/ssh-audit 2.4.0 2.5.0: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-apps/viddy 0.3.4: A modern watch command. Time machine and pager etc.
