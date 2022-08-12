@@ -104,7 +104,6 @@ dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/linkedin 1.1.1-r3: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.0: Memory profiling routines for Ruby 2.5+
-dev-ruby/microsoft_graph 0.1.3-r1: Ruby SDK for Microsoft Graph
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.6 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.9 3.0.27: A class based configuration library
