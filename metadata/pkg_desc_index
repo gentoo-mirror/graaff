@@ -49,7 +49,7 @@ dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
 dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
-dev-ruby/better_html 1.0.16 1.0.16-r1: Better HTML for Rails
+dev-ruby/better_html 1.0.16 1.0.16-r1 2.0.1: Better HTML for Rails
 dev-ruby/bootsnap 1.9.4 1.10.3 1.11.1 1.12.0 1.13.0: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.6.1 5.2.0: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 4.5.0 5.0.0 5.1.0: A rails form builder to create forms using Bootstrap 4
