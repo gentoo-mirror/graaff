@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 RUBY_FAKEGEM_BINDIR="exe"
@@ -25,8 +25,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	dev-ruby/activesupport:*
-	>=dev-ruby/better_html-1.0.7:1
-	dev-ruby/html_tokenizer
+	>=dev-ruby/better_html-2.0.1
 	>=dev-ruby/parser-2.7.1.4
 	dev-ruby/rainbow:*
 	>=dev-ruby/rubocop-0.79
