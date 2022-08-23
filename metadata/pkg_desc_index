@@ -65,7 +65,7 @@ dev-ruby/debride-erb 1.0.1: Extends debride to analyze erb files (erubis ala rai
 dev-ruby/declarative 0.0.20: DSL for nested generic schemas with inheritance and refining
 dev-ruby/deep_cloneable 3.1.0 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
-dev-ruby/diplomat 2.6.2 2.6.3: A simple wrapper for Consul
+dev-ruby/diplomat 2.6.2 2.6.3 2.6.4: A simple wrapper for Consul
 dev-ruby/draper 3.1.0 4.0.2: View Models for Rails
 dev-ruby/dry-container 0.10.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-core 0.7.1 0.8.0 0.8.1: A toolset of small support modules used throughout the dry-rb ecosystem
@@ -139,7 +139,7 @@ dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rotp 4.1.0-r1 5.0.0-r1 6.0.0 6.1.0 6.2.0 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0 1.33.0 1.35.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.30.1 1.31.1 1.31.2 1.32.0 1.33.0 1.35.0 1.35.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.17.0 1.18.0 1.19.1 1.20.1 1.21.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.1 1.14.2 1.14.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.12.4 2.13.2 2.14.2 2.15.0 2.15.1 2.15.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -157,11 +157,11 @@ dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your 
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.43.3 0.44.2 0.44.3 0.45.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.43.3 0.44.2 0.44.3 0.45.0 0.46.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
-dev-ruby/stackprof 0.2.19 0.2.20: A fast sampling profiler for ruby code
+dev-ruby/stackprof 0.2.19 0.2.20 0.2.21: A fast sampling profiler for ruby code
 dev-ruby/terser 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
