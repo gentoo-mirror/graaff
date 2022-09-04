@@ -125,7 +125,7 @@ dev-ruby/rack-proxy 0.7.0 0.7.2: Rack app providing request/response rewriting p
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.21.0: a gem to check quality of rails app files
-dev-ruby/recaptcha 5.5.0 5.6.0 5.8.1 5.10.0: Adds helpers for the reCAPTCHA API
+dev-ruby/recaptcha 5.8.1 5.10.0: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.1-r1: ActionView Record Tag Helpers
 dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
