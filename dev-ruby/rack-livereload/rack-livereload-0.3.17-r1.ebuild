@@ -1,15 +1,14 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-USE_RUBY="ruby24 ruby25 ruby26"
+EAPI=8
+USE_RUBY="ruby27 ruby30 ruby31"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
 RUBY_FAKEGEM_EXTRAINSTALL="js skel"
 
-inherit eapi7-ver ruby-fakegem
+inherit ruby-fakegem
 
 DESCRIPTION="Insert LiveReload into your app easily as Rack middleware"
 HOMEPAGE="https://github.com/onesupercoder/rack-livereload"
