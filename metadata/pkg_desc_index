@@ -119,7 +119,7 @@ dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.14.2 1.14.3 1.15.0 1.16.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.11.1: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
-dev-ruby/rack-livereload 0.3.17: Insert LiveReload into your app easily as Rack middleware
+dev-ruby/rack-livereload 0.3.17-r1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.0 0.7.2: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
@@ -149,7 +149,7 @@ dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in
 dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
-dev-ruby/secure_headers 6.3.3 6.3.4: Security related headers all in one gem
+dev-ruby/secure_headers 6.3.3 6.3.4 6.4.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.5-r1 1.1.6: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
