@@ -165,7 +165,7 @@ dev-ruby/terser 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 5.6.2.1 5.7.1 5.8.2 5.9.2 5.10.3 5.10.4 6.0.2 6.0.3 6.0.3-r1 6.1.0 6.1.1 6.1.2: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 5.9.2 5.10.4 6.0.3 6.1.2 6.2.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 5.20200505 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.4 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10: HTTP User Agent parser
