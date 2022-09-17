@@ -2,12 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-USE_RUBY="ruby27"
+USE_RUBY="ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="Changes.md README.md"
 
 RUBY_FAKEGEM_RECIPE_DOC="rdoc"
-RUBY_FAKEGEM_RECIPE_TEST="rspec"
 
 inherit ruby-fakegem
 
@@ -24,5 +23,3 @@ IUSE="test"
 RESTRICT="test"
 
 ruby_add_rdepend ">=dev-ruby/actionpack-3.0:* >=dev-ruby/activesupport-3.0:*"
-
-ruby_add_bdepend "test? ( dev-ruby/rspec-rails dev-ruby/ammeter )"
