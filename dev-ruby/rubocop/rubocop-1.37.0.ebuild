@@ -56,4 +56,5 @@ all_ruby_prepare() {
 	sed -e 's:/tmp/example:'${TMPDIR}'/example:' \
 		-e 's:/tmp/Gemfile:'${TMPDIR}'/Gemfile:' \
 		-i spec/rubocop/cop/team_spec.rb || die
+	sed -e 's:/tmp:'${TMPDIR}':' -i spec/rubocop/server/cli_spec.rb || die
 }
