@@ -2,12 +2,6 @@ diff --git a/lib/bootstrap_form/form_group_builder.rb b/lib/bootstrap_form/form_
 index 6bd733e..c173d76 100644
 --- a/lib/bootstrap_form/form_group_builder.rb
 +++ b/lib/bootstrap_form/form_group_builder.rb
-@@ -1,4 +1,4 @@
--# frozen_string_literal: true
-+n# frozen_string_literal: true
- 
- module BootstrapForm
-   module FormGroupBuilder
 @@ -28,7 +28,7 @@ module BootstrapForm
      def form_group_builder_options(options, method)
        options.symbolize_keys!
