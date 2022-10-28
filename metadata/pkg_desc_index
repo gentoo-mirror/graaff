@@ -121,7 +121,7 @@ dev-ruby/premailer-rails 1.11.1: The power of the premailer gem to Rails without
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17-r1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0: Profiling toolkit for Rack applications with Rails integration
-dev-ruby/rack-proxy 0.7.0 0.7.2: Rack app providing request/response rewriting proxy capabilities with streaming
+dev-ruby/rack-proxy 0.7.0 0.7.2 0.7.4: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.21.0: a gem to check quality of rails app files
@@ -176,7 +176,7 @@ dev-ruby/xray-rails 0.3.2-r2 0.3.2-r3: Provides a dev bar and an overlay to visu
 dev-ruby/zendesk_api 1.35.0 1.36.0 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 1.22.1-r1: Dockerfile linter
 dev-util/mdl 0.11.0 0.12.0: Style checker/lint tool for markdown files
-dev-util/puppet-strings 2.9.0: Puppet documentation via YARD
+dev-util/puppet-strings 2.9.0 3.0.1: Puppet documentation via YARD
 dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.57.0 0.58.0 0.59.1: The Opinionated Git Hook Manager
