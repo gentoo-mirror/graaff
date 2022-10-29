@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=Get the path to a JSON element in Emacs
+EAPI=8
+HOMEPAGE=https://github.com/Sterlingg/json-snatcher
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/Sterlingg/json-snatcher/archive/1.0.0.tar.gz -> json-snatcher-1.0.0.tar.gz
+_eclasses_=elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	8aab2c847b5894dc40503ae1d203abcf
+_md5_=1024f8e77488aa992af861caccba7cf4

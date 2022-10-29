@@ -12,6 +12,8 @@ app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration La
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
 app-emacs/json-mode 1.8.0: Major mode for editing JSON files
+app-emacs/json-reformat 0.0.7: Reformat tool for JSON
+app-emacs/json-snatcher 1.0.0-r1: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
 app-emacs/let-alist 1.0.6: Easily let-bind values of an assoc-list by their names
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
@@ -33,7 +35,7 @@ dev-ruby/aasm 5.2.0 5.3.1: A library for adding finite state machines to Ruby cl
 dev-ruby/active_model_otp 2.2.0 2.3.0 2.3.1: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.12 0.10.13: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.8 1.0.0: Validations for Active Storage (presence)
-dev-ruby/activerecord-session_store 1.1.3 1.1.3-r1 2.0.0: An Action Dispatch session store backed by an Active Record class
+dev-ruby/activerecord-session_store 1.1.3-r1 2.0.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 7.0.0 8.1.0 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 3.2.1 4.0.0 4.1.0 4.2.0: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
@@ -74,7 +76,7 @@ dev-ruby/erb_lint 0.1.3 0.2.0: ERB Linter tool
 dev-ruby/exception_notification 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
-dev-ruby/fix_microsoft_links 0.1.6 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
+dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/font-awesome-sass 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.6 0.2.7: Get memory usage of a process in Ruby
@@ -86,8 +88,8 @@ dev-ruby/heapy 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
 dev-ruby/icalendar 2.7.1 2.8.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.3: Provides recurrence to icalendar gem
-dev-ruby/ice_cube 0.16.3-r1 0.16.4: a recurring date library for Ruby
-dev-ruby/inflection 1.0.0: Support library for inflections
+dev-ruby/ice_cube 0.16.4: a recurring date library for Ruby
+dev-ruby/inflection 1.0.0-r1: Support library for inflections
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.3.8.0 1.4.2.0: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r1: A thread-safe resource pool, originally borne in riak-client (Ripple)
@@ -96,7 +98,7 @@ dev-ruby/isolate 3.5.0 3.5.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.4-r1: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/joiner 0.5.0 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
-dev-ruby/jsonapi-renderer 0.2.2 0.2.2-r1: Efficiently render JSON API documents
+dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/linkedin 1.1.1-r3: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
@@ -133,7 +135,7 @@ dev-ruby/rgen 0.9.0: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
-dev-ruby/rotp 5.0.0-r1 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
+dev-ruby/rotp 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.31.2 1.32.0 1.33.0 1.35.1 1.37.0 1.37.1: A Ruby static code analyzer
@@ -166,7 +168,7 @@ dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby usin
 dev-ruby/tinymce-rails 5.9.2 5.10.4 6.0.3 6.1.2 6.2.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 5.20200505 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.4 0.0.5: Plot your data by Unicode characters
-dev-ruby/useragent 0.16.10: HTTP User Agent parser
+dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.16.0 0.17.0: A Ruby API client for interacting with a Vault server
 dev-ruby/warning 1.2.1 1.3.0: Custom processing for warnings
 dev-ruby/webpacker 5.3.0 5.4.3: Use webpack to manage app-like JavaScript modules in Rails
@@ -188,6 +190,6 @@ net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-apps/viddy 0.3.4: A modern watch command. Time machine and pager etc.
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r1: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
-www-apache/mod_auth_mellon 0.16.0 0.18.0: An Apache module with a simple SAML 2.0 service provider
+www-apache/mod_auth_mellon 0.18.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
-www-servers/adsf-live 1.4.3: Automatically reloads when changes are detected
+www-servers/adsf-live 1.4.6: Automatically reloads when changes are detected
