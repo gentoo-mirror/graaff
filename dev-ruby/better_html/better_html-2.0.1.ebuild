@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/better_html_ext/extconf.rb)
 RUBY_FAKEGEM_GEMSPEC="better_html.gemspec"
