@@ -146,7 +146,7 @@ dev-ruby/rgen 0.9.0: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
-dev-ruby/rotp 6.2.0-r1: Works for both HOTP and TOTP, and includes QR Code provisioning
+dev-ruby/rotp 6.2.0-r1 6.2.1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.31.2 1.32.0 1.33.0 1.35.1 1.37.0 1.37.1 1.38.0: A Ruby static code analyzer
