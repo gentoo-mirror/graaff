@@ -77,7 +77,7 @@ dev-ruby/deep_cloneable 3.1.0 3.2.0-r1: Extends the functionality of ActiveRecor
 dev-ruby/default_value_for 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.2 2.6.3 2.6.4: A simple wrapper for Consul
 dev-ruby/draper 4.0.2: View Models for Rails
-dev-ruby/dry-container 0.10.0: A simple, configurable object container implemented in Ruby
+dev-ruby/dry-container 0.10.0 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-core 0.7.1 0.8.0 0.8.1: A toolset of small support modules used throughout the dry-rb ecosystem
 dev-ruby/dry-initializer 3.0.4: DSL for declaring params and options of the initializer
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
@@ -149,7 +149,7 @@ dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rotp 6.2.0-r1 6.2.1: Works for both HOTP and TOTP, and includes QR Code provisioning
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.31.2 1.32.0 1.33.0 1.35.1 1.37.0 1.37.1 1.38.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.35.1 1.37.0 1.37.1 1.38.0 1.39.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.13.2 2.14.2 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
