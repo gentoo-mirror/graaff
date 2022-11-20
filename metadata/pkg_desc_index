@@ -78,7 +78,8 @@ dev-ruby/default_value_for 3.4.0: Allows to define default values for ActiveReco
 dev-ruby/diplomat 2.6.2 2.6.3 2.6.4: A simple wrapper for Consul
 dev-ruby/draper 4.0.2: View Models for Rails
 dev-ruby/dry-container 0.10.0 0.11.0: A simple, configurable object container implemented in Ruby
-dev-ruby/dry-core 0.7.1 0.8.0 0.8.1 0.9.1: A toolset of small support modules used throughout the dry-rb ecosystem
+dev-ruby/dry-core 0.7.1 0.8.0 0.8.1 0.9.1 1.0.0: A toolset of small support modules used throughout the dry-rb ecosystem
+dev-ruby/dry-inflector 1.0.0: String inflections for dry-rb
 dev-ruby/dry-initializer 3.0.4 3.1.1: DSL for declaring params and options of the initializer
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0: Module for defining custom exceptions with specific messages
@@ -151,7 +152,7 @@ dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enum
 dev-ruby/rubocop 1.35.1 1.37.0 1.37.1 1.38.0 1.39.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.0 1.15.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.13.2 2.14.2 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2 2.17.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.10.0 2.11.1 2.12.0 2.12.1 2.13.1 2.13.2 2.14.0 2.14.1 2.14.2 2.15.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
