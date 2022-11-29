@@ -53,8 +53,8 @@ dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpo
 dev-ruby/appsignal 2.11.9 2.11.9-r1 3.0.25 3.0.27 3.1.1 3.1.3 3.1.4 3.2.1: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.0 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 5.1.0 5.2.0 6.4.1 6.4.2: A clean, simple, and unobtrusive ruby authentication solution.
-dev-ruby/axe-core-api 4.3.2 4.4.0 4.4.1 4.4.2 4.5.0: Provides a collection of methods which interface as an API for Axe
-dev-ruby/axe-core-cucumber 4.3.2 4.4.0 4.4.1 4.4.2 4.5.0: Cucumber step definitions for Axe
+dev-ruby/axe-core-api 4.3.2 4.4.0 4.4.1 4.4.2 4.5.0 4.5.1: Provides a collection of methods which interface as an API for Axe
+dev-ruby/axe-core-cucumber 4.3.2 4.4.0 4.4.1 4.4.2 4.5.0 4.5.1: Cucumber step definitions for Axe
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0: A performance benchmarking library
@@ -171,7 +171,7 @@ dev-ruby/solargraph 0.43.3 0.44.2 0.44.3 0.45.0 0.46.0 0.47.0 0.47.1 0.47.2: IDE
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
-dev-ruby/stackprof 0.2.19 0.2.20 0.2.21 0.2.22: A fast sampling profiler for ruby code
+dev-ruby/stackprof 0.2.19 0.2.20 0.2.21 0.2.22 0.2.23: A fast sampling profiler for ruby code
 dev-ruby/terser 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
