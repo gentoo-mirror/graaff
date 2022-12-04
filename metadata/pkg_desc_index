@@ -70,7 +70,7 @@ dev-ruby/case_transform 0.2-r1: Extraction of the key_transform abilities of Act
 dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.2 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
-dev-ruby/debride 1.9.0: Analyze code for potentially uncalled / dead methods
+dev-ruby/debride 1.9.0 1.10.1: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.1: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/declarative 0.0.20: DSL for nested generic schemas with inheritance and refining
 dev-ruby/deep_cloneable 3.1.0 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
@@ -172,7 +172,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.19 0.2.20 0.2.21 0.2.22 0.2.23: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.12: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.12 1.1.13: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
