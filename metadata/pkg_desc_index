@@ -149,7 +149,7 @@ dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.35.1 1.37.0 1.37.1 1.38.0 1.39.0 1.40.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.35.1 1.37.0 1.37.1 1.38.0 1.39.0 1.40.0 1.41.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0 1.24.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.0 1.15.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2 2.17.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -167,7 +167,8 @@ dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your 
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r2: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.43.3 0.44.2 0.44.3 0.45.0 0.46.0 0.47.0 0.47.1 0.47.2: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.45.0 0.46.0 0.47.0 0.47.1 0.47.2 0.48.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
