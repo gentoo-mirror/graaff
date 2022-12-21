@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27 ruby30"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -40,15 +40,17 @@ ruby_add_rdepend "
 	>=dev-ruby/yard-0.9.24:0
 "
 
+# public_suffix is listed as a development dependency but not actually used anywhere.
 ruby_add_bdepend "test? (
-	>=dev-ruby/public_suffix-3.1:3
 	>=dev-ruby/webmock-3.6:3
 )"
 
 all_ruby_prepare() {
 	sed -i -e '/pry/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
 
-	sed -i -e '/bundler/ s:^:#:' spec/spec_helper.rb || die
+	sed -e '/bundler/ s:^:#:' \
+		-e '/SIMPLECOV/,/end/ s:^:#:' \
+		-i spec/spec_helper.rb || die
 	rm -f spec/api_map/bundler_methods_spec.rb spec/{documentor,yard_map}_spec.rb|| die
 
 	sed -i -e '/ignores undefined method calls from external sources/askip "Does not work with Gentoo installed package"' spec/type_checker/levels/strict_spec.rb || die
