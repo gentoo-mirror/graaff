@@ -25,7 +25,7 @@ RESTRICT="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/deep_merge-1.2:0
-	|| ( dev-ruby/faraday:2 dev-ruby/faraday:1 >=dev-ruby/faraday-0.9:0 )
+	|| ( dev-ruby/faraday:2 dev-ruby/faraday:1 )
 "
 
 all_ruby_prepare() {
