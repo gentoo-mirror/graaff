@@ -22,7 +22,7 @@ SLOT="0"
 IUSE=""
 
 ruby_add_rdepend "
-	|| ( dev-ruby/faraday:1 >=dev-ruby/faraday-0.9:0 )
+	dev-ruby/faraday:1
 	|| ( dev-ruby/hashie:5 dev-ruby/hashie:4 )
 	dev-ruby/inflection
 	dev-ruby/mini_mime
