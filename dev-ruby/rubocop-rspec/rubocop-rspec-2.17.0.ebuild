@@ -17,8 +17,8 @@ RUBY_FAKEGEM_GEMSPEC="rubocop-rspec.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="Code style checking for RSpec files"
-HOMEPAGE="https://github.com/rubocop-hq/rubocop-rspec"
-SRC_URI="https://github.com/rubocop-hq/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop-rspec"
+SRC_URI="https://github.com/rubocop/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
