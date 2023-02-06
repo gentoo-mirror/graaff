@@ -17,8 +17,8 @@ RUBY_FAKEGEM_BINWRAP=""
 inherit ruby-fakegem
 
 DESCRIPTION="A collection of RuboCop cops to check for performance optimizations in Ruby code"
-HOMEPAGE="https://github.com/rubocop-hq/rubocop-performance/"
-SRC_URI="https://github.com/rubocop-hq/rubocop-performance/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop-performance/"
+SRC_URI="https://github.com/rubocop/rubocop-performance/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
