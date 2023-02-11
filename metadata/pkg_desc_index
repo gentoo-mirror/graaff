@@ -22,7 +22,7 @@ app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
-app-forensics/brakeman 5.1.2 5.2.3 5.3.0 5.4.0: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 5.3.0 5.4.0 5.4.0-r1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -143,7 +143,7 @@ dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to chec
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
-dev-ruby/rgen 0.9.0: A framework for Model Driven Software Development (MDSD)
+dev-ruby/rgen 0.9.0 0.9.1: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0: Access the contents of various spreadsheet files.
