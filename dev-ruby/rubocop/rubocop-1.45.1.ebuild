@@ -1,8 +1,8 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -16,8 +16,8 @@ RUBY_FAKEGEM_GEMSPEC="rubocop.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="A Ruby static code analyzer"
-HOMEPAGE="https://github.com/bbatsov/rubocop"
-SRC_URI="https://github.com/bbatsov/rubocop/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop"
+SRC_URI="https://github.com/rubocop/rubocop/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -27,15 +27,15 @@ IUSE=""
 ruby_add_rdepend "
 	>=dev-ruby/json-2.3:2
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-3.1.2.1
+	>=dev-ruby/parser-3.2.0.0
 	dev-ruby/rainbow:3
 	dev-ruby/regexp_parser:2
 	>=dev-ruby/rexml-3.2.5:3
-	>=dev-ruby/rubocop-ast-1.20.1:1
+	>=dev-ruby/rubocop-ast-1.24.1:1
 	>=dev-ruby/ruby-progressbar-1.7:0
-	|| ( dev-ruby/unicode-display_width:2 >=dev-ruby/unicode-display_width-1.4.0:1 )"
+	>=dev-ruby/unicode-display_width-2.4.0:2"
 
-ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/webmock )"
+ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/rubocop-performance dev-ruby/webmock )"
 
 all_ruby_prepare() {
 	sed -e '/pry/ s:^:#:' \
@@ -50,10 +50,14 @@ all_ruby_prepare() {
 	# Avoid specs requiring rubocop-rake
 	sed -i -e '/compliance with rubocop/,/^  end/ s:^:#:' spec/rubocop/cop/generator_spec.rb || die
 
+	# Avoid specs requiring many rubocop extensions
+	rm -f spec/rubocop/version_spec.rb || die
+
 	# Avoid specs that are not functional and break too often in releases
 	sed -i -e '/has a unique contributor name/askip "too fragile"' spec/project_spec.rb || die
 
 	sed -e 's:/tmp/example:'${TMPDIR}'/example:' \
 		-e 's:/tmp/Gemfile:'${TMPDIR}'/Gemfile:' \
 		-i spec/rubocop/cop/team_spec.rb || die
+	sed -e 's:/tmp:'${TMPDIR}':' -i spec/rubocop/server/cli_spec.rb || die
 }
