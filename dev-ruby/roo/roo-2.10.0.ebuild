@@ -34,5 +34,6 @@ all_ruby_prepare() {
 		-i test/test_helper.rb spec/spec_helper.rb || die
 
 	# Avoid tests that require network access
-	sed -i -e '/\(download_uri_with_query_string\|with_invalid_host\)/a skip "network access required"' test/roo/test_{open_office,excelx}.rb || die
+	sed -e '/\(download_uri_with_query_string\|with_invalid_host\)/a skip "network access required"' \
+		-i test/roo/test_{open_office,excelx}.rb || die
 }
