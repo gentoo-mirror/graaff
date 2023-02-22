@@ -5,6 +5,7 @@ app-emacs/cucumber-el 0.20200815: A major mode for editing Cucumber stories.
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
 app-emacs/elm-mode 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
+app-emacs/emacs-color-theme-solarized 20230209: Emacs highlighting using Ethan Schoonover’s Solarized color scheme
 app-emacs/enh-ruby-mode 20210124 20220426: Major mode for editing Ruby files
 app-emacs/groovy-mode 2.0_p20210510: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
@@ -22,7 +23,7 @@ app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
-app-forensics/brakeman 5.3.0 5.4.0 5.4.0-r1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 5.3.0 5.4.0 5.4.0-r1 5.4.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
