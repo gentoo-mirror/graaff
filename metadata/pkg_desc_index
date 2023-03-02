@@ -150,12 +150,12 @@ dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.39.0 1.40.0 1.41.1 1.42.0 1.43.0 1.44.1 1.45.1 1.46.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0 1.24.0 1.24.1 1.26.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop 1.39.0 1.40.0 1.41.1 1.42.0 1.43.0 1.44.1 1.45.1 1.46.0 1.47.0: A Ruby static code analyzer
+dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0 1.24.0 1.24.1 1.26.0 1.27.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.2 1.16.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2 2.17.3 2.17.4: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rspec 2.13.2 2.14.2 2.15.0 2.16.0 2.17.1: Code style checking for RSpec files
+dev-ruby/rubocop-rails 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2 2.17.3 2.17.4 2.18.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rspec 2.13.2 2.14.2 2.15.0 2.16.0 2.17.1 2.18.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4: Inspect and process video or audio files.
 dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in a single import statement
@@ -175,7 +175,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.19 0.2.20 0.2.21 0.2.22 0.2.23: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.12 1.1.13: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.12 1.1.13 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
