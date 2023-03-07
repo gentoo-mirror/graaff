@@ -16,8 +16,8 @@ RUBY_FAKEGEM_GEMSPEC="rubocop.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="A Ruby static code analyzer"
-HOMEPAGE="https://github.com/bbatsov/rubocop"
-SRC_URI="https://github.com/bbatsov/rubocop/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop"
+SRC_URI="https://github.com/rubocop/rubocop/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -27,13 +27,13 @@ IUSE=""
 ruby_add_rdepend "
 	>=dev-ruby/json-2.3:2
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-3.1.2.1
+	>=dev-ruby/parser-3.2.0.0
 	dev-ruby/rainbow:3
 	dev-ruby/regexp_parser:2
 	>=dev-ruby/rexml-3.2.5:3
-	>=dev-ruby/rubocop-ast-1.24.1:1
+	>=dev-ruby/rubocop-ast-1.26.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
-	|| ( dev-ruby/unicode-display_width:2 >=dev-ruby/unicode-display_width-1.4.0:1 )"
+	>=dev-ruby/unicode-display_width-2.4.0:2"
 
 ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/rubocop-performance dev-ruby/webmock )"
 
