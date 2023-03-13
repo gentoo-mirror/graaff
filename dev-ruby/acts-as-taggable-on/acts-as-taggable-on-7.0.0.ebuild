@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -20,7 +20,7 @@ SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend "|| ( dev-ruby/activerecord:6.0 =dev-ruby/activerecord-5*:* )"
+ruby_add_rdepend "|| ( dev-ruby/activerecord:6.0 )"
 
 ruby_add_bdepend "test? (
 	dev-ruby/database_cleaner
