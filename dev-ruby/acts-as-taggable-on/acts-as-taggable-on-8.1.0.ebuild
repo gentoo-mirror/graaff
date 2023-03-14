@@ -20,7 +20,7 @@ SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 IUSE=""
 
-ruby_add_rdepend "|| ( dev-ruby/activerecord:6.1 dev-ruby/activerecord:6.0 =dev-ruby/activerecord-5*:* )"
+ruby_add_rdepend "|| ( dev-ruby/activerecord:6.1 dev-ruby/activerecord:6.0 )"
 
 ruby_add_bdepend "test? (
 	dev-ruby/database_cleaner
