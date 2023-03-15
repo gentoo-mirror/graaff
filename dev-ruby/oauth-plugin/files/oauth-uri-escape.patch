@@ -1,0 +1,192 @@
+From cd96746dbaad69fb6e41d77a79bc6c42e4252509 Mon Sep 17 00:00:00 2001
+From: Joe Stein <joe@splitwise.com>
+Date: Fri, 17 Jan 2020 16:14:44 -0500
+Subject: [PATCH] Upgrade to Ruby 2.7.0
+
+---
+ .ruby-version                                               | 2 +-
+ README.rdoc                                                 | 6 +++---
+ generators/oauth_provider/templates/oauth2_token.rb         | 6 ++++--
+ generators/oauth_provider/templates/oauth2_verifier.rb      | 4 +++-
+ .../active_record/oauth_provider_templates/oauth2_token.rb  | 6 ++++--
+ .../oauth_provider_templates/oauth2_verifier.rb             | 4 +++-
+ .../mongoid/oauth_provider_templates/oauth2_token.rb        | 6 ++++--
+ .../mongoid/oauth_provider_templates/oauth2_verifier.rb     | 4 +++-
+ lib/oauth/provider/authorizer.rb                            | 5 +++--
+ oauth-plugin.gemspec                                        | 1 -
+ 10 files changed, 28 insertions(+), 16 deletions(-)
+
+diff --git a/README.rdoc b/README.rdoc
+index e21b744a..5533866d 100644
+--- a/README.rdoc
++++ b/README.rdoc
+@@ -30,9 +30,9 @@ https://github.com/pelle/oauth-plugin/blob/master/lib/generators/active_record/o
+ 
+     def to_query
+       q = "access_token=#{token}&token_type=bearer"
+-      q << "&state=#{URI.escape(state)}" if @state
++      q << "&state=#{ERB::Util.url_encode(state)}" if @state
+       q << "&expires_in=#{expires_in}" if expires_at
+-      q << "&scope=#{URI.escape(scope)}" if scope
++      q << "&scope=#{ERB::Util.url_encode(scope)}" if scope
+       q
+     end
+ 
+@@ -66,7 +66,7 @@ https://github.com/pelle/oauth-plugin/blob/master/lib/generators/active_record/o
+ 
+     def to_query
+       q = "code=#{token}"
+-      q << "&state=#{URI.escape(state)}" if @state
++      q << "&state=#{ERB::Util.url_encode(state)}" if @state
+       q
+     end
+ 
+diff --git a/generators/oauth_provider/templates/oauth2_token.rb b/generators/oauth_provider/templates/oauth2_token.rb
+index abc71770..167e7947 100644
+--- a/generators/oauth_provider/templates/oauth2_token.rb
++++ b/generators/oauth_provider/templates/oauth2_token.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Token < AccessToken
+   attr_accessor :state
+   def as_json(options={})
+@@ -8,9 +10,9 @@ def as_json(options={})
+ 
+   def to_query
+     q = "access_token=#{token}&token_type=bearer"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q << "&expires_in=#{expires_in}" if expires_at
+-    q << "&scope=#{URI.escape(scope)}" if scope
++    q << "&scope=#{ERB::Util.url_encode(scope)}" if scope
+     q
+   end
+ 
+diff --git a/generators/oauth_provider/templates/oauth2_verifier.rb b/generators/oauth_provider/templates/oauth2_verifier.rb
+index 09b7cf7f..457a859b 100644
+--- a/generators/oauth_provider/templates/oauth2_verifier.rb
++++ b/generators/oauth_provider/templates/oauth2_verifier.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Verifier < OauthToken
+   validates_presence_of :user
+   attr_accessor :state
+@@ -20,7 +22,7 @@ def redirect_url
+ 
+   def to_query
+     q = "code=#{token}"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q
+   end
+ 
+diff --git a/lib/generators/active_record/oauth_provider_templates/oauth2_token.rb b/lib/generators/active_record/oauth_provider_templates/oauth2_token.rb
+index abc71770..167e7947 100644
+--- a/lib/generators/active_record/oauth_provider_templates/oauth2_token.rb
++++ b/lib/generators/active_record/oauth_provider_templates/oauth2_token.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Token < AccessToken
+   attr_accessor :state
+   def as_json(options={})
+@@ -8,9 +10,9 @@ def as_json(options={})
+ 
+   def to_query
+     q = "access_token=#{token}&token_type=bearer"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q << "&expires_in=#{expires_in}" if expires_at
+-    q << "&scope=#{URI.escape(scope)}" if scope
++    q << "&scope=#{ERB::Util.url_encode(scope)}" if scope
+     q
+   end
+ 
+diff --git a/lib/generators/active_record/oauth_provider_templates/oauth2_verifier.rb b/lib/generators/active_record/oauth_provider_templates/oauth2_verifier.rb
+index 09b7cf7f..457a859b 100644
+--- a/lib/generators/active_record/oauth_provider_templates/oauth2_verifier.rb
++++ b/lib/generators/active_record/oauth_provider_templates/oauth2_verifier.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Verifier < OauthToken
+   validates_presence_of :user
+   attr_accessor :state
+@@ -20,7 +22,7 @@ def redirect_url
+ 
+   def to_query
+     q = "code=#{token}"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q
+   end
+ 
+diff --git a/lib/generators/mongoid/oauth_provider_templates/oauth2_token.rb b/lib/generators/mongoid/oauth_provider_templates/oauth2_token.rb
+index abc71770..167e7947 100644
+--- a/lib/generators/mongoid/oauth_provider_templates/oauth2_token.rb
++++ b/lib/generators/mongoid/oauth_provider_templates/oauth2_token.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Token < AccessToken
+   attr_accessor :state
+   def as_json(options={})
+@@ -8,9 +10,9 @@ def as_json(options={})
+ 
+   def to_query
+     q = "access_token=#{token}&token_type=bearer"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q << "&expires_in=#{expires_in}" if expires_at
+-    q << "&scope=#{URI.escape(scope)}" if scope
++    q << "&scope=#{ERB::Util.url_encode(scope)}" if scope
+     q
+   end
+ 
+diff --git a/lib/generators/mongoid/oauth_provider_templates/oauth2_verifier.rb b/lib/generators/mongoid/oauth_provider_templates/oauth2_verifier.rb
+index 09b7cf7f..457a859b 100644
+--- a/lib/generators/mongoid/oauth_provider_templates/oauth2_verifier.rb
++++ b/lib/generators/mongoid/oauth_provider_templates/oauth2_verifier.rb
+@@ -1,3 +1,5 @@
++require 'erb'
++
+ class Oauth2Verifier < OauthToken
+   validates_presence_of :user
+   attr_accessor :state
+@@ -20,7 +22,7 @@ def redirect_url
+ 
+   def to_query
+     q = "code=#{token}"
+-    q << "&state=#{URI.escape(state)}" if @state
++    q << "&state=#{ERB::Util.url_encode(state)}" if @state
+     q
+   end
+ 
+diff --git a/lib/oauth/provider/authorizer.rb b/lib/oauth/provider/authorizer.rb
+index 89951f32..3514e85e 100644
+--- a/lib/oauth/provider/authorizer.rb
++++ b/lib/oauth/provider/authorizer.rb
+@@ -1,4 +1,5 @@
+ require 'uri'
++require 'erb'
+ 
+ module OAuth
+   module Provider
+@@ -69,7 +70,7 @@ def response
+ 
+       def encode_response
+         response.map do |k, v|
+-          [URI.escape(k.to_s),URI.escape(v)] * "="
++          [ERB::Util.url_encode(k.to_s),ERB::Util.url_encode(v)] * "="
+         end * "&"
+       end
+ 
+@@ -80,4 +81,4 @@ def base_uri
+         end
+     end
+   end
+-end
+\ No newline at end of file
++end
