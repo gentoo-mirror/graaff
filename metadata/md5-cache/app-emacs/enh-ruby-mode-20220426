@@ -12,5 +12,5 @@ RDEPEND=>=app-editors/emacs-23.1:*
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/zenspider/enhanced-ruby-mode/archive/f240ac00ccbbd0916b5e3d272c0064a26f527ef8.tar.gz -> enh-ruby-mode-20220426.tar.gz
-_eclasses_=elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	8aab2c847b5894dc40503ae1d203abcf	ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-single	b9b5d136d97bf37058132e4231da02fa
+_eclasses_=elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	4d1c0e88698cac71b148578be8359db3	ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-single	b9b5d136d97bf37058132e4231da02fa
 _md5_=848d2a27040db4d609199dec7d5b59a1
