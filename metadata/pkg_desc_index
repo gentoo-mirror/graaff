@@ -146,7 +146,7 @@ dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.9.0 0.9.1: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.47.0 3.55.0 3.58.0: Routing tree web toolkit
+dev-ruby/roda 3.47.0 3.55.0 3.58.0 3.66.0: Routing tree web toolkit
 dev-ruby/roo 2.8.3 2.9.0 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
@@ -174,7 +174,7 @@ dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attribute
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
-dev-ruby/stackprof 0.2.19 0.2.20 0.2.21 0.2.22 0.2.23: A fast sampling profiler for ruby code
+dev-ruby/stackprof 0.2.22 0.2.23: A fast sampling profiler for ruby code
 dev-ruby/terser 1.1.12 1.1.13 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
