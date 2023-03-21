@@ -11,6 +11,7 @@ RUBY_FAKEGEM_GEMSPEC="pipedrive.gemspec"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 RUBY_FAKEGEM_NAME="pipedrive.rb"
+RUBY_FAKEGEM_VERSION="0.3.0"
 
 inherit ruby-fakegem
 
