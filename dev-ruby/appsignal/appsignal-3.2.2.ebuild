@@ -3,7 +3,7 @@
 
 EAPI=8
 
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby27 ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION="d573c9b"
+AGENT_VERSION="9b62288"
 
 inherit ruby-fakegem
 
