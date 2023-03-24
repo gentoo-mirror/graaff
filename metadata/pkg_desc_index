@@ -85,7 +85,7 @@ dev-ruby/dry-initializer 3.0.4 3.1.1: DSL for declaring params and options of th
 dev-ruby/dumb_delegator 1.0.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0: Module for defining custom exceptions with specific messages
 dev-ruby/enumerable-statistics 2.0.7: This library provides statistics features for Enumerable
-dev-ruby/erb_lint 0.1.3 0.2.0 0.3.0 0.3.1: ERB Linter tool
+dev-ruby/erb_lint 0.1.3 0.2.0 0.3.0 0.3.1 0.3.1-r1: ERB Linter tool
 dev-ruby/exception_notification 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
@@ -117,7 +117,7 @@ dev-ruby/linkedin 1.1.1-r3: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.0 1.0.1: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
-dev-ruby/mixlib-cli 2.1.6 2.1.8: A simple mixin for CLI interfaces, including option parsing
+dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.9 3.0.27: A class based configuration library
 dev-ruby/money 6.13.8 6.16.0: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2-r1: A Rails gem for conveniently manage multiple nested models in a single form.
@@ -133,7 +133,7 @@ dev-ruby/premailer-rails 1.11.1 1.12.0: The power of the premailer gem to Rails 
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17-r1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0: Profiling toolkit for Rack applications with Rails integration
-dev-ruby/rack-proxy 0.7.0 0.7.2 0.7.4: Rack app providing request/response rewriting proxy capabilities with streaming
+dev-ruby/rack-proxy 0.7.4 0.7.6: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.21.0: a gem to check quality of rails app files
@@ -190,7 +190,7 @@ dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.11.0 0.12.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 2.9.0 3.0.1: Puppet documentation via YARD
-dev-util/scss-lint 0.59.0: Configurable tool for writing clean and consistent SCSS
+dev-util/scss-lint 0.59.0 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.57.0 0.58.0 0.59.1: The Opinionated Git Hook Manager
 media-gfx/emulsion 9.0-r1 10.0: A fast and minimalistic image viewer
