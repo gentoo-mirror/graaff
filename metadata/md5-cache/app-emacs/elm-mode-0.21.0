@@ -1,4 +1,4 @@
-BDEPEND=>=app-editors/emacs-23.1:*
+BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DEPEND=app-emacs/f app-emacs/let-alist app-emacs/s app-emacs/reformatter
 DESCRIPTION=Emacs major mode for elm
@@ -7,8 +7,8 @@ HOMEPAGE=https://github.com/jcollard/elm-mode
 INHERIT=elisp
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=app-emacs/f app-emacs/let-alist app-emacs/s app-emacs/reformatter >=app-editors/emacs-23.1:*
+RDEPEND=app-emacs/f app-emacs/let-alist app-emacs/s app-emacs/reformatter >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/jcollard/elm-mode/archive/v0.21.0.tar.gz -> elm-mode-0.21.0.tar.gz
-_eclasses_=elisp-common	4f91d24ccf86f94b3f28c6470aab24d3	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
+_eclasses_=elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
 _md5_=3dda8a6eed4239f430b6c2365306bd3a
