@@ -1,5 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<maintainer type="person"><email>graaff@gentoo.org</email></maintainer>
+  <maintainer type="person"><email>graaff@gentoo.org</email></maintainer>
+  <upstream>
+    <remote-id type="github">heapsource/active_model_otp</remote-id>
+    <remote-id type="rubygems">active_model_otp</remote-id>
+  </upstream>
 </pkgmetadata>

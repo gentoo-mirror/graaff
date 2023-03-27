@@ -29,7 +29,7 @@ ruby_add_rdepend "
 "
 
 ruby_add_bdepend "test? (
-	=dev-ruby/rr-1*
+	dev-ruby/rr
 )"
 
 all_ruby_prepare() {
