@@ -13,8 +13,8 @@ RUBY_FAKEGEM_GEMSPEC="rubocop-ast.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="RuboCop's Node and NodePattern classes"
-HOMEPAGE="https://github.com/rubocop-hq/rubocop-ast"
-SRC_URI="https://github.com/rubocop-hq/rubocop-ast/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop-ast"
+SRC_URI="https://github.com/rubocop/rubocop-ast/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="1"
@@ -22,7 +22,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-3.1.1.0
+	>=dev-ruby/parser-3.2.1.0
 "
 
 ruby_add_bdepend "dev-ruby/bundler >=dev-ruby/oedipus_lex-2.6.0 dev-ruby/racc dev-ruby/rspec:3"
