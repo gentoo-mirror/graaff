@@ -7,7 +7,6 @@ app-emacs/elm-mode 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
 app-emacs/emacs-color-theme-solarized 20230209: Emacs highlighting using Ethan Schoonover’s Solarized color scheme
 app-emacs/enh-ruby-mode 20210124 20220426: Major mode for editing Ruby files
-app-emacs/groovy-mode 2.0_p20210510: A major mode for editing Groovy
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
@@ -150,7 +149,7 @@ dev-ruby/roo 2.8.3 2.9.0 2.10.0: Access the contents of various spreadsheet file
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.43.0 1.44.1 1.45.1 1.46.0 1.47.0 1.48.0 1.48.1: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.20.1 1.21.0 1.22.0 1.23.0 1.24.0 1.24.1 1.26.0 1.27.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.2 1.16.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.15.2 2.16.0 2.16.1 2.17.0 2.17.1 2.17.2 2.17.3 2.17.4 2.18.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
@@ -174,12 +173,12 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r1: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.22 0.2.23: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.12 1.1.13 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
-dev-ruby/thinking-sphinx 5.1.0 5.2.0 5.2.1 5.3.0 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
+dev-ruby/terser 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/thinking-sphinx 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 5.9.2 5.10.4 6.0.3 6.1.2 6.2.0 6.3.0 6.3.1 6.3.2 6.4.0: Integration of TinyMCE with the Rails asset pipeline
-dev-ruby/tinymce-rails-langs 5.20200505 6.20220429: Additional language packs for tinymce-rails
+dev-ruby/tinymce-rails 6.0.3 6.1.2 6.2.0 6.3.0 6.3.1 6.3.2 6.4.0 6.4.1: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails-langs 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.17.0: A Ruby API client for interacting with a Vault server
