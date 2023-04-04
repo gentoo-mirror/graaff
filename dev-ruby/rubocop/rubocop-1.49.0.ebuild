@@ -31,7 +31,7 @@ ruby_add_rdepend "
 	dev-ruby/rainbow:3
 	dev-ruby/regexp_parser:2
 	>=dev-ruby/rexml-3.2.5:3
-	>=dev-ruby/rubocop-ast-1.24.1:1
+	>=dev-ruby/rubocop-ast-1.28.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-2.4.0:2"
 
@@ -56,8 +56,8 @@ all_ruby_prepare() {
 	# Avoid specs that are not functional and break too often in releases
 	sed -i -e '/has a unique contributor name/askip "too fragile"' spec/project_spec.rb || die
 
-	sed -e 's:/tmp/example:'${TMPDIR}'/example:' \
-		-e 's:/tmp/Gemfile:'${TMPDIR}'/Gemfile:' \
+	sed -e 's:/tmp/example:'"${TMPDIR}"'/example:' \
+		-e 's:/tmp/Gemfile:'"${TMPDIR}"'/Gemfile:' \
 		-i spec/rubocop/cop/team_spec.rb || die
-	sed -e 's:/tmp:'${TMPDIR}':' -i spec/rubocop/server/cli_spec.rb || die
+	sed -e 's:/tmp:'"${TMPDIR}"':' -i spec/rubocop/server/cli_spec.rb || die
 }
