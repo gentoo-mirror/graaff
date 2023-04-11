@@ -59,7 +59,7 @@ dev-ruby/axe-core-cucumber 4.3.2 4.4.0 4.4.1 4.4.2 4.5.0 4.5.1 4.6.0: Cucumber s
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0 0.2.1: A performance benchmarking library
-dev-ruby/better_errors 2.8.3 2.9.1: Provides a better error page for Rails and other Rack apps
+dev-ruby/better_errors 2.9.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16-r1 2.0.1: Better HTML for Rails
 dev-ruby/bootsnap 1.11.1 1.12.0 1.13.0 1.16.0: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.6.1 5.2.0 5.2.1 5.2.2 5.2.3: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
@@ -168,7 +168,7 @@ dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your 
 dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.45.0 0.46.0 0.47.0 0.47.1 0.47.2 0.48.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.45.0 0.46.0 0.47.2 0.48.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
