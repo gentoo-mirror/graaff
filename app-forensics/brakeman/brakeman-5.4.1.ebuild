@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_DOCDIR="docs"
 RUBY_FAKEGEM_EXTRADOC="CHANGES.md FEATURES OPTIONS.md README.md"
@@ -52,10 +52,10 @@ all_ruby_prepare() {
 
 each_ruby_test() {
 	case ${RUBY} in
-		*ruby27)
+		*ruby30)
 			each_fakegem_test
 			;;
-		*ruby30)
+		*ruby31)
 			ewarn "Skipping tests due to missing safe_yaml dependency."
 			;;
 	esac
