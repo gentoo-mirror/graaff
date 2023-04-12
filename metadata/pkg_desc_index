@@ -90,7 +90,7 @@ dev-ruby/exception_notification 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
-dev-ruby/font-awesome-sass 5.15.1: Font-Awesome Sass gem for use in Ruby/Rails projects
+dev-ruby/font-awesome-sass 5.15.1 5.15.1-r1: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.6 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.0: Git-Like Interface Command Line Parser
@@ -120,7 +120,7 @@ dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.9 3.0.27: A class based configuration library
 dev-ruby/money 6.13.8 6.16.0: This library aids one in handling money and different currencies.
-dev-ruby/nested_form 0.3.2-r1: A Rails gem for conveniently manage multiple nested models in a single form.
+dev-ruby/nested_form 0.3.2-r1 0.3.2-r2: A Rails gem for conveniently manage multiple nested models in a single form.
 dev-ruby/nokogiri-happymapper 0.9.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r3 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/oedipus_lex 2.6.0: A lexer generator in the same family as Rexical and Rex
