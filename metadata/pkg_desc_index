@@ -126,13 +126,13 @@ dev-ruby/oauth-plugin 0.5.1-r3 0.5.1-r4: A plugin for implementing OAuth Provide
 dev-ruby/oedipus_lex 2.6.0: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 11.1.0 12.3.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/pipedrive-rb 0.3.0-r1 0.3.0_p20201019: Pipedrive.com API Wrapper
-dev-ruby/popper_js 1.16.0 2.9.3 2.11.5 2.11.6: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 1.16.0 2.9.3 2.11.5 2.11.6 2.11.7: Popper.js assets as a Ruby gem
 dev-ruby/powerpack 0.1.3: A few useful extensions to core Ruby classes
 dev-ruby/premailer 1.15.0 1.16.0 1.18.0 1.19.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.11.1 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17-r1: Insert LiveReload into your app easily as Rack middleware
-dev-ruby/rack-mini-profiler 3.0.0: Profiling toolkit for Rack applications with Rails integration
+dev-ruby/rack-mini-profiler 3.0.0 3.1.0: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.4 0.7.6: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
@@ -185,7 +185,7 @@ dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.17.0: A Ruby API client for interacting with a Vault server
 dev-ruby/view_component 2.82.0: A framework for building reusable, encapsulated view components in Ruby on Rails
 dev-ruby/warning 1.2.1 1.3.0: Custom processing for warnings
-dev-ruby/webpacker 5.3.0 5.4.3: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/webpacker 5.3.0 5.4.3 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r2 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
