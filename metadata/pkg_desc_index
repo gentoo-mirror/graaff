@@ -74,7 +74,7 @@ dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.9.0 1.10.1: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.1: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/declarative 0.0.20: DSL for nested generic schemas with inheritance and refining
-dev-ruby/deep_cloneable 3.1.0 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
+dev-ruby/deep_cloneable 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4: A simple wrapper for Consul
 dev-ruby/draper 4.0.2: View Models for Rails
@@ -88,11 +88,10 @@ dev-ruby/enumerable-statistics 2.0.7: This library provides statistics features 
 dev-ruby/erb_lint 0.2.0 0.3.1 0.3.1-r1 0.4.0: ERB Linter tool
 dev-ruby/exception_notification 4.4.3 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
-dev-ruby/ffi-compiler 1.0.1-r1: Ruby FFI Rakefile generator
 dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/font-awesome-sass 5.15.1 5.15.1-r1: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
-dev-ruby/get_process_mem 0.2.6 0.2.7: Get memory usage of a process in Ruby
+dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
@@ -105,7 +104,7 @@ dev-ruby/ice_cube 0.16.4: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.3.8.0 1.4.2.0: A templating language that converts simple HTML into responsive email-ready HTML
-dev-ruby/innertube 1.1.0-r1: A thread-safe resource pool, originally borne in riak-client (Ripple)
+dev-ruby/innertube 1.1.0-r1 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 2.0.0 2.1.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.5.0 3.5.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.4-r1: Implementation of Jaro-Winkler distance algorithm
@@ -115,11 +114,11 @@ dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/linkedin 1.1.1-r3: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
-dev-ruby/memory_profiler 1.0.0 1.0.1: Memory profiling routines for Ruby 2.5+
+dev-ruby/memory_profiler 1.0.1: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.9 3.0.27: A class based configuration library
-dev-ruby/money 6.13.8 6.16.0: This library aids one in handling money and different currencies.
+dev-ruby/money 6.16.0: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2-r1 0.3.2-r2: A Rails gem for conveniently manage multiple nested models in a single form.
 dev-ruby/nokogiri-happymapper 0.9.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r3 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
@@ -137,16 +136,16 @@ dev-ruby/rack-proxy 0.7.4 0.7.6: Rack app providing request/response rewriting p
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
-dev-ruby/recaptcha 5.8.1 5.10.0: Adds helpers for the reCAPTCHA API
+dev-ruby/recaptcha 5.10.0 5.13.0: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.1-r1: ActionView Record Tag Helpers
 dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
-dev-ruby/rgen 0.9.0 0.9.1: A framework for Model Driven Software Development (MDSD)
+dev-ruby/rgen 0.9.1: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.47.0 3.55.0 3.58.0 3.66.0: Routing tree web toolkit
-dev-ruby/roo 2.8.3 2.9.0 2.10.0: Access the contents of various spreadsheet files.
+dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.46.0 1.47.0 1.48.0 1.48.1 1.49.0 1.50.0 1.50.1: A Ruby static code analyzer
@@ -157,11 +156,9 @@ dev-ruby/rubocop-rails 2.16.1 2.17.2 2.17.3 2.17.4 2.18.0 2.19.0: A collection o
 dev-ruby/rubocop-rspec 2.13.2 2.14.2 2.15.0 2.16.0 2.17.1 2.18.1 2.19.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4 0.9.3-r5: Inspect and process video or audio files.
-dev-ruby/sass-globbing 1.1.5-r1: Allows you to import many sass or scss files in a single import statement
-dev-ruby/sassy-maps 0.4.0-r1: Map helper functions for Sass 3.3 Maps including get-deep and set/set-deep
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
 dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
-dev-ruby/secure_headers 6.3.3 6.3.4 6.4.0 6.5.0: Security related headers all in one gem
+dev-ruby/secure_headers 6.4.0 6.5.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
@@ -177,16 +174,16 @@ dev-ruby/stackprof 0.2.22 0.2.23 0.2.25: A fast sampling profiler for ruby code
 dev-ruby/terser 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
-dev-ruby/tiny_tds 2.1.5: A modern, simple and fast FreeTDS library for Ruby using DB-Library
+dev-ruby/tiny_tds 2.1.5-r1: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.0.3 6.1.2 6.2.0 6.3.0 6.3.1 6.3.2 6.4.0 6.4.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.17.0: A Ruby API client for interacting with a Vault server
 dev-ruby/view_component 2.82.0: A framework for building reusable, encapsulated view components in Ruby on Rails
-dev-ruby/warning 1.2.1 1.3.0: Custom processing for warnings
-dev-ruby/webpacker 5.3.0 5.4.3 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
-dev-ruby/xray-rails 0.3.2-r2 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
+dev-ruby/warning 1.3.0: Custom processing for warnings
+dev-ruby/webpacker 5.4.3 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
+dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.11.0 0.12.0: Style checker/lint tool for markdown files
