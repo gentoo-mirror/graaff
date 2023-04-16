@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -24,7 +24,7 @@ ruby_add_rdepend "dev-ruby/json:*"
 ruby_add_bdepend "test? (
 	dev-ruby/bundler
 	dev-ruby/maxitest
-	dev-ruby/mocha
+	dev-ruby/mocha:1.0
 	dev-ruby/i18n
 	dev-ruby/minitest:5
 	dev-ruby/webmock
@@ -34,4 +34,6 @@ all_ruby_prepare() {
 	sed -i -e '/\(bump\|byebug\)/ s:^:#:' Rakefile test/helper.rb || die
 	sed -i -e '/\(bump\|pry\)/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
 	rm -f Gemfile.lock || die
+
+	sed -i -e '/mocha/ s/$/, "~> 1.0"/' ${RUBY_FAKEGEM_GEMSPEC} || die
 }

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27 ruby30"
+USE_RUBY="ruby27 ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 RUBY_FAKEGEM_GEMSPEC="nokogiri-happymapper.gemspec"
@@ -25,6 +25,6 @@ IUSE="doc"
 ruby_add_rdepend ">=dev-ruby/nokogiri-1.5"
 
 all_ruby_prepare() {
-	sed -i -e '/simplecov/,/^end/ s:^:#:' spec/spec_helper.rb || die
+	sed -i -e '/simplecov/,/^end/ s:^:#:' -e '/pry/ s:^:#:' spec/spec_helper.rb || die
 	sed -i -e "s:_relative ': './:" ${RUBY_FAKEGEM_GEMSPEC} || die
 }
