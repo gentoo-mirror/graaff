@@ -1,5 +1,5 @@
 BDEPEND=>=app-editors/emacs-25.3:*
-DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
 DEPEND=>=app-emacs/request-0.3 >=app-emacs/dash-2.14.1
 DESCRIPTION=JIRA REST API bindings to elisp
 EAPI=7
@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=app-emacs/request-0.3 >=app-emacs/dash-2.14.1 >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/nyyManni/jiralib2/archive/c21c4e759eff549dbda11099f2f680b78d7f5a01.tar.gz -> jiralib2-0.20200520.tar.gz
-_eclasses_=elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
+_eclasses_=elisp-common	dcd21c5d379fc2217e95f529504c5fe0	elisp	7190c722d9e06fabcae26ef1e1dc9183
 _md5_=fa04d83286c09552e013e0c3912668f5

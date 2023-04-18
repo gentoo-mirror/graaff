@@ -1,5 +1,5 @@
 BDEPEND=>=app-editors/emacs-25.3:*
-DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
 DESCRIPTION=Automatically detect the programming language in a buffer or string
 EAPI=7
 HOMEPAGE=https://github.com/andreasjansson/language-detection.el
@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/andreasjansson/language-detection.el/archive/54a6ecf55304fba7d215ef38a4ec96daff2f35a4.tar.gz -> language-detection-20161123.tar.gz
-_eclasses_=elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
+_eclasses_=elisp-common	dcd21c5d379fc2217e95f529504c5fe0	elisp	7190c722d9e06fabcae26ef1e1dc9183
 _md5_=b8c606f3a0d3866c482fb36d18cac4b1

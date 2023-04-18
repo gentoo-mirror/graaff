@@ -1,5 +1,5 @@
 BDEPEND=>=app-editors/emacs-25.3:*
-DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
 DEPEND=test? ( dev-ruby/bundler )
 DESCRIPTION=A major mode for editing Cucumber stories.
 EAPI=8
@@ -12,5 +12,5 @@ RDEPEND=dev-ruby/ruby_parser >=dev-util/cucumber-4.1.0 >=dev-util/cucumber-gherk
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/michaelklishin/cucumber.el/archive/8e1464113b489b54067294cd988ff6a11a423fdb.tar.gz -> cucumber-el-0.20200815-git.tgz
-_eclasses_=elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
+_eclasses_=elisp-common	dcd21c5d379fc2217e95f529504c5fe0	elisp	7190c722d9e06fabcae26ef1e1dc9183
 _md5_=13559a074b94e869be0e605d6f924197
