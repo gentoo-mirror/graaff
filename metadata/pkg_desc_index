@@ -95,7 +95,7 @@ dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
-dev-ruby/groupdate 6.1.0 6.2.0: The simplest way to group temporal data
+dev-ruby/groupdate 6.1.0 6.2.0 6.2.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
 dev-ruby/icalendar 2.7.1 2.8.0: This library provides iCalendar support for ruby. (RFC-2445)
@@ -108,6 +108,7 @@ dev-ruby/innertube 1.1.0-r1 1.1.0-r2: A thread-safe resource pool, originally bo
 dev-ruby/invisible_captcha 2.0.0 2.1.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.5.0 3.5.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.4-r1: Implementation of Jaro-Winkler distance algorithm
+dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.5.0 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
@@ -153,7 +154,7 @@ dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0: RuboCop's Node and Node
 dev-ruby/rubocop-capybara 2.17.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.2 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.16.1 2.17.2 2.17.3 2.17.4 2.18.0 2.19.0 2.19.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rspec 2.13.2 2.14.2 2.15.0 2.16.0 2.17.1 2.18.1 2.19.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 2.16.0 2.17.1 2.18.1 2.19.0 2.20.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.13.0 1.14.0 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r4 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
