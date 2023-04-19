@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby30 ruby31"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -17,8 +17,8 @@ RUBY_FAKEGEM_GEMSPEC="rubocop-rspec.gemspec"
 inherit ruby-fakegem
 
 DESCRIPTION="Code style checking for RSpec files"
-HOMEPAGE="https://github.com/rubocop-hq/rubocop-rspec"
-SRC_URI="https://github.com/rubocop-hq/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop-rspec"
+SRC_URI="https://github.com/rubocop/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -27,4 +27,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.33
+	>=dev-ruby/rubocop-capybara-2.17:0
 "
+
+ruby_add_depend "test? ( dev-ruby/yard )"
