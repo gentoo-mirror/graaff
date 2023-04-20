@@ -94,7 +94,7 @@ dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML 
 dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
-dev-ruby/global_phone_dbgen 1.0.0-r1 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
+dev-ruby/global_phone_dbgen 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/groupdate 6.1.0 6.2.0 6.2.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r1: HTML Tokenizer
@@ -149,7 +149,7 @@ dev-ruby/roda 3.47.0 3.55.0 3.58.0 3.66.0: Routing tree web toolkit
 dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.46.0 1.47.0 1.48.0 1.48.1 1.49.0 1.50.0 1.50.1: A Ruby static code analyzer
+dev-ruby/rubocop 1.47.0 1.48.1 1.49.0 1.50.1 1.50.2: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.12.0 1.13.3 1.14.3 1.15.2 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
