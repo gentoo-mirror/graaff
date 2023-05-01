@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27 ruby30 ruby31"
+USE_RUBY="ruby27 ruby30 ruby31 ruby32"
 
 COMMIT=dd0894061f58479884e6cfa2d00382542dc77d5a
 
