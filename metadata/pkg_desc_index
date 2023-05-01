@@ -44,7 +44,7 @@ dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3
 dev-libs/lasso 2.7.0 2.8.0: C library aiming to implement the Liberty Alliance standards
 dev-ruby/PoParser 3.2.6: A PO file parser, editor and generator
 dev-ruby/aasm 5.2.0 5.3.1: A library for adding finite state machines to Ruby classes.
-dev-ruby/active_model_otp 2.3.1: Adds methods to set and authenticate against one time passwords
+dev-ruby/active_model_otp 2.3.1 2.3.2: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.13: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.8 1.0.0 1.0.3: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 1.1.3-r1 2.0.0 2.0.0-r1: An Action Dispatch session store backed by an Active Record class
@@ -93,7 +93,7 @@ dev-ruby/font-awesome-sass 5.15.1 5.15.1-r1: Font-Awesome Sass gem for use in Ru
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.0: Git-Like Interface Command Line Parser
-dev-ruby/global_phone 1.0.1-r1 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
+dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/groupdate 6.1.0 6.2.0 6.2.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0: Got a heap dump? Great. Use this tool to see what's in it!
@@ -139,12 +139,12 @@ dev-ruby/rails-controller-testing 1.0.5 1.0.5-r1: Extracting assigns and assert_
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recaptcha 5.10.0 5.13.0: Adds helpers for the reCAPTCHA API
 dev-ruby/record_tag_helper 1.0.1-r1: ActionView Record Tag Helpers
-dev-ruby/recursive-open-struct 1.1.2 1.1.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/recursive-open-struct 1.1.3 1.1.3-r1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.0.0 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.9.1: A framework for Model Driven Software Development (MDSD)
-dev-ruby/riddle 2.4.2 2.4.3: An interface to the Sphinx search daemon.
+dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.47.0 3.55.0 3.58.0 3.66.0: Routing tree web toolkit
 dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
@@ -163,7 +163,7 @@ dev-ruby/secure_headers 6.4.0 6.5.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
 dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
-dev-ruby/site_prism-all_there 0.3.2: Simple DSL in order to recursively query page/section/element structures
+dev-ruby/site_prism-all_there 0.3.2 2.0: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.16.3 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/solargraph 0.45.0 0.46.0 0.47.2 0.48.0 0.49.0: IDE tools for code completion, inline documentation, and static analysis
@@ -176,7 +176,7 @@ dev-ruby/terser 1.1.14: Terser minifies JavaScript files by wrapping TerserJS to
 dev-ruby/thinking-sphinx 5.4.0 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5-r1: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 6.0.3 6.1.2 6.2.0 6.3.0 6.3.1 6.3.2 6.4.0 6.4.1: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 6.0.3 6.1.2 6.2.0 6.3.0 6.3.1 6.3.2 6.4.0 6.4.1 6.4.2: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20220429: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.5: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
