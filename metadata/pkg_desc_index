@@ -183,10 +183,10 @@ dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize you
 dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0: Style checker/lint tool for markdown files
-dev-util/puppet-strings 2.9.0 3.0.1: Puppet documentation via YARD
+dev-util/puppet-strings 3.0.1: Puppet documentation via YARD
 dev-util/scss-lint 0.59.0 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
-dev-vcs/overcommit 0.57.0 0.58.0 0.59.1: The Opinionated Git Hook Manager
+dev-vcs/overcommit 0.59.1: The Opinionated Git Hook Manager
 media-gfx/emulsion 9.0-r1 10.0: A fast and minimalistic image viewer
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
