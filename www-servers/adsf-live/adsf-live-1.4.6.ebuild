@@ -2,15 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27"
+USE_RUBY="ruby27 ruby30"
 
-RUBY_FAKEGEM_RECIPE_DOC="rdoc"
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
 inherit ruby-fakegem
 
 DESCRIPTION="Automatically reloads when changes are detected"
-HOMEPAGE="https://github.com/ddfreyne/adsf/"
+HOMEPAGE="https://github.com/denisdefreyne/adsf"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
