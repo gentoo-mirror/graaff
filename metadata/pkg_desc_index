@@ -199,3 +199,4 @@ sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r1 0.3.6-r2: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.18.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
+www-servers/adsf-live 1.4.6: Automatically reloads when changes are detected
