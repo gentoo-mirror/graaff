@@ -1,0 +1,60 @@
+From 9de53057f3089c98e2bf37f8d6b2e924ec7e52de Mon Sep 17 00:00:00 2001
+From: Peter Goldstein <peter.m.goldstein@gmail.com>
+Date: Sun, 23 Jan 2022 22:53:50 -0800
+Subject: [PATCH] Add Ruby 3.1 to CI
+
+---
+ .github/workflows/ruby.yml |  2 +-
+ spec/money_spec.rb         | 14 ++++++++++----
+ 2 files changed, 11 insertions(+), 5 deletions(-)
+
+diff --git a/.github/workflows/ruby.yml b/.github/workflows/ruby.yml
+index 3a38038a6..17154a800 100644
+--- a/.github/workflows/ruby.yml
++++ b/.github/workflows/ruby.yml
+@@ -12,7 +12,7 @@ jobs:
+     runs-on: ubuntu-latest
+     strategy:
+       matrix:
+-        ruby-version: ['2.6', '2.7', '3.0']
++        ruby-version: ['2.6', '2.7', '3.0', '3.1']
+ 
+     steps:
+     - uses: actions/checkout@v2
+diff --git a/spec/money_spec.rb b/spec/money_spec.rb
+index d91054587..600caf742 100644
+--- a/spec/money_spec.rb
++++ b/spec/money_spec.rb
+@@ -274,13 +274,20 @@ def expectation.fractional
+     decimal_mark: ! ','
+     thousands_separator: .
+     iso_numeric: '978'
+-    mutex: !ruby/object:Mutex {}
++    mutex: !ruby/object:Thread::Mutex {}
+     last_updated: 2012-11-23 20:41:47.454438399 +02:00
+ YAML
+       }
+ 
++      let(:m) do
++        if Psych::VERSION > '4.0'
++          YAML.safe_load(serialized, permitted_classes: [Money, Money::Currency, Symbol, Thread::Mutex, Time])
++        else
++          YAML.safe_load(serialized, [Money, Money::Currency, Symbol, Thread::Mutex, Time])
++        end
++      end
++
+       it "uses BigDecimal when rounding" do
+-        m = YAML::load serialized
+         expect(m).to be_a(Money)
+         expect(m.class.default_infinite_precision).to be false
+         expect(m.fractional).to eq 250 # 249.5 rounded up
+@@ -288,8 +295,7 @@ def expectation.fractional
+       end
+ 
+       it "is a BigDecimal when using infinite_precision", :default_infinite_precision_true do
+-        money = YAML::load serialized
+-        expect(money.fractional).to be_a BigDecimal
++        expect(m.fractional).to be_a BigDecimal
+       end
+     end
+ 
