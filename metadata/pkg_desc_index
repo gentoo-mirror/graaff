@@ -137,6 +137,7 @@ dev-ruby/rails-controller-testing 1.0.5 1.0.5-r1: Extracting assigns and assert_
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recaptcha 5.10.0 5.13.0: Adds helpers for the reCAPTCHA API
 dev-ruby/recursive-open-struct 1.1.3 1.1.3-r1: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.9.1: A framework for Model Driven Software Development (MDSD)
@@ -199,4 +200,4 @@ sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r1 0.3.6-r2: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.18.0: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
-www-servers/adsf-live 1.4.6: Automatically reloads when changes are detected
+www-servers/adsf-live 1.4.6 1.4.7: Automatically reloads when changes are detected
