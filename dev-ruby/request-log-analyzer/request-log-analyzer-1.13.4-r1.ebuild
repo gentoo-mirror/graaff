@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27"
+USE_RUBY="ruby27 ruby30 ruby31"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -30,4 +30,10 @@ all_ruby_prepare() {
 	# Drop specs that require a running database
 	rm -f spec/unit/aggregator/database_inserter_spec.rb \
 		spec/unit/database/database_spec.rb || die
+
+	sed -i -e 's/YAML.load/YAML.unsafe_load/' spec/*/*.rb || die
+
+	# Drop spec failing now with a doubly defined database field
+	sed -e '/should run with the --database option/askip "activerecord/sqlite issue"' \
+		-i spec/integration/command_line_usage_spec.rb || die
 }
