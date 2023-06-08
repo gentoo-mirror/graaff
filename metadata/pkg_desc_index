@@ -59,7 +59,7 @@ dev-ruby/axe-core-cucumber 4.5.0 4.5.1 4.6.0 4.6.1: Cucumber step definitions fo
 dev-ruby/backport 1.1.2 1.2.0: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.2-r1 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.1.1 0.2.0 0.2.1: A performance benchmarking library
-dev-ruby/better_errors 2.9.1: Provides a better error page for Rails and other Rack apps
+dev-ruby/better_errors 2.9.1 2.10.0: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 1.0.16-r1 2.0.1: Better HTML for Rails
 dev-ruby/bootsnap 1.11.1 1.12.0 1.13.0 1.16.0: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 4.6.1 5.2.0 5.2.1 5.2.2 5.2.3: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
@@ -146,7 +146,7 @@ dev-ruby/roda 3.47.0 3.55.0 3.58.0 3.66.0: Routing tree web toolkit
 dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.47.0 1.48.1 1.49.0 1.50.1 1.50.2: A Ruby static code analyzer
+dev-ruby/rubocop 1.47.0 1.48.1 1.49.0 1.50.1 1.50.2 1.52.0: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0 1.29.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1 2.18.0: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.13.3 1.14.3 1.15.2 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
