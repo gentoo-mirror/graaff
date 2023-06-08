@@ -121,7 +121,7 @@ dev-ruby/money 6.16.0-r1: This library aids one in handling money and different 
 dev-ruby/nested_form 0.3.2-r1 0.3.2-r2: A Rails gem for conveniently manage multiple nested models in a single form.
 dev-ruby/nokogiri-happymapper 0.9.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r3 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
-dev-ruby/oedipus_lex 2.6.0: A lexer generator in the same family as Rexical and Rex
+dev-ruby/oedipus_lex 2.6.0 2.6.1: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 12.3.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/pipedrive-rb 0.3.0-r1 0.3.0_p20201019: Pipedrive.com API Wrapper
 dev-ruby/popper_js 1.16.0 2.9.3 2.11.5 2.11.6 2.11.7: Popper.js assets as a Ruby gem
@@ -147,7 +147,7 @@ dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0 1.1.0-r1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.47.0 1.48.1 1.49.0 1.50.1 1.50.2: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0 1.29.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1 2.18.0: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.13.3 1.14.3 1.15.2 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.16.1 2.17.2 2.17.3 2.17.4 2.18.0 2.19.0 2.19.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
