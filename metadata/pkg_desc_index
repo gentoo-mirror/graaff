@@ -111,7 +111,7 @@ dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
-dev-ruby/linkedin 1.1.1-r3: Ruby wrapper for the LinkedIn API
+dev-ruby/linkedin 1.1.1-r3 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.1: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.6: Some utilities for your Minitest day-to-day usage
