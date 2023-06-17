@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby27 ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_BINWRAP=""
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -15,7 +15,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="A toolset of small support modules used throughout the dry-rb ecosystem"
 
-HOMEPAGE="https://dry-rb.org/gems/dry-core"
+HOMEPAGE="https://dry-rb.org/gems/dry-core/"
 SRC_URI="https://github.com/dry-rb/dry-core/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
