@@ -1,13 +1,16 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=test? ( dev-ruby/rake )
 DESCRIPTION=Major mode for editing Ruby files
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/zenspider/enhanced-ruby-mode
 INHERIT=elisp ruby-single
+IUSE=test
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=app-editors/emacs-25.3:*
+RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/zenspider/enhanced-ruby-mode/archive/e960bf941d9fa9d92eabf7c03a8bbb51ba1ac453.tar.gz -> enh-ruby-mode-20210124.tar.gz
+SRC_URI=https://github.com/zenspider/enhanced-ruby-mode/archive/7e76d754e1632b4fc9a024fa393c3fc837bcc86b.tar.gz -> enh-ruby-mode-20221011.tar.gz
 _eclasses_=elisp-common	01bc6dc778b74a9deebe4e419a3b790e	elisp	7190c722d9e06fabcae26ef1e1dc9183	ruby-utils	e06533c14f2bbca05b01fb6b0506e83a	ruby-single	e045ee439d34b230e588900a87a11904
-_md5_=442411239df4d8264abdb93d9920cf74
+_md5_=bae5e5aa1bf0cefcbcb6d9df8c786036
