@@ -71,7 +71,7 @@ dev-ruby/chroma 0.2.0: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.12.0: Analyze code for potentially uncalled / dead methods
-dev-ruby/debride-erb 1.0.1: Extends debride to analyze erb files (erubis ala rails, actually)
+dev-ruby/debride-erb 1.0.1 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.4.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4: A simple wrapper for Consul
@@ -148,8 +148,9 @@ dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enum
 dev-ruby/rubocop 1.50.1 1.50.2 1.52.0 1.52.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.24.0 1.24.1 1.26.0 1.27.0 1.28.0 1.29.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.17.1 2.18.0: Code style checking for RSpec files
+dev-ruby/rubocop-factory_bot 2.23.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.18.0 2.19.0 2.19.1 2.20.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.18.0 2.19.0 2.19.1 2.20.0 2.20.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rspec 2.16.0 2.17.1 2.18.1 2.19.0 2.20.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
