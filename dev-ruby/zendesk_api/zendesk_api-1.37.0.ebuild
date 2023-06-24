@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -23,7 +23,7 @@ IUSE=""
 
 ruby_add_rdepend "
 	dev-ruby/faraday:1
-	|| ( dev-ruby/hashie:5 dev-ruby/hashie:4 )
+	dev-ruby/hashie:5
 	dev-ruby/inflection
 	dev-ruby/mini_mime
 	=dev-ruby/multipart-post-2*
