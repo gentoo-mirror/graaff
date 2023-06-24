@@ -189,7 +189,6 @@ dev-util/puppet-strings 3.0.1: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.59.1 0.60.0: The Opinionated Git Hook Manager
-media-gfx/emulsion 9.0-r1 10.0: A fast and minimalistic image viewer
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
@@ -198,6 +197,6 @@ net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-apps/viddy 0.3.4: A modern watch command. Time machine and pager etc.
 sys-fs/zfs-backup 20150318: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r2: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
-www-apache/mod_auth_mellon 0.18.0: An Apache module with a simple SAML 2.0 service provider
+www-apache/mod_auth_mellon 0.18.0 0.18.1: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
 www-servers/adsf-live 1.4.7: Automatically reloads when changes are detected

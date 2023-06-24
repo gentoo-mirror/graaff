@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND==www-servers/apache-2.4* virtual/pkgconfig >=dev-libs/lasso-2.1 net-misc/curl dev-libs/openssl:0=
+DESCRIPTION=An Apache module with a simple SAML 2.0 service provider
+EAPI=7
+HOMEPAGE=https://github.com/latchset/mod_auth_mellon
+INHERIT=autotools apache-module
+IUSE=diagnostics
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-libs/lasso-2.1 net-misc/curl dev-libs/openssl:0=
+SLOT=0
+SRC_URI=https://github.com/latchset/mod_auth_mellon/archive/v0.18.1.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	depend.apache	416d1c5005c5f4594e79812fb7323f0d	apache-module	c39c4721f3b26f641833bddb8ee0718e
+_md5_=8b5e8003545375ff372a227039c8e827
