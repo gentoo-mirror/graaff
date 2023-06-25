@@ -47,7 +47,7 @@ dev-ruby/aasm 5.3.1: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.1 2.3.2: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.13: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.8 1.0.0 1.0.3 1.0.4: Validations for Active Storage (presence)
-dev-ruby/activerecord-session_store 1.1.3-r1 2.0.0-r1: An Action Dispatch session store backed by an Active Record class
+dev-ruby/activerecord-session_store 2.0.0-r1: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
@@ -135,11 +135,11 @@ dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recaptcha 5.13.0: Adds helpers for the reCAPTCHA API
-dev-ruby/recursive-open-struct 1.1.3 1.1.3-r1: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/recursive-open-struct 1.1.3-r1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1: Map simple html back into markdown
-dev-ruby/rgen 0.9.1: A framework for Model Driven Software Development (MDSD)
+dev-ruby/rgen 0.9.1 0.10.0: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.58.0 3.66.0: Routing tree web toolkit
 dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
