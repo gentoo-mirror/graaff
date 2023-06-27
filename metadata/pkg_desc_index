@@ -151,6 +151,7 @@ dev-ruby/rubocop-capybara 2.17.1 2.18.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.18.0 2.19.0 2.19.1 2.20.0 2.20.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.16.0 2.17.1 2.18.1 2.19.0 2.20.0 2.22.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
@@ -159,7 +160,7 @@ dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.4.0 6.5.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
-dev-ruby/site_prism 3.7.3: A simple, clean and semantic DSL for describing your site with Page Object Model
+dev-ruby/site_prism 3.7.3 4.0.2: A simple, clean and semantic DSL for describing your site with Page Object Model
 dev-ruby/site_prism-all_there 0.3.2 2.0 2.0.1: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
@@ -185,7 +186,7 @@ dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize you
 dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0: Style checker/lint tool for markdown files
-dev-util/puppet-strings 3.0.1: Puppet documentation via YARD
+dev-util/puppet-strings 3.0.1 4.0.0: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.59.1 0.60.0: The Opinionated Git Hook Manager
