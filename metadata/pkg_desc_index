@@ -185,6 +185,7 @@ dev-ruby/warning 1.3.0: Custom processing for warnings
 dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.37.0: Wrapper for the REST API at https://www.zendesk.com
+dev-util/foreman 0.87.2: Manage Procfile-based applications
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 3.0.1 4.0.0: Puppet documentation via YARD
