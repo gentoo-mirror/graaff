@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby26 ruby27 ruby30 ruby31"
+USE_RUBY="ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -24,5 +24,6 @@ PATCHES=( "${FILESDIR}/${P}-uri-open.patch" )
 ruby_add_rdepend "dev-ruby/nokogiri"
 
 all_ruby_prepare() {
-	sed -i -e '28 s|:url => "http://blog.example.com/feed/"|{ url: "http://blog.example.com/feed/" }|' spec/feed_parser_spec.rb || die
+	sed -e '28 s|:url => "http://blog.example.com/feed/"|{ url: "http://blog.example.com/feed/" }|' \
+		-i spec/feed_parser_spec.rb || die
 }
