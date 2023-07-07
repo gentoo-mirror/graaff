@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DESCRIPTION=An RSpec minor mode for Emacs
+EAPI=8
+HOMEPAGE=https://github.com/pezra/rspec-mode
+INHERIT=elisp
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=app-editors/emacs-25.3:*
+SLOT=0
+SRC_URI=https://github.com/pezra/rspec-mode/archive/3f039ae3fda9e52433a8c31d4b6c78c89e559906.tar.gz -> rspec-mode-0.20230616.tar.gz
+_eclasses_=elisp-common	dde4f515dde15603a26a3755438e9c78	elisp	d5d9361b9698f474179a2ac3f8bf46e8
+_md5_=8451365118ad2bbcb1ef12915d5e482a
