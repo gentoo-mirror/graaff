@@ -3,6 +3,6 @@
 <pkgmetadata>
   <maintainer type="person"><email>graaff@gentoo.org</email></maintainer>
   <upstream>
-    <remote-id type="github">dry-rb/dry-container</remote-id>
+    <remote-id type="github">pezra/rspec-mode</remote-id>
   </upstream>
 </pkgmetadata>

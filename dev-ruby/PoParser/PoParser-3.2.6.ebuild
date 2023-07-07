@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31"
+USE_RUBY="ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -23,5 +23,6 @@ IUSE=""
 ruby_add_rdepend ">=dev-ruby/simple_po_parser-1.1.6 =dev-ruby/simple_po_parser-1.1*"
 
 all_ruby_prepare() {
-	sed -i -e '/SimpleCov/,/^end/ s:^:#: ; /\(awesome_print\|simplecov\)/ s:^:#: ; 1irequire "pathname"' spec/spec_helper.rb || die
+	sed -e '/SimpleCov/,/^end/ s:^:#: ; /\(awesome_print\|simplecov\)/ s:^:#: ; 1irequire "pathname"' \
+		-i spec/spec_helper.rb || die
 }
