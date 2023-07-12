@@ -128,7 +128,7 @@ dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Co
 dev-ruby/oedipus_lex 2.6.0 2.6.1: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 12.3.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/pipedrive-rb 0.3.0_p20201019: Pipedrive.com API Wrapper
-dev-ruby/popper_js 2.11.5 2.11.6 2.11.7: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 2.11.7: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.19.0 1.21.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
@@ -191,7 +191,7 @@ dev-ruby/zendesk_api 1.37.0 2.0.1: Wrapper for the REST API at https://www.zende
 dev-util/foreman 0.87.2: Manage Procfile-based applications
 dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0: Style checker/lint tool for markdown files
-dev-util/puppet-strings 3.0.1 4.0.0: Puppet documentation via YARD
+dev-util/puppet-strings 4.0.0 4.1.0: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.59.1 0.60.0: The Opinionated Git Hook Manager
