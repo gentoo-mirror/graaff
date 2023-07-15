@@ -196,7 +196,7 @@ dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SC
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.60.0: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
-net-analyzer/munin-elasticsearch 0.20180515 0.20220303: A Munin plugin for monitoring Elasticsearch nodes
+net-analyzer/munin-elasticsearch 0.20180515 0.20220303 0.20220303-r1: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
