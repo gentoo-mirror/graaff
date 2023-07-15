@@ -1,0 +1,33 @@
+commit 2ce5c27b4f909c0b8aa7284736c5e5a18858bea6
+Author: Hans de Graaff <hans@degraaff.org>
+Date:   Sat Jul 15 12:07:55 2023 +0200
+
+    Use URI.encode_www_form_component
+    
+    URI.escape has been deprecated for a long time and is no longer
+    available in ruby 3.0 and later versions.
+    
+    Fixes #12
+
+diff --git a/elasticsearch_ b/elasticsearch_
+index d4d6f32..94e05f5 100755
+--- a/elasticsearch_
++++ b/elasticsearch_
+@@ -31,7 +31,7 @@ mode = $0.gsub /.*\/elasticsearch_/, ""
+ 
+ if ARGV[0] == "autoconf"
+     begin
+-        node_encode = URI.escape(@node)
++        node_encode = URI.encode_www_form_component(@node)
+         nodes_d = fetch('/_nodes/'+node_encode);
+         puts "yes"
+         exit 0
+@@ -156,7 +156,7 @@ end
+ data = {};
+ 
+ begin
+-    node_encode = URI.escape(@node)
++    node_encode = URI.encode_www_form_component(@node)
+     stats = fetch('/_nodes/'+node_encode+'/stats');
+ rescue
+     err.puts "Fetch error"
