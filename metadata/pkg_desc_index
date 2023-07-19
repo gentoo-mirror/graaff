@@ -48,7 +48,7 @@ dev-ruby/PoParser 3.2.6: A PO file parser, editor and generator
 dev-ruby/aasm 5.3.1: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.1 2.3.2: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.13: Making it easy to serialize models for client-side use
-dev-ruby/active_storage_validations 0.9.8 1.0.0 1.0.3 1.0.4: Validations for Active Storage (presence)
+dev-ruby/active_storage_validations 0.9.8 1.0.4: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 2.0.0-r1: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
@@ -73,7 +73,7 @@ dev-ruby/chroma 0.2.0 0.2.0-r1: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.12.0: Analyze code for potentially uncalled / dead methods
-dev-ruby/debride-erb 1.0.1 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
+dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.4.0 3.4.0-r1: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4: A simple wrapper for Consul
@@ -100,7 +100,7 @@ dev-ruby/heapy 0.2.0 0.2.0-r1: Got a heap dump? Great. Use this tool to see what
 dev-ruby/html_tokenizer 0.0.7-r1 0.0.7-r2: HTML Tokenizer
 dev-ruby/icalendar 2.8.0: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.3-r1: Provides recurrence to icalendar gem
-dev-ruby/ice_cube 0.16.4 0.16.4_p20220302: a recurring date library for Ruby
+dev-ruby/ice_cube 0.16.4_p20220302: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.4.2.0: A templating language that converts simple HTML into responsive email-ready HTML
@@ -138,7 +138,7 @@ dev-ruby/rack-proxy 0.7.6: Rack app providing request/response rewriting proxy c
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
-dev-ruby/recaptcha 5.13.0: Adds helpers for the reCAPTCHA API
+dev-ruby/recaptcha 5.13.0 5.14.0: Adds helpers for the reCAPTCHA API
 dev-ruby/recursive-open-struct 1.1.3-r1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
