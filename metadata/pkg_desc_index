@@ -59,7 +59,7 @@ dev-ruby/authlogic 6.4.2: A clean, simple, and unobtrusive ruby authentication s
 dev-ruby/axe-core-api 4.6.0 4.6.1 4.7.0: Provides a collection of methods which interface as an API for Axe
 dev-ruby/axe-core-cucumber 4.6.0 4.6.1 4.7.0: Cucumber step definitions for Axe
 dev-ruby/backport 1.2.0-r1: A pure Ruby library for event-driven IO
-dev-ruby/backticks 1.0.3: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
+dev-ruby/backticks 1.0.3 1.0.5: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
 dev-ruby/benchmark 0.2.1: A performance benchmarking library
 dev-ruby/better_errors 2.9.1 2.10.0 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.0.1 2.0.2: Better HTML for Rails
