@@ -129,7 +129,7 @@ dev-ruby/nokogiri-happymapper 0.9.0: Parse XML data and convert it quickly and e
 dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/oedipus_lex 2.6.1 2.6.2: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 12.3.0 13.0.0: PaperTrail lets you track changes to your models' data.
-dev-ruby/pipedrive-rb 0.3.0_p20201019: Pipedrive.com API Wrapper
+dev-ruby/pipedrive-rb 0.3.0_p20201019 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.7: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.19.0 1.21.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
