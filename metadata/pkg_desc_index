@@ -60,6 +60,7 @@ dev-ruby/axe-core-api 4.6.0 4.6.1 4.7.0: Provides a collection of methods which 
 dev-ruby/axe-core-cucumber 4.6.0 4.6.1 4.7.0: Cucumber step definitions for Axe
 dev-ruby/backport 1.2.0-r1: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.3 1.0.5: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
+dev-ruby/base64 0.1.1: Support for encoding and decoding binary data using a Base64 representation.
 dev-ruby/benchmark 0.2.1: A performance benchmarking library
 dev-ruby/better_errors 2.9.1 2.10.0 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.0.1 2.0.2: Better HTML for Rails
@@ -156,7 +157,7 @@ dev-ruby/rubocop-factory_bot 2.23.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.16.0 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.20.0 2.20.2: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
-dev-ruby/rubocop-rspec 2.20.0 2.22.0 2.23.0 2.23.1: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 2.22.0 2.23.2: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
