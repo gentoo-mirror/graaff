@@ -1,0 +1,46 @@
+commit 9456b9448d242b390a8f5f8a277cbb0a4c9adcc4
+Author: Hans de Graaff <hans@degraaff.org>
+Date:   Thu Aug 10 13:48:38 2023 +0200
+
+    Update to Faraday 2.x
+
+diff --git a/lib/pipedrive.rb b/lib/pipedrive.rb
+index b872e92..f2dd1b3 100644
+--- a/lib/pipedrive.rb
++++ b/lib/pipedrive.rb
+@@ -7,7 +7,7 @@ require 'active_support/inflector'
+ 
+ require 'hashie'
+ require 'faraday'
+-require 'faraday_middleware'
++require 'faraday/mashify'
+ require 'pipedrive/version'
+ 
+ module Pipedrive
+diff --git a/lib/pipedrive/base.rb b/lib/pipedrive/base.rb
+index 4d08a30..dd9bf60 100644
+--- a/lib/pipedrive/base.rb
++++ b/lib/pipedrive/base.rb
+@@ -87,7 +87,6 @@ module Pipedrive
+           conn.request :url_encoded
+           conn.response :mashify
+           conn.response :json, content_type: /\bjson$/
+-          conn.use FaradayMiddleware::ParseJson
+           conn.response :logger, ::Pipedrive.logger if ::Pipedrive.debug
+           conn.adapter Faraday.default_adapter
+         end
+diff --git a/pipedrive.gemspec b/pipedrive.gemspec
+index 4c2e1a4..8b0f230 100644
+--- a/pipedrive.gemspec
++++ b/pipedrive.gemspec
+@@ -21,8 +21,8 @@ Gem::Specification.new do |gem|
+   gem.required_ruby_version = '>=2.5'
+ 
+   gem.add_dependency('activesupport', '>= 4.0.0')
+-  gem.add_dependency('faraday')
+-  gem.add_dependency('faraday_middleware')
++  gem.add_dependency('faraday', '~> 2.0')
++  gem.add_dependency('faraday-mashify')
+   gem.add_dependency('hashie', '>= 3.0')
+   gem.add_development_dependency('bundler')
+   gem.add_development_dependency('rake', '> 12')
