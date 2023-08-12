@@ -17,3 +17,7 @@ SRC_URI="https://github.com/mthiede/rgen/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 KEYWORDS="~amd64"
 SLOT="0"
+
+all_ruby_prepare() {
+	sed -i -e 's/MiniTest/Minitest/' test/*_test.rb test/*/*_test.rb || die
+}
