@@ -1,8 +1,8 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_DOCDIR="docs"
 RUBY_FAKEGEM_EXTRADOC="CHANGES.md FEATURES OPTIONS.md README.md"
@@ -41,6 +41,7 @@ all_ruby_prepare() {
 	sed -e '/ruby_parser-legacy/ s:^:#:' \
 		-e '/minitest-ci/ s:^:#:' \
 		-e '/simplecov/ s:^:#:' \
+		-e '/slim/ s/4.1/5.2/' \
 		-i gem_common.rb || die
 
 	sed -i -e '/rake/ s/,.*$// ; /codeclimate/ s:^:#: ; /json/ s:^:#:' Gemfile || die
@@ -48,6 +49,9 @@ all_ruby_prepare() {
 	# Avoid support for obsolete ruby versions
 	sed -i -e '/ruby_parser\/legacy/ s:^:#:' lib/brakeman/scanner.rb || die
 	rm -f test/tests/{markdown_output,rails2}.rb || die
+
+	# Avoid obsolete test about rails 6.0.
+	sed -i -e '/test_CVE_2020_8166_rails6/askip "rails 6.0 is deprecated now"' test/tests/cves.rb || die
 }
 
 each_ruby_test() {
@@ -55,7 +59,7 @@ each_ruby_test() {
 		*ruby30)
 			each_fakegem_test
 			;;
-		*ruby31)
+		*ruby31|*ruby32)
 			ewarn "Skipping tests due to missing safe_yaml dependency."
 			;;
 	esac
