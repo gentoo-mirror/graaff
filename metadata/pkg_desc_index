@@ -19,6 +19,7 @@ app-emacs/json-snatcher 1.0.0-r1: Get the path to a JSON element in Emacs
 app-emacs/language-detection 20161123: Automatically detect the programming language in a buffer or string
 app-emacs/let-alist 1.0.6: Easily let-bind values of an assoc-list by their names
 app-emacs/ox-jira 0.20200920: JIRA Backend for Org Export Engine
+app-emacs/rbs-mode 0.3.1: Emacs major mode for Ruby type signature (RBS) files
 app-emacs/reformatter 0.5 0.6: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0: Emacs search tool based on ripgrep
