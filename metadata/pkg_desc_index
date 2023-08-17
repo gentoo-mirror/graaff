@@ -171,7 +171,7 @@ dev-ruby/site_prism 3.7.3 4.0.2 4.0.3: A simple, clean and semantic DSL for desc
 dev-ruby/site_prism-all_there 0.3.2 2.0 2.0.1 2.0.2: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.49.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.49.0 0.49.0-r1: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
