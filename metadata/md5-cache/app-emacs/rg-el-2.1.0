@@ -10,5 +10,5 @@ RDEPEND=>=app-emacs/transient-0.3.0 >=app-emacs/wgrep-2.1.10 sys-apps/ripgrep >=
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/dajva/rg.el/archive/2.1.0.tar.gz -> rg-el-2.1.0.tar.gz
-_eclasses_=elisp-common	d65d4003126dec852c1a5a534c52d2f9	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=elisp-common	dc179f98b2b4d9a4473fd3bdc154bbb6	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
 _md5_=bc223821b82b08a483ce726f8dedcdd7
