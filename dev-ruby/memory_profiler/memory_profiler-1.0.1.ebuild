@@ -18,3 +18,7 @@ LICENSE="MIT"
 KEYWORDS="~amd64"
 SLOT="0"
 IUSE=""
+
+all_ruby_prepare() {
+	sed -i -e 's/MiniTest/Minitest/' test/test_reporter.rb || die
+}
