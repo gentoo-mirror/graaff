@@ -8,7 +8,7 @@ app-emacs/elm-mode 0.21.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
 app-emacs/emacs-color-theme-solarized 20230209: Emacs highlighting using Ethan Schoonover’s Solarized color scheme
 app-emacs/emacs-presentation-mode 0.1.1: Display large character for presentation and live coding
-app-emacs/enh-ruby-mode 20220426 20221011: Major mode for editing Ruby files
+app-emacs/enh-ruby-mode 20221011: Major mode for editing Ruby files
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
@@ -86,7 +86,7 @@ dev-ruby/dry-inflector 1.0.0: String inflections for dry-rb
 dev-ruby/dry-initializer 3.1.1: DSL for declaring params and options of the initializer
 dev-ruby/dumb_delegator 1.0.0 1.0.0-r1: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
-dev-ruby/enumerable-statistics 2.0.7 2.0.7-r1: This library provides statistics features for Enumerable
+dev-ruby/enumerable-statistics 2.0.7-r1: This library provides statistics features for Enumerable
 dev-ruby/erb_lint 0.4.0 0.5.0: ERB Linter tool
 dev-ruby/exception_notification 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/faraday-mashify 0.1.1: Faraday middleware for wrapping responses into Hashie::Mash
@@ -183,7 +183,7 @@ dev-ruby/thwait 0.2.0 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5-r1 2.1.5-r2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529: Additional language packs for tinymce-rails
-dev-ruby/unicode_plot 0.0.5: Plot your data by Unicode characters
+dev-ruby/unicode_plot 0.0.5 0.0.5-r1: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.17.0: A Ruby API client for interacting with a Vault server
 dev-ruby/view_component 2.82.0 3.5.0: A framework for building reusable, encapsulated view components in Ruby on Rails
