@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31"
+USE_RUBY="ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -25,13 +25,15 @@ KEYWORDS="~amd64"
 IUSE=""
 
 ruby_add_rdepend "
+	>=dev-ruby/base64-0.1.1:0.1
 	>=dev-ruby/json-2.3:2
+	>=dev-ruby/language_server-protocol-3.17.0
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-3.2.0.0
+	>=dev-ruby/parser-3.2.2.3
 	dev-ruby/rainbow:3
 	dev-ruby/regexp_parser:2
 	>=dev-ruby/rexml-3.2.5:3
-	>=dev-ruby/rubocop-ast-1.28.0:1
+	>=dev-ruby/rubocop-ast-1.28.1:1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	>=dev-ruby/unicode-display_width-2.4.0:2"
 
