@@ -114,7 +114,7 @@ dev-ruby/jaro_winkler 1.5.6: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
-dev-ruby/jsbundling-rails 1.1.2 1.2.0: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
+dev-ruby/jsbundling-rails 1.1.2 1.2.0 1.2.1: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/language_server-protocol 3.17.0.3: A Language Server Protocol SDK
@@ -157,7 +157,7 @@ dev-ruby/rubocop-ast 1.28.0 1.29.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.18.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.17.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.20.0 2.20.2 2.21.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.20.0 2.20.2 2.21.0 2.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.22.0 2.23.2 2.24.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0: A library for implementing the client side of a SAML authorization
