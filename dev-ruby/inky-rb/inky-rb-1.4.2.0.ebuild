@@ -11,7 +11,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 inherit ruby-fakegem
 
 DESCRIPTION="A templating language that converts simple HTML into responsive email-ready HTML"
-HOMEPAGE="https://github.com/zurb/inky-rb"
+HOMEPAGE="https://github.com/foundation/inky-rb"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
