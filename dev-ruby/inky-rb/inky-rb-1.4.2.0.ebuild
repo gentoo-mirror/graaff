@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby30 ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -34,4 +34,9 @@ all_ruby_prepare() {
 	rm -f Gemfile.lock || die
 	sed -i -e '/rubocop/I s:^:#:' -e '/bundler/I s:^:#:' Rakefile || die
 	sed -i -e '/rubocop/ s:^:#:' inky.gemspec || die
+
+	# Avoid tests depending on old versions of slim
+	sed -e '/when configured to use a different template engine/ s/context/xcontext/' \
+		-e '/(like slim)/ s/it/xit/' \
+		-i spec/test_app/spec/features/inky_spec.rb || die
 }
