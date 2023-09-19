@@ -156,7 +156,7 @@ dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enum
 dev-ruby/rubocop 1.54.2 1.55.1 1.56.1 1.56.2 1.56.3: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.28.0 1.29.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.18.0: Code style checking for RSpec files
-dev-ruby/rubocop-factory_bot 2.23.1: Code style checking for RSpec files
+dev-ruby/rubocop-factory_bot 2.23.1 2.24.0: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.17.1 1.19.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.20.0 2.20.2 2.21.0 2.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
