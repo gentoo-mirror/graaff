@@ -18,7 +18,7 @@ HOMEPAGE="https://github.com/twbs/bootstrap-rubygem"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="$(ver_cut 1)"
+SLOT="$(ver_cut 1-2)"
 IUSE=""
 
 ruby_add_rdepend "
