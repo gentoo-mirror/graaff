@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ HOMEPAGE="https://github.com/twbs/bootstrap-rubygem"
 LICENSE="MIT"
 
 KEYWORDS="~amd64"
-SLOT="$(ver_cut 1)"
+SLOT="$(ver_cut 1-2)"
 IUSE=""
 
 ruby_add_rdepend "
