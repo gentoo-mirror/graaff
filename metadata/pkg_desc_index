@@ -66,6 +66,7 @@ dev-ruby/base64 0.1.1: Support for encoding and decoding binary data using a Bas
 dev-ruby/benchmark 0.2.1: A performance benchmarking library
 dev-ruby/better_errors 2.10.0 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.0.1 2.0.2: Better HTML for Rails
+dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bootsnap 1.16.0: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.2.3 5.3.1: Bootstrap 4 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.2.3 5.3.2: A rails form builder to create forms using Bootstrap 4
