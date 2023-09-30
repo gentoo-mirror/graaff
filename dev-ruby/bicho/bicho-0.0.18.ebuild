@@ -34,7 +34,9 @@ ruby_add_bdepend "test? (
 
 all_ruby_prepare() {
 	# Loosen nokogiri dependency
-	sed -i -e '/nokogiri/ s/1.10.4/1.10/' ${RUBY_FAKEGEM_GEMSPEC} || die
+	sed -e '/nokogiri/ s/1.10.4/1.10/' \
+		-e '/highline/ s/2.0.0/2.0/' \
+		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	# Avoid unneeded development dependencies
 	sed -i -e '/bundler/ s:^:#:' Rakefile test/helper.rb || die
