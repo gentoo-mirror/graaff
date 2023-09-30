@@ -33,9 +33,10 @@ ruby_add_bdepend "test? (
 )"
 
 all_ruby_prepare() {
-	# Loosen nokogiri dependency
+	# Fix dependencies to adhere to semver
 	sed -e '/nokogiri/ s/1.10.4/1.10/' \
 		-e '/highline/ s/2.0.0/2.0/' \
+		-e '/optimist/ s/3.0.0/3.0/' \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	# Avoid unneeded development dependencies
