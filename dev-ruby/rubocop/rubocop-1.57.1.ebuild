@@ -29,7 +29,7 @@ ruby_add_rdepend "
 	>=dev-ruby/json-2.3:2
 	>=dev-ruby/language_server-protocol-3.17.0
 	>=dev-ruby/parallel-1.10:1
-	>=dev-ruby/parser-3.2.2.3
+	>=dev-ruby/parser-3.2.2.4
 	dev-ruby/rainbow:3
 	dev-ruby/regexp_parser:2
 	>=dev-ruby/rexml-3.2.5:3
