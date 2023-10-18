@@ -55,7 +55,7 @@ dev-ruby/activerecord-session_store 2.0.0-r1 2.1.0: An Action Dispatch session s
 dev-ruby/acts-as-taggable-on 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 3.2.2 3.3.10 3.3.11 3.4.12: The official appsignal.com gem
+dev-ruby/appsignal 3.2.2 3.3.10 3.3.11 3.4.12 3.4.13: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 6.4.2: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/axe-core-api 4.7.0 4.8.0: Provides a collection of methods which interface as an API for Axe
