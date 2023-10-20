@@ -182,7 +182,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.25: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.16 1.1.17 1.1.18: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.16 1.1.17 1.1.18 1.1.19: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.5-r2: A modern, simple and fast FreeTDS library for Ruby using DB-Library
