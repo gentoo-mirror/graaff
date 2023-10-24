@@ -37,7 +37,7 @@ dev-haskell/colourista 0.1.0.1: Convenient interface for printing colourful mess
 dev-haskell/gitrev 1.3.1: Compile git revision info into Haskell projects
 dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
 dev-haskell/ilist 0.4.0.1: Optimised list functions for doing index-related things
-dev-haskell/language-docker 9.1.2 10.4.0: Dockerfile parser, pretty-printer and embedded DSL
+dev-haskell/language-docker 9.1.2 10.4.0 10.4.3: Dockerfile parser, pretty-printer and embedded DSL
 dev-haskell/megaparsec 9.2.1: Monadic parser combinators
 dev-haskell/monoid-subclasses 1.0.1: Subclasses of Monoid
 dev-haskell/parser-combinators 1.3.0: Lightweight package providing commonly useful parser combinators
