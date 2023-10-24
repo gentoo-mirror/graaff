@@ -110,7 +110,7 @@ dev-ruby/ice_cube 0.16.4_p20220302: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
 dev-ruby/inifile 3.0.0: Native Ruby package for reading and writing INI files
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
-dev-ruby/inky-rb 1.4.2.0: A templating language that converts simple HTML into responsive email-ready HTML
+dev-ruby/inky-rb 1.4.2.0 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 2.1.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.5.1: Isolate is a very simple RubyGems sandbox.
