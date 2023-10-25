@@ -33,7 +33,7 @@ app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType 
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
 dev-db/MySlowTranCapture 0.20110406-r1: A tool to print MySQL transactions that take more than <n> milliseconds
 dev-db/mysql2sqlite 20200901-r1: Converts MySQL dump to SQLite3 compatible dump
-dev-haskell/colourista 0.1.0.1: Convenient interface for printing colourful messages
+dev-haskell/colourista 0.1.0.1 0.1.0.2-r1: Convenient interface for printing colourful messages
 dev-haskell/gitrev 1.3.1: Compile git revision info into Haskell projects
 dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
 dev-haskell/ilist 0.4.0.1: Optimised list functions for doing index-related things
@@ -50,7 +50,7 @@ dev-ruby/PoParser 3.2.6: A PO file parser, editor and generator
 dev-ruby/aasm 5.3.1 5.5.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.1 2.3.2: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.13: Making it easy to serialize models for client-side use
-dev-ruby/active_storage_validations 0.9.8 1.0.4: Validations for Active Storage (presence)
+dev-ruby/active_storage_validations 0.9.8 1.0.4 1.1.0: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 2.0.0-r1 2.1.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 9.0.1: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
@@ -197,7 +197,7 @@ dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in R
 dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 1.37.0 2.0.1 3.0.4 3.0.5: Wrapper for the REST API at https://www.zendesk.com
 dev-util/foreman 0.87.2: Manage Procfile-based applications
-dev-util/hadolint 2.8.0-r1: Dockerfile Linter JavaScript API
+dev-util/hadolint 2.8.0-r1 2.10.0: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0 0.13.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 4.0.0 4.1.0: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
