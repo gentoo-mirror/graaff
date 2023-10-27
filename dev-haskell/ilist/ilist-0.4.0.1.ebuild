@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -28,5 +28,5 @@ src_prepare() {
 	default
 
 	# Allow GHC 9.0
-	sed -i -e '/build-depends/ s/4.15/4.16/' ilist.cabal || die
+	sed -i -e '/build-depends/ s/4.15/4.17/' ilist.cabal || die
 }
