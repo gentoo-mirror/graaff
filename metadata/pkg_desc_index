@@ -52,7 +52,7 @@ dev-ruby/active_model_otp 2.3.1 2.3.2: Adds methods to set and authenticate agai
 dev-ruby/active_model_serializers 0.8.4 0.10.13: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 0.9.8 1.0.4 1.1.0 1.1.1: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 2.0.0-r1 2.1.0: An Action Dispatch session store backed by an Active Record class
-dev-ruby/acts-as-taggable-on 9.0.1: Advanced tagging for Rails.
+dev-ruby/acts-as-taggable-on 9.0.1 10.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 3.2.2 3.3.10 3.3.11 3.4.12 3.4.13: The official appsignal.com gem
