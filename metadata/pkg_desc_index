@@ -62,8 +62,7 @@ dev-ruby/axe-core-api 4.7.0 4.8.0: Provides a collection of methods which interf
 dev-ruby/axe-core-cucumber 4.7.0 4.8.0: Cucumber step definitions for Axe
 dev-ruby/backport 1.2.0-r1: A pure Ruby library for event-driven IO
 dev-ruby/backticks 1.0.3 1.0.5: Captures stdout, stderr and (optionally) stdin; uses PTY to avoid buffering
-dev-ruby/base64 0.1.1 0.2.0: Support for encoding and decoding binary data using a Base64 representation.
-dev-ruby/benchmark 0.2.1: A performance benchmarking library
+dev-ruby/benchmark 0.2.1 0.3.0: A performance benchmarking library
 dev-ruby/better_errors 2.10.0 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.0.1 2.0.2: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
