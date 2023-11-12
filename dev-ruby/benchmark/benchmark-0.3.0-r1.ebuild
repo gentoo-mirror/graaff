@@ -21,5 +21,8 @@ SLOT="0"
 IUSE="doc"
 
 all_ruby_prepare() {
-	sed -i -e 's:_relative ": "./:' ${RUBY_FAKEGEM_GEMSPEC} || die
+	sed -e 's:_relative ": "./:' \
+		-e 's/__FILE__/"benchmark.gemspec"/' \
+		-e 's/__dir__/"."/' \
+		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 }
