@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby27 ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -13,12 +13,12 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION="9b62288"
+AGENT_VERSION="1dd2a18"
 
 inherit ruby-fakegem
 
 DESCRIPTION="The official appsignal.com gem"
-HOMEPAGE="https://docs.appsignal.com/ruby/"
+HOMEPAGE="https://docs.appsignal.com/ruby"
 SRC_URI="https://rubygems.org/gems/appsignal-${PV}.gem https://appsignal-agent-releases.global.ssl.fastly.net/${AGENT_VERSION}/appsignal-x86_64-linux-all-static.tar.gz -> appsignal-x86_64-${PV}.patch.bz2"
 
 LICENSE="MIT"
@@ -28,7 +28,6 @@ IUSE="test"
 
 ruby_add_rdepend "
 	dev-ruby/rack:*
-	!<dev-ruby/appsignal-2.11.9-r1:2
 "
 
 ruby_add_bdepend "test? (
@@ -52,7 +51,8 @@ all_ruby_prepare() {
 	sed -i -e 's/download_archive(library_type)/open("appsignal-x86_64-linux-all-static.tar.gz")/' ext/extconf.rb || die
 
 	# Avoid specs that require a network
-	sed -i -e '/\(the\|extension\) installation report/askip "requires live network"' spec/lib/appsignal/cli/diagnose_spec.rb || die
+	sed -e '/\(the\|extension\) installation report/askip "requires live network"' \
+		-i spec/lib/appsignal/cli/diagnose_spec.rb || die
 }
 
 each_ruby_test() {
