@@ -27,6 +27,7 @@ app-emacs/rg-el 2.0.3 2.1.0 2.3.0-r1: Emacs search tool based on ripgrep
 app-emacs/rspec-mode 0.20230616: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
+app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
 app-forensics/brakeman 5.4.1 6.0.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
