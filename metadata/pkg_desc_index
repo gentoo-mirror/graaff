@@ -56,7 +56,7 @@ dev-ruby/activerecord-session_store 2.0.0-r1 2.1.0: An Action Dispatch session s
 dev-ruby/acts-as-taggable-on 9.0.1 10.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.1 4.3.2 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0 1.2.1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 3.3.11 3.4.12 3.4.13 3.4.14: The official appsignal.com gem
+dev-ruby/appsignal 3.3.11 3.4.12 3.4.13 3.4.14 3.4.16: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 6.4.2: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/axe-core-api 4.7.0 4.8.0: Provides a collection of methods which interface as an API for Axe
@@ -104,7 +104,7 @@ dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1
 dev-ruby/groupdate 6.2.1 6.3.0 6.4.0: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r2: HTML Tokenizer
-dev-ruby/icalendar 2.8.0 2.9.0 2.10.0 2.10.1: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.9.0 2.10.0 2.10.1: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.1.3-r1 1.2.0: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.16.4_p20220302: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
@@ -141,7 +141,7 @@ dev-ruby/popper_js 2.11.7 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.21.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
-dev-ruby/rack-livereload 0.3.17-r1: Insert LiveReload into your app easily as Rack middleware
+dev-ruby/rack-livereload 0.3.17-r1 0.5.1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0 3.1.0 3.1.1: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.6 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
