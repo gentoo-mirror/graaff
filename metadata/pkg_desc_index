@@ -68,7 +68,7 @@ dev-ruby/better_errors 2.10.0 2.10.1: Provides a better error page for Rails and
 dev-ruby/better_html 2.0.1 2.0.2: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bootsnap 1.16.0 1.17.0: Boot large ruby/rails apps faster
-dev-ruby/bootstrap 5.2.3 5.3.1 5.3.2: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
+dev-ruby/bootstrap 5.3.1 5.3.2: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.2.3 5.3.2 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1: Do some browser detection with Ruby
 dev-ruby/byebug 11.1.3-r1: a Ruby 2 debugger
@@ -98,7 +98,7 @@ dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when follo
 dev-ruby/font-awesome-sass 5.15.1-r1 6.4.2 6.5.0 6.5.1: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
-dev-ruby/gli 2.21.0 2.21.1: Git-Like Interface Command Line Parser
+dev-ruby/gli 2.21.1: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
 dev-ruby/groupdate 6.2.1 6.3.0 6.4.0: The simplest way to group temporal data
@@ -169,7 +169,7 @@ dev-ruby/rubocop-rspec 2.22.0 2.23.2 2.24.0 2.24.1 2.25.0: Code style checking f
 dev-ruby/ruby-saml 1.15.0 1.16.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0: Schulze voting method (with help of the Floyd-Warshall algorithm)
-dev-ruby/scrypt 3.0.7-r2: Scrypt password hashing algorithm
+dev-ruby/scrypt 3.0.7-r2 3.0.7-r3: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.5.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
