@@ -1,9 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby27 ruby30 ruby31"
+USE_RUBY="ruby31 ruby32"
 
 RUBY_FAKEGEM_RECIPE_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -27,10 +27,16 @@ ruby_add_rdepend "
 	>=dev-ruby/request_store-1.0.5:*
 "
 
-ruby_add_bdepend "test? ( dev-ruby/scrypt:0 dev-ruby/sqlite3 )"
+ruby_add_bdepend "test? ( dev-ruby/scrypt:0 dev-ruby/sqlite3 dev-ruby/timecop )"
 
 all_ruby_prepare() {
 	sed -i -e '/\(bundler\|coverall\|rubocop\)/I s:^:#:' Rakefile || die
-	sed -i -e '/byebug/ s:^:#: ; /reporters/I s:^:#:' \
-		-e '/coveralls/,/SimpleCov.start/ s:^:#:' test/test_helper.rb || die
+	sed -e '/byebug/ s:^:#: ; /reporters/I s:^:#:' \
+		-e '/coveralls/,/SimpleCov.start/ s:^:#:' \
+		-e '2igem "activerecord", "< 7.1"; gem "railties", "< 7.1"' \
+		-i test/test_helper.rb || die
+
+	# https://github.com/binarylogic/authlogic/issues/766
+	sed -e 's/MiniTest/Minitest/g' \
+		-i lib/authlogic/test_case.rb || die
 }
