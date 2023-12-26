@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=net-libs/libpcap dev-libs/boost
 SLOT=0
 SRC_URI=https://github.com/yoshinorim/MySlowTranCapture/archive/5c7a311c2ce28bc462e6f4525a3948c9b653da66.tar.gz -> MySlowTranCapture-0.20110406.tar.gz
-_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=35930a3578b957eea26e601c370af7d5
