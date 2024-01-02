@@ -1,0 +1,94 @@
+From 9c65e88779375ee89d554f965ad500a81eb1c483 Mon Sep 17 00:00:00 2001
+From: Tim Diggins <tim@red56.uk>
+Date: Tue, 1 Aug 2023 16:47:20 +0100
+Subject: [PATCH] fix issue with using draper outside of controller/view
+ context
+
+fixes #926
+
+however the current PR also drops support for rails < 6.0
+open to discussion around this if there's any engagement on this PR.
+---
+ draper.gemspec                                |  6 +++---
+ lib/draper/view_context/build_strategy.rb     |  8 ++------
+ .../view_context/build_strategy_spec.rb       | 19 +------------------
+ 3 files changed, 6 insertions(+), 27 deletions(-)
+
+diff --git a/draper.gemspec b/draper.gemspec
+index 5c73dd15..3178dbdd 100644
+--- a/draper.gemspec
++++ b/draper.gemspec
+@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
+ 
+   s.required_ruby_version = '>= 2.2.2'
+ 
+-  s.add_dependency 'activesupport', '>= 5.0'
+-  s.add_dependency 'actionpack', '>= 5.0'
++  s.add_dependency 'activesupport', '>= 6.0'
++  s.add_dependency 'actionpack', '>= 6.0'
+   s.add_dependency 'request_store', '>= 1.0'
+-  s.add_dependency 'activemodel', '>= 5.0'
++  s.add_dependency 'activemodel', '>= 6.0'
+   s.add_dependency 'activemodel-serializers-xml', '>= 1.0'
+   s.add_dependency 'ruby2_keywords'
+ 
+diff --git a/lib/draper/view_context/build_strategy.rb b/lib/draper/view_context/build_strategy.rb
+index 9832a05d..566ed0d7 100644
+--- a/lib/draper/view_context/build_strategy.rb
++++ b/lib/draper/view_context/build_strategy.rb
+@@ -38,16 +38,12 @@ def call
+         def controller
+           Draper::ViewContext.controller ||= Draper.default_controller.new
+           Draper::ViewContext.controller.tap do |controller|
+-            controller.request ||= new_test_request controller if defined?(ActionController::TestRequest)
++            controller.request ||= new_test_request controller
+           end
+         end
+ 
+         def new_test_request(controller)
+-          is_above_rails_5_1 ? ActionController::TestRequest.create(controller) : ActionController::TestRequest.create
+-        end
+-
+-        def is_above_rails_5_1
+-          ActionController::TestRequest.method(:create).parameters.first == [:req, :controller_class]
++          ActionDispatch::TestRequest.create
+         end
+       end
+     end
+diff --git a/spec/draper/view_context/build_strategy_spec.rb b/spec/draper/view_context/build_strategy_spec.rb
+index 54774926..18acdf61 100644
+--- a/spec/draper/view_context/build_strategy_spec.rb
++++ b/spec/draper/view_context/build_strategy_spec.rb
+@@ -37,7 +37,7 @@ module Draper
+ 
+         expect(controller.request).to be_nil
+         strategy.call
+-        expect(controller.request).to be_an ActionController::TestRequest
++        expect(controller.request).to be_an ActionDispatch::TestRequest
+         expect(controller.params).to be_empty
+ 
+         # sanity checks
+@@ -45,23 +45,6 @@ module Draper
+         expect(controller.view_context.params).to be controller.params
+       end
+ 
+-      it "compatible with rails 5.1 change on ActionController::TestRequest.create method" do
+-        ActionController::TestRequest.class_eval do
+-          if ActionController::TestRequest.method(:create).parameters.first == []
+-            def create controller_class
+-              create
+-            end
+-          end
+-        end
+-        controller = Class.new(ActionController::Base).new
+-        allow(ViewContext).to receive_messages controller: controller
+-        strategy = ViewContext::BuildStrategy::Full.new
+-
+-        expect(controller.request).to be_nil
+-        strategy.call
+-        expect(controller.request).to be_an ActionController::TestRequest
+-      end
+-
+       it "adds methods to the view context from the constructor block" do
+         allow(ViewContext).to receive(:controller).and_return(fake_controller)
+         strategy = ViewContext::BuildStrategy::Full.new do
