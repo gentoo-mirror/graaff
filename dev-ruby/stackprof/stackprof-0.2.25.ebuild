@@ -1,8 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 RUBY_FAKEGEM_EXTENSIONS=(ext/stackprof/extconf.rb)
@@ -19,6 +19,12 @@ SLOT="0"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/minitest:5 dev-ruby/mocha )"
+
+all_ruby_prepare() {
+	sed -e '/mocha/ s/setup/minitest/' \
+		-e 's/MiniTest/Minitest/' \
+		-i test/test_*.rb || die
+}
 
 each_ruby_test() {
 	${RUBY} -I lib:test:. -e 'Dir["test/**/test_*.rb"].each { require _1 }' || die
