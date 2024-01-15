@@ -118,7 +118,7 @@ dev-ruby/jaro_winkler 1.5.6: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
-dev-ruby/jsbundling-rails 1.1.2 1.2.0 1.2.1: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
+dev-ruby/jsbundling-rails 1.1.2 1.2.0 1.2.1 1.2.2: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/language_server-protocol 3.17.0.3: A Language Server Protocol SDK
@@ -183,10 +183,10 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.25: A fast sampling profiler for ruby code
-dev-ruby/terser 1.1.16 1.1.17 1.1.18 1.1.19 1.1.20: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.1.19 1.1.20: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
-dev-ruby/tiny_tds 2.1.5-r2 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
+dev-ruby/tiny_tds 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
