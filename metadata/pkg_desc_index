@@ -142,7 +142,7 @@ dev-ruby/premailer 1.21.0 1.22.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17-r1 0.5.1: Insert LiveReload into your app easily as Rack middleware
-dev-ruby/rack-mini-profiler 3.0.0 3.1.0 3.1.1: Profiling toolkit for Rack applications with Rails integration
+dev-ruby/rack-mini-profiler 3.0.0 3.1.0 3.1.1 3.3.0: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.6 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
