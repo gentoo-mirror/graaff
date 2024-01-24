@@ -135,7 +135,7 @@ dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Co
 dev-ruby/oedipus_lex 2.6.1 2.6.2: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 12.3.0 13.0.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/phlex 1.8.1 1.9.0: A framework for building object-oriented views in Ruby
-dev-ruby/phlex-rails 1.0.0: A high-performance view framework optimised for developer happiness
+dev-ruby/phlex-rails 1.0.0 1.1.1: A high-performance view framework optimised for developer happiness
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.7 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.21.0 1.22.0: Improve the rendering of HTML emails
@@ -158,7 +158,7 @@ dev-ruby/roda 3.66.0 3.70.0: Routing tree web toolkit
 dev-ruby/roo 2.10.0: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0-r1 1.2.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.55.1 1.56.4 1.57.2 1.58.0 1.59.0 1.60.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.55.1 1.56.4 1.57.2 1.58.0 1.59.0 1.60.0 1.60.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.28.0 1.29.0 1.30.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.18.0 2.19.0 2.20.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1 2.24.0 2.25.1: Code style checking for RSpec files
