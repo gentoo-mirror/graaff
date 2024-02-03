@@ -21,7 +21,7 @@ IUSE="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/nokogiri-1
-	|| ( dev-ruby/rubyzip:2 >=dev-ruby/rubyzip-1.3.0:1 )
+	dev-ruby/rubyzip:2
 "
 
 ruby_add_bdepend "test? ( dev-ruby/rspec:3 dev-ruby/shoulda dev-ruby/rack:2.2 )"
