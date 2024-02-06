@@ -202,7 +202,7 @@ dev-util/mdl 0.12.0 0.13.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 4.0.0 4.1.0: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
-dev-vcs/overcommit 0.60.0 0.61.0: The Opinionated Git Hook Manager
+dev-vcs/overcommit 0.60.0 0.61.0 0.62.0: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515 0.20220303 0.20220303-r1: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
