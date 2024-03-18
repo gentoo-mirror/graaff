@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/better_html_ext/extconf.rb)
 RUBY_FAKEGEM_GEMSPEC="better_html.gemspec"
@@ -18,7 +18,7 @@ LICENSE="MIT"
 
 KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
-IUSE=""
+IUSE="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/actionview-6.0:*
@@ -29,11 +29,7 @@ ruby_add_rdepend "
 	dev-ruby/smart_properties
 "
 
-ruby_add_bdepend "test? ( dev-ruby/mocha dev-ruby/railties:7.0 )"
-
-all_ruby_prepare() {
-	sed -i -e '/mocha/ s/mini_test/minitest/' -e '1i gem "actionview", " ~> 7.0.0" ; gem "railties", "~> 7.0.0"' test/test_helper.rb || die
-}
+ruby_add_bdepend "test? ( dev-ruby/mocha dev-ruby/railties )"
 
 each_ruby_test() {
 	${RUBY} -Ilib:test:. -e "Dir['test/**/*_test.rb'].each{|f| require f}" || die
