@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md readme.md"
 
@@ -25,4 +25,6 @@ ruby_add_bdepend "test? ( >=dev-ruby/activerecord-3.1:*[sqlite] )"
 
 all_ruby_prepare() {
 	sed -i -e '/\(appraisal\|bundler\)/ s:^:#:' Rakefile || die
+
+	sed -e 's/MiniTest::Unit::TestCase/Minitest::Test/' -i test/test_deep_cloneable.rb || die
 }
