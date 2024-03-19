@@ -118,7 +118,7 @@ dev-ruby/jaro_winkler 1.5.6: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
-dev-ruby/jsbundling-rails 1.1.2 1.2.0 1.2.1 1.2.2 1.3.0: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
+dev-ruby/jsbundling-rails 1.1.2 1.2.2 1.3.0: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/language_server-protocol 3.17.0.3: A Language Server Protocol SDK
@@ -159,7 +159,7 @@ dev-ruby/roo 2.10.0 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0-r1 1.2.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.57.2 1.58.0 1.59.0 1.60.2 1.61.0 1.62.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.28.0 1.29.0 1.30.0 1.31.1: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.28.0 1.29.0 1.30.0 1.31.1 1.31.2: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.18.0 2.19.0 2.20.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1 2.24.0 2.25.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.17.1 1.19.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
