@@ -31,6 +31,12 @@ ruby_add_rdepend "
 
 ruby_add_bdepend "test? ( dev-ruby/mocha dev-ruby/railties )"
 
+all_ruby_prepare() {
+	# Avoid test that requires bundler and a very specific associated
+	# setup.
+	rm -rf test/better_html/railtie_test.rb || die
+}
+
 each_ruby_test() {
 	${RUBY} -Ilib:test:. -e "Dir['test/**/*_test.rb'].each{|f| require f}" || die
 }
