@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -23,10 +23,10 @@ SRC_URI="https://github.com/rubocop/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
 
 ruby_add_rdepend "
-	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.33
+	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.40
 	>=dev-ruby/rubocop-capybara-2.17:0
 	>=dev-ruby/rubocop-factory_bot-2.22:0
 "
