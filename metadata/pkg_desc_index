@@ -163,7 +163,7 @@ dev-ruby/rubocop-ast 1.28.0 1.29.0 1.30.0 1.31.1 1.31.2: RuboCop's Node and Node
 dev-ruby/rubocop-capybara 2.18.0 2.19.0 2.20.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1 2.24.0 2.25.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.17.1 1.19.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.20.2 2.21.2 2.22.0 2.23.0 2.23.1 2.24.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.22.0 2.23.1 2.24.0 2.24.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.24.1 2.25.0 2.26.1 2.27.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0 1.16.0: A library for implementing the client side of a SAML authorization
