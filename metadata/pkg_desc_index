@@ -112,7 +112,7 @@ dev-ruby/inifile 3.0.0: Native Ruby package for reading and writing INI files
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
 dev-ruby/inky-rb 1.4.2.0 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
-dev-ruby/invisible_captcha 2.1.0 2.2.0: Unobtrusive, flexible and simple spam protection for Rails applications
+dev-ruby/invisible_captcha 2.1.0 2.2.0 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.5.1: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.6: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
@@ -138,7 +138,7 @@ dev-ruby/phlex 1.8.1 1.9.0: A framework for building object-oriented views in Ru
 dev-ruby/phlex-rails 1.0.0 1.1.1: A high-performance view framework optimised for developer happiness
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.7 2.11.8: Popper.js assets as a Ruby gem
-dev-ruby/premailer 1.21.0 1.22.0: Improve the rendering of HTML emails
+dev-ruby/premailer 1.21.0 1.22.0 1.23.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.3.17-r1 0.5.1: Insert LiveReload into your app easily as Rack middleware
