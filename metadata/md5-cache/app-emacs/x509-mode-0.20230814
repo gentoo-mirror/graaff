@@ -10,5 +10,5 @@ RDEPEND=dev-libs/openssl >=app-editors/emacs-25.3:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/jobbflykt/x509-mode/archive/57395a72087875108245f384acd9327db8b59abb.tar.gz -> x509-mode-0.20230814.tar.gz
-_eclasses_=elisp-common	2a0fa407d2e6363c663ccb299503b25c	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=elisp-common	b5740ee671dad911400f832fe315a9a5	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
 _md5_=0ac8a80511e501e9ec70ca45bc8f385b

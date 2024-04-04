@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/pezra/rspec-mode/archive/3f039ae3fda9e52433a8c31d4b6c78c89e559906.tar.gz -> rspec-mode-0.20230616.tar.gz
-_eclasses_=elisp-common	2a0fa407d2e6363c663ccb299503b25c	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=elisp-common	b5740ee671dad911400f832fe315a9a5	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
 _md5_=8451365118ad2bbcb1ef12915d5e482a
