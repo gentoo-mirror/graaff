@@ -27,7 +27,6 @@ ruby_add_bdepend "test? (
 all_ruby_prepare() {
 	sed -e 's:_relative ": "./:' \
 		-e 's/__dir__/"."/' \
-		-e 's/git ls-files -z/find * -print0/' \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	sed -e '/bundler/I s:^:#:' \
