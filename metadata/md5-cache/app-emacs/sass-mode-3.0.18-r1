@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=>=app-emacs/haml-mode-3.0.15 >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/nex3/sass-mode/archive/3.0.18.tar.gz -> sass-mode-3.0.18.tar.gz
-_eclasses_=elisp-common	b5740ee671dad911400f832fe315a9a5	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
 _md5_=0129aa44091ae59cf4431f4b0f085f4b

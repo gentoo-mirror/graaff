@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=app-emacs/jiralib2 app-emacs/language-detection >=app-emacs/org-mode-8.3 app-emacs/ox-jira app-emacs/s >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/nyyManni/ejira/archive/89f7c668caf0e46e929f2c9187b007eed6b5c229.tar.gz -> ejira-0.20200206.tar.gz
-_eclasses_=elisp-common	b5740ee671dad911400f832fe315a9a5	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
 _md5_=b4c4aec6dd17fc7682c4b83bfbc24257
