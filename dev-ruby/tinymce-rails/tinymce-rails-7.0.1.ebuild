@@ -14,7 +14,7 @@ inherit ruby-fakegem
 DESCRIPTION="Integration of TinyMCE with the Rails asset pipeline"
 HOMEPAGE="https://github.com/spohlenz/tinymce-rails"
 
-LICENSE="MIT"
+LICENSE="GPL-2+"
 SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 
