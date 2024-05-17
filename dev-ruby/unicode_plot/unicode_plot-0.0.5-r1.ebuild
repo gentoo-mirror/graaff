@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGES.md README.md"
 
@@ -18,7 +18,6 @@ RUBY_S="unicode_plot.rb-${PV}"
 LICENSE="MIT"
 SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
-IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/enumerable-statistics-2.0.1"
 
