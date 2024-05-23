@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -17,9 +17,8 @@ DESCRIPTION="Validations for Active Storage (presence)"
 HOMEPAGE="https://github.com/igorkasyanchuk/active_storage_validations"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
-IUSE=""
+KEYWORDS="~amd64"
 
 ruby_add_rdepend "
 	>=dev-ruby/rails-5.2.0
