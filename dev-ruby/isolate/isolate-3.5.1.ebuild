@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.rdoc README.rdoc"
 
@@ -12,9 +12,9 @@ DESCRIPTION="Isolate is a very simple RubyGems sandbox."
 HOMEPAGE="https://github.com/jbarnette/isolate"
 LICENSE="MIT"
 
-KEYWORDS="~amd64 ~x86"
 SLOT="0"
-IUSE="doc"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
 
 ruby_add_rdepend ">=dev-ruby/rubygems-1.8.2"
 
