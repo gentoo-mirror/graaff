@@ -95,9 +95,9 @@ dev-ruby/exception_notification 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/faraday-mashify 0.1.1: Faraday middleware for wrapping responses into Hashie::Mash
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
-dev-ruby/font-awesome-sass 5.15.1-r1 6.5.1 6.5.2: Font-Awesome Sass gem for use in Ruby/Rails projects
+dev-ruby/font-awesome-sass 6.5.1 6.5.2: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
-dev-ruby/get_process_mem 0.2.7: Get memory usage of a process in Ruby
+dev-ruby/get_process_mem 0.2.7 0.2.7-r1: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.1: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
@@ -130,33 +130,33 @@ dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option p
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
 dev-ruby/money 6.16.0-r1 6.19.0: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2-r2: A Rails gem for conveniently manage multiple nested models in a single form.
-dev-ruby/nokogiri-happymapper 0.9.0 0.10.0: Parse XML data and convert it quickly and easily into ruby data structures
+dev-ruby/nokogiri-happymapper 0.10.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/oedipus_lex 2.6.1 2.6.2: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0: PaperTrail lets you track changes to your models' data.
-dev-ruby/phlex 1.8.1 1.9.0 1.9.1 1.10.0 1.10.2: A framework for building object-oriented views in Ruby
+dev-ruby/phlex 1.8.1 1.9.0 1.9.1 1.10.0 1.10.2 1.10.3: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.0.0 1.1.1 1.1.2 1.2.1: A high-performance view framework optimised for developer happiness
 dev-ruby/phonelib 0.8.8: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
-dev-ruby/popper_js 2.11.7 2.11.8: Popper.js assets as a Ruby gem
+dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.21.0 1.22.0 1.23.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.0.0 3.1.1 3.3.0 3.3.1: Profiling toolkit for Rack applications with Rails integration
-dev-ruby/rack-proxy 0.7.6 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
+dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recaptcha 5.13.0 5.14.0 5.15.0: Adds helpers for the reCAPTCHA API
 dev-ruby/recursive-open-struct 1.1.3-r1 1.2.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
-dev-ruby/require_all 3.0.0: A wonderfully simple way to load your code
+dev-ruby/require_all 3.0.0 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.10.0: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.66.0 3.70.0: Routing tree web toolkit
-dev-ruby/roo 2.10.0 2.10.1: Access the contents of various spreadsheet files.
+dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.1.0-r1 1.2.0: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.60.2 1.61.0 1.62.1 1.63.4 1.63.5 1.64.0: A Ruby static code analyzer
@@ -199,13 +199,13 @@ dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in R
 dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 2.0.1 3.0.4 3.0.5: Wrapper for the REST API at https://www.zendesk.com
 dev-ruby/zxcvbn-ruby 1.2.0: HTTP User Agent parser
-dev-util/foreman 0.87.2 0.87.2-r1 0.88.1: Manage Procfile-based applications
+dev-util/foreman 0.87.2-r1 0.88.1: Manage Procfile-based applications
 dev-util/hadolint 2.8.0-r1 2.10.0: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0 0.13.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 4.0.0 4.1.0 4.1.2: Puppet documentation via YARD
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
-dev-vcs/overcommit 0.60.0 0.61.0 0.62.0: The Opinionated Git Hook Manager
+dev-vcs/overcommit 0.62.0: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515 0.20220303 0.20220303-r1: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
