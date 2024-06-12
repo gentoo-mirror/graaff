@@ -167,7 +167,7 @@ dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0: A collection of RuboCop cops 
 dev-ruby/rubocop-rails 2.22.0 2.23.1 2.24.0 2.24.1 2.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.27.1 2.29.1 2.29.2 2.30.0 2.31.0: Code style checking for RSpec files
-dev-ruby/rubocop-rspec_rails 2.28.3 2.29.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec_rails 2.28.3 2.29.0 2.29.1: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0 1.16.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0 2.3.0-r1: Schulze voting method (with help of the Floyd-Warshall algorithm)
