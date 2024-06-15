@@ -12,7 +12,7 @@ app-emacs/enh-ruby-mode 20221011: Major mode for editing Ruby files
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
 app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
-app-emacs/indent-bars 0.2: Fast, configurable indentation guide-bars for Emacs
+app-emacs/indent-bars 0.2 0.6.2: Fast, configurable indentation guide-bars for Emacs
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
 app-emacs/json-mode 1.8.0: Major mode for editing JSON files
 app-emacs/json-reformat 0.0.7: Reformat tool for JSON
@@ -24,7 +24,7 @@ app-emacs/rbs-mode 0.3.1: Emacs major mode for Ruby type signature (RBS) files
 app-emacs/reformatter 0.5 0.6: Define commands which run reformatters on the current buffer
 app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rg-el 2.0.3 2.1.0 2.3.0-r1: Emacs search tool based on ripgrep
-app-emacs/rspec-mode 0.20230616: An RSpec minor mode for Emacs
+app-emacs/rspec-mode 0.20230616 0.20240819: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
