@@ -24,7 +24,4 @@ all_ruby_prepare() {
 	# Remove CSS incompatible with libsass
 	sed -e 's/max-height:min(650px,calc(100vh - 110px));/max-height:650px;/' \
 		-i vendor/assets/javascripts/tinymce/skins/ui/*/skin*.css || die
-
-	# Remove erroneously bundled code in gem
-	rm -rf vendor/bundle || die
 }
