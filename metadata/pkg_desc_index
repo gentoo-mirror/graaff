@@ -163,7 +163,7 @@ dev-ruby/rubocop 1.60.2 1.61.0 1.62.1 1.63.4 1.63.5 1.64.0 1.64.1: A Ruby static
 dev-ruby/rubocop-ast 1.29.0 1.30.0 1.31.2 1.31.3: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.18.0 2.19.0 2.20.0 2.21.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1 2.24.0 2.25.1 2.26.0: Code style checking for RSpec files
-dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0 1.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.22.0 2.23.1 2.24.0 2.24.1 2.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.27.1 2.29.1 2.29.2 2.30.0 2.31.0: Code style checking for RSpec files
@@ -189,7 +189,7 @@ dev-ruby/terser 1.2.0 1.2.1 1.2.2 1.2.3: Terser minifies JavaScript files by wra
 dev-ruby/thinking-sphinx 5.5.1: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
