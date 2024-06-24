@@ -113,7 +113,7 @@ dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration an
 dev-ruby/inky-rb 1.4.2.0 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 2.1.0 2.2.0 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
-dev-ruby/isolate 3.5.1: Isolate is a very simple RubyGems sandbox.
+dev-ruby/isolate 3.5.1 4.0.0: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.5.6 1.6.0: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
