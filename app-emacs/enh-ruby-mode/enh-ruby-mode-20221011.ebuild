@@ -1,15 +1,13 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 COMMIT=7e76d754e1632b4fc9a024fa393c3fc837bcc86b
 
 inherit elisp ruby-single
-
-IUSE="test"
 
 DESCRIPTION="Major mode for editing Ruby files"
 HOMEPAGE="https://github.com/zenspider/enhanced-ruby-mode"
@@ -26,6 +24,8 @@ DOCS="README.rdoc"
 
 DEPEND="test? ( dev-ruby/rake )"
 RESTRICT="!test? ( test )"
+
+IUSE="test"
 
 src_test() {
 	rake || die
