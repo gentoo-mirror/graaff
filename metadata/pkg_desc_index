@@ -28,7 +28,7 @@ app-emacs/rspec-mode 0.20230616 0.20240819: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
-app-forensics/brakeman 5.4.1 6.0.1 6.1.0 6.1.1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 6.1.0 6.1.1 6.1.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
 app-text/ttembed 0.20141229: Remove embedding limitations from TrueType fonts
@@ -164,7 +164,7 @@ dev-ruby/rubocop-ast 1.29.0 1.30.0 1.31.2 1.31.3: RuboCop's Node and NodePattern
 dev-ruby/rubocop-capybara 2.18.0 2.19.0 2.20.0 2.21.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.23.1 2.24.0 2.25.1 2.26.0: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0 1.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.22.0 2.23.1 2.24.0 2.24.1 2.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.24.1 2.25.0 2.25.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.27.1 2.29.1 2.29.2 2.30.0 2.31.0: Code style checking for RSpec files
 dev-ruby/rubocop-rspec_rails 2.28.3 2.29.0 2.29.1: Code style checking for RSpec files
