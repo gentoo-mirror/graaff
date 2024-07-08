@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/erubi-1.10:1
+	>=dev-ruby/erubi-1.10:0
 	dev-ruby/path_expander:1
 	dev-ruby/ruby_parser:3
 	dev-ruby/sexp_processor:4
