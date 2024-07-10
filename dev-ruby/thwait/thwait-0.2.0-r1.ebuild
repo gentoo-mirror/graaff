@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -16,8 +16,7 @@ DESCRIPTION="Watches for termination of multiple threads"
 HOMEPAGE="https://github.com/ruby/thwait"
 LICENSE="BSD"
 
-KEYWORDS="~amd64"
 SLOT="0"
-IUSE=""
+KEYWORDS="~amd64"
 
 ruby_add_rdepend "dev-ruby/e2mmap"
