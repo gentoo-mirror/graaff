@@ -63,8 +63,15 @@ all_ruby_prepare() {
 	# Avoid specs that are not functional and break too often in releases
 	sed -i -e '/has a unique contributor name/askip "too fragile"' spec/project_spec.rb || die
 
+	# Avoid spec that breaks when YJIT is enabled
+	sed -i -e '/logs the RuboCop version/ s/it/xit/' spec/rubocop/lsp/server_spec.rb || die
+
 	sed -e 's:/tmp/example:'"${TMPDIR}"'/example:' \
 		-e 's:/tmp/Gemfile:'"${TMPDIR}"'/Gemfile:' \
 		-i spec/rubocop/cop/team_spec.rb || die
 	sed -e 's:/tmp:'"${TMPDIR}"':' -i spec/rubocop/server/cli_spec.rb || die
+
+	# Disable the strict warnings check since we will have additional dependencies with warnings.
+	sed -e '/StrictWarnings.enable/ s:^:#:' \
+		-i spec/spec_helper.rb || die
 }
