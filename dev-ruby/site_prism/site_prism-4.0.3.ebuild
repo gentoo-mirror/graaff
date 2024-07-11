@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="HACKING.md README.md UPGRADING.md"
 
@@ -17,8 +17,8 @@ HOMEPAGE="https://github.com/site-prism/site_prism"
 SRC_URI="https://github.com/site-prism/site_prism/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="BSD"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
+KEYWORDS="~amd64"
 IUSE="doc"
 
 ruby_add_rdepend "
