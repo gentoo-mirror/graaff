@@ -98,7 +98,7 @@ dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when follo
 dev-ruby/flay 2.13.3: Analyzes code for structural similarities
 dev-ruby/font-awesome-sass 6.5.1 6.5.2: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
-dev-ruby/get_process_mem 0.2.7 0.2.7-r1: Get memory usage of a process in Ruby
+dev-ruby/get_process_mem 0.2.7-r1: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.1: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
@@ -191,10 +191,10 @@ dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
+dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to-right function composition
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
 dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.18.1 0.18.2: A Ruby API client for interacting with a Vault server
-dev-ruby/view_component 2.82.0 3.5.0: A framework for building reusable, encapsulated view components in Ruby on Rails
 dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 2.0.1 3.0.5 3.1.0: Wrapper for the REST API at https://www.zendesk.com
