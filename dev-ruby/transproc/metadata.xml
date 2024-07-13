@@ -3,7 +3,6 @@
 <pkgmetadata>
   <maintainer type="person"><email>graaff@gentoo.org</email></maintainer>
   <upstream>
-    <remote-id type="github">viewcomponent/view_component</remote-id>
-    <remote-id type="rubygems">view_component</remote-id>
+    <remote-id type="github">solnic/transproc</remote-id>
   </upstream>
 </pkgmetadata>
