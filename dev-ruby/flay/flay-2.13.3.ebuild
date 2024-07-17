@@ -4,12 +4,12 @@
 EAPI=8
 USE_RUBY="ruby31 ruby32 ruby33"
 
-RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
+RUBY_FAKEGEM_EXTRADOC="History.rdoc README.rdoc"
 
 inherit ruby-fakegem
 
 DESCRIPTION="Analyzes code for structural similarities"
-HOMEPAGE="http://ruby.sadi.st/"
+HOMEPAGE="https://ruby.sadi.st/"
 
 LICENSE="MIT"
 SLOT="0"
