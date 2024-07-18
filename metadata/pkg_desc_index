@@ -206,6 +206,7 @@ dev-util/foreman 0.87.2-r1 0.88.1: Manage Procfile-based applications
 dev-util/hadolint 2.8.0-r1 2.10.0: Dockerfile Linter JavaScript API
 dev-util/mdl 0.12.0 0.13.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 4.1.2: Puppet documentation via YARD
+dev-util/rubycritic 4.9.1: Wraps around various static analysis gems to provide a quality report of your Ruby code
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.62.0 0.63.0: The Opinionated Git Hook Manager
