@@ -12,24 +12,18 @@ RUBY_FAKEGEM_EXTRAINSTALL="config"
 
 RUBY_FAKEGEM_BINWRAP=""
 
-RUBY_FAKEGEM_GEMSPEC="rubocop-rspec.gemspec"
+RUBY_FAKEGEM_GEMSPEC="rubocop-factory_bot.gemspec"
 
 inherit ruby-fakegem
 
 DESCRIPTION="Code style checking for RSpec files"
-HOMEPAGE="https://github.com/rubocop/rubocop-rspec"
-SRC_URI="https://github.com/rubocop/rubocop-rspec/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/rubocop/rubocop-factory_bot"
+SRC_URI="https://github.com/rubocop/rubocop-factory_bot/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="test"
 
 ruby_add_rdepend "
-	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.40
-	>=dev-ruby/rubocop-capybara-2.17:0
-	>=dev-ruby/rubocop-factory_bot-2.22:0
-	>=dev-ruby/rubocop-rspec_rails-2.28:0
+	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.41
 "
-
-ruby_add_depend "test? ( dev-ruby/yard )"
