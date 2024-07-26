@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 RUBY_FAKEGEM_GEMSPEC="rack-mini-profiler.gemspec"
@@ -15,8 +15,8 @@ HOMEPAGE="https://miniprofiler.com/"
 SRC_URI="https://github.com/MiniProfiler/rack-mini-profiler/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="0"
+KEYWORDS="~amd64"
 iUSE="test"
 
 ruby_add_rdepend "
