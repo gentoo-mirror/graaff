@@ -10,7 +10,7 @@ app-emacs/emacs-color-theme-solarized 20230209: Emacs highlighting using Ethan S
 app-emacs/emacs-presentation-mode 0.1.1: Display large character for presentation and live coding
 app-emacs/enh-ruby-mode 20221011: Major mode for editing Ruby files
 app-emacs/haml-mode 3.1.9: A major mode for editing HAML
-app-emacs/hcl-mode 0.03_p20200711: Major mode of HCL (Hashicorp Configuration Language)
+app-emacs/hcl-mode 0.03_p20200711 0.03_p20240220: Major mode of HCL (Hashicorp Configuration Language)
 app-emacs/imenu-list 0.9: Emacs plugin to show the current buffer's imenu entries in a seperate buffer
 app-emacs/indent-bars 0.2 0.6.2: Fast, configurable indentation guide-bars for Emacs
 app-emacs/jiralib2 0.20200520: JIRA REST API bindings to elisp
