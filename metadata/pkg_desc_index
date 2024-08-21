@@ -4,7 +4,7 @@ app-emacs/coffee-mode 0.6.3.20200315: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20200815: A major mode for editing Cucumber stories.
 app-emacs/dirvish 2.0.53: A polished Dired with batteries included
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
-app-emacs/elm-mode 0.21.0: Emacs major mode for elm
+app-emacs/elm-mode 0.21.0 0.22.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs
 app-emacs/emacs-color-theme-solarized 20230209: Emacs highlighting using Ethan Schoonover’s Solarized color scheme
 app-emacs/emacs-presentation-mode 0.1.1: Display large character for presentation and live coding
