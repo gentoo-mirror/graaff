@@ -143,7 +143,7 @@ dev-ruby/phlex-rails 1.0.0 1.1.1 1.1.2 1.2.1: A high-performance view framework 
 dev-ruby/phonelib 0.8.8 0.8.9 0.9.0 0.9.1: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
-dev-ruby/premailer 1.21.0 1.22.0 1.23.0 1.24.0 1.25.0: Improve the rendering of HTML emails
+dev-ruby/premailer 1.23.0 1.24.0 1.25.0 1.27.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
