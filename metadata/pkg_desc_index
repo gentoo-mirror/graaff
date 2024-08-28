@@ -28,7 +28,7 @@ app-emacs/rspec-mode 0.20230616 0.20240819: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
-app-forensics/brakeman 6.1.2-r1: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 6.1.2-r1 6.2.1: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-laptop/inputmodule-control 0.2.0: Framework Laptop inputmodule control tool.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
@@ -57,7 +57,7 @@ dev-ruby/activerecord-session_store 2.1.0: An Action Dispatch session store back
 dev-ruby/acts-as-taggable-on 9.0.1 10.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0-r1 1.2.1-r1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 3.3.11 3.4.16 3.5.6 3.6.5: The official appsignal.com gem
+dev-ruby/appsignal 3.3.11 3.4.16 3.5.6 3.6.5 3.7.6: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/authlogic 6.4.2 6.4.3: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/axe-core-api 4.7.0 4.8.0 4.8.1 4.8.2 4.9.0 4.9.1: Provides a collection of methods which interface as an API for Axe
