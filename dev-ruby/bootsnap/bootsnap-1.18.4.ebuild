@@ -20,8 +20,8 @@ HOMEPAGE="https://github.com/Shopify/bootsnap"
 SRC_URI="https://github.com/Shopify/bootsnap/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
+KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
