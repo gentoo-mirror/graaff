@@ -21,12 +21,14 @@ SLOT="1"
 KEYWORDS="~amd64"
 
 ruby_add_rdepend "
-	>=dev-ruby/parser-3.3.0.4
+	>=dev-ruby/parser-3.3.1.0
 "
 
 ruby_add_bdepend "dev-ruby/bundler >=dev-ruby/oedipus_lex-2.6.0 dev-ruby/racc dev-ruby/rspec:3"
 
 all_ruby_prepare() {
+	sed -e 's/git ls-files/find/' -i ${RUBY_FAKEGEM_GEMSPEC} || die
+
 	sed -i -e '3irequire "uri" ; gem "parser"' spec/spec_helper.rb || die
 	sed -i -e '1irequire "oedipus_lex"' tasks/compile.rake || die
 
