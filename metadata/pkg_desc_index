@@ -170,7 +170,7 @@ dev-ruby/rubocop-factory_bot 2.25.1 2.26.0 2.26.1: Code style checking for RSpec
 dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0 1.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.24.1 2.25.0 2.25.1 2.26.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
-dev-ruby/rubocop-rspec 2.29.2 2.30.0 2.31.0 3.0.3 3.0.4: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 2.29.2 2.30.0 2.31.0 3.0.3 3.0.4 3.0.5: Code style checking for RSpec files
 dev-ruby/rubocop-rspec_rails 2.28.3 2.29.0 2.29.1 2.30.0: Code style checking for RSpec files
 dev-ruby/ruby-saml 1.15.0 1.16.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
