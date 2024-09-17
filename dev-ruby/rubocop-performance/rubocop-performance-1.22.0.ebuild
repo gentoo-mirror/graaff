@@ -1,8 +1,8 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -23,11 +23,9 @@ SRC_URI="https://github.com/rubocop/rubocop-performance/archive/v${PV}.tar.gz ->
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-1.7.0:0
-	>=dev-ruby/rubocop-ast-0.4.0
+	>=dev-ruby/rubocop-1.48.1:0
+	>=dev-ruby/rubocop-ast-1.31.1
 "
-
-ruby_add_bdepend "test? ( >=dev-ruby/rubocop-1.13.0 )"
