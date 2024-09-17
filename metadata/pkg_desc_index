@@ -167,7 +167,7 @@ dev-ruby/rubocop 1.62.1 1.63.5 1.64.1 1.65.0 1.65.1 1.66.0: A Ruby static code a
 dev-ruby/rubocop-ast 1.31.3 1.32.0 1.32.1 1.32.2 1.32.3: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.20.0 2.21.0: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.25.1 2.26.0 2.26.1: Code style checking for RSpec files
-dev-ruby/rubocop-performance 1.17.1 1.19.1 1.21.0 1.21.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.19.1 1.21.0 1.21.1 1.22.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.24.1 2.25.0 2.25.1 2.26.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rake 0.6.0: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.29.2 2.30.0 2.31.0 3.0.3 3.0.4 3.0.5: Code style checking for RSpec files
@@ -183,7 +183,7 @@ dev-ruby/site_prism 3.7.3 4.0.2 4.0.3 5.0.3: A simple, clean and semantic DSL fo
 dev-ruby/site_prism-all_there 0.3.2 2.0.2 3.0.5: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.49.0 0.49.0-r1 0.49.0-r2 0.50.0: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.49.0-r1 0.49.0-r2 0.50.0: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
@@ -193,7 +193,7 @@ dev-ruby/terser 1.2.0 1.2.1 1.2.2 1.2.3: Terser minifies JavaScript files by wra
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
-dev-ruby/tinymce-rails 6.3.2 6.4.2 6.5.0 6.5.1 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1 7.3.0: Integration of TinyMCE with the Rails asset pipeline
+dev-ruby/tinymce-rails 6.4.2 6.5.0 6.5.1 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1 7.3.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
 dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to-right function composition
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
