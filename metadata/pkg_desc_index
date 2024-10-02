@@ -104,7 +104,7 @@ dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.1 2.21.5: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
-dev-ruby/groupdate 6.2.1 6.3.0 6.4.0: The simplest way to group temporal data
+dev-ruby/groupdate 6.4.0 6.5.0: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r2 0.0.8: HTML Tokenizer
 dev-ruby/icalendar 2.10.1 2.10.2: This library provides iCalendar support for ruby. (RFC-2445)
