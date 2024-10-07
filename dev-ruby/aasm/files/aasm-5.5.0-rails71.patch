@@ -1,0 +1,50 @@
+From 51cb7ac395fb0bcfea51229901a1ef7adbd8b420 Mon Sep 17 00:00:00 2001
+From: "yuuji.yaginuma" <yuuji.yaginuma@gmail.com>
+Date: Sun, 15 Oct 2023 15:37:52 +0900
+Subject: [PATCH] Rails raises an exception when defining an enum not backed by
+ a database column
+
+Ref: https://github.com/rails/rails/commit/6c5fab0668c1872fe827507f45ef400a20e8c646
+---
+ .../active_record_persistence_multiple_spec.rb            | 8 ++++++--
+ spec/unit/persistence/active_record_persistence_spec.rb   | 8 ++++++--
+ 2 files changed, 12 insertions(+), 4 deletions(-)
+
+diff --git a/spec/unit/persistence/active_record_persistence_multiple_spec.rb b/spec/unit/persistence/active_record_persistence_multiple_spec.rb
+index dff3658a..f4fd492d 100644
+--- a/spec/unit/persistence/active_record_persistence_multiple_spec.rb
++++ b/spec/unit/persistence/active_record_persistence_multiple_spec.rb
+@@ -122,8 +122,12 @@
+ 
+           let(:multiple_with_enum_without_column) {MultipleWithEnumWithoutColumn.new}
+ 
+-          it "should raise NoMethodError for transitions" do
+-            expect{multiple_with_enum_without_column.send(:view, :left)}.to raise_error(NoMethodError, /undefined method .status./)
++          it "should raise an error for transitions" do
++            if ActiveRecord.gem_version >= Gem::Version.new('7.1.0')
++              expect{multiple_with_enum_without_column.send(:view, :left)}.to raise_error(RuntimeError, /Unknown enum attribute 'status'/)
++            else
++              expect{multiple_with_enum_without_column.send(:view, :left)}.to raise_error(NoMethodError, /undefined method .status./)
++            end
+           end
+         end
+ 
+diff --git a/spec/unit/persistence/active_record_persistence_spec.rb b/spec/unit/persistence/active_record_persistence_spec.rb
+index 089e378e..ce0900d5 100644
+--- a/spec/unit/persistence/active_record_persistence_spec.rb
++++ b/spec/unit/persistence/active_record_persistence_spec.rb
+@@ -122,8 +122,12 @@
+ 
+           let(:with_enum_without_column) {WithEnumWithoutColumn.new}
+ 
+-          it "should raise NoMethodError for transitions" do
+-            expect{with_enum_without_column.send(:view)}.to raise_error(NoMethodError, /undefined method .status./)
++          it "should raise an error for transitions" do
++            if ActiveRecord.gem_version >= Gem::Version.new('7.1.0')
++              expect{with_enum_without_column.send(:view)}.to raise_error(RuntimeError, /Unknown enum attribute 'status'/)
++            else
++              expect{with_enum_without_column.send(:view)}.to raise_error(NoMethodError, /undefined method .status./)
++            end
+           end
+         end
+ 

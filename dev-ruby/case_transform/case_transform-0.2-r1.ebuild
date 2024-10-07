@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby30 ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -15,9 +15,9 @@ DESCRIPTION="Extraction of the key_transform abilities of ActiveModelSerializers
 HOMEPAGE="https://github.com/rails-api/case_transform"
 
 LICENSE="MIT"
-KEYWORDS="~amd64"
 SLOT="0"
-IUSE=""
+KEYWORDS="~amd64"
+IUSE="test"
 
 # No tests in gem and no tagged release.
 RESTRICT="test"

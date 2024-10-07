@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 # Recent releases are not tagged in git.
 COMMIT=2e952ff2088082c9f00c95e3c1261afc826f737c
@@ -21,11 +21,16 @@ RUBY_S="aasm-${COMMIT}"
 LICENSE="MIT"
 SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
+
+PATCHES=( "${FILESDIR}/${P}-rails71.patch" )
 
 ruby_add_rdepend "dev-ruby/concurrent-ruby:1"
 
-ruby_add_bdepend "test? ( dev-ruby/activerecord dev-ruby/rr )"
+ruby_add_bdepend "test? (
+	|| ( dev-ruby/activerecord:7.2 dev-ruby/activerecord:7.1 dev-ruby/activerecord:7.0 dev-ruby/activerecord:6.1 )
+	dev-ruby/rr
+)"
 
 all_ruby_prepare() {
 	rm Gemfile || die
@@ -44,5 +49,6 @@ all_ruby_prepare() {
 	rm -f spec/generators/{active_record,mongoid}_generator_spec.rb || die
 
 	# Avoid spec that depends on unpackaged after_commit_everywhere
-	sed -i -e '617,647 s:^:#:' spec/unit/persistence/active_record_persistence_spec.rb || die
+	sed -e '/it.*after_commit/ s/it/xit/' \
+		-i spec/unit/persistence/active_record_persistence_spec.rb || die
 }
