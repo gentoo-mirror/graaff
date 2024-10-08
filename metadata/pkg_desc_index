@@ -51,7 +51,7 @@ dev-libs/lasso 2.8.2: C library aiming to implement the Liberty Alliance standar
 dev-ruby/PoParser 3.2.6 3.2.8: A PO file parser, editor and generator
 dev-ruby/aasm 5.5.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.2-r1 2.3.4: Adds methods to set and authenticate against one time passwords
-dev-ruby/active_model_serializers 0.8.4 0.10.13 0.10.14: Making it easy to serialize models for client-side use
+dev-ruby/active_model_serializers 0.8.4 0.10.14: Making it easy to serialize models for client-side use
 dev-ruby/active_storage_validations 1.1.4 1.2.0: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 2.1.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 9.0.1 10.0.0: Advanced tagging for Rails.
@@ -104,7 +104,7 @@ dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.1 2.21.5: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
-dev-ruby/groupdate 6.4.0 6.5.0: The simplest way to group temporal data
+dev-ruby/groupdate 6.4.0 6.5.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.7-r2 0.0.8: HTML Tokenizer
 dev-ruby/icalendar 2.10.1 2.10.2: This library provides iCalendar support for ruby. (RFC-2445)
@@ -147,7 +147,7 @@ dev-ruby/premailer 1.23.0 1.24.0 1.25.0 1.27.0: Improve the rendering of HTML em
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
-dev-ruby/rack-mini-profiler 3.0.0 3.1.1 3.3.0 3.3.1: Profiling toolkit for Rack applications with Rails integration
+dev-ruby/rack-mini-profiler 3.3.1: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
@@ -223,4 +223,4 @@ sys-fs/zfs-backup 20150318-r1: ZFS backup via zfs send/recv over ssh
 sys-fs/zfstools 0.3.6-r2: ZFS scripts including zfs-auto-snapshot, clone of OpenSolaris auto snapshotting
 www-apache/mod_auth_mellon 0.18.0 0.18.1: An Apache module with a simple SAML 2.0 service provider
 www-misc/checkbot 1.80-r2: Checkbot is a tool to verify links on a set of HTML pages.
-www-servers/adsf-live 1.4.8 1.5.0: Automatically reloads when changes are detected
+www-servers/adsf-live 1.5.0: Automatically reloads when changes are detected

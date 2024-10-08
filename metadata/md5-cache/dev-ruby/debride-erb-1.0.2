@@ -1,17 +1,17 @@
-BDEPEND=test? ( ruby_targets_ruby31? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby31(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby31? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby31? ( test? ( dev-ruby/rake[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) test? ( ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) )
+BDEPEND=test? ( ruby_targets_ruby31? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby31(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby32(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( test? ( dev-ruby/rake[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( test? ( dev-ruby/rake[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) test? ( ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) )
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] )
+DEPEND=ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
 DESCRIPTION=Extends debride to analyze erb files (erubis ala rails, actually)
 EAPI=8
 HOMEPAGE=https://github.com/seattlerb/debride-erb
 INHERIT=ruby-fakegem
-IUSE=test ruby_targets_ruby31 doc test test
+IUSE=test ruby_targets_ruby31 ruby_targets_ruby32 doc test test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=ruby_targets_ruby31? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby31(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby31(-)] ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] )
-REQUIRED_USE=|| ( ruby_targets_ruby31 )
+RDEPEND=ruby_targets_ruby31? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby31(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( >=dev-ruby/debride-1.2:1[ruby_targets_ruby32(-)] >=dev-ruby/erubi-1.10:0[ruby_targets_ruby32(-)] ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
+REQUIRED_USE=|| ( ruby_targets_ruby31 ruby_targets_ruby32 )
 RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=1
 SRC_URI=https://rubygems.org/gems/debride-erb-1.0.2.gem
 _eclasses_=multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	ruby-utils	b8263e6071c7a20b6afceaae3725827b	ruby-ng	a6e22e2e4ba7527ba0590c8df492c1c0	ruby-fakegem	c15e9262e9d714e53eb7e03047d12643
-_md5_=a0e7e65acc5df45a2a60e8b30b125687
+_md5_=7adb4188fd196e8e88240112aad047c4
