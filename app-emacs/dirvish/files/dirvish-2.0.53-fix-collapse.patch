@@ -1,0 +1,23 @@
+From 7c155b3db5f647c3a852b8707a216464ec65cd39 Mon Sep 17 00:00:00 2001
+From: Alex <hellosimon1103@hotmail.com>
+Date: Mon, 23 Jan 2023 19:34:15 +0800
+Subject: [PATCH] fix(collapse): crash on macOS
+
+Haven't figured out the cause.
+---
+ extensions/dirvish-collapse.el | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/extensions/dirvish-collapse.el b/extensions/dirvish-collapse.el
+index 3c3096a..3586264 100644
+--- a/extensions/dirvish-collapse.el
++++ b/extensions/dirvish-collapse.el
+@@ -42,7 +42,7 @@
+                            (string-suffix-p "/." path))))
+         (setq should-collapse t
+               path (expand-file-name
+-                    (thread-last files (remove ".") (remove "..") car)
++                    (car (remove "." (remove ".." files)))
+                     path)))
+       (cond
+        ((and (eq (length files) 2) (not should-collapse)) (cons 'empty t))
