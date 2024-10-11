@@ -2,7 +2,7 @@ app-emacs/ac-etags 0.06-r1: etags/ctags completion source for auto-complete
 app-emacs/avy 0.5.0: Jump to things in Emacs tree-style
 app-emacs/coffee-mode 0.6.3.20200315: A major mode for editing CoffeeScript
 app-emacs/cucumber-el 0.20200815: A major mode for editing Cucumber stories.
-app-emacs/dirvish 2.0.53: A polished Dired with batteries included
+app-emacs/dirvish 2.0.53 2.0.53-r1: A polished Dired with batteries included
 app-emacs/ejira 0.20200206: JIRA integration to Emacs org-mode
 app-emacs/elm-mode 0.21.0 0.22.0: Emacs major mode for elm
 app-emacs/emacs-async 1.9.4: Simple library for asynchronous processing in Emacs

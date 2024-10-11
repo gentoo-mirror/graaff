@@ -1,0 +1,15 @@
+BDEPEND=>=app-editors/emacs-27.1:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DESCRIPTION=A polished Dired with batteries included
+EAPI=8
+HOMEPAGE=https://github.com/alexluigit/dirvish
+INHERIT=elisp
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=app-emacs/transient-0.3.7 sys-apps/coreutils >=app-editors/emacs-27.1:*
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/alexluigit/dirvish/archive/2.0.53.tar.gz -> dirvish-2.0.53.tar.gz
+_eclasses_=elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	e7149f29f0c141396a0cec7cc59947a6
+_md5_=a6a2fce766a8c01d3a7330099caa6194
