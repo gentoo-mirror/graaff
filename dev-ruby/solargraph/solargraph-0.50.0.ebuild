@@ -31,7 +31,7 @@ ruby_add_rdepend "
 	>=dev-ruby/kramdown-2.3:2
 	>=dev-ruby/kramdown-parser-gfm-1.1:1
 	>=dev-ruby/parser-3.0:0
-	=dev-ruby/rbs-3*
+	=dev-ruby/rbs-3* <dev-ruby/rbs-3.6.0
 	=dev-ruby/reverse_markdown-2*
 	>=dev-ruby/rubocop-1.38
 	dev-ruby/thor:1
