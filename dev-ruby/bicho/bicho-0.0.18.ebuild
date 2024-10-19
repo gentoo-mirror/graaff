@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 RUBY_FAKEGEM_GEMSPEC="bicho.gemspec"
@@ -16,10 +16,10 @@ SRC_URI="https://github.com/dmacvicar/bicho/archive/refs/tags/v${PV}.tar.gz -> $
 LICENSE="MIT"
 SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
 
 ruby_add_rdepend "
-	dev-ruby/highline:2
+	|| ( dev-ruby/highline:3 dev-ruby/highline:2 )
 	dev-ruby/inifile:3
 	>=dev-ruby/nokogiri-1.10.4:0
 	dev-ruby/optimist:3
@@ -36,6 +36,7 @@ all_ruby_prepare() {
 	# Fix dependencies to adhere to semver
 	sed -e '/nokogiri/ s/1.10.4/1.10/' \
 		-e '/highline/ s/2.0.0/2.0/' \
+		-e '/highline/ s/~>/>=/' \
 		-e '/optimist/ s/3.0.0/3.0/' \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
