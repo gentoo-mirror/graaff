@@ -101,7 +101,7 @@ dev-ruby/flay 2.13.3: Analyzes code for structural similarities
 dev-ruby/font-awesome-sass 6.5.1 6.5.2: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
-dev-ruby/gli 2.21.1 2.21.5: Git-Like Interface Command Line Parser
+dev-ruby/gli 2.21.5 2.22.0: Git-Like Interface Command Line Parser
 dev-ruby/global_phone 1.0.1-r20151004: Parses, validates, and formats local and international phone numbers
 dev-ruby/global_phone_dbgen 1.0.0-r20151004 1.0.0-r20151005 1.0.0_p20151004-r1 1.0.0_p20151004-r2: Parses, validates, and formats local and international phone numbers
 dev-ruby/groupdate 6.4.0 6.5.1: The simplest way to group temporal data
