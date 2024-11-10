@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 RUBY_FAKEGEM_GEMSPEC="jsonapi-renderer.gemspec"
@@ -16,9 +16,8 @@ HOMEPAGE="https://github.com/jsonapi-rb/jsonapi-renderer"
 SRC_URI="https://github.com/jsonapi-rb/jsonapi-renderer/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
-KEYWORDS="~amd64"
 SLOT="0"
-IUSE=""
+KEYWORDS="~amd64"
 
 all_ruby_prepare() {
 	sed -i -e '/simplecov/,/^end/ s:^:#: ; 1irequire "json"' spec/spec_helper.rb || die
