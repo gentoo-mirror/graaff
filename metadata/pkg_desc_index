@@ -52,7 +52,7 @@ dev-ruby/PoParser 3.2.6 3.2.8: A PO file parser, editor and generator
 dev-ruby/aasm 5.5.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.2-r1 2.3.4: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.14: Making it easy to serialize models for client-side use
-dev-ruby/active_storage_validations 1.1.4 1.2.0 1.3.0: Validations for Active Storage (presence)
+dev-ruby/active_storage_validations 1.1.4 1.2.0 1.3.0 1.3.1: Validations for Active Storage (presence)
 dev-ruby/activerecord-session_store 2.1.0: An Action Dispatch session store backed by an Active Record class
 dev-ruby/acts-as-taggable-on 9.0.1 10.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.3: Allows records to be organized in a tree structure
@@ -69,7 +69,7 @@ dev-ruby/better_html 2.1.1: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bootsnap 1.18.3 1.18.4: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.3.3: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
-dev-ruby/bootstrap_form 5.2.3 5.3.2 5.4.0: A rails form builder to create forms using Bootstrap 4
+dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1 6.0.0: Do some browser detection with Ruby
 dev-ruby/byebug 11.1.3-r1: a Ruby 2 debugger
 dev-ruby/case_transform 0.2-r1: Extraction of the key_transform abilities of ActiveModelSerializers
@@ -79,9 +79,9 @@ dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/debride 1.12.0: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.0-r1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
-dev-ruby/default_value_for 3.4.0-r1 3.6.0: Allows to define default values for ActiveRecord models in a declarative manner
+dev-ruby/default_value_for 3.6.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4: A simple wrapper for Consul
-dev-ruby/draper 4.0.2-r1 4.0.2-r2: View Models for Rails
+dev-ruby/draper 4.0.2-r2: View Models for Rails
 dev-ruby/dry-configurable 1.2.0: A mixin to add configuration functionality to your classes
 dev-ruby/dry-container 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
@@ -89,7 +89,7 @@ dev-ruby/dry-initializer 3.1.1: DSL for declaring params and options of the init
 dev-ruby/dry-schema 1.13.4-r1: A DSL for defining schemas with keys and rules that should be applied to values
 dev-ruby/dumb_delegator 1.0.0-r1: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
-dev-ruby/enumerable-statistics 2.0.7-r1 2.0.8: This library provides statistics features for Enumerable
+dev-ruby/enumerable-statistics 2.0.8: This library provides statistics features for Enumerable
 dev-ruby/erb 4.0.3 4.0.4: An easy to use but powerful templating system for Ruby
 dev-ruby/erb_lint 0.6.0 0.7.0: ERB Linter tool
 dev-ruby/exception_notification 4.5.0: Exception Notifier Plugin for Rails
@@ -103,18 +103,18 @@ dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.5 2.22.0: Git-Like Interface Command Line Parser
 dev-ruby/groupdate 6.4.0 6.5.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
-dev-ruby/html_tokenizer 0.0.7-r2 0.0.8: HTML Tokenizer
+dev-ruby/html_tokenizer 0.0.8: HTML Tokenizer
 dev-ruby/icalendar 2.10.1 2.10.2 2.10.3: This library provides iCalendar support for ruby. (RFC-2445)
-dev-ruby/icalendar-recurrence 1.1.3-r1 1.2.0: Provides recurrence to icalendar gem
-dev-ruby/ice_cube 0.16.4_p20220302 0.17.0: a recurring date library for Ruby
+dev-ruby/icalendar-recurrence 1.2.0: Provides recurrence to icalendar gem
+dev-ruby/ice_cube 0.17.0: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
 dev-ruby/inifile 3.0.0: Native Ruby package for reading and writing INI files
 dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration and data files
-dev-ruby/inky-rb 1.4.2.0 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
+dev-ruby/inky-rb 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
-dev-ruby/invisible_captcha 2.1.0 2.2.0 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
+dev-ruby/invisible_captcha 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 3.5.1 4.0.0: Isolate is a very simple RubyGems sandbox.
-dev-ruby/jaro_winkler 1.5.6 1.6.0: Implementation of Jaro-Winkler distance algorithm
+dev-ruby/jaro_winkler 1.6.0: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
@@ -125,15 +125,15 @@ dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/language_server-protocol 3.17.0.3: A Language Server Protocol SDK
 dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
-dev-ruby/memory_profiler 1.0.1 1.0.2: Memory profiling routines for Ruby 2.5+
+dev-ruby/memory_profiler 1.0.2: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.8: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
-dev-ruby/money 6.16.0-r1 6.19.0: This library aids one in handling money and different currencies.
+dev-ruby/money 6.19.0: This library aids one in handling money and different currencies.
 dev-ruby/nested_form 0.3.2-r2: A Rails gem for conveniently manage multiple nested models in a single form.
 dev-ruby/nokogiri-happymapper 0.10.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
-dev-ruby/oedipus_lex 2.6.1 2.6.2: A lexer generator in the same family as Rexical and Rex
+dev-ruby/oedipus_lex 2.6.2: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/phlex 1.9.1 1.10.3 1.11.0: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.0.0 1.1.1 1.1.2 1.2.1: A high-performance view framework optimised for developer happiness
@@ -142,7 +142,6 @@ dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.23.0 1.24.0 1.25.0 1.27.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
-dev-ruby/rack-accept 0.4.5-r1: HTTP Accept, Accept-Charset, Accept-Encoding, and Accept-Language for Ruby/Rack
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
 dev-ruby/rack-mini-profiler 3.3.1: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
