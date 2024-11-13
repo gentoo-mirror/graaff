@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 COMMIT=c9055d56ba82b714746e679d4abb141606f4c174
 
@@ -23,7 +23,7 @@ RUBY_S="pipedrive.rb-${COMMIT}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
 
 PATCHES=(
 	"${FILESDIR}/${PN}-0.3.0-array.patch"

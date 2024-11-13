@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -14,9 +14,9 @@ DESCRIPTION="A templating language that converts simple HTML into responsive ema
 HOMEPAGE="https://github.com/foundation/inky-rb"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="1"
-IUSE=""
+KEYWORDS="~amd64"
+IUSE="test"
 
 ruby_add_rdepend "
 	dev-ruby/foundation_emails:2

@@ -21,5 +21,6 @@ SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
 
 ruby_add_rdepend "
-	>=dev-ruby/rails-5.2.0
+	>=dev-ruby/rails-6.1.4
+	>=dev-ruby/marcel-1.0.3
 "
