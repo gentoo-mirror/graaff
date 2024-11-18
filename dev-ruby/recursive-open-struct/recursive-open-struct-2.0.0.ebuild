@@ -17,6 +17,8 @@ LICENSE="MIT"
 SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
 
+ruby_add_rdepend "dev-ruby/ostruct"
+
 all_ruby_prepare() {
 	sed -i -e '/pry/ s:^:#:' spec/spec_helper.rb || die
 }
