@@ -119,7 +119,7 @@ dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
 dev-ruby/jsbundling-rails 1.3.0 1.3.1: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
-dev-ruby/json-schema 4.3.1: Ruby JSON Schema Validator
+dev-ruby/json-schema 4.3.1 5.0.1: Ruby JSON Schema Validator
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/kicks 3.1.1: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
