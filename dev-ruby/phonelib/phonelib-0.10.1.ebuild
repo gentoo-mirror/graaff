@@ -30,10 +30,7 @@ all_ruby_prepare() {
 
 	# Use modern gem version that work with recent ruby versions. Drop
 	# development-only dependencies.
-	sed -e '/rspec/ s/= 2.14.1/~> 3.0/' \
-		-e '/rack-cache/ s/= 1.2/~> 1.2/' \
-		-e '/json/ s/= 2.3.1/~> 2.3/' \
-		-e '/\(benchmark\|codeclimate\|pry\|simplecov\)/ s:^:#:' \
+	sed -e "s:_relative ': './:" \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	sed -e '/simplecov/I s:^:#:' -i spec/phonelib_spec.rb || die
