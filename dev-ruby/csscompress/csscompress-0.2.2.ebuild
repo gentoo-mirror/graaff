@@ -29,4 +29,8 @@ all_ruby_prepare() {
 		-e 's/__dir__/"."/' \
 		-e 's/git ls-files -z/find * -print0/' \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	# Avoid useless output to stdout when used.
+	sed -e '/puts/ s:^:#:' \
+		-i lib/csscompress/sprockets.rb || die
 }
