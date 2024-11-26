@@ -1,10 +1,10 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby30 ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
-RUBY_FAKEGEM_EXTRADOC="HACKING.md README.md UPGRADING.md"
+RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SECURITY.md UPGRADING.md"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -17,14 +17,14 @@ HOMEPAGE="https://github.com/site-prism/site_prism"
 SRC_URI="https://github.com/site-prism/site_prism/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="BSD"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
+KEYWORDS="~amd64"
 IUSE="doc"
 
 ruby_add_rdepend "
-	>=dev-ruby/addressable-2.8:0
-	>=dev-ruby/capybara-3.27:3
-	dev-ruby/site_prism-all_there:2
+	>=dev-ruby/addressable-2.8.4:0
+	>=dev-ruby/capybara-3.32:3
+	|| ( dev-ruby/site_prism-all_there:3 dev-ruby/site_prism-all_there:2 )
 "
 
 all_ruby_prepare() {
