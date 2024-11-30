@@ -82,7 +82,7 @@ dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rai
 dev-ruby/deep_cloneable 3.2.0-r1 3.2.1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
 dev-ruby/default_value_for 3.6.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4: A simple wrapper for Consul
-dev-ruby/draper 4.0.2-r2 4.0.3: View Models for Rails
+dev-ruby/draper 4.0.2-r2: View Models for Rails
 dev-ruby/dry-configurable 1.2.0: A mixin to add configuration functionality to your classes
 dev-ruby/dry-container 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
