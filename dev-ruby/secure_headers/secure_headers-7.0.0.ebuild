@@ -13,7 +13,7 @@ DESCRIPTION="Security related headers all in one gem"
 HOMEPAGE="https://github.com/github/secure_headers"
 LICENSE="Apache-2.0"
 
-SLOT="6"
+SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
 IUSE="test"
 
