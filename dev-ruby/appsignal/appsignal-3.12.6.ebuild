@@ -13,7 +13,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION="0.31.2"
+AGENT_VERSION="0.35.19"
 
 inherit ruby-fakegem
 
@@ -53,6 +53,9 @@ all_ruby_prepare() {
 	# Avoid specs that require a network
 	sed -e '/\(the\|extension\) installation report/askip "requires live network"' \
 		-i spec/lib/appsignal/cli/diagnose_spec.rb || die
+
+	# Fix spec that expect a specific command name
+	sed -e '/process_name/ s/rspec/rspec-3/' -i spec/lib/appsignal/probes/gvl_spec.rb || die
 }
 
 each_ruby_test() {
