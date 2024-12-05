@@ -70,7 +70,7 @@ dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bootsnap 1.18.3 1.18.4: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.3.3: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
-dev-ruby/browser 5.3.1 6.0.0 6.1.0: Do some browser detection with Ruby
+dev-ruby/browser 5.3.1 6.0.0 6.1.0 6.2.0: Do some browser detection with Ruby
 dev-ruby/byebug 11.1.3-r1: a Ruby 2 debugger
 dev-ruby/case_transform 0.2-r1: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/chroma 0.2.0-r1: Color manipulation and palette generation
