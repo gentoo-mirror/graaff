@@ -200,7 +200,6 @@ dev-ruby/tinymce-rails 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1 7.3.0 7.5.1: Integrati
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
 dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to-right function composition
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
-dev-ruby/useragent 0.16.10-r1: HTTP User Agent parser
 dev-ruby/vault 0.18.1 0.18.2: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
 dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
