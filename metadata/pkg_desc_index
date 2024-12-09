@@ -202,7 +202,7 @@ dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to
 dev-ruby/unicode_plot 0.0.5-r1: Plot your data by Unicode characters
 dev-ruby/vault 0.18.1 0.18.2: A Ruby API client for interacting with a Vault server
 dev-ruby/webpacker 5.4.4: Use webpack to manage app-like JavaScript modules in Rails
-dev-ruby/xray-rails 0.3.2-r3: Provides a dev bar and an overlay to visualize your UI's rendered partials
+dev-ruby/xray-rails 0.3.2-r3 0.3.3: Provides a dev bar and an overlay to visualize your UI's rendered partials
 dev-ruby/zendesk_api 3.0.5 3.1.0 3.1.1: Wrapper for the REST API at https://www.zendesk.com
 dev-ruby/zxcvbn-ruby 1.2.0: HTTP User Agent parser
 dev-util/foreman 0.87.2-r1 0.88.1: Manage Procfile-based applications
