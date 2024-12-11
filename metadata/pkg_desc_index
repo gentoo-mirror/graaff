@@ -212,7 +212,7 @@ dev-util/puppet-strings 4.1.2 4.1.3: Puppet documentation via YARD
 dev-util/rubycritic 4.9.1: Wraps around various static analysis gems to provide a quality report of your Ruby code
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
-dev-vcs/overcommit 0.62.0 0.63.0 0.64.0: The Opinionated Git Hook Manager
+dev-vcs/overcommit 0.62.0 0.63.0 0.64.0 0.64.1: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515 0.20220303 0.20220303-r1: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
