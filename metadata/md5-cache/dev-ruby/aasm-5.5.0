@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( ruby_targets_ruby31 ruby_targets_ruby32 ruby_targets_ruby33 )
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=5
 SRC_URI=https://github.com/aasm/aasm/archive/2e952ff2088082c9f00c95e3c1261afc826f737c.tar.gz -> aasm-5.5.0.tar.gz
-_eclasses_=multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-ng	f0dedda0b5f19492ca5de91d98bc1708	ruby-fakegem	1e3722efee9adc0f27d1b2b8e4b9860b
+_eclasses_=multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-ng	f0dedda0b5f19492ca5de91d98bc1708	ruby-fakegem	1e3722efee9adc0f27d1b2b8e4b9860b
 _md5_=e9398cecb43eea19a39f8f929d8aeffe
