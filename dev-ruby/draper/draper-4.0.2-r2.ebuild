@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -18,8 +18,8 @@ DESCRIPTION="View Models for Rails"
 HOMEPAGE="https://github.com/drapergem/draper"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
+KEYWORDS="~amd64"
 
 # Uses unpackaged dependencies and it not easy to isolate.
 RESTRICT="test"
