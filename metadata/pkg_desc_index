@@ -47,7 +47,7 @@ dev-haskell/primes 0.2.1.0-r1: Efficient, purely functional generation of prime 
 dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of Semantic Versions
 dev-haskell/spdx 1.0.0.3: SPDX license expression language, Extras
 dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3339, RFC2822, RFC822)
-dev-libs/lasso 2.8.2: C library aiming to implement the Liberty Alliance standards
+dev-libs/lasso 2.8.2 2.8.2.23: C library aiming to implement the Liberty Alliance standards
 dev-ruby/PoParser 3.2.6 3.2.8: A PO file parser, editor and generator
 dev-ruby/aasm 5.5.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.2-r1 2.3.4: Adds methods to set and authenticate against one time passwords
