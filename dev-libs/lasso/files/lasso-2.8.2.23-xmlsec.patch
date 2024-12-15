@@ -1,0 +1,52 @@
+--- a/lasso/xml/tools.c	2024-02-01 21:54:02.353347546 +0100
++++ b/lasso/xml/tools.c	2024-12-14 10:54:03.420210464 +0100
+@@ -71,6 +71,7 @@
+ #include <stdarg.h>
+ #include <ctype.h>
+ #include "../lasso_config.h"
++#include "lasso/id-ff/server.h"
+ #include "config.h"
+ 
+ /**
+@@ -309,8 +310,7 @@
+ 			pub_key = lasso_get_public_key_from_pem_cert_file(file);
+ 			break;
+ 		case LASSO_PEM_FILE_TYPE_PUB_KEY:
+-			pub_key = xmlSecCryptoAppKeyLoad(file,
+-					xmlSecKeyDataFormatPem, NULL, NULL, NULL);
++			pub_key = xmlSecCryptoAppKeyLoadEx(file, file_type, xmlSecKeyDataFormatPem, NULL, NULL, NULL);
+ 			break;
+ 		case LASSO_PEM_FILE_TYPE_PRIVATE_KEY:
+ 			pub_key = lasso_get_public_key_from_private_key_file(file);
+@@ -378,7 +378,7 @@
+ static xmlSecKeyPtr
+ lasso_get_public_key_from_private_key_file(const char *private_key_file)
+ {
+-	return xmlSecCryptoAppKeyLoad(private_key_file,
++	return xmlSecCryptoAppKeyLoadEx(private_key_file, LASSO_PEM_FILE_TYPE_PRIVATE_KEY,
+ 			xmlSecKeyDataFormatPem, NULL, NULL, NULL);
+ }
+ 
+--- a/lasso/id-ff/provider.h	2021-09-11 19:20:25.852638017 +0200
++++ b/lasso/id-ff/provider.h	2024-12-14 10:58:10.438113450 +0100
+@@ -284,7 +284,8 @@
+ LASSO_EXPORT void lasso_provider_set_key_encryption_method(
+ 		LassoProvider *provider, LassoKeyEncryptionMethod method);
+ 
+-LASSO_EXPORT LassoKeyEncryptionMethod lasso_provider_get_key_encryption_method();
++LASSO_EXPORT LassoKeyEncryptionMethod lasso_provider_get_key_encryption_method(
++    const LassoProvider *provider);
+ 
+ 
+ #ifdef __cplusplus
+--- a/lasso/registry-private.h	2021-09-03 08:15:49.818436908 +0200
++++ b/lasso/registry-private.h	2024-12-14 11:25:29.110861331 +0100
+@@ -39,7 +39,7 @@
+ };
+ 
+ LassoRegistry *lasso_registry_new();
+-void lasso_registry_destroy();
++void lasso_registry_destroy(LassoRegistry *registry);
+ void lasso_registry_default_shutdown();
+ gint lasso_registry_add_direct_mapping(LassoRegistry *registry, const char *from_namespace,
+ 		const char *from_name, const char *to_namespace, const char *to_name);
