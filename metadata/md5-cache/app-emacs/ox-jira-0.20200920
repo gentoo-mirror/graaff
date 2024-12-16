@@ -10,5 +10,5 @@ LICENSE=GPL-3+
 RDEPEND=>=app-emacs/org-mode-8.3 >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/stig/ox-jira.el/archive/64d364cf08109e6877b74c0aa2c4ef690fe9501b.tar.gz -> ox-jira-0.20200920.tar.gz
-_eclasses_=elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	e7149f29f0c141396a0cec7cc59947a6
+_eclasses_=elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	e7149f29f0c141396a0cec7cc59947a6
 _md5_=06540f99a7cdf49e2c5d01edbdc80df3
