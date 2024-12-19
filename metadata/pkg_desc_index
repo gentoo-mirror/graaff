@@ -88,7 +88,7 @@ dev-ruby/dry-container 0.11.0: A simple, configurable object container implement
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
 dev-ruby/dry-initializer 3.1.1: DSL for declaring params and options of the initializer
 dev-ruby/dry-schema 1.13.4-r1: A DSL for defining schemas with keys and rules that should be applied to values
-dev-ruby/dumb_delegator 1.0.0-r1: DumbDelegator delegates nearly everything to the wrapped object
+dev-ruby/dumb_delegator 1.0.0-r1 1.1.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
 dev-ruby/enumerable-statistics 2.0.8: This library provides statistics features for Enumerable
 dev-ruby/erb 4.0.3 4.0.4: An easy to use but powerful templating system for Ruby
