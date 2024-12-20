@@ -99,7 +99,7 @@ dev-ruby/faraday-mashify 0.1.1: Faraday middleware for wrapping responses into H
 dev-ruby/feed_parser 0.3.5-r2: Rss and Atom feed parser built on top of Nokogiri
 dev-ruby/fix_microsoft_links 0.1.6-r1: Fixes redirects to login pages when following links from a Microsoft application
 dev-ruby/flay 2.13.3: Analyzes code for structural similarities
-dev-ruby/font-awesome-sass 6.5.1 6.5.2: Font-Awesome Sass gem for use in Ruby/Rails projects
+dev-ruby/font-awesome-sass 6.5.2 6.7.2: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
 dev-ruby/gli 2.21.5 2.22.0: Git-Like Interface Command Line Parser
