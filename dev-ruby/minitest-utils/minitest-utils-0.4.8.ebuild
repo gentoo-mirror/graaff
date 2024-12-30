@@ -3,7 +3,7 @@
 
 EAPI=8
 
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby31 ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -28,4 +28,6 @@ all_ruby_prepare() {
 	sed --e '/\(pry\|rubocop\|test_notifier\)/ s:^:#:' \
 		-e 's/git ls-files -z/find * -print0/' \
 		-i ${RUBY_FAKEGEM_GEMSPEC} || die
+	sed -e '/rubocop/I s:^:#:' \
+		-i Rakefile || die
 }
