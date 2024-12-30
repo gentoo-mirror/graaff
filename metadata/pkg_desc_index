@@ -103,7 +103,7 @@ dev-ruby/flay 2.13.3: Analyzes code for structural similarities
 dev-ruby/font-awesome-sass 6.5.2 6.7.2: Font-Awesome Sass gem for use in Ruby/Rails projects
 dev-ruby/foundation_emails 2.2.1.0-r1: A framework for creating responsive HTML emails that work in any email client
 dev-ruby/get_process_mem 0.2.7-r1 1.0.0: Get memory usage of a process in Ruby
-dev-ruby/gli 2.21.5 2.22.0: Git-Like Interface Command Line Parser
+dev-ruby/gli 2.22.0: Git-Like Interface Command Line Parser
 dev-ruby/groupdate 6.4.0 6.5.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.8: HTML Tokenizer
@@ -116,7 +116,7 @@ dev-ruby/iniparse 1.5.0-r1: A pure Ruby library for parsing INI configuration an
 dev-ruby/inky-rb 1.4.2.1: A templating language that converts simple HTML into responsive email-ready HTML
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
-dev-ruby/isolate 3.5.1 4.0.0: Isolate is a very simple RubyGems sandbox.
+dev-ruby/isolate 4.0.0: Isolate is a very simple RubyGems sandbox.
 dev-ruby/jaro_winkler 1.6.0: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
@@ -196,7 +196,7 @@ dev-ruby/superform 0.5.0: A better way to customize and build forms for your Rai
 dev-ruby/terser 1.2.2 1.2.3 1.2.4: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
-dev-ruby/tiny_tds 2.1.6 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
+dev-ruby/tiny_tds 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.5.1-r1 6.8.3 7.0.1 7.1.0 7.1.2.1 7.3.0 7.5.1 7.6.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
 dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to-right function composition
