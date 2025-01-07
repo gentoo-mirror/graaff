@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -20,11 +20,11 @@ SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 IUSE="test"
 
-ruby_add_rdepend "|| ( dev-ruby/activerecord:7.2 dev-ruby/activerecord:7.1 dev-ruby/activerecord:7.0 )"
+ruby_add_rdepend "|| ( dev-ruby/activerecord:8.0 dev-ruby/activerecord:7.2 dev-ruby/activerecord:7.1 dev-ruby/activerecord:7.0 )"
 
 ruby_add_bdepend "test? (
 	dev-ruby/database_cleaner
-	|| ( dev-ruby/rails:7.2 dev-ruby/rails:7.1 dev-ruby/rails:7.0 )
+	|| ( dev-ruby/rails:8.0 dev-ruby/rails:7.2 dev-ruby/rails:7.1 dev-ruby/rails:7.0 )
 	dev-ruby/rspec-its
 	)"
 
