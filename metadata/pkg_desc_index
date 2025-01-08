@@ -93,7 +93,7 @@ dev-ruby/dumb_delegator 1.0.0-r1 1.1.0: DumbDelegator delegates nearly everythin
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
 dev-ruby/enumerable-statistics 2.0.8: This library provides statistics features for Enumerable
 dev-ruby/erb 4.0.4: An easy to use but powerful templating system for Ruby
-dev-ruby/erb_lint 0.6.0 0.7.0: ERB Linter tool
+dev-ruby/erb_lint 0.7.0 0.8.0: ERB Linter tool
 dev-ruby/escompress 1.0.0: Use esbuild to compress your Rails CSS
 dev-ruby/exception_notification 4.5.0: Exception Notifier Plugin for Rails
 dev-ruby/faraday-mashify 0.1.1: Faraday middleware for wrapping responses into Hashie::Mash
