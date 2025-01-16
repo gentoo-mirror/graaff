@@ -158,7 +158,7 @@ dev-ruby/reek 6.3.0: Examines Ruby classes, modules and methods and reports any 
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1: Map simple html back into markdown
-dev-ruby/rgen 0.10.0: A framework for Model Driven Software Development (MDSD)
+dev-ruby/rgen 0.10.0 0.10.2: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.81.0 3.87.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
