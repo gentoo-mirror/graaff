@@ -193,7 +193,7 @@ dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.25 0.2.26: A fast sampling profiler for ruby code
 dev-ruby/superform 0.5.0: A better way to customize and build forms for your Rails application
-dev-ruby/terser 1.2.4: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.2.4 1.2.5: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tiny_tds 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
