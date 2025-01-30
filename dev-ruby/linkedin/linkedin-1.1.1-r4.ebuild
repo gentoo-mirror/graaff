@@ -29,7 +29,7 @@ ruby_add_rdepend "
 	=dev-ruby/oauth2-1*
 "
 
-ruby_add_bdepend "test? ( dev-ruby/vcr:5 dev-ruby/webmock )"
+ruby_add_bdepend "test? ( dev-ruby/vcr:6 dev-ruby/webmock )"
 
 all_ruby_prepare() {
 	sed -i -e '/hashie/ s/3/5/' ${RUBY_FAKEGEM_GEMSPEC} || die
