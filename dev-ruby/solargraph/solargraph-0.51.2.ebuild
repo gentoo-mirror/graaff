@@ -1,8 +1,8 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -17,8 +17,8 @@ HOMEPAGE="https://solargraph.org/"
 SRC_URI="https://github.com/castwide/solargraph/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="0"
+KEYWORDS="~amd64"
 IUSE="doc"
 
 ruby_add_rdepend "
@@ -26,10 +26,12 @@ ruby_add_rdepend "
 	dev-ruby/benchmark
 	dev-ruby/bundler:2
 	>=dev-ruby/diff-lcs-1.4:0
-	dev-ruby/e2mmap
-	>=dev-ruby/jaro_winkler-1.5:1
+	>=dev-ruby/jaro_winkler-1.6:1
 	>=dev-ruby/kramdown-2.3:2
 	>=dev-ruby/kramdown-parser-gfm-1.1:1
+	>=dev-ruby/logger-1.6:0
+	>=dev-ruby/observer-0.1:0
+	>=dev-ruby/ostruct-0.6
 	>=dev-ruby/parser-3.0:0
 	=dev-ruby/rbs-3*
 	=dev-ruby/reverse_markdown-2*
@@ -43,12 +45,6 @@ ruby_add_rdepend "
 ruby_add_bdepend "test? (
 	>=dev-ruby/webmock-3.6:3
 )"
-
-PATCHES=(
-	"${FILESDIR}/${P}-rbs-3.patch"
-	"${FILESDIR}/${P}-rbs-stdlib-spec.patch"
-	"${FILESDIR}/${P}-idle.patch"
-)
 
 all_ruby_prepare() {
 	sed -i -e '/pry/ s:^:#:' ${RUBY_FAKEGEM_GEMSPEC} || die
