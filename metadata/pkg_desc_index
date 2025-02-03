@@ -160,7 +160,7 @@ dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1: Map simple html back into markdown
 dev-ruby/rgen 0.10.0 0.10.2: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.81.0 3.87.0: Routing tree web toolkit
+dev-ruby/roda 3.81.0 3.87.0 3.88.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.2.0 1.2.1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
@@ -186,7 +186,7 @@ dev-ruby/site_prism 4.0.3 5.0.3 5.0.4 5.1: A simple, clean and semantic DSL for 
 dev-ruby/site_prism-all_there 0.3.2 2.0.2 3.0.5: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.49.0-r1 0.49.0-r2 0.50.0 0.51.0 0.51.1: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.50.0 0.51.0 0.51.1 0.51.2: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
