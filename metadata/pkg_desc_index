@@ -87,7 +87,7 @@ dev-ruby/draper 4.0.2-r2: View Models for Rails
 dev-ruby/dry-configurable 1.2.0 1.3.0: A mixin to add configuration functionality to your classes
 dev-ruby/dry-container 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
-dev-ruby/dry-initializer 3.1.1: DSL for declaring params and options of the initializer
+dev-ruby/dry-initializer 3.1.1 3.2.0: DSL for declaring params and options of the initializer
 dev-ruby/dry-schema 1.13.4-r1: A DSL for defining schemas with keys and rules that should be applied to values
 dev-ruby/dumb_delegator 1.0.0-r1 1.1.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
