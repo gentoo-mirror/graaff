@@ -131,7 +131,7 @@ dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.2: Memory profiling routines for Ruby 2.5+
-dev-ruby/minitest-utils 0.4.8: Some utilities for your Minitest day-to-day usage
+dev-ruby/minitest-utils 0.4.8 0.4.10: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
 dev-ruby/money 6.19.0: This library aids one in handling money and different currencies.
