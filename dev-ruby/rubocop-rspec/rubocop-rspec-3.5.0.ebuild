@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,7 +26,15 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
-	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.61
+	>=dev-ruby/lint_roller-1.1:1
+	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.72.1
 "
 
 ruby_add_depend "test? ( dev-ruby/yard )"
+
+all_ruby_prepare() {
+	# Avoid test making unwarrented assumptions about the current
+	# directory.
+	sed -e '/puts the configuration path/ s/it/xit/' \
+		-i spec/rubocop/rspec/inject_spec.rb || die
+}
