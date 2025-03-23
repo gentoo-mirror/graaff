@@ -60,6 +60,7 @@ dev-ruby/ancestry 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0-r1 1.2.1-r1: a Gem to help you manage your Rails API endpoints
 dev-ruby/appsignal 3.8.1 3.9.3 3.10.0 3.11.0 3.12.6 3.13.1: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
+dev-ruby/attr_extras 7.1.0: Takes some boilerplate out of Ruby with methods like attr_initialize.
 dev-ruby/authlogic 6.4.2 6.4.3 6.4.3-r1: A clean, simple, and unobtrusive ruby authentication solution.
 dev-ruby/axe-core-api 4.9.0 4.9.1 4.10.0 4.10.1 4.10.2: Provides a collection of methods which interface as an API for Axe
 dev-ruby/axe-core-cucumber 4.9.0 4.9.1 4.10.0 4.10.1 4.10.2: Cucumber step definitions for Axe
@@ -132,7 +133,7 @@ dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rule
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.2: Memory profiling routines for Ruby 2.5+
-dev-ruby/minitest-utils 0.4.8 0.4.10: Some utilities for your Minitest day-to-day usage
+dev-ruby/minitest-utils 0.4.8 0.4.10 0.5.8: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
 dev-ruby/money 6.19.0: This library aids one in handling money and different currencies.
