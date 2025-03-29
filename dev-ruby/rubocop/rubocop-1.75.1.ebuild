@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,14 +26,16 @@ IUSE="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/json-2.3:2
-	>=dev-ruby/language_server-protocol-3.17.0
+	>=dev-ruby/language_server-protocol-3.17.0.2
+	>=dev-ruby/lint_roller-1.1.0:1
 	>=dev-ruby/parallel-1.10:1
 	>=dev-ruby/parser-3.3.0.2
 	dev-ruby/rainbow:3
 	>=dev-ruby/regexp_parser-2.9.3:2
-	>=dev-ruby/rubocop-ast-1.36.2:1
+	>=dev-ruby/rubocop-ast-1.43.0:1
 	>=dev-ruby/ruby-progressbar-1.7:0
-	>=dev-ruby/unicode-display_width-2.4.0:2"
+	|| ( dev-ruby/unicode-display_width:3 >=dev-ruby/unicode-display_width-2.4.0:2 )
+"
 
 ruby_add_bdepend "test? ( dev-ruby/bundler dev-ruby/rubocop-performance dev-ruby/webmock )"
 
@@ -73,4 +75,7 @@ all_ruby_prepare() {
 	# Disable the strict warnings check since we will have additional dependencies with warnings.
 	sed -e '/StrictWarnings.enable/ s:^:#:' \
 		-i spec/spec_helper.rb || die
+
+	# Avoid ruby-lsp specs since as long as that it not packaged yet.
+	rm -f spec/ruby_lsp/rubocop/addon_spec.rb || die
 }
