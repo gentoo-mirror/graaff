@@ -1,0 +1,33 @@
+From 1af70b28d6874d9241ea7d2e1fef3368e9253e81 Mon Sep 17 00:00:00 2001
+From: Justin Collins <justin@presidentbeef.com>
+Date: Sat, 29 Mar 2025 15:59:58 -0600
+Subject: [PATCH] Frozen string in string concatenation
+
+---
+ lib/brakeman/processors/alias_processor.rb | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/lib/brakeman/processors/alias_processor.rb b/lib/brakeman/processors/alias_processor.rb
+index 6e3936749..cc994fa54 100644
+--- a/lib/brakeman/processors/alias_processor.rb
++++ b/lib/brakeman/processors/alias_processor.rb
+@@ -270,7 +270,7 @@ def process_call exp
+       end
+     when :<<
+       if string? target and string? first_arg
+-        target.value << first_arg.value
++        target.value += first_arg.value
+         env[target_var] = target
+         return target
+       elsif string? target and string_interp? first_arg
+@@ -278,8 +278,9 @@ def process_call exp
+         env[target_var] = exp
+       elsif string? first_arg and string_interp? target
+         if string? target.last
+-          target.last.value << first_arg.value
++          target.last.value += first_arg.value
+         elsif target.last.is_a? String
++          # TODO Use target.last += ?
+           target.last << first_arg.value
+         else
+           target << first_arg
