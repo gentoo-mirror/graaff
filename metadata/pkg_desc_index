@@ -49,7 +49,7 @@ dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of 
 dev-haskell/spdx 1.0.0.3: SPDX license expression language, Extras
 dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3339, RFC2822, RFC822)
 dev-libs/lasso 2.8.2.23: C library aiming to implement the Liberty Alliance standards
-dev-ruby/PoParser 3.2.6 3.2.8: A PO file parser, editor and generator
+dev-ruby/PoParser 3.2.8: A PO file parser, editor and generator
 dev-ruby/aasm 5.5.0: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.2-r1 2.3.4: Adds methods to set and authenticate against one time passwords
 dev-ruby/active_model_serializers 0.8.4 0.10.14 0.10.15: Making it easy to serialize models for client-side use
@@ -69,7 +69,7 @@ dev-ruby/backticks 1.0.5: Captures stdout, stderr and (optionally) stdin; uses P
 dev-ruby/better_errors 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.1.1: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
-dev-ruby/bootsnap 1.18.3 1.18.4: Boot large ruby/rails apps faster
+dev-ruby/bootsnap 1.18.4: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.3.3: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1 6.0.0 6.1.0 6.2.0: Do some browser detection with Ruby
@@ -146,7 +146,7 @@ dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0: PaperTrail lets you track chan
 dev-ruby/patience_diff 1.2.0: A Ruby implementation of the Patience diff algorithm.
 dev-ruby/phlex 1.9.1 1.10.3 1.11.0: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.0.0 1.1.1 1.1.2 1.2.1 1.2.2: A high-performance view framework optimised for developer happiness
-dev-ruby/phonelib 0.10.4 0.10.5 0.10.6: Use Google libphonenumber data for validation and number formatting
+dev-ruby/phonelib 0.10.4 0.10.5 0.10.6 0.10.7: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.23.0 1.24.0 1.25.0 1.27.0: Improve the rendering of HTML emails
@@ -195,7 +195,7 @@ dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attribute
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with password input
-dev-ruby/stackprof 0.2.26 0.2.27: A fast sampling profiler for ruby code
+dev-ruby/stackprof 0.2.27: A fast sampling profiler for ruby code
 dev-ruby/super_diff 0.15.0: Hooks into RSpec to display the differences between two data structures
 dev-ruby/superform 0.5.0: A better way to customize and build forms for your Rails application
 dev-ruby/terser 1.2.4 1.2.5: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
