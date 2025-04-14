@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_RECIPE_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -15,15 +15,15 @@ inherit ruby-fakegem
 DESCRIPTION="A clean, simple, and unobtrusive ruby authentication solution."
 HOMEPAGE="https://github.com/binarylogic/authlogic"
 SRC_URI="https://github.com/binarylogic/authlogic/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-LICENSE="Ruby"
+LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="$(ver_cut 1)"
-IUSE=""
+KEYWORDS="~amd64"
+IUSE="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/activerecord-5.2:*   <dev-ruby/activerecord-7.1:*
-	>=dev-ruby/activesupport-5.2:*  <dev-ruby/activesupport-7.1:*
+	>=dev-ruby/activerecord-5.2:*   <dev-ruby/activerecord-8.1:*
+	>=dev-ruby/activesupport-5.2:*  <dev-ruby/activesupport-8.1:*
 	>=dev-ruby/request_store-1.0.5:*
 "
 
@@ -33,8 +33,13 @@ all_ruby_prepare() {
 	sed -i -e '/\(bundler\|coverall\|rubocop\)/I s:^:#:' Rakefile || die
 	sed -e '/byebug/ s:^:#: ; /reporters/I s:^:#:' \
 		-e '/coveralls/,/SimpleCov.start/ s:^:#:' \
-		-e '2igem "activerecord", "< 7.1"; gem "railties", "< 7.1"' \
+		-e '2igem "activerecord", "< 7.2"; gem "railties", "< 7.2"' \
 		-i test/test_helper.rb || die
+
+	sed -e 's:_relative ":"./:' \
+		-e 's/git ls-files --/echo/' \
+		-e 's/git ls-files -z/find * -print0/' \
+		-i ${RUBY_FAKEGEM_GEMSPEC} || die
 
 	# https://github.com/binarylogic/authlogic/issues/766
 	sed -e 's/MiniTest/Minitest/g' \
