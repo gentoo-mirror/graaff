@@ -223,6 +223,7 @@ dev-vcs/overcommit 0.64.0 0.64.1 0.65.0 0.67.1: The Opinionated Git Hook Manager
 net-analyzer/Memcached-Munin-Plugin 1.0-r1: Improved MySQL Graphs for Munin
 net-analyzer/munin-elasticsearch 0.20180515 0.20220303 0.20220303-r1: A Munin plugin for monitoring Elasticsearch nodes
 net-analyzer/munin-mysql 0.20180523 0.20180523-r1: Improved MySQL Graphs for Munin
+net-analyzer/munin_passenger 1.1.0: Runs passenger-status to graph CPU, RAM, queue size, requests served, etc.
 net-nds/openldap-totp 20170906: provides support for RFC 6238 TOTP Time-based One Time Passwords in OpenLDAP
 net-proxy/envoy-bin 1.16.2 1.18.2: An open source edge and service proxy
 sys-apps/viddy 0.3.4: A modern watch command. Time machine and pager etc.
