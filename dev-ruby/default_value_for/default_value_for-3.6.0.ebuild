@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="test"
 
-ruby_add_rdepend "|| ( dev-ruby/activerecord:6.1 dev-ruby/activerecord:7.0 dev-ruby/activerecord:7.1 )"
+ruby_add_rdepend "|| ( dev-ruby/activerecord:7.0 dev-ruby/activerecord:7.1 )"
 
 ruby_add_bdepend "test? ( dev-ruby/minitest dev-ruby/minitest-around <dev-ruby/railties-7.2 )"
 

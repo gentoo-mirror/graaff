@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,7 +22,7 @@ IUSE=""
 
 PATCHES=( "${FILESDIR}/${P}-rspec.patch" )
 
-ruby_add_rdepend "|| ( dev-ruby/activerecord:7.0 dev-ruby/activerecord:6.1 )"
+ruby_add_rdepend "|| ( dev-ruby/activerecord:7.0 )"
 
 ruby_add_bdepend "test? (
 	dev-ruby/database_cleaner
