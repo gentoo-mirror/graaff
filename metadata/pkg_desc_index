@@ -29,7 +29,7 @@ app-emacs/rspec-mode 0.20230616 0.20240819: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
-app-forensics/brakeman 6.1.2-r1 6.2.1 6.2.2 7.0.0 7.0.1 7.0.2: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 6.2.2 7.0.0 7.0.1 7.0.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-laptop/inputmodule-control 0.2.0: Framework Laptop inputmodule control tool.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
@@ -145,7 +145,7 @@ dev-ruby/oedipus_lex 2.6.2: A lexer generator in the same family as Rexical and 
 dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/patience_diff 1.2.0: A Ruby implementation of the Patience diff algorithm.
 dev-ruby/phlex 1.9.1 1.10.3 1.11.0: A framework for building object-oriented views in Ruby
-dev-ruby/phlex-rails 1.0.0 1.1.1 1.1.2 1.2.1 1.2.2: A high-performance view framework optimised for developer happiness
+dev-ruby/phlex-rails 1.2.1 1.2.2: A high-performance view framework optimised for developer happiness
 dev-ruby/phonelib 0.10.4 0.10.5 0.10.6 0.10.7: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
@@ -162,7 +162,7 @@ dev-ruby/reek 6.3.0 6.4.0: Examines Ruby classes, modules and methods and report
 dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
 dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1 3.0.0: Map simple html back into markdown
-dev-ruby/rgen 0.10.0 0.10.2: A framework for Model Driven Software Development (MDSD)
+dev-ruby/rgen 0.10.2: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
 dev-ruby/roda 3.81.0 3.87.0 3.88.0 3.90.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
@@ -201,7 +201,6 @@ dev-ruby/superform 0.5.0: A better way to customize and build forms for your Rai
 dev-ruby/terser 1.2.4 1.2.5: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
-dev-ruby/tiny_tds 2.1.7: A modern, simple and fast FreeTDS library for Ruby using DB-Library
 dev-ruby/tinymce-rails 6.5.1-r1 6.8.3 7.0.1 7.1.2.1 7.3.0 7.5.1 7.6.1 7.7.1 7.8.0: Integration of TinyMCE with the Rails asset pipeline
 dev-ruby/tinymce-rails-langs 6.20230529 7.20240507: Additional language packs for tinymce-rails
 dev-ruby/transproc 1.1.1: Compose procs into a functional pipeline using left-to-right function composition
