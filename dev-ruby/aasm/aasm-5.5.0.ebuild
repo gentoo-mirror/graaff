@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -28,7 +28,7 @@ PATCHES=( "${FILESDIR}/${P}-rails71.patch" )
 ruby_add_rdepend "dev-ruby/concurrent-ruby:1"
 
 ruby_add_bdepend "test? (
-	|| ( dev-ruby/activerecord:7.2 dev-ruby/activerecord:7.1 dev-ruby/activerecord:7.0 dev-ruby/activerecord:6.1 )
+	|| ( dev-ruby/activerecord:7.2 dev-ruby/activerecord:7.1 dev-ruby/activerecord:7.0 )
 	dev-ruby/rr
 )"
 
