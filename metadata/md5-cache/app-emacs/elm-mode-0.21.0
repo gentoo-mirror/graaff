@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=app-emacs/f app-emacs/let-alist app-emacs/s app-emacs/reformatter >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://github.com/jcollard/elm-mode/archive/v0.21.0.tar.gz -> elm-mode-0.21.0.tar.gz
-_eclasses_=elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	8dfc7a00348fe9c91895014adc78a4a5
+_eclasses_=elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
 _md5_=3dda8a6eed4239f430b6c2365306bd3a

@@ -12,5 +12,5 @@ RDEPEND=dev-ruby/ruby_parser >=dev-util/cucumber-4.1.0 >=dev-util/cucumber-gherk
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/michaelklishin/cucumber.el/archive/8e1464113b489b54067294cd988ff6a11a423fdb.tar.gz -> cucumber-el-0.20200815-git.tgz
-_eclasses_=elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	8dfc7a00348fe9c91895014adc78a4a5
+_eclasses_=elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
 _md5_=13559a074b94e869be0e605d6f924197
