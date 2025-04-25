@@ -18,8 +18,11 @@ LICENSE="MIT"
 
 SLOT="$(ver_cut 1)"
 KEYWORDS="~amd64"
+IUSE="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/addressable-2.8
 	>=dev-ruby/bigdecimal-3.1:0
 "
+
+ruby_add_depend "test? ( dev-ruby/webmock )"
