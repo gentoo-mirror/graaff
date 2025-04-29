@@ -1,8 +1,8 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby31 ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -27,3 +27,8 @@ KEYWORDS="~amd64"
 ruby_add_rdepend "
 	=dev-ruby/rubocop-1* >=dev-ruby/rubocop-1.41
 "
+
+all_ruby_prepare() {
+	sed -e '/simplecov/ s:^:#:' \
+		-i spec/spec_helper.rb || die
+}
