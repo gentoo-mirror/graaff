@@ -33,6 +33,7 @@ ruby_add_rdepend "
 	>=dev-ruby/observer-0.1:0
 	>=dev-ruby/ostruct-0.6
 	>=dev-ruby/parser-3.0:0
+	dev-ruby/pry
 	=dev-ruby/rbs-3*
 	dev-ruby/reverse_markdown:3
 	>=dev-ruby/rubocop-1.38
