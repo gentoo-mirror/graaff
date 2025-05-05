@@ -58,7 +58,7 @@ dev-ruby/activerecord-session_store 2.1.0 2.2.0: An Action Dispatch session stor
 dev-ruby/acts-as-taggable-on 9.0.1 10.0.0 11.0.0 12.0.0: Advanced tagging for Rails.
 dev-ruby/ancestry 4.3.3: Allows records to be organized in a tree structure
 dev-ruby/api-versions 1.2.0-r1 1.2.1-r1: a Gem to help you manage your Rails API endpoints
-dev-ruby/appsignal 3.11.0 3.12.6 3.13.1: The official appsignal.com gem
+dev-ruby/appsignal 3.13.1 4.5.9: The official appsignal.com gem
 dev-ruby/atlassian-jwt 0.2.1: Simplifies generating the claims needed with the Atlassian Connect REST APIs
 dev-ruby/attr_extras 7.1.0: Takes some boilerplate out of Ruby with methods like attr_initialize.
 dev-ruby/authlogic 6.4.3-r1 6.5.0: A clean, simple, and unobtrusive ruby authentication solution.
@@ -182,7 +182,7 @@ dev-ruby/rubocop-yard 0.9.3: Check yardoc format like tag type
 dev-ruby/ruby-saml 1.15.0 1.16.0 1.17.0 1.18.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0-r1: Schulze voting method (with help of the Floyd-Warshall algorithm)
-dev-ruby/scrypt 3.0.7-r3 3.0.8: Scrypt password hashing algorithm
+dev-ruby/scrypt 3.0.8: Scrypt password hashing algorithm
 dev-ruby/secure_headers 6.7.0 7.0.0 7.1.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1-r1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
