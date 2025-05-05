@@ -1,9 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md SUPPORT.md"
 
@@ -13,13 +13,15 @@ RUBY_FAKEGEM_EXTRAINSTALL="ext resources"
 
 RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
-AGENT_VERSION="0.35.12"
+AGENT_VERSION="0.36.3"
 
-inherit ruby-fakegem
+inherit flag-o-matic ruby-fakegem
 
 DESCRIPTION="The official appsignal.com gem"
 HOMEPAGE="https://docs.appsignal.com/ruby"
-SRC_URI="https://rubygems.org/gems/appsignal-${PV}.gem https://appsignal-agent-releases.global.ssl.fastly.net/${AGENT_VERSION}/appsignal-x86_64-linux-all-static.tar.gz -> appsignal-x86_64-${PV}.patch.bz2"
+SRC_URI="https://github.com/appsignal/appsignal-ruby/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+		 https://appsignal-agent-releases.global.ssl.fastly.net/${AGENT_VERSION}/appsignal-x86_64-linux-all-static.tar.gz -> appsignal-x86_64-${PV}.patch.bz2"
+RUBY_S="appsignal-ruby-${PV}"
 
 LICENSE="MIT"
 SLOT="$(ver_cut 1)"
@@ -27,6 +29,7 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
+	dev-ruby/logger
 	dev-ruby/rack:*
 "
 
@@ -56,6 +59,18 @@ all_ruby_prepare() {
 
 	# Fix spec that expect a specific command name
 	sed -e '/process_name/ s/rspec/rspec-3/' -i spec/lib/appsignal/probes/gvl_spec.rb || die
+}
+
+each_ruby_prepare() {
+	sed -e "/executable/ s:\"ruby\":\"${RUBY}\":" \
+		-i spec/integration/runner.rb || die
+}
+
+each_ruby_configure() {
+	append-flags -std=gnu17
+	filter-flags -std=gnu23
+
+	each_fakegem_configure
 }
 
 each_ruby_test() {

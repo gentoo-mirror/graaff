@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,7 +15,7 @@ RUBY_FAKEGEM_EXTENSIONS=(ext/extconf.rb)
 
 AGENT_VERSION="0.35.19"
 
-inherit ruby-fakegem
+inherit flag-o-matic ruby-fakegem
 
 DESCRIPTION="The official appsignal.com gem"
 HOMEPAGE="https://docs.appsignal.com/ruby"
@@ -56,6 +56,13 @@ all_ruby_prepare() {
 
 	# Fix spec that expect a specific command name
 	sed -e '/process_name/ s/rspec/rspec-3/' -i spec/lib/appsignal/probes/gvl_spec.rb || die
+}
+
+each_ruby_configure() {
+	append-flags --std=gnu17
+	filter-flags --std=gnu23
+
+	each_fakegem_configure
 }
 
 each_ruby_test() {
