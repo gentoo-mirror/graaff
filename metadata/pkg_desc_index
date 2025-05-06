@@ -144,7 +144,7 @@ dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Co
 dev-ruby/oedipus_lex 2.6.2: A lexer generator in the same family as Rexical and Rex
 dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/patience_diff 1.2.0: A Ruby implementation of the Patience diff algorithm.
-dev-ruby/phlex 1.9.1 1.10.3 1.11.0: A framework for building object-oriented views in Ruby
+dev-ruby/phlex 1.11.0 2.2.1: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.2.1 1.2.2: A high-performance view framework optimised for developer happiness
 dev-ruby/phonelib 0.10.7 0.10.8: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
