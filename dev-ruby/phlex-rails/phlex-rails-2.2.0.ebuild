@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32"
+USE_RUBY="ruby32 ruby33"
 
 RUBY_FAKEGEM_BINWRAP=""
-RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
+RUBY_FAKEGEM_EXTRADOC="README.md"
 RUBY_FAKEGEM_GEMSPEC="phlex-rails.gemspec"
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
@@ -16,7 +16,7 @@ HOMEPAGE="https://github.com/phlex-ruby/phlex-rails"
 SRC_URI="https://github.com/phlex-ruby/phlex-rails/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="$(ver_cut 1)"
+SLOT="$(ver_cut 1-2)"
 KEYWORDS="~amd64"
 IUSE="test"
 
@@ -24,8 +24,8 @@ IUSE="test"
 RESTRICT="test"
 
 ruby_add_rdepend "
-	=dev-ruby/phlex-1.10*
-	|| ( dev-ruby/railties:7.1 dev-ruby/railties:7.0 )
+	>=dev-ruby/phlex-2.2.1 =dev-ruby/phlex-2.2*
+	|| ( dev-ruby/railties:8.0 dev-ruby/railties:7.2 dev-ruby/railties:7.1 )
 "
 
 ruby_add_bdepend "test? (
