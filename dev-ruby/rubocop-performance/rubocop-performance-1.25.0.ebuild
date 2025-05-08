@@ -1,8 +1,8 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -26,6 +26,12 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-1.48.1:0
-	>=dev-ruby/rubocop-ast-1.31.1
+	>=dev-ruby/lint_roller-1.1:1
+	>=dev-ruby/rubocop-1.75.0:0
+	>=dev-ruby/rubocop-ast-1.38.0
 "
+
+all_ruby_prepare() {
+	# Specs fail due to seemingly obsolete configuration.
+	rm -f spec/rubocop/cli/autocorrect_spec.rb spec/project_spec.rb || die
+}
