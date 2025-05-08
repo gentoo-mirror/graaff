@@ -172,13 +172,13 @@ dev-ruby/rubocop 1.73.1 1.74.0 1.75.2 1.75.3 1.75.4 1.75.5: A Ruby static code a
 dev-ruby/rubocop-ast 1.38.1 1.41.0 1.43.0 1.44.0 1.44.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.20.0 2.21.0 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.25.1 2.26.0 2.26.1: Code style checking for RSpec files
-dev-ruby/rubocop-performance 1.21.1 1.22.1 1.23.0 1.23.1 1.24.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.28.0 2.29.1: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.23.1 1.24.0 1.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.28.0 2.29.1 2.31.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails-accessibility 1.0.1: Custom RuboCop rules for Rails Accessibility
 dev-ruby/rubocop-rake 0.6.0 0.7.1: A RuboCop for rake
 dev-ruby/rubocop-rspec 2.31.0 3.3.0 3.4.0 3.5.0 3.6.0: Code style checking for RSpec files
-dev-ruby/rubocop-rspec_rails 2.29.1 2.30.0: Code style checking for RSpec files
-dev-ruby/rubocop-yard 0.9.3: Check yardoc format like tag type
+dev-ruby/rubocop-rspec_rails 2.29.1 2.30.0 2.31.0: Code style checking for RSpec files
+dev-ruby/rubocop-yard 0.9.3 0.10.0: Check yardoc format like tag type
 dev-ruby/ruby-saml 1.15.0 1.16.0 1.17.0 1.18.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0-r1: Schulze voting method (with help of the Floyd-Warshall algorithm)
