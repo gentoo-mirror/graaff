@@ -168,7 +168,7 @@ dev-ruby/roda 3.81.0 3.87.0 3.88.0 3.90.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.2.1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.73.1 1.74.0 1.75.2 1.75.3 1.75.4: A Ruby static code analyzer
+dev-ruby/rubocop 1.73.1 1.74.0 1.75.2 1.75.3 1.75.4 1.75.5: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.38.1 1.41.0 1.43.0 1.44.0 1.44.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.20.0 2.21.0 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.25.1 2.26.0 2.26.1: Code style checking for RSpec files
