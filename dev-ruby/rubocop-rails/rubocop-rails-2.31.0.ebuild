@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby32 ruby33"
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -35,7 +35,7 @@ ruby_add_rdepend "
 ruby_add_depend "test? ( dev-ruby/bundler dev-ruby/rubocop-performance )"
 
 all_ruby_prepare() {
-	sed -e '/\(bump\|test-queue\)/ s:^:#:' \
+	sed -e '/\(bump\|simplecov\|test-queue\)/ s:^:#:' \
 		-e '/rubocop/ s/,.*$//' \
 		-i Gemfile || die
 	rm -f tasks/cut_release.rake || die
