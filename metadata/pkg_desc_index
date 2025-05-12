@@ -142,7 +142,7 @@ dev-ruby/nested_form 0.3.2-r2: A Rails gem for conveniently manage multiple nest
 dev-ruby/nokogiri-happymapper 0.10.0: Parse XML data and convert it quickly and easily into ruby data structures
 dev-ruby/oauth-plugin 0.5.1-r4: A plugin for implementing OAuth Providers and Consumers in Rails applications.
 dev-ruby/oedipus_lex 2.6.2: A lexer generator in the same family as Rexical and Rex
-dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0: PaperTrail lets you track changes to your models' data.
+dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0 16.0.0: PaperTrail lets you track changes to your models' data.
 dev-ruby/patience_diff 1.2.0: A Ruby implementation of the Patience diff algorithm.
 dev-ruby/phlex 1.11.0 2.2.1 2.3.0: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.2.2 2.2.0: A high-performance view framework optimised for developer happiness
@@ -187,7 +187,7 @@ dev-ruby/secure_headers 6.7.0 7.0.0 7.1.0: Security related headers all in one g
 dev-ruby/semantic_range 2.3.1-r1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
 dev-ruby/site_prism 4.0.3 5.0.3 5.0.4 5.1: A simple, clean and semantic DSL for describing your site with Page Object Model
-dev-ruby/site_prism-all_there 0.3.2 2.0.2 3.0.5 3.0.6: Simple DSL in order to recursively query page/section/element structures
+dev-ruby/site_prism-all_there 2.0.2 3.0.6: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/solargraph 0.53.4 0.54.0 0.54.2: IDE tools for code completion, inline documentation, and static analysis
