@@ -128,7 +128,7 @@ dev-ruby/json-schema 4.3.1 5.1.1: Ruby JSON Schema Validator
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/kicks 3.1.1: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
-dev-ruby/language_server-protocol 3.17.0.3 3.17.0.4: A Language Server Protocol SDK
+dev-ruby/language_server-protocol 3.17.0.3 3.17.0.4 3.17.0.5: A Language Server Protocol SDK
 dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rulesets
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
