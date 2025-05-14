@@ -119,7 +119,7 @@ dev-ruby/inky-rb 1.4.2.1: A templating language that converts simple HTML into r
 dev-ruby/innertube 1.1.0-r2: A thread-safe resource pool, originally borne in riak-client (Ripple)
 dev-ruby/invisible_captcha 2.3.0: Unobtrusive, flexible and simple spam protection for Rails applications
 dev-ruby/isolate 4.0.0: Isolate is a very simple RubyGems sandbox.
-dev-ruby/jaro_winkler 1.6.0: Implementation of Jaro-Winkler distance algorithm
+dev-ruby/jaro_winkler 1.6.0 1.6.1: Implementation of Jaro-Winkler distance algorithm
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
@@ -190,7 +190,7 @@ dev-ruby/site_prism 4.0.3 5.0.3 5.0.4 5.1: A simple, clean and semantic DSL for 
 dev-ruby/site_prism-all_there 2.0.2 3.0.6: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
-dev-ruby/solargraph 0.53.4 0.54.0 0.54.2: IDE tools for code completion, inline documentation, and static analysis
+dev-ruby/solargraph 0.53.4 0.54.0 0.54.2 0.54.3: IDE tools for code completion, inline documentation, and static analysis
 dev-ruby/solargraph-rails 1.1.0: Add reflection on ActiveModel dynamic attributes that will be created at runtime
 dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
