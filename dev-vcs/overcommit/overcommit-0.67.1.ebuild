@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby31 ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -22,13 +22,16 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 ruby_add_rdepend "
-	|| ( dev-ruby/childprocess:5 dev-ruby/childprocess:2 )
+	dev-ruby/childprocess:5
 	>=dev-ruby/iniparse-1.4:1
 	>=dev-ruby/rexml-3.3.9:3
 "
 
 all_ruby_prepare() {
 	sed -i -e "s/_relative //" ${RUBY_FAKEGEM_GEMSPEC} || die
+
+	sed -e '/simplecov/,/^end/ s:^:#:' \
+		-i spec/spec_helper.rb || die
 
 	# Use non-deprecated command for erb_lint
 	sed -e '/required_executable/ s/erblint/erb_lint/' \
