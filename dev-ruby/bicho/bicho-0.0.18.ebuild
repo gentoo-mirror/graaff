@@ -19,7 +19,7 @@ KEYWORDS="~amd64"
 IUSE="test"
 
 ruby_add_rdepend "
-	|| ( dev-ruby/highline:3 dev-ruby/highline:2 )
+	dev-ruby/highline:3
 	dev-ruby/inifile:3
 	>=dev-ruby/nokogiri-1.10.4:0
 	dev-ruby/optimist:3
