@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -23,18 +23,19 @@ IUSE="test"
 
 ruby_add_rdepend "
 	>=dev-ruby/backport-1.2:0
-	dev-ruby/benchmark
+	>=dev-ruby/benchmark-0.4.0:0
 	dev-ruby/bundler:2
 	>=dev-ruby/diff-lcs-1.4:0
-	>=dev-ruby/jaro_winkler-1.6:1
+	>=dev-ruby/jaro_winkler-1.6.1:1
 	>=dev-ruby/kramdown-2.3:2
 	>=dev-ruby/kramdown-parser-gfm-1.1:1
 	>=dev-ruby/logger-1.6:0
 	>=dev-ruby/observer-0.1:0
 	>=dev-ruby/ostruct-0.6
 	>=dev-ruby/parser-3.0:0
+	dev-ruby/pry
 	=dev-ruby/rbs-3*
-	|| ( dev-ruby/reverse_markdown:3 =dev-ruby/reverse_markdown-2* )
+	dev-ruby/reverse_markdown:3
 	>=dev-ruby/rubocop-1.38
 	dev-ruby/thor:1
 	dev-ruby/tilt:2
