@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_BINWRAP=""
 RUBY_FAKEGEM_RECIPE_TEST="rspec3"
@@ -11,7 +12,7 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
 inherit ruby-fakegem
 
-DESCRIPTION="Compose procs into a functional pipeline using left-to-right function composition"
+DESCRIPTION="Compose procs into a pipeline using left-to-right function composition"
 
 HOMEPAGE="https://github.com/solnic/transproc"
 LICENSE="MIT"
