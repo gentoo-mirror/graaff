@@ -27,6 +27,7 @@ RESTRICT="test"
 ruby_add_rdepend "
 	dev-ruby/phlex:2.3
 	|| ( dev-ruby/railties:8.0 dev-ruby/railties:7.2 dev-ruby/railties:7.1 )
+	>=dev-ruby/zeitwerk-2.7:2
 "
 
 ruby_add_bdepend "test? (
