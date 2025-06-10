@@ -88,7 +88,7 @@ dev-ruby/dry-configurable 1.3.0: A mixin to add configuration functionality to y
 dev-ruby/dry-container 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
 dev-ruby/dry-initializer 3.2.0: DSL for declaring params and options of the initializer
-dev-ruby/dry-schema 1.14.1: A DSL for defining schemas with keys and rules that should be applied to values
+dev-ruby/dry-schema 1.13.4-r1 1.14.1: A DSL for defining schemas with keys and rules that should be applied to values
 dev-ruby/dry-validation 1.11.1: Validation library
 dev-ruby/dumb_delegator 1.1.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
@@ -131,7 +131,7 @@ dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rulesets
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
-dev-ruby/memory_profiler 1.0.2: Memory profiling routines for Ruby 2.5+
+dev-ruby/memory_profiler 1.0.2 1.1.0: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.8 0.4.10 0.5.8: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
@@ -167,7 +167,7 @@ dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.2.1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
 dev-ruby/rubocop 1.75.5 1.75.6 1.75.7 1.75.8 1.76.0: A Ruby static code analyzer
-dev-ruby/rubocop-ast 1.44.1 1.45.0: RuboCop's Node and NodePattern classes
+dev-ruby/rubocop-ast 1.44.1 1.45.0 1.45.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.26.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.24.0 1.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
