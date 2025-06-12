@@ -26,6 +26,7 @@ app-emacs/reformatter 0.5 0.6: Define commands which run reformatters on the cur
 app-emacs/request 0.3.2: an elisp HTTP library
 app-emacs/rspec-mode 0.20230616 0.20240819: An RSpec minor mode for Emacs
 app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
+app-emacs/tramp-theme 0.3: Custom theme for remote buffers
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
 app-forensics/brakeman 6.2.2 7.0.0 7.0.1 7.0.2: Static analysis tool which checks RoR applications for security vulnerabilities
@@ -166,7 +167,7 @@ dev-ruby/roda 3.88.0 3.90.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.2.1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
-dev-ruby/rubocop 1.75.5 1.75.6 1.75.7 1.75.8 1.76.0: A Ruby static code analyzer
+dev-ruby/rubocop 1.75.5 1.75.6 1.75.7 1.75.8 1.76.0 1.76.1: A Ruby static code analyzer
 dev-ruby/rubocop-ast 1.44.1 1.45.0 1.45.1: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.26.1: Code style checking for RSpec files
