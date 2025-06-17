@@ -69,7 +69,7 @@ dev-ruby/backticks 1.0.5: Captures stdout, stderr and (optionally) stdin; uses P
 dev-ruby/better_errors 2.10.1: Provides a better error page for Rails and other Rack apps
 dev-ruby/better_html 2.1.1: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
-dev-ruby/bootsnap 1.18.4: Boot large ruby/rails apps faster
+dev-ruby/bootsnap 1.18.4 1.18.6: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.3.3 5.3.5: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1 6.0.0 6.1.0 6.2.0: Do some browser detection with Ruby
