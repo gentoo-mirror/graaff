@@ -195,7 +195,7 @@ dev-ruby/spring-commands-cucumber 1.0.1-r1: cucumber command for spring
 dev-ruby/spring-commands-rspec 1.0.4-r1: rspec command for spring
 dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with password input
 dev-ruby/stackprof 0.2.27: A fast sampling profiler for ruby code
-dev-ruby/super_diff 0.15.0: Hooks into RSpec to display the differences between two data structures
+dev-ruby/super_diff 0.15.0 0.16.0: Hooks into RSpec to display the differences between two data structures
 dev-ruby/superform 0.5.0 0.5.1: A better way to customize and build forms for your Rails application
 dev-ruby/terser 1.2.4 1.2.5: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
