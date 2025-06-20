@@ -73,16 +73,15 @@ dev-ruby/bootsnap 1.18.4 1.18.6: Boot large ruby/rails apps faster
 dev-ruby/bootstrap 5.3.3 5.3.5: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1 6.0.0 6.1.0 6.2.0: Do some browser detection with Ruby
-dev-ruby/byebug 11.1.3-r1: a Ruby 2 debugger
+dev-ruby/byebug 11.1.3-r1 12.0.0: a Ruby 2 debugger
 dev-ruby/case_transform 0.2-r1: Extraction of the key_transform abilities of ActiveModelSerializers
 dev-ruby/chroma 0.2.0-r1: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/csscompress 0.2.2: CSS minification with Ruby using ExecJS and Node.js' CSSO.
-dev-ruby/debride 1.12.0: Analyze code for potentially uncalled / dead methods
+dev-ruby/debride 1.12.0 1.13.0: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
-dev-ruby/default_value_for 3.6.0: Allows to define default values for ActiveRecord models in a declarative manner
 dev-ruby/diplomat 2.6.4 2.6.5: A simple wrapper for Consul
 dev-ruby/draper 4.0.2-r2 4.0.4: View Models for Rails
 dev-ruby/dry-configurable 1.3.0: A mixin to add configuration functionality to your classes
@@ -151,7 +150,7 @@ dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.27.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
-dev-ruby/rack-mini-profiler 3.3.1: Profiling toolkit for Rack applications with Rails integration
+dev-ruby/rack-mini-profiler 3.3.1 4.0.0: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
@@ -163,7 +162,7 @@ dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1 3.0.0: Map simple html back into markdown
 dev-ruby/rgen 0.10.2: A framework for Model Driven Software Development (MDSD)
 dev-ruby/riddle 2.4.3: An interface to the Sphinx search daemon.
-dev-ruby/roda 3.88.0 3.90.0: Routing tree web toolkit
+dev-ruby/roda 3.88.0 3.90.0 3.93.0: Routing tree web toolkit
 dev-ruby/roo 2.10.1: Access the contents of various spreadsheet files.
 dev-ruby/rspec-activemodel-mocks 1.2.1: RSpec test doubles for ActiveModel and ActiveRecord
 dev-ruby/rspec_multi_matchers 1.2.1-r1: test collection using each or other enumerable methods
@@ -197,7 +196,7 @@ dev-ruby/sshkit-sudo 0.1.0-r2: SSHKit extension, for sudo operation with passwor
 dev-ruby/stackprof 0.2.27: A fast sampling profiler for ruby code
 dev-ruby/super_diff 0.15.0 0.16.0: Hooks into RSpec to display the differences between two data structures
 dev-ruby/superform 0.5.0 0.5.1: A better way to customize and build forms for your Rails application
-dev-ruby/terser 1.2.4 1.2.5: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
+dev-ruby/terser 1.2.5 1.2.6: Terser minifies JavaScript files by wrapping TerserJS to be accessible in Ruby
 dev-ruby/thinking-sphinx 5.5.1 5.6.0: A concise library that connects ActiveRecord to the Sphinx search daemon
 dev-ruby/thwait 0.2.0-r1: Watches for termination of multiple threads
 dev-ruby/tinymce-rails 7.0.1 7.1.2.1 7.3.0 7.5.1 7.6.1 7.7.1 7.8.0 7.9.0: Integration of TinyMCE with the Rails asset pipeline
@@ -214,7 +213,7 @@ dev-util/foreman 0.88.1: Manage Procfile-based applications
 dev-util/hadolint 2.8.0-r1 2.10.0: Dockerfile Linter JavaScript API
 dev-util/mdl 0.13.0: Style checker/lint tool for markdown files
 dev-util/puppet-strings 4.1.3: Puppet documentation via YARD
-dev-util/rubycritic 4.9.1: Wraps around various static analysis gems to provide a quality report of your Ruby code
+dev-util/rubycritic 4.9.1 4.9.2: Wraps around static analysis gems to provide a quality report of your Ruby code
 dev-util/scss-lint 0.60.0: Configurable tool for writing clean and consistent SCSS
 dev-util/yardstick 0.9.9-r1: Measure YARD documentation coverage
 dev-vcs/overcommit 0.67.1: The Opinionated Git Hook Manager
