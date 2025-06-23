@@ -107,7 +107,7 @@ dev-ruby/gli 2.22.0 2.22.1 2.22.2: Git-Like Interface Command Line Parser
 dev-ruby/groupdate 6.5.1: The simplest way to group temporal data
 dev-ruby/heapy 0.2.0-r1: Got a heap dump? Great. Use this tool to see what's in it!
 dev-ruby/html_tokenizer 0.0.8: HTML Tokenizer
-dev-ruby/icalendar 2.10.3 2.11.0 2.11.1: This library provides iCalendar support for ruby. (RFC-2445)
+dev-ruby/icalendar 2.11.0 2.11.1 2.11.2: This library provides iCalendar support for ruby. (RFC-2445)
 dev-ruby/icalendar-recurrence 1.2.0: Provides recurrence to icalendar gem
 dev-ruby/ice_cube 0.17.0: a recurring date library for Ruby
 dev-ruby/inflection 1.0.0-r1: Support library for inflections
