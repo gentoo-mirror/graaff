@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -32,7 +33,7 @@ ruby_add_rdepend "
 	>=dev-ruby/parser-3.3.0.2
 	dev-ruby/rainbow:3
 	>=dev-ruby/regexp_parser-2.9.3:2
-	>=dev-ruby/rubocop-ast-1.44.0:1
+	>=dev-ruby/rubocop-ast-1.45.1:1
 	>=dev-ruby/ruby-progressbar-1.7:0
 	|| ( dev-ruby/unicode-display_width:3 >=dev-ruby/unicode-display_width-2.4.0:2 )
 "
@@ -60,6 +61,8 @@ all_ruby_prepare() {
 
 	# Avoid specs requiring many rubocop extensions
 	rm -f spec/rubocop/version_spec.rb || die
+	sed -e '/describe.*require/ s/describe/xdescribe/' \
+		-i spec/rubocop/cli/options_spec.rb || die
 
 	# Avoid specs that are not functional and break too often in releases
 	sed -i -e '/has a unique contributor name/askip "too fragile"' spec/project_spec.rb || die
@@ -67,6 +70,7 @@ all_ruby_prepare() {
 	# Avoid spec that breaks when YJIT is enabled
 	sed -i -e '/logs the RuboCop version/ s/it/xit/' spec/rubocop/lsp/server_spec.rb || die
 
+	# Use TMPDIR
 	sed -e 's:/tmp/example:'"${TMPDIR}"'/example:' \
 		-e 's:/tmp/Gemfile:'"${TMPDIR}"'/Gemfile:' \
 		-i spec/rubocop/cop/team_spec.rb || die
@@ -76,6 +80,6 @@ all_ruby_prepare() {
 	sed -e '/StrictWarnings.enable/ s:^:#:' \
 		-i spec/spec_helper.rb || die
 
-	# Avoid ruby-lsp specs since as long as that it not packaged yet.
+	# Avoid ruby-lsp specs since that is not packaged yet.
 	rm -f spec/ruby_lsp/rubocop/addon_spec.rb || die
 }
