@@ -176,7 +176,7 @@ dev-ruby/rubocop-rails-accessibility 1.0.1: Custom RuboCop rules for Rails Acces
 dev-ruby/rubocop-rake 0.7.1: A RuboCop for rake
 dev-ruby/rubocop-rspec 3.5.0 3.6.0: Code style checking for RSpec files
 dev-ruby/rubocop-rspec_rails 2.30.0 2.31.0: Code style checking for RSpec files
-dev-ruby/rubocop-yard 0.9.3 0.10.0: Check yardoc format like tag type
+dev-ruby/rubocop-yard 0.10.0 1.0.0: Check yardoc format like tag type
 dev-ruby/ruby-saml 1.16.0 1.17.0 1.18.0: A library for implementing the client side of a SAML authorization
 dev-ruby/rvideo 0.9.3-r5: Inspect and process video or audio files.
 dev-ruby/schulze-vote 2.3.0-r1: Schulze voting method (with help of the Floyd-Warshall algorithm)
