@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33 ruby34"
+
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
 
@@ -10,7 +11,7 @@ RUBY_FAKEGEM_EXTRAINSTALL="config"
 
 RUBY_FAKEGEM_BINWRAP=""
 
-# Requires running a rubocop servers and looks fragile for output
+# Requires running a rubocop server and looks fragile for output
 # differences.
 RUBY_FAKEGEM_RECIPE_TEST="none"
 
@@ -24,6 +25,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 ruby_add_rdepend "
-	>=dev-ruby/rubocop-1.21:0
+	dev-ruby/lint_roller
+	>=dev-ruby/rubocop-1.72:0
 	dev-ruby/yard
 "
