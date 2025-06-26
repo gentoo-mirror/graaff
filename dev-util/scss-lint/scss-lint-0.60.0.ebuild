@@ -1,8 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_NAME="scss_lint"
 
@@ -16,9 +17,8 @@ DESCRIPTION="Configurable tool for writing clean and consistent SCSS"
 HOMEPAGE="https://github.com/sds/scss-lint"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="0"
-IUSE=""
+KEYWORDS="~amd64"
 
 ruby_add_rdepend "
 	>=dev-ruby/sass-3.5.5:* =dev-ruby/sass-3*:*
