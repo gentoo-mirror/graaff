@@ -185,7 +185,7 @@ dev-ruby/secure_headers 7.0.0 7.1.0: Security related headers all in one gem
 dev-ruby/semantic_range 2.3.1-r1: node-semver in ruby for comparison and inclusion of semantic versions and ranges
 dev-ruby/simple_po_parser 1.1.6: A simple PO file to ruby hash parser
 dev-ruby/site_prism 4.0.3 5.1: A simple, clean and semantic DSL for describing your site with Page Object Model
-dev-ruby/site_prism-all_there 2.0.2 3.0.6: Simple DSL in order to recursively query page/section/element structures
+dev-ruby/site_prism-all_there 2.0.2 3.0.6 3.0.7: Simple DSL in order to recursively query page/section/element structures
 dev-ruby/smart_properties 1.17.0: A more flexible and feature-rich alternative to traditional Ruby accessors
 dev-ruby/sneakers 2.12.0-r3: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/solargraph 0.53.4 0.54.3 0.54.4 0.54.5: IDE tools for code completion, inline documentation, and static analysis
