@@ -32,7 +32,7 @@ ruby_add_rdepend "
 	>=dev-ruby/ruby_parser-3.20.2 =dev-ruby/ruby_parser-3*
 	>=dev-ruby/sexp_processor-4.7:4
 	>=dev-ruby/slim-1.3.6:* <dev-ruby/slim-5.3:*
-	|| ( dev-ruby/terminal-table:4 dev-ruby/terminal-table:3 dev-ruby/terminal-table:2 dev-ruby/terminal-table:0 )
+	|| ( dev-ruby/terminal-table:4 dev-ruby/terminal-table:3 )
 "
 
 ruby_add_bdepend "test? ( dev-ruby/bundler )"
