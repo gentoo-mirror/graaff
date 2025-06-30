@@ -29,7 +29,7 @@ app-emacs/sass-mode 3.0.18-r1: A major mode for editing Sass
 app-emacs/tramp-theme 0.3: Custom theme for remote buffers
 app-emacs/typescript-mode 0.4: Major mode for typescript files
 app-emacs/x509-mode 0.20230814: View certificates and CRLs using OpenSSL in Emacs
-app-forensics/brakeman 6.2.2 7.0.0 7.0.1 7.0.2: Static analysis tool which checks RoR applications for security vulnerabilities
+app-forensics/brakeman 7.0.2: Static analysis tool which checks RoR applications for security vulnerabilities
 app-forensics/nrich 0.1.1: Enrich IPs with information about their open ports/ vulnerabilities/ software.
 app-laptop/inputmodule-control 0.2.0: Framework Laptop inputmodule control tool.
 app-text/sfnt2woff 0.20091003: A command line tool to convert TrueType/OpenType fonts to WOFF format
