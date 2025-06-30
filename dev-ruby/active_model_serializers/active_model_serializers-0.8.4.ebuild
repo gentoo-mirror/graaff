@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md DESIGN.textile README.md"
 
@@ -12,8 +13,8 @@ DESCRIPTION="Making it easy to serialize models for client-side use"
 HOMEPAGE="https://github.com/rails-api/active_model_serializers"
 LICENSE="MIT"
 
-KEYWORDS="~amd64"
 SLOT="0"
+KEYWORDS="~amd64"
 IUSE="test"
 
 # A bit more complicated setup than I have time for now...
