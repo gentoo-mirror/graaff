@@ -3,7 +3,7 @@
 
 EAPI=8
 
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_RECIPE_DOC=""
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md"
@@ -33,7 +33,7 @@ all_ruby_prepare() {
 	sed -i -e '/\(bundler\|coverall\|rubocop\)/I s:^:#:' Rakefile || die
 	sed -e '/byebug/ s:^:#: ; /reporters/I s:^:#:' \
 		-e '/coveralls/,/SimpleCov.start/ s:^:#:' \
-		-e '2igem "activerecord", "< 7.2"; gem "railties", "< 7.2"' \
+		-e '2igem "activerecord", "< 8.1"; gem "railties", "< 8.1"' \
 		-i test/test_helper.rb || die
 
 	sed -e 's:_relative ":"./:' \
