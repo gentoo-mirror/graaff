@@ -129,6 +129,7 @@ dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
 dev-ruby/language_server-protocol 3.17.0.3 3.17.0.4 3.17.0.5: A Language Server Protocol SDK
 dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rulesets
+dev-ruby/literal 1.8.1: Enums, properties, generics, structured objects and runtime type checking
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
 dev-ruby/memory_profiler 1.0.2 1.1.0: Memory profiling routines for Ruby 2.5+
