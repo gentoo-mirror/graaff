@@ -145,7 +145,7 @@ dev-ruby/paper_trail 13.0.0 14.0.0 15.1.0 15.2.0 16.0.0: PaperTrail lets you tra
 dev-ruby/patience_diff 1.2.0: A Ruby implementation of the Patience diff algorithm.
 dev-ruby/phlex 1.11.0 2.2.1 2.3.0 2.3.1: A framework for building object-oriented views in Ruby
 dev-ruby/phlex-rails 1.2.2 2.2.0 2.3.0 2.3.1: A high-performance view framework optimised for developer happiness
-dev-ruby/phonelib 0.10.9 0.10.10: Use Google libphonenumber data for validation and number formatting
+dev-ruby/phonelib 0.10.9 0.10.10 0.10.11: Use Google libphonenumber data for validation and number formatting
 dev-ruby/pipedrive-rb 0.3.0_p20201019-r1: Pipedrive.com API Wrapper
 dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.27.0: Improve the rendering of HTML emails
