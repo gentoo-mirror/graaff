@@ -157,8 +157,7 @@ dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
 dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recursive-open-struct 1.3.1 2.0.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/reek 6.4.0: Examines Ruby classes, modules and methods and reports any code smells it finds
-dev-ruby/request-log-analyzer 1.13.4-r1: This is a simple command line tool to analyze request log files.
+dev-ruby/reek 6.4.0 6.5.0: Examines Ruby classes, modules and methods and reports any code smells it finds
 dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
 dev-ruby/reverse_markdown 2.1.1 3.0.0: Map simple html back into markdown
 dev-ruby/rgen 0.10.2: A framework for Model Driven Software Development (MDSD)
@@ -171,11 +170,11 @@ dev-ruby/rubocop 1.75.8 1.76.0 1.76.1 1.76.2 1.77.0 1.78.0 1.79.1 1.79.2: A Ruby
 dev-ruby/rubocop-ast 1.44.1 1.45.0 1.45.1 1.46.0: RuboCop's Node and NodePattern classes
 dev-ruby/rubocop-capybara 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.26.1: Code style checking for RSpec files
-dev-ruby/rubocop-performance 1.24.0 1.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-performance 1.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails 2.29.1 2.31.0 2.32.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails-accessibility 1.0.1: Custom RuboCop rules for Rails Accessibility
 dev-ruby/rubocop-rake 0.7.1: A RuboCop for rake
-dev-ruby/rubocop-rspec 3.5.0 3.6.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 3.6.0: Code style checking for RSpec files
 dev-ruby/rubocop-rspec_rails 2.30.0 2.31.0: Code style checking for RSpec files
 dev-ruby/rubocop-yard 0.10.0 1.0.0: Check yardoc format like tag type
 dev-ruby/ruby-saml 1.16.0 1.17.0 1.18.0 1.18.1: A library for implementing the client side of a SAML authorization
