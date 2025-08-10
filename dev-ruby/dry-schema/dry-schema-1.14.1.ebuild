@@ -34,7 +34,12 @@ ruby_add_rdepend "
 	>=dev-ruby/zeitwerk-2.6:2
 "
 
-ruby_add_depend "test? ( dev-ruby/json-schema dev-ruby/dry-struct dev-ruby/super_diff )"
+ruby_add_depend "test? (
+	dev-ruby/json-schema
+	dev-ruby/dry-monads
+	dev-ruby/dry-struct
+	dev-ruby/super_diff
+)"
 
 all_ruby_prepare() {
 	# Avoid raising errors for ruby warnings (similar to avoiding -Werror)
