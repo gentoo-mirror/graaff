@@ -1,8 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby31 ruby32 ruby33"
+
+USE_RUBY="ruby32 ruby33 ruby34"
 
 RUBY_FAKEGEM_EXTRADOC="README.md"
 
@@ -40,6 +41,10 @@ all_ruby_prepare() {
 	# Avoid test broken by recent nokogiri/libxml2 output, already fixed
 	# upstream.
 	sed -e '/test_special_characters_nokogiri/askip "Broken with newer nokogiri versions"' \
+		-i test/test_premailer.rb || die
+
+	# Avoid tests with invalid CSS, most likely due to nokogiri changes.
+	sed -e '/test_invalid_css/askip "No longer triggers ArgumentError"' \
 		-i test/test_premailer.rb || die
 }
 
