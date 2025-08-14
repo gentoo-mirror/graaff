@@ -132,7 +132,7 @@ dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rule
 dev-ruby/literal 1.8.1: Enums, properties, generics, structured objects and runtime type checking
 dev-ruby/lograge 0.14.0: Tame Rails' multi-line logging into a single line per request
 dev-ruby/macaddr 1.7.2-r1: Cross platform mac address determination for ruby
-dev-ruby/memory_profiler 1.0.2 1.1.0: Memory profiling routines for Ruby 2.5+
+dev-ruby/memory_profiler 1.1.0: Memory profiling routines for Ruby 2.5+
 dev-ruby/minitest-utils 0.4.8 0.4.10 0.5.8: Some utilities for your Minitest day-to-day usage
 dev-ruby/mixlib-cli 2.1.8: A simple mixin for CLI interfaces, including option parsing
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
@@ -171,7 +171,7 @@ dev-ruby/rubocop-ast 1.44.1 1.45.0 1.45.1 1.46.0: RuboCop's Node and NodePattern
 dev-ruby/rubocop-capybara 2.22.1: Code style checking for RSpec files
 dev-ruby/rubocop-factory_bot 2.26.1: Code style checking for RSpec files
 dev-ruby/rubocop-performance 1.25.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
-dev-ruby/rubocop-rails 2.29.1 2.31.0 2.32.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
+dev-ruby/rubocop-rails 2.29.1 2.31.0 2.32.0 2.33.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails-accessibility 1.0.1: Custom RuboCop rules for Rails Accessibility
 dev-ruby/rubocop-rake 0.7.1: A RuboCop for rake
 dev-ruby/rubocop-rspec 3.6.0: Code style checking for RSpec files
