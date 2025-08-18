@@ -70,7 +70,7 @@ dev-ruby/better_errors 2.10.1: Provides a better error page for Rails and other 
 dev-ruby/better_html 2.1.1: Better HTML for Rails
 dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bootsnap 1.18.4 1.18.6: Boot large ruby/rails apps faster
-dev-ruby/bootstrap 5.3.3 5.3.5: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
+dev-ruby/bootstrap 5.3.5: Bootstrap 5 rubygem for Rails / Sprockets / Hanami / etc
 dev-ruby/bootstrap_form 5.4.0: A rails form builder to create forms using Bootstrap 4
 dev-ruby/browser 5.3.1 6.0.0 6.1.0 6.2.0: Do some browser detection with Ruby
 dev-ruby/byebug 11.1.3-r1 12.0.0: a Ruby 2 debugger
@@ -79,16 +79,16 @@ dev-ruby/chroma 0.2.0-r1: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/csscompress 0.2.2: CSS minification with Ruby using ExecJS and Node.js' CSSO.
-dev-ruby/debride 1.12.0 1.13.0: Analyze code for potentially uncalled / dead methods
+dev-ruby/debride 1.13.0: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
-dev-ruby/diplomat 2.6.4 2.6.5: A simple wrapper for Consul
-dev-ruby/draper 4.0.2-r2 4.0.4: View Models for Rails
+dev-ruby/diplomat 2.6.5: A simple wrapper for Consul
+dev-ruby/draper 4.0.4: View Models for Rails
 dev-ruby/dry-configurable 1.3.0: A mixin to add configuration functionality to your classes
 dev-ruby/dry-container 0.11.0: A simple, configurable object container implemented in Ruby
 dev-ruby/dry-equalizer 0.3.0: Module to define equality, equivalence and inspection methods
 dev-ruby/dry-initializer 3.2.0: DSL for declaring params and options of the initializer
-dev-ruby/dry-schema 1.13.4-r1 1.14.1: A DSL for defining schemas with keys and rules that should be applied to values
+dev-ruby/dry-schema 1.14.1: A DSL for defining schemas with keys and rules that should be applied to values
 dev-ruby/dry-validation 1.11.1: Validation library
 dev-ruby/dumb_delegator 1.1.0: DumbDelegator delegates nearly everything to the wrapped object
 dev-ruby/e2mmap 0.1.0-r1: Module for defining custom exceptions with specific messages
@@ -121,12 +121,12 @@ dev-ruby/jaro_winkler 1.6.0 1.6.1: Implementation of Jaro-Winkler distance algor
 dev-ruby/jira-ruby 2.3.0: API for JIRA
 dev-ruby/joiner 0.6.0: Builds ActiveRecord joins from association paths
 dev-ruby/js_cookie_rails 2.2.0-r1: A simple, lightweight JavaScript API for handling cookies
-dev-ruby/jsbundling-rails 1.3.0 1.3.1: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
+dev-ruby/jsbundling-rails 1.3.1: Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack
 dev-ruby/json-schema 5.1.1 5.2.1: Ruby JSON Schema Validator
 dev-ruby/jsonapi-renderer 0.2.2-r1: Efficiently render JSON API documents
 dev-ruby/kicks 3.1.1: Fast background processing framework for Ruby and RabbitMQ
 dev-ruby/krb5-auth 0.7-r6: Ruby bindings for the Kerberos library
-dev-ruby/language_server-protocol 3.17.0.3 3.17.0.4 3.17.0.5: A Language Server Protocol SDK
+dev-ruby/language_server-protocol 3.17.0.4 3.17.0.5: A Language Server Protocol SDK
 dev-ruby/linkedin 1.1.1-r4: Ruby wrapper for the LinkedIn API
 dev-ruby/lint_roller 1.1.0: A plugin specification for linter and formatter rulesets
 dev-ruby/literal 1.8.1: Enums, properties, generics, structured objects and runtime type checking
@@ -151,7 +151,7 @@ dev-ruby/popper_js 2.11.8: Popper.js assets as a Ruby gem
 dev-ruby/premailer 1.27.0: Improve the rendering of HTML emails
 dev-ruby/premailer-rails 1.12.0: The power of the premailer gem to Rails without any configuration needs
 dev-ruby/rack-livereload 0.5.1: Insert LiveReload into your app easily as Rack middleware
-dev-ruby/rack-mini-profiler 3.3.1 4.0.0: Profiling toolkit for Rack applications with Rails integration
+dev-ruby/rack-mini-profiler 3.3.1 4.0.0 4.0.1: Profiling toolkit for Rack applications with Rails integration
 dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
