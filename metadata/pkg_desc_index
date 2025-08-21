@@ -79,6 +79,7 @@ dev-ruby/chroma 0.2.0-r1: Color manipulation and palette generation
 dev-ruby/code_analyzer 0.5.5: Code analyzer helps you build your own code analyzer tool.
 dev-ruby/cookies_eu 1.7.8: Displays a cookie consent
 dev-ruby/csscompress 0.2.2: CSS minification with Ruby using ExecJS and Node.js' CSSO.
+dev-ruby/datagrid 2.0.3: Library that provides a DSL to present table like data
 dev-ruby/debride 1.13.0: Analyze code for potentially uncalled / dead methods
 dev-ruby/debride-erb 1.0.2: Extends debride to analyze erb files (erubis ala rails, actually)
 dev-ruby/deep_cloneable 3.2.1: Extends the functionality of ActiveRecord::Base#dup to perform a deep clone
