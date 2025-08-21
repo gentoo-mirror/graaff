@@ -1,11 +1,11 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-USE_RUBY="ruby31 ruby32 ruby33"
+USE_RUBY="ruby32 ruby33 ruby34"
 
-COMMIT=7e76d754e1632b4fc9a024fa393c3fc837bcc86b
+COMMIT=77ae0f5e0e0b655539d0c2fce09582adf732fdcc
 
 inherit elisp ruby-single
 
@@ -23,9 +23,10 @@ SITEFILE="50${PN}-gentoo.el"
 DOCS="README.rdoc"
 
 DEPEND="test? ( dev-ruby/rake )"
-RESTRICT="!test? ( test )"
 
 IUSE="test"
+
+RESTRICT="!test? ( test )"
 
 src_test() {
 	rake || die
