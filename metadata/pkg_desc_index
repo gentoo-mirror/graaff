@@ -175,7 +175,7 @@ dev-ruby/rubocop-performance 1.25.0: A collection of RuboCop cops to check for p
 dev-ruby/rubocop-rails 2.29.1 2.31.0 2.32.0 2.33.3: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/rubocop-rails-accessibility 1.0.1: Custom RuboCop rules for Rails Accessibility
 dev-ruby/rubocop-rake 0.7.1: A RuboCop for rake
-dev-ruby/rubocop-rspec 3.6.0: Code style checking for RSpec files
+dev-ruby/rubocop-rspec 3.6.0 3.7.0: Code style checking for RSpec files
 dev-ruby/rubocop-rspec_rails 2.30.0 2.31.0: Code style checking for RSpec files
 dev-ruby/rubocop-yard 0.10.0 1.0.0: Check yardoc format like tag type
 dev-ruby/ruby-saml 1.16.0 1.17.0 1.18.0 1.18.1: A library for implementing the client side of a SAML authorization
