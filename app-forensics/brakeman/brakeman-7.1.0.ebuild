@@ -22,7 +22,7 @@ KEYWORDS="~amd64"
 ruby_add_rdepend "
 	dev-ruby/csv
 	>=dev-ruby/erubis-2.6
-	|| ( dev-ruby/haml:6 >=dev-ruby/haml-5.1:5 )
+	dev-ruby/haml:6
 	dev-ruby/highline:3
 	>=dev-ruby/parallel-1.20:1
 	dev-ruby/prism:1
