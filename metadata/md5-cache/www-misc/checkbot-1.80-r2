@@ -11,5 +11,5 @@ LICENSE=Artistic
 RDEPEND=>=dev-lang/perl-5.5 >=dev-perl/libwww-perl-5.803 >=dev-perl/URI-1.10 >=dev-perl/HTML-Parser-3.33 >=virtual/perl-MIME-Base64-2.00 >=virtual/perl-libnet-1.19 virtual/perl-Digest-MD5 dev-perl/MailTools dev-perl/Time-Duration dev-perl/Crypt-SSLeay >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] dev-lang/perl:=
 SLOT=0
 SRC_URI=https://degraaff.org/checkbot/checkbot-1.80.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	perl-functions	1863acf0982afafc67797e3ce7275b4c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	perl-module	41920449ca174fe9b9b303dfcbdb37a3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	perl-functions	1863acf0982afafc67797e3ce7275b4c	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	perl-module	41920449ca174fe9b9b303dfcbdb37a3
 _md5_=62812ffa95e504cd77d128d46f5cc32b
