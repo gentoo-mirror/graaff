@@ -1,0 +1,12 @@
+BDEPEND=dev-python/six virtual/pkgconfig
+DEFINED_PHASES=configure
+DEPEND=>=dev-libs/glib-2.17.0 dev-libs/libxml2 dev-libs/libltdl dev-libs/openssl:0 >=dev-libs/xmlsec-1.3.0[openssl] dev-libs/libxslt sys-libs/zlib
+DESCRIPTION=C library aiming to implement the Liberty Alliance standards
+EAPI=8
+HOMEPAGE=https://lasso.entrouvert.org/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.17.0 dev-libs/libxml2 dev-libs/libltdl dev-libs/openssl:0 >=dev-libs/xmlsec-1.3.0[openssl] dev-libs/libxslt sys-libs/zlib
+SLOT=0
+SRC_URI=https://dev.entrouvert.org/releases/lasso/lasso-2.9.0.tar.gz
+_md5_=e64d3cfae537b6c90961764ce35160ce

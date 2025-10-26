@@ -48,7 +48,7 @@ dev-haskell/primes 0.2.1.0-r1: Efficient, purely functional generation of prime 
 dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of Semantic Versions
 dev-haskell/spdx 1.0.0.3: SPDX license expression language, Extras
 dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3339, RFC2822, RFC822)
-dev-libs/lasso 2.8.2.23: C library aiming to implement the Liberty Alliance standards
+dev-libs/lasso 2.8.2.23 2.9.0: C library aiming to implement the Liberty Alliance standards
 dev-ruby/PoParser 3.2.8: A PO file parser, editor and generator
 dev-ruby/aasm 5.5.1: A library for adding finite state machines to Ruby classes.
 dev-ruby/active_model_otp 2.3.4: Adds methods to set and authenticate against one time passwords
@@ -156,7 +156,6 @@ dev-ruby/rack-mini-profiler 3.3.1 4.0.0 4.0.1: Profiling toolkit for Rack applic
 dev-ruby/rack-proxy 0.7.7: Rack app providing request/response rewriting proxy capabilities with streaming
 dev-ruby/railroady 1.6.0: Generates Rails model and controller UML diagrams
 dev-ruby/rails-controller-testing 1.0.5-r1: Extracting assigns and assert_template from ActionDispatch
-dev-ruby/rails_best_practices 1.23.2: a gem to check quality of rails app files
 dev-ruby/recursive-open-struct 1.3.1 2.0.0: A collection of RuboCop cops to check for performance optimizations in Ruby code
 dev-ruby/reek 6.4.0 6.5.0: Examines Ruby classes, modules and methods and reports any code smells it finds
 dev-ruby/require_all 3.0.0-r1: A wonderfully simple way to load your code
